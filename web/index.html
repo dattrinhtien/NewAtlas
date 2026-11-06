@@ -25,8 +25,8 @@
     }
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z40"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z40">
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z41"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z41">
 
   <!-- UI-UX Professional Upgrades -->
   <style>
@@ -158,6 +158,42 @@
       margin: 0 2px;
     }
 
+    /* Nút Đóng Bóc Tách: Tròn trịa, to rõ, cân đối không bị méo */
+    #btnCloseDissect, .btn-icon-close {
+      width: 36px !important;
+      height: 36px !important;
+      min-width: 36px !important;
+      min-height: 36px !important;
+      max-width: 36px !important;
+      max-height: 36px !important;
+      border-radius: 50% !important;
+      background: rgba(255, 255, 255, 0.12) !important;
+      border: 1.5px solid rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+      font-size: 18px !important;
+      font-weight: 700 !important;
+      line-height: 1 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      flex-shrink: 0 !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+    }
+    #btnCloseDissect:hover, .btn-icon-close:hover {
+      background: rgba(239, 68, 68, 0.85) !important;
+      border-color: #fca5a5 !important;
+      color: #ffffff !important;
+      transform: scale(1.08) !important;
+      box-shadow: 0 0 16px rgba(239, 68, 68, 0.6) !important;
+    }
+    #btnCloseDissect:active, .btn-icon-close:active {
+      transform: scale(0.95) !important;
+    }
+
     /* Ẩn thanh nổi cũ vì các nút đã được dời vào Góc nhìn và dưới màn hình */
     .floating-3d-tools {
       display: none !important;
@@ -182,14 +218,26 @@
         display: none !important;
       }
       .viewport-camera-hud {
-        top: 6px !important;
+        top: 14px !important;
         max-width: calc(100vw - 16px) !important;
-        gap: 3px !important;
-        padding: 3px 6px !important;
+        gap: 4px !important;
+        padding: 5px 8px !important;
       }
       .viewport-camera-hud .hud-btn {
-        padding: 4px 7px !important;
-        font-size: 10px !important;
+        min-height: 38px !important;
+        padding: 6px 11px !important;
+        font-size: 11.5px !important;
+        font-weight: 700 !important;
+        border-radius: 9999px !important;
+      }
+      .viewport-camera-hud .hud-btn span:not(.hud-icon) {
+        font-size: 11px !important;
+      }
+      .viewport-camera-hud .hud-btn .hud-icon {
+        font-size: 13px !important;
+      }
+      .viewport-camera-hud .hud-pill-title {
+        display: none !important; /* Ẩn chữ 'Góc nhìn:' trên mobile để 4 nút dàn đều rộng rãi */
       }
       .dissection-panel {
         top: auto !important;

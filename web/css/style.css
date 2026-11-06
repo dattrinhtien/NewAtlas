@@ -3262,23 +3262,34 @@ body {
     font-size: 9px;
   }
 
-  /* Camera HUD on mobile */
+  /* Camera HUD on mobile: Thoáng đãng, cách xa mép trên, nút to dễ thao tác */
   .viewport-camera-hud {
-    top: 8px;
-    max-width: calc(100vw - 20px);
+    top: 14px;
+    max-width: calc(100vw - 16px);
     overflow-x: auto;
-    padding: 4px 6px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding: 5px 8px;
     gap: 4px;
+    background: rgba(11, 19, 32, 0.94);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.75), 0 0 16px rgba(56, 189, 248, 0.15);
   }
   .viewport-camera-hud::-webkit-scrollbar {
     display: none;
   }
   .hud-btn {
-    padding: 4px 8px;
-    font-size: 10px;
+    min-height: 38px;
+    padding: 6px 11px;
+    font-size: 11.5px;
+    font-weight: 700;
+    border-radius: 9999px;
   }
   .hud-btn span:not(.hud-icon) {
-    font-size: 10px;
+    font-size: 11px;
+  }
+  .hud-btn .hud-icon {
+    font-size: 13px;
   }
 
   /* Mobile Detail Drawer: Modern Bottom Sheet - ẨN HOÀN TOÀN KHI ĐÓNG */
@@ -6229,6 +6240,44 @@ body {
   font-size: 10px;
   color: #94a3b8;
   display: block;
+}
+
+/* Nút Đóng Bóc Tách: Tròn trịa, to rõ, cân đối không bị méo */
+.btn-icon-close, #btnCloseDissect {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
+  margin: 0;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.btn-icon-close:hover, #btnCloseDissect:hover {
+  background: rgba(239, 68, 68, 0.85);
+  border-color: #fca5a5;
+  color: #ffffff;
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(239, 68, 68, 0.6);
+}
+
+.btn-icon-close:active, #btnCloseDissect:active {
+  transform: scale(0.95);
 }
 
 .dissect-body {
