@@ -1,0 +1,10 @@
+Models-of-human-anatomy/
+scripts/
+docs/
+*.orig
+*.bak*
+*.blend*
+*.py
+*.command
+.DS_Store
+

@@ -1,0 +1,2331 @@
+[
+  {
+    "id": "dau_than_kinh_toa",
+    "name": "Đau Thần Kinh Tọa (Tọa Cốt Phong)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M54.3",
+    "description": "Đau dọc theo đường đi của dây thần kinh hông to (từ thắt lưng qua mông, mặt sau ngoài đùi, cẳng chân xuống bàn chân). Đông y gọi là Tọa Cốt Phong hoặc Yêu Cước Thống, do phong hàn thấp thừa hư xâm phạm hoặc do khí huyết ứ trệ, can thận hư suy.",
+    "points": [
+      "BL23",
+      "BL25",
+      "GB30",
+      "BL40",
+      "GB34",
+      "BL60",
+      "BL57",
+      "GB39",
+      "GV3",
+      "BL17",
+      "SP10",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn Thấp (Lạnh & Ẩm)",
+        "symptoms": "Đau từ thắt lưng lan xuống chân dọc kinh Bàng Quang hoặc Đởm, gặp lạnh ẩm hoặc thời tiết thay đổi đau tăng, chườm ấm dễ chịu, rêu lưỡi trắng nhớt, mạch phù khẩn hoặc trầm hoãn.",
+        "treatment_principle": "Khu phong tán hàn, trừ thấp, thông kinh hoạt lạc, chỉ thống.",
+        "main_points": [
+          "BL23",
+          "BL25",
+          "GB30",
+          "BL40",
+          "GB34",
+          "BL60"
+        ],
+        "adjunct_points": [
+          "BL57",
+          "GB39",
+          "GV3"
+        ],
+        "needle_technique": "Châm tả hoặc bình bổ bình tả. Kết hợp CỨU NGẢI ấm hoặc ÔN CHÂM 15 - 20 phút. Điện châm tần số thưa (2 - 5 Hz) tạo co bóp cơ êm dịu.",
+        "clinical_notes": "Giữ ấm vùng lưng chân, tránh nằm quạt thốc hoặc tắm đêm."
+      },
+      {
+        "syndrome_name": "Thể Khí Trệ Huyết Ứ (Sau chấn thương, mang vác nặng)",
+        "symptoms": "Đau nhức dữ dội như dao đâm tại điểm cố định thắt lưng lan xuống chân, đau tăng khi ho hoặc cúi ngửa, lưỡi có điểm ứ huyết tím, mạch sáp hoặc huyền khẩn.",
+        "treatment_principle": "Hành khí hoạt huyết, hóa ứ thông lạc, thư cân chỉ thống.",
+        "main_points": [
+          "BL25",
+          "GB30",
+          "BL40",
+          "BL17",
+          "SP10",
+          "GB34"
+        ],
+        "adjunct_points": [
+          "BL54",
+          "BL32",
+          "LR3"
+        ],
+        "needle_technique": "Châm tả vừa phải để đạt cảm giác đắc khí (tê, tức, nặng) lan xuống chi dưới, không cố gắng tạo cảm giác giật điện thô bạo gây tổn thương bao rễ thần kinh. Thể huyết ứ có thể chích nặn vài giọt máu ứ tại tĩnh mạch nông ở Ủy Trung (BL40) (chống chỉ định người rối loạn đông máu hoặc đang dùng thuốc chống đông). Điện châm tần số dày - thưa êm dịu.",
+        "clinical_notes": "Nằm nghỉ trên giường cứng đợt cấp, tránh vặn xoắn cột sống đột ngột."
+      },
+      {
+        "syndrome_name": "Thể Can Thận Khuy Hư (Thoái hóa mạn tính ở người cao tuổi)",
+        "symptoms": "Đau lưng lan xuống chân âm ỉ kéo dài nhiều năm, chân teo yếu đi lại khó khăn, lưng gối mỏi buốt, kèm ù tai hoa mắt, mạch trầm tế vô lực.",
+        "treatment_principle": "Tư bổ can thận, dưỡng cân tráng cốt, thông kinh hoạt lạc.",
+        "main_points": [
+          "BL23",
+          "BL25",
+          "GB30",
+          "KI3",
+          "GB34",
+          "BL40"
+        ],
+        "adjunct_points": [
+          "GV4",
+          "SP6",
+          "BL54"
+        ],
+        "needle_technique": "Châm bổ kết hợp cứu ấm tại Thận Du (BL23), Mệnh Môn (GV4). Lưu kim 25 - 30 phút.",
+        "clinical_notes": "Bồi dưỡng cơ lực nhẹ nhàng, không hoạt động quá sức."
+      }
+    ],
+    "classic_reference": "Thiên 'Thích Yêu Thống' (Tố Vấn 41): 'Túc Thái Dương chi mạch lệnh nhân yêu thống... thích Ủy Trung xuất huyết'."
+  },
+  {
+    "id": "liet_mat_ngoai_bien",
+    "name": "Liệt Dây Thần Kinh VII Ngoại Biên (Khẩu Nhãn Oa Tà)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "G51.0",
+    "description": "Mắt nhắm không kín, nhân trung lệch sang bên lành, miệng méo xệch, đọng thức ăn ở má. YHCT gọi là Khẩu Nhãn Oa Tà, do phong hàn hoặc phong nhiệt xâm nhập kinh Dương Minh và Thiếu Dương ở mặt.",
+    "points": [
+      "ST4",
+      "ST6",
+      "LI20",
+      "ST2",
+      "TE17",
+      "GB14",
+      "GV24+",
+      "LI4",
+      "GB20",
+      "ST7",
+      "CV24",
+      "GV26"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn (Gặp gió lạnh đột ngột)",
+        "symptoms": "Sau khi ngủ dậy hoặc đi mưa gió lạnh thấy méo miệng, mắt nhắm không kín, sợ gió lạnh, rêu lưỡi trắng mỏng, mạch phù khẩn.",
+        "treatment_principle": "Khu phong tán hàn, ôn thông kinh lạc, hoạt huyết bổ khí vùng mặt.",
+        "main_points": [
+          "ST4",
+          "ST6",
+          "LI20",
+          "ST2",
+          "TE17",
+          "GB14",
+          "LI4"
+        ],
+        "adjunct_points": [
+          "GB20",
+          "GV26",
+          "CV24",
+          "ST7"
+        ],
+        "needle_technique": "Huyệt tại mặt châm luồn kim dưới da (thấu châm: Địa Thương thấu Giáp Xa, Dương Bạch thấu Ngư Yêu), châm nông 0.2 - 0.4 thốn, kích thích nhẹ kết hợp cứu ấm. Hợp Cốc (LI4) châm tả bên đối diện.",
+        "clinical_notes": "⚠️ LƯU Ý PHÂN BIỆT: Phải phân biệt rõ liệt mặt ngoại biên (liệt nửa mặt, không nhăn trán được, mắt nhắm không kín) với liệt mặt trung ương trong tai biến mạch máu não (vẫn nhăn trán và nhắm mắt được, thường kèm liệt nửa người). Trong 3 ngày đầu cấp tính: kích thích nhẹ nhàng tránh điện châm quá mạnh gây co thắt cơ mặt. Đeo kính râm và nhỏ nước mắt nhân tạo bảo vệ giác mạc."
+      },
+      {
+        "syndrome_name": "Thể Phong Nhiệt (Kèm nhiễm trùng tai mũi họng hoặc zona)",
+        "symptoms": "Liệt mặt kèm sốt, đau rát sau tai, mắt đỏ cộm rát, miệng đắng, rêu lưỡi vàng mỏng, mạch phù sác.",
+        "treatment_principle": "Khu phong thanh nhiệt, thông lạc tức phong.",
+        "main_points": [
+          "ST4",
+          "ST6",
+          "TE17",
+          "LI4",
+          "LI11",
+          "GB20"
+        ],
+        "adjunct_points": [
+          "GB14",
+          "ST2",
+          "ST7"
+        ],
+        "needle_technique": "Châm tả nhẹ nhàng, không cứu ngải. Châm tả Khúc Trì (LI11) và Hợp Cốc (LI4) để thanh nhiệt.",
+        "clinical_notes": "⚠️ LƯU Ý PHÂN BIỆT: Phải phân biệt rõ liệt mặt ngoại biên (liệt nửa mặt, không nhăn trán được, mắt nhắm không kín) với liệt mặt trung ương trong tai biến mạch máu não (vẫn nhăn trán và nhắm mắt được, thường kèm liệt nửa người). Trong 3 ngày đầu cấp tính: kích thích nhẹ nhàng tránh điện châm quá mạnh gây co thắt cơ mặt. Đeo kính râm và nhỏ nước mắt nhân tạo bảo vệ giác mạc."
+      }
+    ],
+    "classic_reference": "Khẩu quyết châm cứu: 'Đầu diện tầm Hợp Cốc - Miệng méo mắt xếch châm Địa Thương thấu Giáp Xa'."
+  },
+  {
+    "id": "dau_co_gay",
+    "name": "Đau Cổ Vai Gáy / Hội Chứng Cổ Vai (Lạc Chẩm / Hạng Cường)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M54.2",
+    "description": "Đau nhức cứng cơ cổ gáy, hạn chế quay cúi ngửa đầu, có thể lan xuống bả vai và cánh tay. Đông y gọi là Lạc Chẩm hoặc Hạng Cường do phong hàn thấp bế tắc kinh lạc hoặc thoái hóa đốt sống cổ.",
+    "points": [
+      "GB21",
+      "GB20",
+      "SI14",
+      "SI15",
+      "SI3",
+      "TE5",
+      "LI15",
+      "BL10",
+      "EX-UE8",
+      "GV14",
+      "EX-B2",
+      "LI4"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn Co Thắt (Lạc chẩm do lạnh hoặc ngủ sai tư thế)",
+        "symptoms": "Đau cứng gáy đột ngột sau ngủ dậy hoặc gặp lạnh, đầu nghiêng một bên không quay được, ấn cơ thang co cứng đau nhói, rêu trắng mỏng, mạch phù.",
+        "treatment_principle": "Khu phong tán hàn, thư cân hoạt lạc, chỉ thống.",
+        "main_points": [
+          "GB20",
+          "GB21",
+          "BL10",
+          "EX-UE8",
+          "SI3"
+        ],
+        "adjunct_points": [
+          "TE5",
+          "GV14",
+          "LI4"
+        ],
+        "needle_technique": "Châm tả, vê kim đắc khí kết hợp bảo bệnh nhân từ từ quay cổ nhẹ nhàng (động khí châm). Cứu ngải ấm vùng cổ gáy 10 - 15 phút.",
+        "clinical_notes": "Ngoại Lao Cung (EX-UE8 - Lạc Chẩm huyệt) là đặc hiệu huyệt, vê kim mạnh giúp cơ cổ giãn ngay lập tức."
+      },
+      {
+        "syndrome_name": "Thể Khí Trệ Huyết Ứ (Thoái hóa đốt sống cổ gây chèn ép rễ thần kinh)",
+        "symptoms": "Đau mỏi cổ gáy mạn tính lan xuống khớp vai và mặt ngoài cánh tay, tê dại ngón tay cái hoặc ngón út, chụp X-quang/MRI thấy hẹp khe khớp thoái hóa, mạch trầm sáp.",
+        "treatment_principle": "Hoạt huyết hóa ứ, thông kinh chỉ thống, giải phóng chèn ép rễ thần kinh.",
+        "main_points": [
+          "EX-B2",
+          "GB21",
+          "SI14",
+          "SI3",
+          "LI11",
+          "TE5"
+        ],
+        "adjunct_points": [
+          "LI4",
+          "LI15",
+          "BL10"
+        ],
+        "needle_technique": "Châm Giáp Tích C4 - C7 xiên hướng về cột sống sâu 0.8 - 1.2 thốn. Điện châm tần số thưa kích thích giải phóng rễ thần kinh.",
+        "clinical_notes": "Tránh nằm gối quá cao, tập bài tập cổ nhẹ nhàng chống cứng khớp."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Cổ gáy cứng đờ không xoay trở được, cứu Phong Trì, Kiên Tỉnh, Hậu Khê'."
+  },
+  {
+    "id": "dau_that_lung",
+    "name": "Đau Thắt Lưng Cấp & Mạn (Yêu Thống)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M54.5",
+    "description": "Đau nhức vùng thắt lưng ngang L1 - L5 do thoái hóa cột sống, thoát vị đĩa đệm hoặc co cứng cơ lưng. YHCT gọi là Yêu Thống; 'Yêu vi Thận chi phủ' - vùng lưng do Thận làm chủ.",
+    "points": [
+      "BL23",
+      "BL25",
+      "BL40",
+      "GV3",
+      "EX-B2",
+      "GV4",
+      "EX-UE7",
+      "BL26",
+      "BL54",
+      "KI3",
+      "BL17",
+      "SP10"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Hàn Thấp (Lạnh ẩm, đau ê ẩm co cứng)",
+        "symptoms": "Lưng đau lạnh buốt, gặp mưa lạnh hoặc nằm máy lạnh đau tăng, chườm ấm dễ chịu, rêu trắng nhớt, mạch trầm hoãn.",
+        "treatment_principle": "Ôn kinh tán hàn, trừ thấp thông lạc, chỉ thống.",
+        "main_points": [
+          "BL23",
+          "BL25",
+          "BL40",
+          "GV3"
+        ],
+        "adjunct_points": [
+          "BL26",
+          "BL57",
+          "EX-B2"
+        ],
+        "needle_technique": "Châm tả kết hợp ÔN CHÂM hoặc CỨU NGẢI ấm 15 - 20 phút.",
+        "clinical_notes": "Tránh nằm phản lạnh, hạn chế tiếp xúc nước lạnh."
+      },
+      {
+        "syndrome_name": "Thể Khí Trệ Huyết Ứ (Sau mang vác nặng, đau nhói cố định)",
+        "symptoms": "Đau nhói như kim châm sau khi mang vác nặng hoặc vặn người, ấn đau chói tại 1 điểm, cúi ngửa khó khăn, lưỡi tím có điểm ứ huyết, mạch sáp.",
+        "treatment_principle": "Hoạt huyết hóa ứ, hành khí thư cân chỉ thống.",
+        "main_points": [
+          "BL25",
+          "BL40",
+          "BL17",
+          "EX-UE7"
+        ],
+        "adjunct_points": [
+          "BL54",
+          "SP10",
+          "LR3"
+        ],
+        "needle_technique": "Châm tả mạnh. Chích nặn vài giọt máu ứ ở huyệt Ủy Trung (BL40). Điện châm tần số dày - thưa.",
+        "clinical_notes": "Nằm nghỉ trên giường phẳng cứng, bất động trong 48h đầu."
+      },
+      {
+        "syndrome_name": "Thể Thận Hư (Thoái hóa mạn tính, đau âm ỉ mỏi gối)",
+        "symptoms": "Đau lưng âm ỉ kéo dài, mỏi gối, lao động mệt thì đau tăng, nằm nghỉ đỡ đau, hoa mắt ù tai, mạch trầm tế vô lực.",
+        "treatment_principle": "Bổ thận tráng yêu, dưỡng cân tráng cốt.",
+        "main_points": [
+          "BL23",
+          "GV4",
+          "KI3",
+          "BL40"
+        ],
+        "adjunct_points": [
+          "CV4",
+          "SP6",
+          "BL20"
+        ],
+        "needle_technique": "Châm bổ, lưu kim 25 phút. Cứu ấm tại Thận Du và Mệnh Môn.",
+        "clinical_notes": "Tập các bài tập tăng cường cơ thắt lưng nhẹ nhàng, bổ sung canxi."
+      }
+    ],
+    "classic_reference": "Tố Vấn: 'Yêu vi Thận chi phủ, chuyển diêu bất năng, Thận tương bái hĩ'."
+  },
+  {
+    "id": "viem_quanh_khop_vai",
+    "name": "Viêm Quanh Khớp Vai / Khớp Vai Đông Cứng (Kiên Ngưng)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M75.0",
+    "description": "Đau nhức khớp vai kèm hạn chế vận động giạng, đưa tay ra sau gáy hoặc vắt tay sau lưng. Đông y gọi là Kiên Thống, Lậu Kiên Phong, Kiên Ngưng do phong hàn thấp ngưng trệ hoặc khí huyết hư suy.",
+    "points": [
+      "LI15",
+      "TE14",
+      "SI9",
+      "M-UE48",
+      "LI11",
+      "GB21",
+      "ST38",
+      "SI11",
+      "SI12",
+      "LI4"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Kiên Thống (Giai đoạn cấp: đau dữ dội, chưa đông cứng)",
+        "symptoms": "Khớp vai đau nhức buốt liên tục, đặc biệt tăng về đêm, tay chưa bị hạn chế vận động nhiều, rêu trắng mỏng, mạch phù khẩn.",
+        "treatment_principle": "Khu phong tán hàn, thông lạc chỉ thống.",
+        "main_points": [
+          "LI15",
+          "TE14",
+          "M-UE48",
+          "LI4",
+          "ST38"
+        ],
+        "adjunct_points": [
+          "GB21",
+          "SI9"
+        ],
+        "needle_technique": "Châm tả Kiên Tam Huyệt, châm Điều Khẩu (ST38) thấu Thừa Sơn vê kim mạnh giảm đau tức thì.",
+        "clinical_notes": "Giữ ấm khớp vai, tránh ngủ nằm đè lên vai đau."
+      },
+      {
+        "syndrome_name": "Thể Kiên Ngưng (Giai đoạn mạn: khớp vai đông cứng dính bao khớp)",
+        "symptoms": "Khớp vai bớt đau nhức dữ dội nhưng đông cứng hoàn toàn, không nhấc tay chải đầu hay gãi lưng được, cơ delta teo nhẹ, mạch tế sáp.",
+        "treatment_principle": "Hoạt huyết hóa ứ, bóc tách dính khớp, thông kinh hoạt lạc.",
+        "main_points": [
+          "LI15",
+          "TE14",
+          "M-UE48",
+          "SI11",
+          "SI12",
+          "ST38"
+        ],
+        "adjunct_points": [
+          "LI11",
+          "GB21"
+        ],
+        "needle_technique": "Ôn châm hoặc cứu ngải ấm kết hợp vừa vê kim vừa vận động thụ động khớp vai mở rộng biên độ khớp.",
+        "clinical_notes": "Tập bài tập leo tường bằng ngón tay và quay ròng rọc mỗi ngày."
+      }
+    ],
+    "classic_reference": "Châm Cứu Chân Tủy: 'Khớp vai đau cứng không giơ cao được, châm Kiên Ngung phối Điều Khẩu kỳ hiệu'."
+  },
+  {
+    "id": "thoai_hoa_khop_goi",
+    "name": "Thoái Hóa & Viêm Khớp Gối (Hạc Tất Phong / Tý Chứng)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M17",
+    "description": "Đau nhức khớp gối khi đi lại, leo cầu thang, khớp kêu lạo xạo, sưng nề hoặc cứng khớp buổi sáng. Đông y xếp vào chứng Hạc Tất Phong do can thận suy yếu, phong hàn thấp ứ trệ.",
+    "points": [
+      "ST35",
+      "EX-LE4",
+      "EX-LE2",
+      "GB34",
+      "SP9",
+      "SP10",
+      "ST36",
+      "EX-LE3",
+      "BL40",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Hàn Thấp Bế Trở (Trời lạnh đau tăng, đi lại lạo xạo)",
+        "symptoms": "Khớp gối đau lạnh, cứng khớp buổi sáng dưới 30 phút, leo cầu thang đau chói, chườm ấm dễ chịu, rêu trắng nhớt, mạch trầm hoãn.",
+        "treatment_principle": "Khu phong trừ thấp, ôn kinh thông lạc, chỉ thống.",
+        "main_points": [
+          "ST35",
+          "EX-LE4",
+          "EX-LE2",
+          "GB34",
+          "SP9"
+        ],
+        "adjunct_points": [
+          "ST36",
+          "BL40",
+          "EX-LE3"
+        ],
+        "needle_technique": "Nội ngoại Tất Nhãn (ST35 + EX-LE4) châm chếch vào sau bánh chè 1 thốn. Ôn châm Hạc Đỉnh 15 phút.",
+        "clinical_notes": "Tránh ngồi xổm, bớt leo cầu thang dốc."
+      },
+      {
+        "syndrome_name": "Thể Can Thận Khuy Hư Kiêm Huyết Ứ (Thoái hóa nặng, chân vòng kiềng)",
+        "symptoms": "Khớp gối biến dạng vẹo trong (genu varum), đau nhức ê ẩm cả ngày đêm, lưng gối mỏi buốt, teo cơ tứ đầu đùi, mạch tế sáp.",
+        "treatment_principle": "Bổ can thận, cường cân cốt, hoạt huyết tiêu ứ.",
+        "main_points": [
+          "ST35",
+          "EX-LE4",
+          "GB34",
+          "KI3",
+          "SP10",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "BL23",
+          "SP6",
+          "BL40"
+        ],
+        "needle_technique": "Châm bổ kết hợp điện châm tần số kích thích nuôi dưỡng cơ quanh gối.",
+        "clinical_notes": "Tập đạp xe không tải để tiết dịch khớp bôi trơn tự nhiên."
+      }
+    ],
+    "classic_reference": "Châm Cứu Đại Thành: 'Hạc Tất Phong gối sưng đau buốt, châm Hạc Đỉnh, Tất Nhãn, Dương Lăng Tuyền'."
+  },
+  {
+    "id": "viem_khop_dang_thap",
+    "name": "Viêm Khớp Dạng Thấp (Lịch Tiết Phong / Tý Chứng)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M05",
+    "description": "Viêm sưng đau đối xứng các khớp nhỏ bàn tay, cổ tay, bàn ngón chân, cứng khớp buổi sáng kéo dài trên 1 giờ, lâu ngày gây dính biến dạng khớp bàn tay hình thoi. Đông y gọi là Lịch Tiết Phong.",
+    "points": [
+      "EX-UE9",
+      "LI4",
+      "LI11",
+      "TE5",
+      "EX-LE10",
+      "ST36",
+      "SP9",
+      "SP6",
+      "BL23",
+      "BL20"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Nhiệt Tý (Giai đoạn đợt cấp: khớp sưng nóng đỏ đau)",
+        "symptoms": "Các khớp ngón tay cổ tay sưng múp, nóng đỏ, đau dữ dội cự án, sốt nhẹ, miệng khát, chất lưỡi đỏ, rêu vàng, mạch hoạt sác.",
+        "treatment_principle": "Thanh nhiệt thông lạc, khu phong tuyên tý.",
+        "main_points": [
+          "EX-UE9",
+          "LI11",
+          "LI4",
+          "SP9",
+          "GV14"
+        ],
+        "adjunct_points": [
+          "EX-LE10",
+          "TE5"
+        ],
+        "needle_technique": "Châm tả nông, có thể chích nặn máu ở huyệt Bát Tà (EX-UE9). Không cứu ngải.",
+        "clinical_notes": "Xét nghiệm RF, Anti-CCP theo dõi định kỳ cùng chuyên khoa khớp."
+      },
+      {
+        "syndrome_name": "Thể Đàm Ứ Hư Tý (Giai đoạn mạn: khớp biến dạng, teo cơ)",
+        "symptoms": "Khớp bàn ngón tay dính cứng, biến dạng ngón tay hình cổ thiên nga, cơ bắp teo nhẽo, người gầy sút mệt mỏi, mạch tế sáp.",
+        "treatment_principle": "Bổ khí huyết, ích can thận, hóa đàm khứ ứ, thông lạc.",
+        "main_points": [
+          "LI4",
+          "EX-UE9",
+          "ST36",
+          "SP6",
+          "BL20",
+          "BL23"
+        ],
+        "adjunct_points": [
+          "KI3",
+          "LI11",
+          "GB34"
+        ],
+        "needle_technique": "Châm bổ, kết hợp cứu ấm nhẹ nhàng dưỡng gân cơ.",
+        "clinical_notes": "Tập luyện co duỗi ngón tay trong nước ấm chống dính khớp."
+      }
+    ],
+    "classic_reference": "Kim Quỹ Yếu Lược: 'Bệnh Lịch Tiết, các khớp đau nhức buốt như cọp cắn, đi đứng khó khăn'."
+  },
+  {
+    "id": "dau_khuyu_tay",
+    "name": "Viêm Lồi Cầu Ngoài Xương Cánh Tay / Tennis Elbow (Trửu Lao)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "M77.1",
+    "description": "Đau nhói vùng mỏm lồi cầu ngoài khuỷu tay, đau tăng khi cầm nắm xoay cẳng tay hoặc vắt khăn mặt, quét nhà. Đông y gọi là Trửu Lao do lao động quá mức làm tổn thương cân mạc.",
+    "points": [
+      "LI11",
+      "LI12",
+      "LI10",
+      "TE10",
+      "LU5",
+      "EX-UE1",
+      "LI4"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Trệ Huyết Ứ & Hàn Ngưng Cân Mạc",
+        "symptoms": "Khuỷu tay đau nhói tại mỏm lồi cầu ngoài, ấn điểm bám gân cơ duỗi đau chói nảy người, tay yếu không xách nặng được, mạch huyền sáp.",
+        "treatment_principle": "Hành khí hoạt huyết, thư cân giải kinh, ôn thông kinh lạc.",
+        "main_points": [
+          "LI11",
+          "LI12",
+          "LI10",
+          "TE10",
+          "EX-UE1"
+        ],
+        "adjunct_points": [
+          "LI4",
+          "LU5"
+        ],
+        "needle_technique": "Châm vây quanh điểm đau chói nhất (A thị huyệt), hướng kim vào màng xương. Cứu ngải ấm hoặc ôn châm 15 phút.",
+        "clinical_notes": "Cho khuỷu tay nghỉ ngơi, tránh các động tác vặn xoắn cổ tay mang xách nặng."
+      }
+    ],
+    "classic_reference": "Châm Cứu Kinh Nghiệm: 'Trửu phong đau buốt khuỷu tay, cứu Khúc Trì phối Trửu Liêu'."
+  },
+  {
+    "id": "ong_co_tay",
+    "name": "Hội Chứng Ống Cổ Tay (Cổ Bàn Tê Tý)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "G56.0",
+    "description": "Tê bì, châm chích, đau buốt các ngón tay 1, 2, 3 và nửa ngón 4 (vùng chi phối của dây thần kinh giữa), tê tăng về đêm khiến bệnh nhân phải vẩy tay cho đỡ tê. Lâu ngày teo cơ mô cái.",
+    "points": [
+      "PC7",
+      "PC6",
+      "LI4",
+      "EX-UE9",
+      "TE5",
+      "LU9",
+      "LI11"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Huyết Ứ Trệ Chèn Ép Dây Thần Kinh Giữa",
+        "symptoms": "Cổ tay và gan bàn tay tê buốt như kim châm, gõ vào nếp gấp cổ tay thấy điện giật lan xuống ngón tay (dấu hiệu Tinel dương tính), rêu trắng, mạch sáp.",
+        "treatment_principle": "Hoạt huyết hóa ứ, thông lạc thư cân, giải phóng chèn ép ống cổ tay.",
+        "main_points": [
+          "PC7",
+          "PC6",
+          "LI4",
+          "EX-UE9"
+        ],
+        "adjunct_points": [
+          "TE5",
+          "LU9"
+        ],
+        "needle_technique": "Huyệt Đại Lăng (PC7) châm thẳng nông 0.3 - 0.5 thốn hướng vào ống cổ tay nhẹ nhàng. Nội Quan (PC6) châm thẳng đắc khí lan xuống ngón tay.",
+        "clinical_notes": "Tránh gập cổ tay quá mức khi gõ bàn phím hoặc đi xe máy; đeo nẹp cổ tay cố định ban đêm."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Bàn tay tê dại mất cảm giác, châm Đại Lăng, Nội Quan, Bát Tà'."
+  },
+  {
+    "id": "di_chung_tai_bien",
+    "name": "Di Chứng Đột Quỵ / Liệt Nửa Người (Bán Thân Bất Toại)",
+    "category": "Cơ Xương Khớp & Thần Kinh",
+    "icd_code": "I69",
+    "description": "Liệt vận động tay chân một bên, có thể kèm méo miệng, nói ngọng hoặc mất ngôn ngữ sau tai biến mạch máu não. YHCT gọi là Bán Thân Bất Toại do khí hư huyết ứ làm tắc kinh lạc, can thận hư suy.",
+    "points": [
+      "GV20",
+      "LI15",
+      "LI11",
+      "LI4",
+      "TE5",
+      "GB30",
+      "GB34",
+      "ST36",
+      "BL60",
+      "LR3",
+      "EX-UE9",
+      "EX-LE10",
+      "SP6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Hư Huyết Ứ (Giai đoạn hồi phục & di chứng)",
+        "symptoms": "Liệt mềm hoặc liệt cứng nửa người, tay chân teo nhẽo hoặc co quắp, sắc mặt nhợt nhạt, mệt mỏi, mạch tế nhược hoặc phù vô lực.",
+        "treatment_principle": "Ích khí hoạt huyết, thông kinh hoạt lạc, tỉnh não khai khiếu.",
+        "main_points": [
+          "GV20",
+          "LI15",
+          "LI11",
+          "LI4",
+          "GB30",
+          "GB34",
+          "ST36",
+          "BL60"
+        ],
+        "adjunct_points": [
+          "TE5",
+          "EX-UE9",
+          "EX-LE10",
+          "SP6",
+          "CV6"
+        ],
+        "needle_technique": "Chi trên: châm tả kinh Dương Minh (Kiên Ngung, Khúc Trì, Hợp Cốc). Chi dưới: châm Hoàn Khiêu, Dương Lăng Tuyền, Túc Tam Lý. Điện châm kích thích trương lực cơ.",
+        "clinical_notes": "⚠️ LƯU Ý PHÂN BIỆT ĐỘT QUỴ CẤP (FAST): Phác đồ này CHỈ ÁP DỤNG cho giai đoạn phục hồi di chứng sau đột quỵ (khi bệnh nhân đã qua cơn nguy kịch, sinh hiệu ổn định). NẾU CÓ DẤU HIỆU ĐỘT QUỴ MỚI (méo miệng đột ngột, yếu liệt tay chân, nói khó - quy tắc FAST), PHẢI GỌI CẤP CỨU 115 ĐƯA ĐẾN BỆNH VIỆN TRONG GIỜ VÀNG (< 4.5h), TUYỆT ĐỐI KHÔNG CHÂM CỨU CHÍCH MÁU TẠI NHÀ. Kết hợp tập vật lý trị liệu phục hồi chức năng sớm."
+      },
+      {
+        "syndrome_name": "Thể Can Thận Khuy Hư (Liệt cứng, gân cơ co rút, huyết áp cao)",
+        "symptoms": "Tay co quắp gập vào ngực, chân duỗi cứng đi kiểu phạt cỏ, hoa mắt chóng mặt, miệng khô, lưỡi đỏ rêu ít, mạch huyền tế sác.",
+        "treatment_principle": "Tư bổ can thận, nhu cân tức phong, dưỡng âm tiềm dương.",
+        "main_points": [
+          "GV20",
+          "LR3",
+          "KI3",
+          "SP6",
+          "GB34",
+          "LI11"
+        ],
+        "adjunct_points": [
+          "PC6",
+          "HT7",
+          "BL23"
+        ],
+        "needle_technique": "Châm bổ Can Thận (Thái Xung, Thái Khê, Tam Âm Giao), châm thư cân tại Dương Lăng Tuyền, Khúc Trì. Điện châm tần số êm dịu.",
+        "clinical_notes": "⚠️ LƯU Ý PHÂN BIỆT ĐỘT QUỴ CẤP (FAST): Phác đồ này CHỈ ÁP DỤNG cho giai đoạn phục hồi di chứng sau đột quỵ (khi bệnh nhân đã qua cơn nguy kịch, sinh hiệu ổn định). NẾU CÓ DẤU HIỆU ĐỘT QUỴ MỚI (méo miệng đột ngột, yếu liệt tay chân, nói khó - quy tắc FAST), PHẢI GỌI CẤP CỨU 115 ĐƯA ĐẾN BỆNH VIỆN TRONG GIỜ VÀNG (< 4.5h), TUYỆT ĐỐI KHÔNG CHÂM CỨU CHÍCH MÁU TẠI NHÀ. Kết hợp tập vật lý trị liệu phục hồi chức năng sớm."
+      }
+    ],
+    "classic_reference": "Thiên Kim Phương: 'Bán thân bất toại, châm huyệt Dương Minh đại trường và Vị làm chủ, bổ khí sinh huyết'."
+  },
+  {
+    "id": "mat_ngu_kinh_nien",
+    "name": "Mất Ngủ Kinh Niên & Suy Nhược Thần Kinh (Thất Miên / Bất Mị)",
+    "category": "Tâm Thần Kinh & Giấc Ngủ",
+    "icd_code": "G47.0",
+    "description": "Khó đi vào giấc ngủ, trằn trọc, ngủ chập chờn hay mơ mộng, tỉnh giấc nửa đêm khó ngủ lại, sáng dậy mệt mỏi đau đầu. Đông y gọi là Thất Miên hoặc Bất Mị.",
+    "points": [
+      "HT7",
+      "SP6",
+      "PC6",
+      "GV20",
+      "GV24+",
+      "KI1",
+      "BL15",
+      "EX-HN1",
+      "N-HN54",
+      "N-HN20",
+      "LR3",
+      "BL20"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tâm Tỳ Khư Hư (Hay lo nghĩ, hồi hộp, ăn ngủ kém)",
+        "symptoms": "Khó ngủ, dễ giật mình, hồi hộp đánh trống ngực, hay quên, ăn uống kém ngon, mệt mỏi đoản hơi, sắc mặt vàng úa, rêu mỏng, mạch tế nhược.",
+        "treatment_principle": "Bổ dưỡng tâm tỳ, dưỡng huyết an thần, định chí.",
+        "main_points": [
+          "HT7",
+          "SP6",
+          "PC6",
+          "BL15",
+          "BL20",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "GV20",
+          "GV24+",
+          "N-HN54"
+        ],
+        "needle_technique": "Châm bình bổ bình tả hoặc châm bổ, lưu kim 30 phút trong không gian yên tĩnh. Cứu nhẹ Dũng Tuyền (KI1) dẫn hỏa quy nguyên.",
+        "clinical_notes": "Tránh dùng điện thoại, chất kích thích (trà, cà phê) sau 18h tối."
+      },
+      {
+        "syndrome_name": "Thể Can Uất Hóa Hỏa (Căng thẳng stress, bốc hỏa cáu gắt)",
+        "symptoms": "Trằn trọc không ngủ được, đầu căng tức, tính tình nóng nảy hay cáu gắt, miệng đắng họng khô, mắt đỏ, đại tiện táo, lưỡi đỏ rêu vàng, mạch huyền sác.",
+        "treatment_principle": "Sơ can thanh nhiệt, trấn kinh an thần.",
+        "main_points": [
+          "LR3",
+          "GB20",
+          "HT7",
+          "GV24+",
+          "N-HN54"
+        ],
+        "adjunct_points": [
+          "PC6",
+          "SP6",
+          "KI3"
+        ],
+        "needle_technique": "Châm tả Thái Xung (LR3) để giáng can hỏa. Thần Môn, An Miên châm bình bổ bình tả.",
+        "clinical_notes": "Thư giãn tâm lý, tập thở sâu thiền định trước khi ngủ."
+      },
+      {
+        "syndrome_name": "Thể Tâm Thận Bất Giao (Âm hư hỏa vượng, bốc hỏa vã mồ hôi trộm)",
+        "symptoms": "Khó ngủ kèm nóng bứt rứt trong ngực lòng bàn chân tay nóng, lưng mỏi gối yếu, vã mồ hôi trộm, nam di tinh, lưỡi đỏ ít rêu, mạch tế sác.",
+        "treatment_principle": "Tư âm giáng hỏa, giao thông tâm thận.",
+        "main_points": [
+          "HT7",
+          "KI3",
+          "SP6",
+          "KI1",
+          "GV20"
+        ],
+        "adjunct_points": [
+          "BL15",
+          "BL23",
+          "PC6"
+        ],
+        "needle_technique": "Châm bổ Thái Khê (KI3), Tam Âm Giao (SP6); châm tả nhẹ Thần Môn. Cứu ấm Dũng Tuyền (KI1).",
+        "clinical_notes": "Tránh thức quá khuya, ngâm chân nước ấm thảo dược mỗi tối."
+      }
+    ],
+    "classic_reference": "Cảnh Nhạc Toàn Thư: 'Người mất ngủ là do thần không yên ở tim, châm Thần Môn, Tam Âm Giao, Tâm Du tắc an'."
+  },
+  {
+    "id": "dau_dau_migraine",
+    "name": "Đau Đầu Căng Thẳng & Đau Nửa Đầu (Đầu Thống / Migraine)",
+    "category": "Tâm Thần Kinh & Giấc Ngủ",
+    "icd_code": "G44.2",
+    "description": "Đau ê ẩm cả đầu hoặc đau nhói giật giật nửa bên đầu (Migraine), đau tăng khi căng thẳng stress hoặc tiếp xúc ánh sáng tiếng ồn. Đông y chia thành ngoại cảm và nội thương.",
+    "points": [
+      "LI4",
+      "GB20",
+      "EX-HN5",
+      "GV24+",
+      "GV20",
+      "LR3",
+      "ST8",
+      "GB14",
+      "BL10",
+      "GB8",
+      "SP6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Dương Thượng Kháng / Migraine (Đau giật nửa đầu)",
+        "symptoms": "Đau nửa đầu dữ dội giật theo nhịp mạch đập, mắt đỏ, miệng đắng, hay cáu gắt, chóng mặt ù tai, chất lưỡi đỏ, rêu vàng, mạch huyền sác.",
+        "treatment_principle": "Bình can tiềm dương, thanh hỏa giáng nghịch, chỉ thống.",
+        "main_points": [
+          "LR3",
+          "GB20",
+          "EX-HN5",
+          "GB8",
+          "LI4"
+        ],
+        "adjunct_points": [
+          "KI3",
+          "ST8",
+          "GB41"
+        ],
+        "needle_technique": "Châm tả Thái Xung (LR3) và Hợp Cốc (LI4). Thái Dương (EX-HN5) châm luồn kim ra sau hoặc chích nặn máu nếu đau dữ dội.",
+        "clinical_notes": "Nghỉ ngơi phòng tối yên tĩnh, hạn chế suy nghĩ căng thẳng."
+      },
+      {
+        "syndrome_name": "Thể Khí Huyết Hư Nhược (Đau đầu âm ỉ kèm hoa mắt mệt mỏi)",
+        "symptoms": "Đau đầu âm ỉ liên miên, mệt mỏi đoản hơi, sắc mặt xanh xao, ăn ngủ kém, hoa mắt chóng mặt khi đứng dậy, mạch tế nhược.",
+        "treatment_principle": "Bổ khí dưỡng huyết, ích tủy tức phong.",
+        "main_points": [
+          "GV20",
+          "ST36",
+          "SP6",
+          "BL20",
+          "LI4"
+        ],
+        "adjunct_points": [
+          "GV24+",
+          "HT7",
+          "BL15"
+        ],
+        "needle_technique": "Châm bổ kết hợp cứu ấm Bách Hội (GV20), Túc Tam Lý (ST36).",
+        "clinical_notes": "Bổ sung dinh dưỡng giàu sắt, đạm, ngủ đủ giấc."
+      }
+    ],
+    "classic_reference": "Bách Chứng Phú: 'Đầu phong mục huyễn cuồng loạn, châm Thái Dương phối hợp Hợp Cốc'."
+  },
+  {
+    "id": "dau_day_v",
+    "name": "Đau Dây Thần Kinh Tam Thoa (Diện Thống / Đau Dây V)",
+    "category": "Tâm Thần Kinh & Giấc Ngủ",
+    "icd_code": "G50.0",
+    "description": "Cơn đau nhói dữ dội như điện giật hoặc dao đâm vùng mặt (trán, má, cằm), khởi phát khi chạm vào điểm kích hoạt (trigger point) lúc rửa mặt, đánh răng hoặc nhai nuốt.",
+    "points": [
+      "ST2",
+      "ST4",
+      "ST6",
+      "ST7",
+      "LI20",
+      "GB14",
+      "LI4",
+      "M-HN18",
+      "TE17",
+      "LR3",
+      "EX-HN5"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Nhiệt Đàm Hỏa Thượng Nghịch",
+        "symptoms": "Đau bỏng rát chói buốt vùng mặt giật từng cơn ngắn, mặt đỏ, mắt sung huyết, miệng khô khát, rêu vàng dày, mạch huyền sác.",
+        "treatment_principle": "Thanh nhiệt tả hỏa, tức phong thông lạc chỉ thống.",
+        "main_points": [
+          "LI4",
+          "ST7",
+          "ST6",
+          "LR3"
+        ],
+        "adjunct_points": [
+          "GB14",
+          "EX-HN4",
+          "ST2",
+          "LI20",
+          "ST4",
+          "M-HN18"
+        ],
+        "needle_technique": "Châm nhẹ nhàng tránh kích thích làm bùng phát cơn đau cấp. Châm tả huyệt toàn thân (LI4, LR3). Huyệt tại mặt châm nghiêng nông.",
+        "clinical_notes": "Phối huyệt theo nhánh dây V: Nhánh 1 (trán mắt) châm Dương Bạch (GB14), Ngư Yêu (EX-HN4); Nhánh 2 (gò má má trên) châm Tứ Bạch (ST2), Nghinh Hương (LI20); Nhánh 3 (hàm dưới) châm Địa Thương (ST4), Giáp Thừa Tương (M-HN18). Tránh rửa mặt bằng nước lạnh buốt hoặc gió lùa mạnh vào vùng mặt."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Mặt đau nhức buốt răng hàm, châm Hạ Quan thấu Giáp Xa'."
+  },
+  {
+    "id": "roi_loan_tien_dinh",
+    "name": "Rối Loạn Tiền Đình / Chóng Mặt (Huyễn Vựng)",
+    "category": "Tâm Thần Kinh & Giấc Ngủ",
+    "icd_code": "H81.0",
+    "description": "Cảm giác đồ vật xung quanh quay cuồng chao đảo, mất thăng bằng, buồn nôn, nôn mửa, ù tai, đi đứng lảo đảo. Đông y gọi là Huyễn Vựng; 'Vô phong bất tác huyễn, vô đàm bất tác huyễn'.",
+    "points": [
+      "GV20",
+      "EX-HN1",
+      "GB20",
+      "PC6",
+      "ST36",
+      "ST40",
+      "LR3",
+      "KI3",
+      "SP6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Đàm Trọc Trung Trở (Chóng mặt kèm nặng đầu, buồn nôn)",
+        "symptoms": "Chóng mặt cảm giác như ngồi thuyền say sóng, đầu nặng như đội đá, ngực bụng đầy trướng, nôn ra đờm dãi nhớt, miệng nhạt, rêu trắng nhớt dầy, mạch hoạt.",
+        "treatment_principle": "Táo thấp hóa đàm, kiện tỳ hòa vị, tức phong định huyễn.",
+        "main_points": [
+          "GV20",
+          "ST40",
+          "PC6",
+          "ST36",
+          "CV12"
+        ],
+        "adjunct_points": [
+          "EX-HN1",
+          "GB20"
+        ],
+        "needle_technique": "Châm tả Phong Long (ST40 - đệ nhất huyệt hóa đàm). Nội Quan (PC6) châm chống nôn. Bách Hội châm bình bổ bình tả.",
+        "clinical_notes": "Phong Long là huyệt báu trừ đàm toàn thân, giúp thông thoáng đầu óc nhanh chóng."
+      },
+      {
+        "syndrome_name": "Thể Can Hỏa Thượng Viêm / Can Dương Vượng (Cáu gắt, mặt đỏ)",
+        "symptoms": "Chóng mặt dữ dội kèm ù tai như ve kêu, đầu nhức hoa mắt, dễ nổi cáu giận, miệng đắng họng khô, lưỡi đỏ rêu vàng, mạch huyền sác.",
+        "treatment_principle": "Bình can tiềm dương, thanh hỏa tức phong.",
+        "main_points": [
+          "LR3",
+          "GB20",
+          "GV20",
+          "KI3",
+          "GB41"
+        ],
+        "adjunct_points": [
+          "LI4",
+          "EX-HN5"
+        ],
+        "needle_technique": "Châm tả Thái Xung (LR3) phối hợp châm bổ Thái Khê (KI3) theo phép 'Tư thủy hàm mộc'.",
+        "clinical_notes": "Nằm nghỉ phòng yên tĩnh, tránh đổi tư thế đột ngột."
+      }
+    ],
+    "classic_reference": "Đan Khê Tâm Pháp: 'Đầu choáng mắt hoa như ngồi trên xe xoay tròn, không có đàm thì không thành chứng huyễn'."
+  },
+  {
+    "id": "hoi_hop_than_kinh_tim",
+    "name": "Rối Loạn Thần Kinh Tim / Hồi Hộp (Kinh Quý / Chính Xung)",
+    "category": "Tâm Thần Kinh & Giấc Ngủ",
+    "icd_code": "F45.3",
+    "description": "Tim đập nhanh thình thịch, cảm giác hẫng hụt lồng ngực, hay lo âu sợ hãi vô cớ, đo điện tim không có tổn thương thực thể. Đông y gọi là Kinh Quý (hồi hộp có căn nguyên kích động) hoặc Chính Xung (hồi hộp liên miên).",
+    "points": [
+      "PC6",
+      "HT7",
+      "BL15",
+      "CV17",
+      "CV14",
+      "SP6",
+      "KI3",
+      "ST36"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tâm Khí Khư Hư (Hồi hộp sau khi gắng sức, đoản hơi)",
+        "symptoms": "Hồi hộp đánh trống ngực, làm việc nhẹ cũng thở dốc, người mệt mỏi tự ra mồ hôi, sắc mặt nhợt nhạt, mạch kết đại hoặc hư nhược.",
+        "treatment_principle": "Bổ ích tâm khí, dưỡng tâm an thần.",
+        "main_points": [
+          "PC6",
+          "HT7",
+          "BL15",
+          "CV17",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "CV14",
+          "SP6"
+        ],
+        "needle_technique": "Châm bổ lưu kim 25 phút, cứu nhẹ Đản Trung (CV17) và Tâm Du (BL15).",
+        "clinical_notes": "⚠️ CẢNH BÁO ĐỎ (RED FLAG): Cần loại trừ ngay cơn đau thắt ngực do thiếu máu cơ tim cấp / nhồi máu cơ tim (đau ngực đè nặng lan vai trái, cằm, vã mồ hôi). Nếu nghi ngờ, gọi cấp cứu 115 ngay. Châm cứu chỉ áp dụng cho rối loạn thần kinh tim cơ năng (lo âu, căng thẳng, tim đập nhanh không tổn thương thực thể). Tránh chất kích thích tim mạch, tập dưỡng sinh điều hòa nhịp thở."
+      }
+    ],
+    "classic_reference": "Thiên Kim Phương: 'Tâm kinh quý sợ hãi đập dồn, châm Nội Quan, Thần Môn, Đản Trung'."
+  },
+  {
+    "id": "tram_cam_suy_nhuoc",
+    "name": "Trầm Cảm / Suy Nhược Cơ Thể (Uất Chứng)",
+    "category": "Tâm Thần Kinh & Giấc Ngủ",
+    "icd_code": "F32",
+    "description": "Khí sắc u sầu, buồn rầu ủ rũ, bi quan mất hứng thú, hay thở dài sườn ngực đầy tức, nghẹn ứ ở cổ họng (mai hạch khí). Đông y gọi là Uất Chứng do Can khí uất kết lâu ngày ảnh hưởng Tâm Tỳ.",
+    "points": [
+      "LR3",
+      "LI4",
+      "GV20",
+      "EX-HN1",
+      "PC6",
+      "CV17",
+      "ST36",
+      "SP6",
+      "HT7",
+      "CV12"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Khí Uất Kết (Hay thở dài, ngực sườn uất nghẹn)",
+        "symptoms": "Tinh thần u uất, dễ khóc, ngực sườn đầy trướng, hay thở dài sâu mới dễ chịu, cảm giác vướng cục đờm ở cổ họng khạc không ra nuốt không trôi (mai hạch khí), mạch huyền.",
+        "treatment_principle": "Sơ can giải uất, lý khí khai uất, định thần.",
+        "main_points": [
+          "LR3",
+          "LI4",
+          "CV17",
+          "PC6",
+          "GV20"
+        ],
+        "adjunct_points": [
+          "EX-HN1",
+          "ST36",
+          "SP6"
+        ],
+        "needle_technique": "Châm bộ Tứ Quan (Hợp Cốc LI4 + Thái Xung LR3) - đệ nhất phương pháp giải trừ uất kết toàn thân. Vê kim đắc khí thông sướng lồng ngực.",
+        "clinical_notes": "Khuyến khích bệnh nhân giao lưu bạn bè, thể dục ngoài trời tiếp xúc ánh nắng."
+      }
+    ],
+    "classic_reference": "Châm Cứu Đại Thành: 'Tứ Quan (Hợp Cốc + Thái Xung) thông hành khí huyết, mở toang mọi uất kết'."
+  },
+  {
+    "id": "viem_loet_da_day",
+    "name": "Viêm Loét Dạ Dày Tá Tràng & Trào Ngược (Vị Quản Thống)",
+    "category": "Tiêu Hóa",
+    "icd_code": "K29",
+    "description": "Đau tức cồn cào vùng thượng vị, ợ hơi, ợ chua, buồn nôn, ăn chậm tiêu. Đông y gọi là Vị Quản Thống do Can khí phạm Vị hoặc Tỳ Vị hư hàn.",
+    "points": [
+      "ST36",
+      "CV12",
+      "PC6",
+      "SP4",
+      "ST25",
+      "CV6",
+      "LR14",
+      "BL21",
+      "BL20",
+      "LR3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Khí Phạm Vị (Đau do căng thẳng stress, ợ hơi)",
+        "symptoms": "Đau tức vùng thượng vị lan sang hai bên mạng sườn, hay thở dài, ợ hơi ợ chua nhiều, đau tăng khi giận dữ căng thẳng, rêu mỏng, mạch huyền.",
+        "treatment_principle": "Sơ can lý khí, hòa vị chỉ thống, giáng nghịch.",
+        "main_points": [
+          "CV12",
+          "ST36",
+          "PC6",
+          "LR14",
+          "LR3"
+        ],
+        "adjunct_points": [
+          "SP4",
+          "BL18",
+          "BL21"
+        ],
+        "needle_technique": "Châm bình bổ bình tả. Nội Quan phối Công Tôn (cặp Bát mạch giao hội) đặc trị điều hòa khí cơ dạ dày ngực sườn.",
+        "clinical_notes": "⚠️ CẢNH BÁO ĐỎ: Khi đau bụng dữ dội như dao đâm, bụng cứng như gỗ (nghi thủng dạ dày) hoặc nôn ra máu, đi ngoài phân đen (xuất huyết tiêu hóa), PHẢI ĐƯA ĐẾN BỆNH VIỆN NGAY, không được tự ý châm cứu xoa bóp tại nhà."
+      },
+      {
+        "syndrome_name": "Thể Tỳ Vị Hư Hàn (Đau âm ỉ lúc đói, thích chườm ấm xoa bóp)",
+        "symptoms": "Đau vùng thượng vị âm ỉ liên miên, ăn vào đỡ đau, thích ấm ấn tay xoa bụng dễ chịu, nôn ra nước trong, tay chân lạnh, mạch trầm tế hoãn.",
+        "treatment_principle": "Ôn trung kiện tỳ, hòa vị chỉ thống.",
+        "main_points": [
+          "CV12",
+          "ST36",
+          "BL20",
+          "BL21",
+          "CV6"
+        ],
+        "adjunct_points": [
+          "SP4",
+          "CV4"
+        ],
+        "needle_technique": "Châm bổ kết hợp CỨU NGẢI ấm hoặc ÔN CHÂM tại Trung Quản (CV12) và Túc Tam Lý (ST36) 15 - 20 phút.",
+        "clinical_notes": "⚠️ CẢNH BÁO ĐỎ: Khi đau bụng dữ dội như dao đâm, bụng cứng như gỗ (nghi thủng dạ dày) hoặc nôn ra máu, đi ngoài phân đen (xuất huyết tiêu hóa), PHẢI ĐƯA ĐẾN BỆNH VIỆN NGAY, không được tự ý châm cứu xoa bóp tại nhà."
+      }
+    ],
+    "classic_reference": "Bát Mạch Giao Hội khẩu quyết: 'Công Tôn phối Nội Quan trị bệnh ở Vị, Tâm, Hung'."
+  },
+  {
+    "id": "viem_dai_trang",
+    "name": "Viêm Đại Tràng Co Thắt / Rối Loạn Tiêu Hóa (Phúc Thống / Tiết Tả)",
+    "category": "Tiêu Hóa",
+    "icd_code": "K58",
+    "description": "Đau quặn bụng dưới quanh rốn, sôi bụng, đi ngoài phân lỏng nát hoặc táo lỏng xen kẽ, sau đi ngoài đỡ đau bụng. Đông y gọi là Tiết Tả hoặc Phúc Thống.",
+    "points": [
+      "ST25",
+      "CV12",
+      "CV6",
+      "ST36",
+      "SP6",
+      "BL25",
+      "BL20",
+      "ST37",
+      "EX-LE7",
+      "LR3",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tỳ Hư Tiết Tả (Ăn đồ lạ lạnh là đau bụng đi ngoài)",
+        "symptoms": "Ăn thức ăn dầu mỡ hoặc đồ lạnh là sôi bụng đi ngoài phân sống, bụng chướng đầy, mệt mỏi, chân tay lạnh, sắc mặt nhợt, mạch nhu hoãn.",
+        "treatment_principle": "Kiện tỳ hòa vị, chỉ tả sáp tràng, ôn trung tán hàn.",
+        "main_points": [
+          "ST25",
+          "ST36",
+          "CV12",
+          "BL20",
+          "ST37"
+        ],
+        "adjunct_points": [
+          "CV6",
+          "SP6",
+          "CV4"
+        ],
+        "needle_technique": "Châm bổ kết hợp cứu ngải ấm tại Thiên Khu (ST25) và Khí Hải (CV6) 15 - 20 phút.",
+        "clinical_notes": "Thiên Khu là Mộ huyệt Đại trường, Thượng Cự Hư là Hạ hợp huyệt Đại trường - bộ đôi vàng điều hòa tiêu hóa."
+      },
+      {
+        "syndrome_name": "Thể Tỳ Thận Dương Hư (Ngũ canh tả: đau bụng đi ngoài lúc rạng sáng)",
+        "symptoms": "Mỗi sáng sớm gà gáy (khoảng 4 - 5 giờ sáng) là sôi bụng đau quặn phải dậy đi ngoài ngay, sau đi ngoài thì êm, sợ lạnh, mỏi lưng gối, mạch trầm tế nhược.",
+        "treatment_principle": "Ôn bổ tỳ thận, sáp tràng chỉ tả.",
+        "main_points": [
+          "BL23",
+          "BL20",
+          "GV4",
+          "ST25",
+          "KI3",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "CV4",
+          "CV8"
+        ],
+        "needle_technique": "Cứu ngải ấm Thần Khuyết (CV8) rải muối hạt lên rốn rồi đặt ngải nhung cứu ấm - kỳ hiệu trị ngũ canh tả.",
+        "clinical_notes": "Giữ ấm bụng và bàn chân khi ngủ ban đêm."
+      }
+    ],
+    "classic_reference": "Giáp Ất Kinh: 'Tràng minh tiết tả, trướng mãn không tiêu, châm Thiên Khu, Túc Tam Lý'."
+  },
+  {
+    "id": "nac_cut_keo_dai",
+    "name": "Nấc Cụt Kéo Dài (Ách Nghịch)",
+    "category": "Tiêu Hóa",
+    "icd_code": "R06.6",
+    "description": "Tiếng nấc liên tục dồn dập không tự chủ do cơ hoành co thắt đột ngột. YHCT gọi là Ách Nghịch do Vị khí nghịch bốc lên cơ hoành.",
+    "points": [
+      "PC6",
+      "BL17",
+      "CV12",
+      "ST36",
+      "CV22",
+      "CV17",
+      "LR3",
+      "GV24+",
+      "BL2"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Vị Khí Nghịch Khí Huyết Bế Tắc",
+        "symptoms": "Nấc cụt liên hồi không dứt, lồng ngực khó chịu, ăn uống nghẹn trướng, mạch huyền hoặc sáp.",
+        "treatment_principle": "Khoan hung lý khí, giáng nghịch chỉ ách (cắt cơn nấc).",
+        "main_points": [
+          "BL17",
+          "PC6",
+          "CV17",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "CV22",
+          "LR3",
+          "CV12",
+          "BL2"
+        ],
+        "needle_technique": "Châm tả Cách Du (BL17) và Nội Quan (PC6). Huyệt Cách Du (ngang cơ hoành) vê kim kích thích mạnh cắt nấc tức thì.",
+        "clinical_notes": "Day ấn mạnh huyệt Toản Trúc (BL2) hai bên đầu lông mày 2 - 3 phút ức chế phản xạ cơ hoành."
+      }
+    ],
+    "classic_reference": "Châm Cứu Đại Thành: 'Ách nghịch nấc cụt không dứt, tả Cách Du và Nội Quan'."
+  },
+  {
+    "id": "tao_bon_man",
+    "name": "Táo Bón Mạn Tính (Tiện Bí)",
+    "category": "Tiêu Hóa",
+    "icd_code": "K59.0",
+    "description": "Nhiều ngày không đi ngoài, phân khô cứng vón cục khó rặn, bụng đầy trướng tức. Đông y gọi là Tiện Bí do tràng vị nhiệt kết hoặc khí hư âm huyết hư.",
+    "points": [
+      "ST25",
+      "TE6",
+      "KI6",
+      "ST36",
+      "BL25",
+      "CV6",
+      "SP6",
+      "BL20",
+      "ST37"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Hư Âm Huyết Hư (Người già, sau ốm dậy, phụ nữ sau sinh)",
+        "symptoms": "Muốn đi ngoài mà không rặn được, phân không quá khô nhưng rặn hụt hơi toát mồ hôi, người mệt mỏi, sắc mặt nhợt, mạch hư nhược.",
+        "treatment_principle": "Ích khí dưỡng huyết, nhuận tràng thông tiện.",
+        "main_points": [
+          "TE6",
+          "KI6",
+          "ST25",
+          "ST36",
+          "BL25"
+        ],
+        "adjunct_points": [
+          "CV6",
+          "SP6",
+          "CV4"
+        ],
+        "needle_technique": "Chi Câu (TE6) phối Chiếu Hải (KI6) là công thức 'Chi Câu Chiếu Hải' kinh điển đặc trị mọi chứng tiện bí.",
+        "clinical_notes": "Uống nhiều nước ấm vào buổi sáng, tăng cường chất xơ và xoa bụng theo chiều kim đồng hồ."
+      },
+      {
+        "syndrome_name": "Thể Thực Nhiệt Tiện Bí (Táo bón do nhiệt tích tràng vị)",
+        "symptoms": "Đại tiện khô cứng như phân dê, bụng trướng đau cự án, mặt đỏ họng khô, miệng hôi, tiểu tiện vàng sẻn, lưỡi đỏ rêu vàng khô, mạch trầm thực.",
+        "treatment_principle": "Thanh nhiệt nhuận tràng, thông phủ bài thạch.",
+        "main_points": [
+          "ST25",
+          "TE6",
+          "LI11",
+          "ST37",
+          "LI4"
+        ],
+        "adjunct_points": [
+          "KI6",
+          "BL25"
+        ],
+        "needle_technique": "Châm tả mạnh Thiên Khu, Chi Câu, Khúc Trì. Không cứu ngải.",
+        "clinical_notes": "Ăn nhiều rau diếp cá, thanh long, khoai lang nhuận tràng."
+      }
+    ],
+    "classic_reference": "Ngọc Long Kinh: 'Đại tiện bí kết khó đi, châm Chi Câu phối Chiếu Hải phân tự thông'."
+  },
+  {
+    "id": "non_mua_trao_nguoc",
+    "name": "Nôn Mửa / Trào Ngược Cấp (Ẩu Thổ)",
+    "category": "Tiêu Hóa",
+    "icd_code": "R11",
+    "description": "Thức ăn hoặc dịch vị trào ngược nôn vọt ra ngoài, kèm cảm giác buồn nôn cồn cào ngực sườn. YHCT gọi là Ẩu Thổ do Vị khí nghịch bốc lên trên.",
+    "points": [
+      "PC6",
+      "CV12",
+      "ST36",
+      "SP4",
+      "LR14",
+      "BL21",
+      "CV17"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Vị Hàn Khí Nghịch (Nôn sau ăn đồ sống lạnh)",
+        "symptoms": "Ăn vào nôn ra ngay thức ăn chưa tiêu hoặc nước trong nhớt, bụng đau âm ỉ thích ấm, sợ lạnh, mạch trầm hoãn.",
+        "treatment_principle": "Ôn trung giáng nghịch, hòa vị chỉ ẩu.",
+        "main_points": [
+          "PC6",
+          "CV12",
+          "ST36",
+          "SP4"
+        ],
+        "adjunct_points": [
+          "BL21",
+          "CV6"
+        ],
+        "needle_technique": "Nội Quan châm tả nhẹ, Trung Quản và Túc Tam Lý châm bổ kết hợp cứu ngải ấm.",
+        "clinical_notes": "Uống nước gừng tươi ấm từng ngụm nhỏ chống nôn."
+      }
+    ],
+    "classic_reference": "Kim Quỹ Yếu Lược: 'Muốn nôn nôn mửa liên hồi, thủ Nội Quan phối Công Tôn'."
+  },
+  {
+    "id": "sa_da_day_truc_trang",
+    "name": "Sa Dạ Dày / Sa Trực Tràng (Vị Hạ Hàm / Thoát Giang)",
+    "category": "Tiêu Hóa",
+    "icd_code": "K31.8",
+    "description": "Bờ cong lớn dạ dày sa xuống dưới mào chậu hoặc trực tràng sa ra ngoài hậu môn khi rặn (trĩ ngoại, thoát giang). YHCT gọi là khí hư hạ hãm.",
+    "points": [
+      "GV20",
+      "CV12",
+      "CV6",
+      "ST36",
+      "ST25",
+      "EXTRA-TITUO",
+      "BL20",
+      "GV1"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tỳ Hư Khí Hãm (Trung khí bất túc, nội tạng sa trễ)",
+        "symptoms": "Bụng dưới nặng trĩu sa tức, ăn no nặng tăng, mệt mỏi đoản hơi, sắc mặt vàng vọt, trực tràng sa sau đại tiện phải lấy tay đẩy lên, mạch hư nhược.",
+        "treatment_principle": "Bổ trung ích khí, thăng dương cử hãm.",
+        "main_points": [
+          "GV20",
+          "CV12",
+          "CV6",
+          "ST36",
+          "EXTRA-TITUO"
+        ],
+        "adjunct_points": [
+          "BL20",
+          "GV1"
+        ],
+        "needle_technique": "Bách Hội (GV20) châm luồn kim ra sau kết hợp cứu ngải ấm (đỉnh đầu thăng đề khí cơ). Đề Thác châm chếch xuống dưới.",
+        "clinical_notes": "Tập bài tập Kegel co thắt cơ sàn chậu 50 lần mỗi ngày."
+      }
+    ],
+    "classic_reference": "Tỳ Vị Luận: 'Trung khí bất túc, khí hãm xuống dưới, cứu Bách Hội để nâng khí dương'."
+  },
+  {
+    "id": "day_bung_kho_tieu",
+    "name": "Đầy Bụng Khó Tiêu / Rối Loạn Vận Động (Bĩ Mãn)",
+    "category": "Tiêu Hóa",
+    "icd_code": "K30",
+    "description": "Bụng trên đầy trướng ách tắc khó chịu, ăn mau no, ậm ạch cả ngày không đói, sờ vào không thấy khối u. Đông y gọi là Bĩ Mãn.",
+    "points": [
+      "CV12",
+      "ST36",
+      "PC6",
+      "SP4",
+      "CV6",
+      "BL20",
+      "BL21",
+      "LR3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Thực Tích Đình Trệ (Ăn quá no, thức ăn tích trệ)",
+        "symptoms": "Bụng trướng đầy đau tức cự án, ợ hơi mùi thức ăn thối chua, trung tiện mùi khẳn, rêu lưỡi dầy nhớt, mạch hoạt thực.",
+        "treatment_principle": "Tiêu thực hóa trệ, hòa vị đạo trệ.",
+        "main_points": [
+          "CV12",
+          "ST36",
+          "PC6",
+          "ST25"
+        ],
+        "adjunct_points": [
+          "SP4",
+          "LR3"
+        ],
+        "needle_technique": "Châm tả mạnh Trung Quản, Thiên Khu, Túc Tam Lý khai thông ứ trệ.",
+        "clinical_notes": "Nhịn ăn 1 bữa, sau đó ăn cháo loãng thanh đạm."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Bĩ mãn không tiêu thức ăn đọng, tả Trung Quản và Túc Tam Lý'."
+  },
+  {
+    "id": "hen_phe_quan",
+    "name": "Hen Phế Quản & Khó Thở (Hao Suyễn)",
+    "category": "Hô Hấp",
+    "icd_code": "J45",
+    "description": "Khó thở thành cơn có tiếng cò cử rít rít trong họng, thì thở ra kéo dài, ho khạc đờm nhiều, tái phát khi thay đổi thời tiết. YHCT gọi là Hao Suyễn.",
+    "points": [
+      "BL13",
+      "EX-B1",
+      "LU1",
+      "LU5",
+      "LU7",
+      "CV17",
+      "CV22",
+      "ST36",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn Đàm Ẩm (Cơn hen cấp tính khi trời lạnh)",
+        "symptoms": "Khó thở ngực đầy tức, thở khò khè, ho đờm trắng loãng có bọt, sợ lạnh, sốt nhẹ, không mồ hôi, rêu trắng nhớt, mạch phù khẩn.",
+        "treatment_principle": "Tuyên phế tán hàn, hóa đờm định suyễn.",
+        "main_points": [
+          "EX-B1",
+          "BL13",
+          "LU1",
+          "CV17",
+          "LU5"
+        ],
+        "adjunct_points": [
+          "LU7",
+          "CV22",
+          "LI4"
+        ],
+        "needle_technique": "Định Suyễn (EX-B1) châm xiên hướng về cột sống sâu 0.5 - 0.8 thốn để hỗ trợ bình suyễn, hạ khí. Cứu ấm Phế Du và Đản Trung.",
+        "clinical_notes": "⚠️ CẢNH BÁO CẤP CỨU (RED FLAG): Cơn hen ác tính gây tím tái, co kéo lồng ngực, SpO2 hạ là tình trạng cấp cứu khẩn cấp, PHẢI DÙNG THUỐC GIÃN PHẾ QUẢN VÀ ĐƯA ĐẾN BỆNH VIỆN NGAY. Châm cứu chỉ mang tính hỗ trợ khi cơn hen đã kiểm soát. Tránh châm quá sâu vùng ngực lưng đề phòng tràn khí màng phổi."
+      },
+      {
+        "syndrome_name": "Thể Phế Thận Lưỡng Hư (Hen mạn tính, hụt hơi đoản khí)",
+        "symptoms": "Thở nông ngắn, hít vào khó khăn hụt hơi, động làm việc là thở dốc toát mồ hôi, lưng mỏi lạnh chân tay, mạch trầm tế vô lực.",
+        "treatment_principle": "Bổ phế nạp thận, chỉ khái định suyễn.",
+        "main_points": [
+          "BL13",
+          "BL23",
+          "KI3",
+          "CV17",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "LU9",
+          "CV4"
+        ],
+        "needle_technique": "Châm bổ kết hợp cứu ấm Phế Du, Thận Du. Thận chủ nạp khí, Phế chủ xuất khí.",
+        "clinical_notes": "⚠️ CẢNH BÁO CẤP CỨU (RED FLAG): Cơn hen ác tính gây tím tái, co kéo lồng ngực, SpO2 hạ là tình trạng cấp cứu khẩn cấp, PHẢI DÙNG THUỐC GIÃN PHẾ QUẢN VÀ ĐƯA ĐẾN BỆNH VIỆN NGAY. Châm cứu chỉ mang tính hỗ trợ khi cơn hen đã kiểm soát. Tránh châm quá sâu vùng ngực lưng đề phòng tràn khí màng phổi."
+      }
+    ],
+    "classic_reference": "Châm Cứu Kinh Nghiệm: 'Cắt cơn hen khó thở, trước châm Định Suyễn sau bổ Phế Du'."
+  },
+  {
+    "id": "viem_phe_quan_man",
+    "name": "Viêm Phế Quản Mạn Tính (Khái Thấu)",
+    "category": "Hô Hấp",
+    "icd_code": "J42",
+    "description": "Ho khạc đờm kéo dài ít nhất 3 tháng mỗi năm trong 2 năm liên tiếp, ho tăng về sáng sớm và mùa đông rét buốt. Đông y gọi là Khái Thấu.",
+    "points": [
+      "BL13",
+      "LU1",
+      "LU7",
+      "LU9",
+      "ST40",
+      "CV17",
+      "BL20",
+      "ST36"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Đàm Ẩm Nội Đình (Ho đờm nhiều đặc trắng, tức ngực)",
+        "symptoms": "Ho liên tục đờm trắng dính nhiều dễ khạc, ngực tức đầy trướng, ăn kém đầy bụng, rêu lưỡi trắng nhớt bở, mạch nhu hoạt.",
+        "treatment_principle": "Kiện tỳ táo thấp, hóa đàm chỉ khái.",
+        "main_points": [
+          "BL13",
+          "ST40",
+          "LU7",
+          "CV17",
+          "BL20"
+        ],
+        "adjunct_points": [
+          "LU1",
+          "ST36"
+        ],
+        "needle_technique": "Phong Long (ST40) phối Phế Du (BL13) và Liệt Khuyết (LU7) thanh trừ đờm trọc.",
+        "clinical_notes": "Tuyệt đối bỏ thuốc lá thuốc lào, giữ ấm cổ họng."
+      }
+    ],
+    "classic_reference": "Cảnh Nhạc Toàn Thư: 'Trị đờm ẩm ho lâu ngày, không trị ở Phế mà trị ở Tỳ'."
+  },
+  {
+    "id": "viem_xoang_vi_mui",
+    "name": "Viêm Mũi Dị Ứng & Viêm Xoang (Tỵ Uyên / Tỵ Khâu)",
+    "category": "Hô Hấp",
+    "icd_code": "J30",
+    "description": "Nghẹt mũi, chảy nước mũi trong hoặc mủ vàng, hắt hơi liên tục khi gặp lạnh, đau nhức vùng trán hoặc hai bên gò má. Đông y gọi là Tỵ Uyên hoặc Tỵ Khâu.",
+    "points": [
+      "LI20",
+      "EX-HN8",
+      "GV24+",
+      "EX-HN5",
+      "LI4",
+      "GB20",
+      "LU7",
+      "ST2",
+      "GV23"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn Phế Khí Hư (Hắt hơi nhiều khi gặp lạnh)",
+        "symptoms": "Hắt hơi từng tràng dài, mũi ngứa nghẹt chảy nước trong suốt, sợ gió lạnh, người dễ cảm vặt, rêu trắng, mạch phù hoãn.",
+        "treatment_principle": "Khu phong tán hàn, tuyên thông tỵ khiếu, bổ ích phế khí.",
+        "main_points": [
+          "LI20",
+          "EX-HN8",
+          "GV24+",
+          "LI4",
+          "GB20"
+        ],
+        "adjunct_points": [
+          "LU7",
+          "GV23",
+          "ST36"
+        ],
+        "needle_technique": "Nghinh Hương (LI20) thấu Thượng Nghinh Hương (EX-HN8) luồn kim dưới da. Hợp Cốc châm tả mạnh.",
+        "clinical_notes": "Rửa mũi nước muối sinh lý ấm mỗi ngày, giữ ấm đường thở."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Mũi tắc không ngửi thấy mùi, nghẹt mũi đau nhức, châm Nghinh Hương thấu lên'."
+  },
+  {
+    "id": "cam_mao",
+    "name": "Cảm Mạo Phong Hàn & Phong Nhiệt (Cảm Cúm)",
+    "category": "Hô Hấp",
+    "icd_code": "J00",
+    "description": "Sốt, sợ rét, sợ gió, đau nhức mình mẩy, đau đầu ngạt mũi, ho có đờm. YHCT gọi là Cảm Mạo do chính khí hư tà khí phong hàn hoặc phong nhiệt xâm phạm.",
+    "points": [
+      "GV14",
+      "GB20",
+      "BL12",
+      "LI4",
+      "LU7",
+      "LI11",
+      "GV20",
+      "BL13"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn (Sốt nhẹ, sợ lạnh nhiều, không mồ hôi)",
+        "symptoms": "Sợ rét sợ gió run rẩy, gai rét khắp mình, nhức đầu đau mỏi khớp xương, ngạt mũi chảy nước mũi trong, rêu trắng mỏng, mạch phù khẩn.",
+        "treatment_principle": "Tân ôn giải biểu, phát hãn giải cơ, khu phong tán hàn.",
+        "main_points": [
+          "GB20",
+          "BL12",
+          "GV14",
+          "LU7",
+          "LI4"
+        ],
+        "adjunct_points": [
+          "BL13",
+          "GV20"
+        ],
+        "needle_technique": "Châm tả nông, kết hợp đánh gió cứu ngải ấm dọc kinh Bàng Quang và Đại Chùy (GV14).",
+        "clinical_notes": "Sau châm uống bát cháo hành tía tô nóng để toát mồ hôi giải cảm."
+      }
+    ],
+    "classic_reference": "Thập Nhị Kinh Trị Chứng: 'Ngoại cảm phong hàn sợ rét nhức đầu, tả Liệt Khuyết phối Hợp Cốc'."
+  },
+  {
+    "id": "khan_tieng_mat_tieng",
+    "name": "Khàn Tiếng & Mất Tiếng Cấp Mạn (Thất Âm)",
+    "category": "Hô Hấp",
+    "icd_code": "R49.0",
+    "description": "Giọng nói khàn đục hoặc mất hẳn tiếng nói không phát âm ra lời được, họng khô vướng rát. YHCT gọi là Thất Âm (mất âm thanh).",
+    "points": [
+      "CV23",
+      "M-HN21",
+      "LI4",
+      "LU7",
+      "LU11",
+      "KI3",
+      "PC6",
+      "KI6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Hàn Thất Âm / Dùng giọng quá mức (Kim phá bất minh)",
+        "symptoms": "Sau khi nói nhiều giảng bài lâu hoặc cảm lạnh đột ngột mất tiếng, nói chỉ thều thào, họng ngứa ho khan, mạch phù hoãn.",
+        "treatment_principle": "Khai âm thông khiếu, tuyên phế lợi hầu.",
+        "main_points": [
+          "CV23",
+          "M-HN21",
+          "LI4",
+          "KI6"
+        ],
+        "adjunct_points": [
+          "LU11",
+          "LU7"
+        ],
+        "needle_technique": "Liêm Tuyền (CV23) và Thượng Liêm Tuyền (M-HN21) châm hướng mũi kim lên cuống lưỡi sâu 1 thốn đắc khí tại thanh quản.",
+        "clinical_notes": "Hạn chế nói tuyệt đối trong 3 ngày đầu, uống nước ấm."
+      }
+    ],
+    "classic_reference": "Châm Cứu Chân Tủy: 'Mất tiếng họng nghẹn khó nói, châm Liêm Tuyền thấu cuống họng'."
+  },
+  {
+    "id": "bi_tieu_sau_mo",
+    "name": "Bí Tiểu Tiện Sau Phẫu Thuật / Sau Sinh (Lung Bế)",
+    "category": "Tiết Niệu - Sinh Dục & Nam Khoa",
+    "icd_code": "R33",
+    "description": "Bàng quang căng tức đầy nước tiểu nhưng không thể tự đi tiểu được, bụng dưới căng trướng bứt rứt. YHCT gọi là Lung Bế.",
+    "points": [
+      "CV3",
+      "CV4",
+      "SP6",
+      "SP9",
+      "BL28",
+      "BL23",
+      "KI3",
+      "ST28",
+      "CV6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Cơ Bế Tắc / Bàng Quang Khí Hóa Thất Thường",
+        "symptoms": "Bụng dưới căng tức khó chịu muốn đi tiểu mà rặn không ra giọt nào, lo âu hoảng hốt, mạch huyền hoặc trầm sáp.",
+        "treatment_principle": "Thông điều khí cơ, thông lâm lợi niệu, trợ khí hóa bàng quang.",
+        "main_points": [
+          "CV3",
+          "BL28",
+          "SP6",
+          "SP9"
+        ],
+        "adjunct_points": [
+          "CV4",
+          "ST28",
+          "BL23"
+        ],
+        "needle_technique": "Trung Cực (CV3 - Mộ huyệt Bàng quang) châm xiên hướng mũi kim xuống xương mu sâu 1.0 thốn kích thích cảm giác mót tiểu. Kết hợp cứu ấm Khí Hải (CV6).",
+        "clinical_notes": "Phương pháp châm cứu giúp bệnh nhân đi tiểu tự nhiên mà không cần phải đặt ống thông tiểu (catheter)."
+      }
+    ],
+    "classic_reference": "Thiên Kim Yếu Phương: 'Bí tiểu bàng quang căng trướng rặn không ra, châm Trung Cực và Bàng Quang Du'."
+  },
+  {
+    "id": "dai_dam_tieu_dem",
+    "name": "Đái Dầm Ở Trẻ & Tiểu Đêm Ở Người Già (Di Niệu)",
+    "category": "Tiết Niệu - Sinh Dục & Nam Khoa",
+    "icd_code": "F98.0",
+    "description": "Tiểu không tự chủ trong giấc ngủ đêm ở trẻ trên 5 tuổi hoặc người già thức dậy đi tiểu trên 2 - 3 lần mỗi đêm làm mất ngủ. YHCT gọi là Di Niệu do Thận khí bất túc.",
+    "points": [
+      "CV4",
+      "CV3",
+      "BL23",
+      "BL28",
+      "SP6",
+      "GV4",
+      "GV20",
+      "KI3",
+      "ST36"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Thận Khí Bất Túc (Hạ nguyên hư hàn, bàng quang mất ước chế)",
+        "symptoms": "Đái dầm trong lúc ngủ say không hay biết, tiểu đêm nhiều lần nước tiểu trong dài, sợ lạnh chân tay lạnh, sắc mặt nhợt, mạch trầm trì.",
+        "treatment_principle": "Ôn bổ thận dương, cố sáp bàng quang chỉ di.",
+        "main_points": [
+          "CV4",
+          "BL23",
+          "GV4",
+          "SP6",
+          "BL28"
+        ],
+        "adjunct_points": [
+          "GV20",
+          "KI3",
+          "CV3"
+        ],
+        "needle_technique": "Châm bổ kết hợp CỨU NGẢI ấm tại Quan Nguyên (CV4) và Mệnh Môn (GV4) 15 phút. Bách Hội (GV20) châm bổ thăng đề.",
+        "clinical_notes": "Hạn chế uống nước sau 19h tối, đánh thức trẻ đi tiểu vào giờ cố định."
+      }
+    ],
+    "classic_reference": "Giáp Ất Kinh: 'Di niệu đái dầm không tự chủ, cứu Quan Nguyên, Trung Cực'."
+  },
+  {
+    "id": "tieu_buot_tieu_rat",
+    "name": "Tiểu Buốt, Tiểu Rắt / Nhiễm Trùng Tiết Niệu (Lâm Chứng)",
+    "category": "Tiết Niệu - Sinh Dục & Nam Khoa",
+    "icd_code": "N39.0",
+    "description": "Đi tiểu đau buốt niệu đạo, tiểu rắt nhiều lần mỗi lần vài giọt, nước tiểu đục vàng hoặc đỏ rát. Đông y gọi là Lâm Chứng do thấp nhiệt hạ tiêu.",
+    "points": [
+      "CV3",
+      "SP9",
+      "BL28",
+      "SP6",
+      "KI3",
+      "LR3",
+      "BL23"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Thấp Nhiệt Hạ Tiêu (Nhiệt lâm: tiểu buốt rát, tiểu dắt)",
+        "symptoms": "Tiểu buốt rát như kim châm, tiểu gấp rắt, bụng dưới căng tức, nước tiểu vàng sẫm hoặc đỏ, rêu vàng nhớt, mạch hoạt sác.",
+        "treatment_principle": "Thanh nhiệt hóa thấp, thông lâm lợi niệu.",
+        "main_points": [
+          "CV3",
+          "BL28",
+          "SP9",
+          "SP6"
+        ],
+        "adjunct_points": [
+          "LR3",
+          "KI3"
+        ],
+        "needle_technique": "Châm tả Trung Cực, Âm Lăng Tuyền, Bàng Quang Du. Không cứu ngải.",
+        "clinical_notes": "Uống nhiều nước (trên 2 lít/ngày), uống nước râu ngô mã đề."
+      }
+    ],
+    "classic_reference": "Tố Vấn: 'Bàng quang bất lợi vi lung, bất ước vi di; nhiệt kết thì lâm'."
+  },
+  {
+    "id": "liet_duong_yeu_sinh_ly",
+    "name": "Rối Loạn Cương Dương / Liệt Dương (Dương Nuy)",
+    "category": "Tiết Niệu - Sinh Dục & Nam Khoa",
+    "icd_code": "N52",
+    "description": "Dương vật không cương cứng được hoặc cương không đủ cứng để giao hợp, giảm ham muốn. Đông y gọi là Dương Nuy phần lớn do Thận dương hư suy hoặc Tâm Tỳ hư tổn.",
+    "points": [
+      "CV4",
+      "GV4",
+      "BL23",
+      "KI3",
+      "SP6",
+      "ST36",
+      "CV1",
+      "BL52"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Thận Dương Hư Suy (Mệnh môn hỏa suy, sợ lạnh mỏi lưng)",
+        "symptoms": "Liệt dương, giảm ham muốn, lưng gối mỏi buốt, sợ lạnh tay chân lạnh, sắc mặt trắng bệch, tiểu đêm nhiều, mạch trầm tế vô lực.",
+        "treatment_principle": "Ôn bổ thận dương, tráng dương cố tinh.",
+        "main_points": [
+          "CV4",
+          "GV4",
+          "BL23",
+          "KI3",
+          "BL52"
+        ],
+        "adjunct_points": [
+          "SP6",
+          "ST36"
+        ],
+        "needle_technique": "Cứu ngải ấm tại Mệnh Môn (GV4), Quan Nguyên (CV4), Chí Thất (BL52). Châm bổ Thái Khê.",
+        "clinical_notes": "Tránh rượu bia, thức khuya, tập thể dục nâng cao thể lực."
+      }
+    ],
+    "classic_reference": "Cảnh Nhạc Toàn Thư: 'Dương nuy do mệnh môn hỏa suy, cứu Mệnh Môn, Quan Nguyên tắc phấn khởi'."
+  },
+  {
+    "id": "xuat_tinh_som",
+    "name": "Xuất Tinh Sớm / Di Tinh (Tảo Tiết / Di Tinh)",
+    "category": "Tiết Niệu - Sinh Dục & Nam Khoa",
+    "icd_code": "N48.4",
+    "description": "Xuất tinh quá nhanh dưới 1 phút hoặc xuất tinh khi chưa giao hợp, mộng thấy quan hệ rồi xuất tinh (mộng tinh). Đông y gọi là Tảo Tiết hoặc Di Tinh.",
+    "points": [
+      "CV4",
+      "SP6",
+      "KI3",
+      "BL23",
+      "HT7",
+      "GV20",
+      "LR3",
+      "PC6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Âm Hư Hỏa Vượng / Thận Âm Hư (Bứt rứt, xuất tinh nhanh)",
+        "symptoms": "Dễ hưng phấn kích thích nhưng xuất tinh rất sớm, lưng mỏi gối yếu, lòng bàn chân tay nóng, ngủ hay mê, mạch tế sác.",
+        "treatment_principle": "Tư âm giáng hỏa, cố thận sáp tinh.",
+        "main_points": [
+          "KI3",
+          "SP6",
+          "HT7",
+          "BL23",
+          "CV4"
+        ],
+        "adjunct_points": [
+          "GV20",
+          "LR3"
+        ],
+        "needle_technique": "Châm bổ Thái Khê, Tam Âm Giao; châm tả nhẹ Thái Xung. Không cứu ngải nhiều.",
+        "clinical_notes": "Rèn luyện tâm lý thoải mái, bài tập cơ đáy chậu (Kegel)."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Di tinh tảo tiết do hỏa vượng, thủ Tam Âm Giao, Thần Môn'."
+  },
+  {
+    "id": "viem_tuyen_tien_liet",
+    "name": "Viêm / Phì Đại Tuyến Tiền Liệt (Tiền Liệt Tuyến Thũng)",
+    "category": "Tiết Niệu - Sinh Dục & Nam Khoa",
+    "icd_code": "N40",
+    "description": "Tiểu khó, dòng nước tiểu yếu ngắt quãng, tiểu không hết bãi, tức nặng vùng tầng sinh môn hậu môn. Đông y gọi là Lâm chứng hoặc Long bế.",
+    "points": [
+      "CV3",
+      "CV1",
+      "BL28",
+      "SP9",
+      "SP6",
+      "BL32",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Thấp Nhiệt Khí Trệ Hạ Tiêu",
+        "symptoms": "Tiểu rắt tiểu ngập ngừng, đau nhức vùng hội âm lan ra thắt lưng đùi, nước tiểu vàng đục, mạch trầm sáp.",
+        "treatment_principle": "Thanh nhiệt trừ thấp, hóa ứ thông lạc, tán kết.",
+        "main_points": [
+          "CV3",
+          "BL28",
+          "BL32",
+          "SP6",
+          "SP9"
+        ],
+        "adjunct_points": [
+          "CV1",
+          "KI3"
+        ],
+        "needle_technique": "Châm tả Trung Cực, Thứ Liêu (BL32). Thứ Liêu châm kim sâu 1.5 thốn kích thích vào đám rối cùng.",
+        "clinical_notes": "Tránh ngồi lâu một chỗ, kiêng rượu bia đồ cay nóng."
+      }
+    ],
+    "classic_reference": "Châm Cứu Kinh Nghiệm: 'Tiểu khó do tiền liệt tuyến, châm Thứ Liêu thấu rễ thần kinh'."
+  },
+  {
+    "id": "dau_bung_kinh",
+    "name": "Đau Bụng Kinh (Thống Kinh)",
+    "category": "Phụ Sản",
+    "icd_code": "N94.6",
+    "description": "Đau quặn bụng dưới trước, trong hoặc sau khi hành kinh, lan ra thắt lưng hoặc đùi, mặt tái nhợt, buồn nôn. YHCT gọi là Thống Kinh.",
+    "points": [
+      "SP6",
+      "CV4",
+      "CV6",
+      "SP8",
+      "SP10",
+      "BL23",
+      "BL32",
+      "LR3",
+      "EX-CA1"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Trệ Huyết Ứ & Hàn Ngưng Bào Cung",
+        "symptoms": "Trước hoặc trong kỳ kinh bụng dưới đau quặn quằn quại, chườm ấm dễ chịu, kinh nguyệt ra màu tím đen có hòn cục, khi ra cục máu thì đỡ đau bụng, mạch trầm khẩn.",
+        "treatment_principle": "Hoạt huyết hóa ứ, ôn kinh tán hàn, lý khí chỉ thống.",
+        "main_points": [
+          "SP6",
+          "CV4",
+          "SP8",
+          "BL32",
+          "SP10"
+        ],
+        "adjunct_points": [
+          "CV6",
+          "LR3",
+          "EX-CA1"
+        ],
+        "needle_technique": "Địa Cơ (SP8 - Khích huyệt kinh Tỳ) châm tả cắt cơn đau co thắt tử cung tức thì. Cứu ngải ấm Quan Nguyên (CV4) 15 phút.",
+        "clinical_notes": "Giữ ấm bụng dưới trong những ngày hành kinh, tránh ăn đồ sống lạnh."
+      }
+    ],
+    "classic_reference": "Phụ Nhân Đại Toàn Lương Phương: 'Kinh hành phúc thống đau buốt, châm Tam Âm Giao và Địa Cơ'."
+  },
+  {
+    "id": "roi_loan_kinh_nguyet",
+    "name": "Rối Loạn Kinh Nguyệt (Kinh Nguyệt Bất Điều)",
+    "category": "Phụ Sản",
+    "icd_code": "N91",
+    "description": "Kỳ kinh đến sớm (tiên kỳ), đến muộn (hậu kỳ) hoặc vô định kỳ, lượng kinh quá nhiều hoặc quá ít. YHCT gọi là Kinh Nguyệt Bất Điều do tổn thương Xung Nhâm.",
+    "points": [
+      "SP6",
+      "CV4",
+      "CV6",
+      "BL23",
+      "BL18",
+      "SP10",
+      "LR3",
+      "KI3",
+      "HT7"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Thận Khuy Hư & Xung Nhâm Bất Túc",
+        "symptoms": "Kinh nguyệt kéo dài thất thường, lượng ít màu nhạt, đau lưng mỏi gối, hoa mắt chóng mặt, người bốc hỏa vã mồ hôi đêm, mạch tế sác hoặc tế nhược.",
+        "treatment_principle": "Tư bổ can thận, điều bổ Xung Nhâm, dưỡng huyết an thần.",
+        "main_points": [
+          "SP6",
+          "CV4",
+          "BL23",
+          "KI3",
+          "SP10"
+        ],
+        "adjunct_points": [
+          "LR3",
+          "HT7",
+          "CV6"
+        ],
+        "needle_technique": "Châm bổ hoặc bình bổ bình tả. Tam Âm Giao là 'Huyệt thần của phụ khoa', phối Quan Nguyên điều hòa hai mạch Xung Nhâm.",
+        "clinical_notes": "Điều hòa tâm lý, ngủ đủ giấc, bổ sung dinh dưỡng giàu canxi và vitamin."
+      }
+    ],
+    "classic_reference": "Châm Cứu Giáp Ất Kinh: 'Phụ nữ kinh nguyệt không đều, huyết hư rong kinh, thủ Tam Âm Giao'."
+  },
+  {
+    "id": "be_kinh",
+    "name": "Bế Kinh / Mất Kinh (Bế Kinh)",
+    "category": "Phụ Sản",
+    "icd_code": "N91.1",
+    "description": "Đến tuổi dậy thì không có kinh hoặc đang có kinh bình thường bỗng mất kinh liên tiếp trên 3 - 6 tháng (loại trừ có thai). YHCT gọi là Kinh Bế.",
+    "points": [
+      "SP6",
+      "CV4",
+      "BL23",
+      "ST36",
+      "SP10",
+      "LR3",
+      "LI4",
+      "BL18"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Huyết Hư Nhược (Mất kinh do suy dinh dưỡng, thiếu máu)",
+        "symptoms": "Mất kinh nhiều tháng, sắc mặt xanh xao trắng bệch, mệt mỏi gầy sút, ăn kém, da khô tóc rụng, chất lưỡi nhợt, mạch hư tế.",
+        "treatment_principle": "Bổ khí dưỡng huyết, ích tỳ sinh huyết, điều kinh.",
+        "main_points": [
+          "ST36",
+          "SP6",
+          "BL20",
+          "CV4",
+          "SP10"
+        ],
+        "adjunct_points": [
+          "BL23",
+          "CV6"
+        ],
+        "needle_technique": "Châm bổ kết hợp cứu ấm Túc Tam Lý, Tam Âm Giao, Tỳ Du sinh huyết.",
+        "clinical_notes": "Cải thiện chế độ dinh dưỡng, tránh ép cân giảm béo quá mức."
+      }
+    ],
+    "classic_reference": "Phụ Khoa Ngọc Xích: 'Huyết hải trống rỗng thì kinh bế, trước tiên bổ Tỳ sinh khí huyết'."
+  },
+  {
+    "id": "bang_lau_rong_kinh",
+    "name": "Rong Kinh / Băng Lậu (Băng Lậu)",
+    "category": "Phụ Sản",
+    "icd_code": "N92.0",
+    "description": "Máu kinh ra ồ ạt không dứt (Băng) hoặc rỉ rả kéo dài không sạch trên 7 ngày (Lậu). YHCT gọi là Băng Lậu do nhiệt bức huyết hoặc Tỳ hư bất thống huyết.",
+    "points": [
+      "SP1",
+      "SP6",
+      "CV4",
+      "SP10",
+      "BL20",
+      "ST36",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tỳ Hư Bất Thống Huyết (Kinh ra dầm dề màu nhạt)",
+        "symptoms": "Huyết kinh ra kéo dài rỉ rả sắc nhạt loãng, người mệt lả hụt hơi, ăn kém đầy bụng, mạch tế nhược vô lực.",
+        "treatment_principle": "Kiện tỳ ích khí, nhiếp huyết chỉ huyết.",
+        "main_points": [
+          "SP1",
+          "SP6",
+          "BL20",
+          "CV4",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "SP10",
+          "CV6"
+        ],
+        "needle_technique": "CỨU NGẢI HUYỆT ẨN BẠCH (SP1 - Tỉnh Mộc huyệt kinh Tỳ) - đệ nhất nghiệm phương cầm máu kinh nguyệt.",
+        "clinical_notes": "Cứu ngải điếu trực tiếp lên huyệt Ẩn Bạch ở góc ngón chân cái 10 - 15 phút đến khi cầm máu."
+      }
+    ],
+    "classic_reference": "Châm Cứu Đại Thành: 'Ẩn Bạch cứu ngải kỳ diệu cầm ngay chứng phụ nhân băng lậu'."
+  },
+  {
+    "id": "sa_tu_cung",
+    "name": "Sa Tử Cung (Âm Đỉnh / Tử Cung Hạ Hàm)",
+    "category": "Phụ Sản",
+    "icd_code": "N81.2",
+    "description": "Tử cung tụt xuống trong âm đạo hoặc thò hẳn ra ngoài cửa mình, kèm cảm giác tức nặng bụng dưới, đau lưng mót tiểu. YHCT gọi là Âm Đỉnh do khí hư hạ hãm.",
+    "points": [
+      "GV20",
+      "CV4",
+      "CV6",
+      "EXTRA-TITUO",
+      "EX-CA1",
+      "ST36",
+      "SP6",
+      "BL20"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Khí Hư Hạ Hãm (Sau sinh đẻ nhiều lần, lao động sớm)",
+        "symptoms": "Khối tử cung tụt xuống cửa mình, mệt mỏi đoản hơi, đi đứng nhiều tụt tăng, nằm nghỉ co lên, đại tiểu tiện bất tiện, mạch hoãn vô lực.",
+        "treatment_principle": "Bổ trung ích khí, thăng dương cử hàm.",
+        "main_points": [
+          "GV20",
+          "EXTRA-TITUO",
+          "EX-CA1",
+          "CV4",
+          "ST36"
+        ],
+        "adjunct_points": [
+          "CV6",
+          "SP6",
+          "BL20"
+        ],
+        "needle_technique": "Bách Hội (GV20) châm bổ cứu ấm (thăng khí). Đề Thác và Tử Cung châm chếch lên trên.",
+        "clinical_notes": "Tránh mang vác nặng, ho kéo dài, táo bón làm tăng áp lực ổ bụng."
+      }
+    ],
+    "classic_reference": "Phụ Khoa Tâm Pháp: 'Tử cung sa trễ hạ hàm, cứu Bách Hội phối Đề Thác thăng đề'."
+  },
+  {
+    "id": "tien_man_kinh",
+    "name": "Hội Chứng Tiền Mãn Kinh (Tuyệt Kinh Chư Chứng)",
+    "category": "Phụ Sản",
+    "icd_code": "N95.1",
+    "description": "Cơn bốc hỏa bừng mặt vã mồ hôi, hồi hộp lo âu, mất ngủ, tính tình cáu gắt thay đổi, rối loạn chu kỳ kinh ở phụ nữ quanh tuổi 45 - 55. YHCT gọi là Tuyệt Kinh Chư Chứng.",
+    "points": [
+      "KI3",
+      "SP6",
+      "HT7",
+      "LR3",
+      "CV4",
+      "BL23",
+      "PC6",
+      "GV20"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Thận Âm Hư (Bốc hỏa vã mồ hôi, cáu gắt)",
+        "symptoms": "Từng cơn nóng bốc lên mặt ngực toát mồ hôi đầm đìa, tính tình gắt gỏng, hoa mắt ù tai, mất ngủ, đau lưng mỏi gối, lưỡi đỏ rêu ít, mạch tế sác.",
+        "treatment_principle": "Tư can bổ thận, thanh nhiệt tiềm dương, an thần.",
+        "main_points": [
+          "KI3",
+          "SP6",
+          "LR3",
+          "HT7",
+          "CV4"
+        ],
+        "adjunct_points": [
+          "BL23",
+          "PC6",
+          "GV20"
+        ],
+        "needle_technique": "Châm bổ Thái Khê (KI3), Tam Âm Giao (SP6). Châm bình bổ bình tả Thần Môn, Thái Xung.",
+        "clinical_notes": "Tập yoga dưỡng sinh, ăn thực phẩm giàu estrogen tự nhiên (đậu nành, mầm đậu)."
+      }
+    ],
+    "classic_reference": "Nữ Khoa Kinh Nghiệm: 'Tiền mãn kinh bốc hỏa cuồng loạn, tư bổ Thận thủy chế ngự Can hỏa'."
+  },
+  {
+    "id": "can_thi_moi_mat",
+    "name": "Cận Thị, Giảm Thị Lực & Mỏi Mắt Học Đường (Cận Thị)",
+    "category": "Ngũ Quan: Mắt - Tai - Mũi Họng",
+    "icd_code": "H52.1",
+    "description": "Nhìn xa mờ nhìn gần rõ, nhức mỏi mắt, khô mắt, chảy nước mắt khi nhìn lâu vào màn hình máy tính điện thoại. YHCT gọi là Viễn Thị Bất Năng do Can huyết khuy hư.",
+    "points": [
+      "BL1",
+      "EX-HN4",
+      "GB1",
+      "ST1",
+      "GB20",
+      "GB37",
+      "LR3",
+      "KI3",
+      "LI4"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Huyết Bất Túc / Mỏi Cơ Điều Tiết Mắt",
+        "symptoms": "Thị lực giảm sút, mắt khô rát mỏi nhức, nhìn mờ sau giờ làm việc học tập, hoa mắt chóng mặt, móng tay giòn khô, mạch tế.",
+        "treatment_principle": "Dưỡng can minh mục, thông kinh hoạt lạc quanh ổ mắt.",
+        "main_points": [
+          "BL1",
+          "EX-HN4",
+          "GB1",
+          "GB37",
+          "GB20"
+        ],
+        "adjunct_points": [
+          "LR3",
+          "KI3",
+          "ST1"
+        ],
+        "needle_technique": "Huyệt quanh mắt châm nông luồn da nhẹ nhàng. Quang Minh (GB37 - Lạc huyệt kinh Đởm) châm đắc khí giúp sáng mắt.",
+        "clinical_notes": "Quy tắc 20-20-20: Cứ 20 phút nhìn màn hình nhìn xa 20 feet (6m) trong 20 giây."
+      }
+    ],
+    "classic_reference": "Linh Khu: 'Can khai khiếu ra mắt, can huyết hư thì mắt mờ; thủ Quang Minh'."
+  },
+  {
+    "id": "dau_mat_do",
+    "name": "Viêm Kết Mạc Cấp / Đau Mắt Đỏ (Bạo Manh / Xích Nhãn)",
+    "category": "Ngũ Quan: Mắt - Tai - Mũi Họng",
+    "icd_code": "H10",
+    "description": "Mắt đỏ rực, sưng phù mi mắt, cộm xốn như có cát trong mắt, nhiều ghèn dử mắt, chảy nước mắt sợ ánh sáng. Đông y gọi là Thiên Hành Xích Nhãn do phong nhiệt tà độc.",
+    "points": [
+      "EX-HN6",
+      "EX-HN5",
+      "LI4",
+      "LI11",
+      "GB20",
+      "BL1",
+      "BL2"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Nhiệt Tà Độc Thượng Công",
+        "symptoms": "Hai mắt đỏ sưng đau rát, nhiều dử vàng dính, sợ ánh sáng, sốt nhẹ nhức đầu, họng đau, rêu vàng, mạch phù sác.",
+        "treatment_principle": "Sơ phong thanh nhiệt, tả hỏa giải độc tiêu thũng.",
+        "main_points": [
+          "EX-HN6",
+          "EX-HN5",
+          "LI4",
+          "LI11"
+        ],
+        "adjunct_points": [
+          "GB20",
+          "BL2"
+        ],
+        "needle_technique": "CHÍCH NẶN MÁU HUYỆT NHĨ TIÊM (EX-HN6 - đỉnh vành tai): gấp đôi vành tai chích nặn 3 - 5 giọt máu sẫm - mắt giảm đỏ cộm tức thì.",
+        "clinical_notes": "Giữ vệ sinh rửa mắt nước muối riêng, tránh lây lan thành dịch."
+      }
+    ],
+    "classic_reference": "Châm Cứu Đại Thành: 'Đau mắt đỏ cộm buốt, trích huyết Nhĩ Tiêm và Thái Dương tức khắc lành'."
+  },
+  {
+    "id": "u_tai_diec_tai",
+    "name": "Ù Tai & Điếc Tai Đột Ngột (Nhĩ Minh / Nhĩ Lung)",
+    "category": "Ngũ Quan: Mắt - Tai - Mũi Họng",
+    "icd_code": "H93.1",
+    "description": "Trong tai có tiếng ve kêu, tiếng gió rít hoặc tiếng sóng gầm rú, thính lực giảm sút nghe không rõ. YHCT gọi là Nhĩ Minh (ù tai) hoặc Nhĩ Lung (điếc tai).",
+    "points": [
+      "SI19",
+      "TE21",
+      "GB2",
+      "TE17",
+      "TE3",
+      "GB41",
+      "KI3",
+      "LR3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Can Đởm Hỏa Thịnh (Ù tai đột ngột tiếng to như còi tàu)",
+        "symptoms": "Ù tai điếc tai xuất hiện đột ngột sau cơn giận dữ căng thẳng, tiếng ù đanh to, đau đầu hoa mắt, miệng đắng họng khô, mạch huyền sác có lực.",
+        "treatment_principle": "Thanh can tả đởm, khai khiếu chỉ minh.",
+        "main_points": [
+          "SI19",
+          "TE21",
+          "GB2",
+          "TE17",
+          "TE3",
+          "LR3"
+        ],
+        "adjunct_points": [
+          "GB41",
+          "LI4"
+        ],
+        "needle_technique": "Bộ ba Nhĩ Tam Huyệt (Thính Cung, Nhĩ Môn, Thính Hội) há miệng châm sâu 1.0 thốn. Châm tả Trung Chữ (TE3) và Thái Xung (LR3).",
+        "clinical_notes": "Điếc tai đột ngột cần điều trị cấp cứu trong 'thời gian vàng' 72 giờ đầu."
+      },
+      {
+        "syndrome_name": "Thể Thận Tinh Khuy Hư (Ù tai mạn tính ở người già tiếng ve kêu)",
+        "symptoms": "Ù tai âm ỉ như tiếng ve kêu liên tục ngày đêm, đêm thanh vắng nghe càng rõ, thính lực giảm từ từ, kèm mỏi lưng mỏi gối, mạch trầm tế.",
+        "treatment_principle": "Bổ thận dưỡng tinh, thông khiếu tiềm dương.",
+        "main_points": [
+          "SI19",
+          "TE17",
+          "KI3",
+          "BL23",
+          "SP6"
+        ],
+        "adjunct_points": [
+          "GV20",
+          "TE3"
+        ],
+        "needle_technique": "Châm bổ Thái Khê, Thận Du. Châm thông khiếu Thính Cung, Ế Phong.",
+        "clinical_notes": "Tránh tiếp xúc môi trường tiếng ồn công nghiệp, hạn chế dùng tai nghe âm lượng lớn."
+      }
+    ],
+    "classic_reference": "Linh Khu: 'Thận khí thông ra tai, thận hòa thì tai nghe rõ ngũ âm; hư thì ù điếc'."
+  },
+  {
+    "id": "dau_rang_nha_chu",
+    "name": "Đau Răng & Viêm Nha Chu (Nha Thống)",
+    "category": "Ngũ Quan: Mắt - Tai - Mũi Họng",
+    "icd_code": "K08.8",
+    "description": "Răng đau buốt dữ dội lan lên thái dương, lợi sưng đỏ mưng mủ chảy máu, nhai thức ăn đau tăng. Đông y gọi là Nha Thống do Vị hỏa hoặc Thận hư.",
+    "points": [
+      "LI4",
+      "ST6",
+      "ST7",
+      "ST44",
+      "KI3",
+      "LI20",
+      "CV24"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Vị Hỏa Nha Thống (Răng hàm sưng đau nhức buốt)",
+        "symptoms": "Đau răng dữ dội, lợi sưng đỏ rát hoặc chảy máu mủ, miệng hôi, táo bón, uống nước lạnh đỡ đau, mạch hoạt sác.",
+        "treatment_principle": "Thanh vị tả hỏa, tiêu thũng chỉ thống.",
+        "main_points": [
+          "LI4",
+          "ST6",
+          "ST7",
+          "ST44"
+        ],
+        "adjunct_points": [
+          "LI11",
+          "CV24"
+        ],
+        "needle_technique": "Hợp Cốc (LI4) châm tả mạnh. Nội Đình (ST44 - Huỳnh Thủy huyệt kinh Vị) châm tả giáng hỏa dạ dày.",
+        "clinical_notes": "Vệ sinh răng miệng sạch sẽ, khám nha khoa xử lý tủy nếu có lỗ sâu lớn."
+      }
+    ],
+    "classic_reference": "Thập Nhị Kinh Trị Chứng: 'Răng đau hàm sưng má tấy, tả Hợp Cốc phối Nội Đình'."
+  },
+  {
+    "id": "nhiet_mieng_loet_mieng",
+    "name": "Viêm Loét Miệng Tái Phát / Nhiệt Miệng (Khẩu Sang)",
+    "category": "Ngũ Quan: Mắt - Tai - Mũi Họng",
+    "icd_code": "K12.0",
+    "description": "Các vết loét tròn nhỏ đáy vàng viền đỏ đau rát ở niêm mạc má, môi hoặc lưỡi, ăn uống mặn cay buốt rát. YHCT gọi là Khẩu Sang.",
+    "points": [
+      "LI4",
+      "ST44",
+      "HT7",
+      "KI1",
+      "CV23",
+      "LI11",
+      "PC8"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tâm Vị Tích Nhiệt / Hỏa Viêm",
+        "symptoms": "Vết loét miệng nhiều nốt sưng đỏ đau buốt, miệng hôi, khát nước, tiểu vàng đậm, táo bón, lưỡi đỏ rêu vàng, mạch sác.",
+        "treatment_principle": "Thanh nhiệt tả hỏa, giải độc tiêu thũng.",
+        "main_points": [
+          "LI4",
+          "ST44",
+          "PC8",
+          "LI11"
+        ],
+        "adjunct_points": [
+          "HT7",
+          "KI1"
+        ],
+        "needle_technique": "Châm tả Nội Đình, Lao Cung giáng hỏa. Châm dẫn hỏa Dũng Tuyền (KI1).",
+        "clinical_notes": "Kiêng ăn đồ cay nóng, uống nước bột sắn dây, ăn thanh nhiệt."
+      }
+    ],
+    "classic_reference": "Nhiệt Bệnh Luận: 'Khẩu thiệt sinh sang lở loét, tả Tâm hỏa tại Lao Cung'."
+  },
+  {
+    "id": "viem_hong_man",
+    "name": "Viêm Họng Mạn & Viêm Amidan (Hầu Tý)",
+    "category": "Ngũ Quan: Mắt - Tai - Mũi Họng",
+    "icd_code": "J37.0",
+    "description": "Cổ họng khô rát ngứa vướng, ho húng hắng, nuốt nghẹn, khạc đờm dính khó ra, amidan phì đại xơ teo. Đông y gọi là Hầu Tý.",
+    "points": [
+      "LU11",
+      "LI4",
+      "CV22",
+      "KI6",
+      "LU7",
+      "CV23",
+      "KI3"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phế Thận Âm Hư (Cổ họng khô rát tăng về chiều tối)",
+        "symptoms": "Họng khô rát liên tục uống nước không đỡ, cảm giác vướng víu, sốt nhẹ về chiều, lòng bàn tay chân nóng, mạch tế sác.",
+        "treatment_principle": "Dưỡng âm thanh phế, sinh tân lợi hầu.",
+        "main_points": [
+          "LU7",
+          "KI6",
+          "CV22",
+          "LI4"
+        ],
+        "adjunct_points": [
+          "KI3",
+          "LU11"
+        ],
+        "needle_technique": "Cặp Bát Mạch Giao Hội 'Liệt Khuyết (LU7) phối Chiếu Hải (KI6)' là thần phương điều trị các bệnh vùng hầu họng.",
+        "clinical_notes": "Súc họng nước muối ấm hàng ngày, tránh nói to hét lớn."
+      }
+    ],
+    "classic_reference": "Bát Mạch Giao Hội ca: 'Liệt Khuyết Chiếu Hải tương phối, chủ trị hầu họng hung cách'."
+  },
+  {
+    "id": "me_day_man_ngua",
+    "name": "Mề Đay Dị Ứng, Mẩn Ngứa (Ẩn Chẩn / Phong Chẩn)",
+    "category": "Da Liễu & Dưỡng Sinh",
+    "icd_code": "L50",
+    "description": "Da nổi từng mảng sẩn phù đỏ hoặc trắng ngứa ngáy dữ dội, gãi càng lan rộng, biến mất không để lại dấu vết rồi tái phát. Đông y gọi là Ẩn Chẩn.",
+    "points": [
+      "LI11",
+      "SP10",
+      "EX-LE3",
+      "SP6",
+      "LI4",
+      "BL17",
+      "GV14",
+      "BL13"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Phong Nhiệt Ẩn Chẩn (Mẩn đỏ nóng rát, gặp nóng ngứa tăng)",
+        "symptoms": "Mẩn phù màu đỏ tươi, ngứa rát dữ dội, gặp nóng hoặc gió ngứa tăng nhiều, miệng khô, rêu mỏng vàng, mạch phù sác.",
+        "treatment_principle": "Khu phong thanh nhiệt, lương huyết tiêu ngứa.",
+        "main_points": [
+          "LI11",
+          "SP10",
+          "EX-LE3",
+          "GV14",
+          "BL17"
+        ],
+        "adjunct_points": [
+          "LI4",
+          "SP6"
+        ],
+        "needle_technique": "Châm tả Khúc Trì (LI11), Huyết Hải (SP10), Bách Trùng Oa (EX-LE3). 'Trị phong tiên trị huyết, huyết hành phong tất diệt'.",
+        "clinical_notes": "Tránh gãi trầy xước da, tránh ăn hải sản đồ phong ngứa."
+      }
+    ],
+    "classic_reference": "Châm Cứu Tụ Anh: 'Toàn thân phong chẩn ngứa ngáy, châm Khúc Trì, Huyết Hải, Bách Trùng Oa'."
+  },
+  {
+    "id": "viem_da_co_dia_cham",
+    "name": "Viêm Da Cơ Địa / Chàm (Thấp Chẩn)",
+    "category": "Da Liễu & Dưỡng Sinh",
+    "icd_code": "L20",
+    "description": "Da mẩn đỏ mụn nước li ti chảy dịch vàng hoặc dày cộm sần sùi (lichen hóa) bong vảy ngứa dai dẳng ở các nếp gấp khuỷu tay, khoeo chân. YHCT gọi là Thấp Chẩn.",
+    "points": [
+      "SP9",
+      "SP10",
+      "EX-LE3",
+      "LI11",
+      "ST36",
+      "SP6",
+      "BL17"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Thấp Nhiệt Tẩm Dâm (Giai đoạn cấp: chảy nước ngứa ngáy)",
+        "symptoms": "Tổn thương da đỏ ửng nhiều mụn nước nhỏ vỡ chảy dịch dính nhớt vàng, ngứa nhiều, rêu lưỡi vàng nhớt, mạch nhu sác.",
+        "treatment_principle": "Thanh nhiệt táo thấp, khu phong chỉ dưỡng (cắt ngứa).",
+        "main_points": [
+          "SP9",
+          "LI11",
+          "EX-LE3",
+          "SP10"
+        ],
+        "adjunct_points": [
+          "ST36",
+          "SP6"
+        ],
+        "needle_technique": "Châm tả Âm Lăng Tuyền (SP9 - hóa thấp), Khúc Trì (thanh nhiệt), Bách Trùng Oa (cắt ngứa).",
+        "clinical_notes": "Dưỡng ẩm da thường xuyên, tránh dùng xà phòng tắm có tính tẩy rửa mạnh."
+      }
+    ],
+    "classic_reference": "Y Tông Kim Giám: 'Thấp chẩn mụn nước ngứa ngáy dầm dề, sơ phong hóa thấp'."
+  },
+  {
+    "id": "suy_dinh_duong_tre_em",
+    "name": "Trẻ Suy Dinh Dưỡng, Biếng Ăn (Cam Tích)",
+    "category": "Da Liễu & Dưỡng Sinh",
+    "icd_code": "E44",
+    "description": "Trẻ gầy còm trơ xương sườn nhưng bụng ỏng đít teo, biếng ăn hoặc ăn nhiều mà không lớn, tính tình cáu kỉnh khóc đêm. Đông y gọi là Cam Tích do Tỳ Vị hư suy.",
+    "points": [
+      "EX-UE10",
+      "ST36",
+      "CV12",
+      "BL20",
+      "BL21",
+      "SP6",
+      "CV6"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Thể Tỳ Hư Tích Trệ (Ăn không tiêu, bụng ỏng đít teo)",
+        "symptoms": "Bụng to trướng cứng, nổi gân xanh, chân tay khẳng khiu, da vàng bủng, đi ngoài phân sống hoặc phân sống chua, rêu trắng nhớt, chỉ mạch phù trệ.",
+        "treatment_principle": "Kiện tỳ hòa vị, tiêu cam hóa tích.",
+        "main_points": [
+          "EX-UE10",
+          "ST36",
+          "CV12",
+          "BL20"
+        ],
+        "adjunct_points": [
+          "SP6",
+          "BL21"
+        ],
+        "needle_technique": "CHÍCH NẶN DỊCH HUYỆT TỨ PHÙNG (EX-UE10): chích nhanh nặn giọt dịch vàng ở 4 kẽ ngón tay - đặc hiệu trị cam tích trẻ em.",
+        "clinical_notes": "Tẩy giun định kỳ, bổ sung kẽm và men vi sinh hỗ trợ tiêu hóa."
+      }
+    ],
+    "classic_reference": "Kỳ Hiệu Lương Phương: 'Trẻ cam tích bụng to gầy còm, chích nặn dịch Tứ Phùng khỏi ngay'."
+  },
+  {
+    "id": "duong_sinh_truong_tho",
+    "name": "Dưỡng Sinh Trường Thọ, Bồi Bổ Khí Huyết (Hư Lao)",
+    "category": "Da Liễu & Dưỡng Sinh",
+    "icd_code": "R53",
+    "description": "Nâng cao thể trạng, bồi bổ nguyên khí hậu thiên và tiên thiên, tăng cường hệ thống miễn dịch chống lại bệnh tật và làm chậm quá trình lão hóa.",
+    "points": [
+      "ST36",
+      "CV4",
+      "CV6",
+      "BL23",
+      "SP6",
+      "GV14",
+      "GV20",
+      "CV12",
+      "KI1"
+    ],
+    "syndromes": [
+      {
+        "syndrome_name": "Phác Đồ Đại Bổ Khí Huyết Tỳ Thận Hậu Thiên",
+        "symptoms": "Thể trạng suy nhược sau ốm, mệt mỏi mạn tính, người già yếu suy giảm miễn dịch, ăn ngủ kém, tinh thần giảm sút.",
+        "treatment_principle": "Kiện tỳ ích khí, bổ thận cố bản, bồi bổ tinh tủy, diên niên ích thọ.",
+        "main_points": [
+          "ST36",
+          "CV4",
+          "CV6",
+          "BL23",
+          "SP6"
+        ],
+        "adjunct_points": [
+          "GV20",
+          "GV14",
+          "CV12",
+          "KI1"
+        ],
+        "needle_technique": "Châm bổ kết hợp thường xuyên CỨU NGẢI ấm tại Túc Tam Lý (ST36), Quan Nguyên (CV4), Thần Khuyết (CV8).",
+        "clinical_notes": "Người xưa có câu: 'Nhược yếu an, Tam Lý thường bất can' - Cứu ngải Túc Tam Lý định kỳ giúp tăng cường bạch cầu và sức đề kháng."
+      }
+    ],
+    "classic_reference": "Thiên Kim Dưỡng Sinh Luận: 'Hàng ngày cứu Túc Tam Lý, Quan Nguyên thì trăm bệnh không sinh, sống lâu trăm tuổi'."
+  }
+]

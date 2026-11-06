@@ -1,0 +1,2180 @@
+{
+  "frontal-bone": {
+    "name_vi": "Xương trán",
+    "name_lat": "Os frontale",
+    "region": "head_neck",
+    "note": "Tạo trần ổ mắt và trán; Mốc huyệt: Dương Bạch (GB14), Đầu Duy (ST8), Đầu Lâm Khấp (GB15).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương trán",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-parietal-bone": {
+    "name_vi": "Xương đỉnh (phải)",
+    "name_lat": "Os parietale dextrum",
+    "region": "head_neck",
+    "note": "Tạo vòm sọ trên; Mốc huyệt: Bách Hội (GV20), Thông Thiên (BL7), Lạc Khước (BL8).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đỉnh (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-parietal-bone": {
+    "name_vi": "Xương đỉnh (trái)",
+    "name_lat": "Os parietale sinistrum",
+    "region": "head_neck",
+    "note": "Tạo vòm sọ trên; Mốc huyệt: Bách Hội (GV20), Thông Thiên (BL7), Lạc Khước (BL8).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đỉnh (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "occipital-bone": {
+    "name_vi": "Xương chẩm",
+    "name_lat": "Os occipitale",
+    "region": "head_neck",
+    "note": "Nền sọ sau, lỗ chẩm lớn; Mốc huyệt: Phong Trì (GB20), Á Môn (GV15), Phong Phủ (GV16), Ngọc Chẩm (BL9).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương chẩm",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-temporal-bone": {
+    "name_vi": "Xương thái dương (phải)",
+    "name_lat": "Os temporale dextrum",
+    "region": "head_neck",
+    "note": "Chứa cơ quan thính giác, mỏm chũm, mỏm trâm; Mốc huyệt: Ế Phong (TE17), Suất Cốc (GB8), Thính Cung (SI19).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thái dương (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-temporal-bone": {
+    "name_vi": "Xương thái dương (trái)",
+    "name_lat": "Os temporale sinistrum",
+    "region": "head_neck",
+    "note": "Chứa cơ quan thính giác, mỏm chũm, mỏm trâm; Mốc huyệt: Ế Phong (TE17), Suất Cốc (GB8), Thính Cung (SI19).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thái dương (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "sphenoid-bone": {
+    "name_vi": "Xương bướm",
+    "name_lat": "Os sphenoidale",
+    "region": "head_neck",
+    "note": "Nền sọ giữa, yên bướm chứa tuyến yên; Mốc huyệt: Thái Dương (EX-HN5).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bướm",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "ethmoid-bone": {
+    "name_vi": "Xương sàng",
+    "name_lat": "Os ethmoidale",
+    "region": "head_neck",
+    "note": "Mảnh sàng có lỗ cho dây thần kinh khứu giác I đi qua.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương sàng",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-nasal-bone": {
+    "name_vi": "Xương mũi (phải)",
+    "name_lat": "Os nasale dextrum",
+    "region": "head_neck",
+    "note": "Sống mũi; Mốc huyệt: Tố Liêu (GV25), Nghinh Hương (LI20), Toản Trúc (BL2).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương mũi (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-lacrimal-bone": {
+    "name_vi": "Xương lệ (phải)",
+    "name_lat": "Os lacrimale dextrum",
+    "region": "head_neck",
+    "note": "Thành trong ổ mắt; Mốc huyệt: Tình Minh (BL1).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương lệ (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-zygomatic-bone": {
+    "name_vi": "Xương gò má (phải)",
+    "name_lat": "Os zygomaticum dextrum",
+    "region": "head_neck",
+    "note": "Gò má & cung tiếp gò má; Mốc huyệt: Quyền Liêu (SI18), Hạ Quan (ST7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương gò má (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-maxilla": {
+    "name_vi": "Xương hàm trên (phải)",
+    "name_lat": "Maxilla dextrum",
+    "region": "head_neck",
+    "note": "Khối xương mặt trên, chứa xoang hàm; Mốc huyệt: Tứ Bạch (ST2), Cự Liêu (ST3), Địa Thương (ST4).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương hàm trên (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-palatine-bone": {
+    "name_vi": "Xương khẩu cái (phải)",
+    "name_lat": "Os palatinum dextrum",
+    "region": "head_neck",
+    "note": "Khẩu cái cứng (vòm miệng sau).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương khẩu cái (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "right-inferior-nasal-concha": {
+    "name_vi": "Xương xoăn mũi dưới (phải)",
+    "name_lat": "Concha nasalis inferior dextrum",
+    "region": "head_neck",
+    "note": "Xương xoăn ở hốc mũi dưới.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương xoăn mũi dưới (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-nasal-bone": {
+    "name_vi": "Xương mũi (trái)",
+    "name_lat": "Os nasale sinistrum",
+    "region": "head_neck",
+    "note": "Sống mũi; Mốc huyệt: Tố Liêu (GV25), Nghinh Hương (LI20), Toản Trúc (BL2).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương mũi (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-lacrimal-bone": {
+    "name_vi": "Xương lệ (trái)",
+    "name_lat": "Os lacrimale sinistrum",
+    "region": "head_neck",
+    "note": "Thành trong ổ mắt; Mốc huyệt: Tình Minh (BL1).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương lệ (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-zygomatic-bone": {
+    "name_vi": "Xương gò má (trái)",
+    "name_lat": "Os zygomaticum sinistrum",
+    "region": "head_neck",
+    "note": "Gò má & cung tiếp gò má; Mốc huyệt: Quyền Liêu (SI18), Hạ Quan (ST7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương gò má (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-maxilla": {
+    "name_vi": "Xương hàm trên (trái)",
+    "name_lat": "Maxilla sinistrum",
+    "region": "head_neck",
+    "note": "Khối xương mặt trên, chứa xoang hàm; Mốc huyệt: Tứ Bạch (ST2), Cự Liêu (ST3), Địa Thương (ST4).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương hàm trên (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-palatine-bone": {
+    "name_vi": "Xương khẩu cái (trái)",
+    "name_lat": "Os palatinum sinistrum",
+    "region": "head_neck",
+    "note": "Khẩu cái cứng (vòm miệng sau).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương khẩu cái (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "left-inferior-nasal-concha": {
+    "name_vi": "Xương xoăn mũi dưới (trái)",
+    "name_lat": "Concha nasalis inferior sinistrum",
+    "region": "head_neck",
+    "note": "Xương xoăn ở hốc mũi dưới.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương xoăn mũi dưới (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "vomer": {
+    "name_vi": "Xương lá mía",
+    "name_lat": "Vomer",
+    "region": "head_neck",
+    "note": "Vách ngăn mũi xương.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương lá mía",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "mandible": {
+    "name_vi": "Xương hàm dưới",
+    "name_lat": "Mandibula",
+    "region": "head_neck",
+    "note": "Xương vận động duy nhất vùng mặt; Mốc huyệt: Giáp Xa (ST6), Thừa Tương (CV24), Đại Nghinh (ST5).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương hàm dưới",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "hyoid-bone": {
+    "name_vi": "Xương móng",
+    "name_lat": "Os hyoideum",
+    "region": "head_neck",
+    "note": "Treo ở vùng cổ trước; Mốc huyệt: Liêm Tuyền (CV23).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương móng",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng head_neck"
+  },
+  "atlas-c1": {
+    "name_vi": "Đốt đội C1",
+    "name_lat": "Atlas (C1)",
+    "region": "vertebrae",
+    "note": "Đốt sống cổ 1 đỡ hộp sọ, xoay quanh mỏm răng C2; Mốc định vị: Thiên Trụ (BL10).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt đội C1",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "axis-c2": {
+    "name_vi": "Đốt trục C2",
+    "name_lat": "Axis (C2)",
+    "region": "vertebrae",
+    "note": "Có mỏm răng (dens) làm trục quay sọ não.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt trục C2",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "third-cervical-vertebra-c3": {
+    "name_vi": "Đốt sống cổ C3",
+    "name_lat": "Vertebra cervicalis III",
+    "region": "vertebrae",
+    "note": "Đốt sống cổ 3; Mốc huyệt Hoa Đà Giáp Ất vùng cổ.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống cổ C3",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "fourth-cervical-vertebra-c4": {
+    "name_vi": "Đốt sống cổ C4",
+    "name_lat": "Vertebra cervicalis IV",
+    "region": "vertebrae",
+    "note": "Đốt sống cổ 4; Nguyên uỷ dây thần kinh hoành C3-C5.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống cổ C4",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "fifth-cervical-vertebra-c5": {
+    "name_vi": "Đốt sống cổ C5",
+    "name_lat": "Vertebra cervicalis V",
+    "region": "vertebrae",
+    "note": "Đốt sống cổ 5; Rễ thần kinh chi phối cơ delta và cơ nhị đầu.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống cổ C5",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "sixth-cervical-vertebra-c6": {
+    "name_vi": "Đốt sống cổ C6",
+    "name_lat": "Vertebra cervicalis VI",
+    "region": "vertebrae",
+    "note": "Đốt sống cổ 6; Củ cảnh Chassaignac ép động mạch cảnh.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống cổ C6",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "seventh-cervical-vertebra-c7": {
+    "name_vi": "Đốt sống cổ C7 (Đốt lồi)",
+    "name_lat": "Vertebra prominens (C7)",
+    "region": "vertebrae",
+    "note": "Gai sau dài lồi rõ nhất gáy; Mốc huyệt quan trọng: Đại Chùy (GV14).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống cổ C7 (Đốt lồi)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "first-thoracic-vertebra-t1": {
+    "name_vi": "Đốt sống ngực T1",
+    "name_lat": "Vertebra thoracica I",
+    "region": "vertebrae",
+    "note": "Dưới gai T1: Huyệt Đào Đạo (GV13); ngang ra 1.5 thốn: Đại Trữ (BL11).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T1",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "second-thoracic-vertebra-t2": {
+    "name_vi": "Đốt sống ngực T2",
+    "name_lat": "Vertebra thoracica II",
+    "region": "vertebrae",
+    "note": "Ngang ra 1.5 thốn: Phong Môn (BL12 - cửa ngõ phong tà).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T2",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "third-thoracic-vertebra-t3": {
+    "name_vi": "Đốt sống ngực T3",
+    "name_lat": "Vertebra thoracica III",
+    "region": "vertebrae",
+    "note": "Dưới gai T3: Huyệt Thân Trụ (GV12); ngang ra 1.5 thốn: Phế Du (BL13).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T3",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "fourth-thoracic-vertebra-t4": {
+    "name_vi": "Đốt sống ngực T4",
+    "name_lat": "Vertebra thoracica IV",
+    "region": "vertebrae",
+    "note": "Ngang ra 1.5 thốn: Quyết Âm Du (BL14 - Mộ Tâm Bào).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T4",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "fifth-thoracic-vertebra-t5": {
+    "name_vi": "Đốt sống ngực T5",
+    "name_lat": "Vertebra thoracica V",
+    "region": "vertebrae",
+    "note": "Dưới gai T5: Huyệt Thần Đạo (GV11); ngang ra 1.5 thốn: Tâm Du (BL15).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T5",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "sixth-thoracic-vertebra-t6": {
+    "name_vi": "Đốt sống ngực T6",
+    "name_lat": "Vertebra thoracica VI",
+    "region": "vertebrae",
+    "note": "Dưới gai T6: Huyệt Linh Đài (GV10); ngang ra 1.5 thốn: Đốc Du (BL16).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T6",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "seventh-thoracic-vertebra-t7": {
+    "name_vi": "Đốt sống ngực T7",
+    "name_lat": "Vertebra thoracica VII",
+    "region": "vertebrae",
+    "note": "Ngang góc dưới xương bả vai; Dưới gai: Chí Dương (GV9); ngang ra: Cách Du (BL17 - Huyết hội).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T7",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "eighth-thoracic-vertebra-t8": {
+    "name_vi": "Đốt sống ngực T8",
+    "name_lat": "Vertebra thoracica VIII",
+    "region": "vertebrae",
+    "note": "Ngang ra 1.5 thốn: Tụy Du (Vi Hoàn Du - trị tiểu đường).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T8",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "ninth-thoracic-vertebra-t9": {
+    "name_vi": "Đốt sống ngực T9",
+    "name_lat": "Vertebra thoracica IX",
+    "region": "vertebrae",
+    "note": "Dưới gai T9: Huyệt Cân Súc (GV8); ngang ra: Can Du (BL18).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T9",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "tenth-thoracic-vertebra-t10": {
+    "name_vi": "Đốt sống ngực T10",
+    "name_lat": "Vertebra thoracica X",
+    "region": "vertebrae",
+    "note": "Dưới gai T10: Huyệt Trung Khu (GV7); ngang ra: Đởm Du (BL19).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T10",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "eleventh-thoracic-vertebra-t11": {
+    "name_vi": "Đốt sống ngực T11",
+    "name_lat": "Vertebra thoracica XI",
+    "region": "vertebrae",
+    "note": "Dưới gai T11: Huyệt Tích Trung (GV6); ngang ra: Tỳ Du (BL20).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T11",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "twelfth-thoracic-vertebra-t12": {
+    "name_vi": "Đốt sống ngực T12",
+    "name_lat": "Vertebra thoracica XII",
+    "region": "vertebrae",
+    "note": "Dưới gai T12: Huyệt Vị Thương; ngang ra: Vị Du (BL21).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống ngực T12",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "first-lumbar-vertebra-l1": {
+    "name_vi": "Đốt sống thắt lưng L1",
+    "name_lat": "Vertebra lumbalis I",
+    "region": "vertebrae",
+    "note": "Dưới gai L1: Huyệt Huyền Khu (GV5); ngang ra: Tam Tiêu Du (BL22).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống thắt lưng L1",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "second-lumbar-vertebra-l2": {
+    "name_vi": "Đốt sống thắt lưng L2",
+    "name_lat": "Vertebra lumbalis II",
+    "region": "vertebrae",
+    "note": "Dưới gai L2: Mệnh Môn (GV4 - Cội nguồn chân hỏa); ngang ra: Thận Du (BL23), Chí Thất (BL52).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống thắt lưng L2",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "third-lumbar-vertebra-l3": {
+    "name_vi": "Đốt sống thắt lưng L3",
+    "name_lat": "Vertebra lumbalis III",
+    "region": "vertebrae",
+    "note": "Ngang mỏm ngang L3 dài nhất cột sống thắt lưng; Ngang ra: Khí Hải Du (BL24).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống thắt lưng L3",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "fourth-lumbar-vertebra-l4": {
+    "name_vi": "Đốt sống thắt lưng L4",
+    "name_lat": "Vertebra lumbalis IV",
+    "region": "vertebrae",
+    "note": "Ngang mào chậu (Đường Tuffier); Dưới gai: Yêu Dương Quan (GV3); ngang ra: Đại Trường Du (BL25).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống thắt lưng L4",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "fifth-lumbar-vertebra-l5": {
+    "name_vi": "Đốt sống thắt lưng L5",
+    "name_lat": "Vertebra lumbalis V",
+    "region": "vertebrae",
+    "note": "Dưới gai L5: Huyệt Thập Thất S錐; ngang ra: Quan Nguyên Du (BL26).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đốt sống thắt lưng L5",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "sacrum": {
+    "name_vi": "Khung xương cùng",
+    "name_lat": "Os sacrum",
+    "region": "vertebrae",
+    "note": "5 đốt cùng hợp nhất; Có 8 lỗ cùng: Bát Liêu (Thượng Liêu, Thứ Liêu, Trung Liêu, Hạ Liêu BL31-BL34).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Khung xương cùng",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-c2-c3": {
+    "name_vi": "Đĩa đệm gian đốt sống C2-C3",
+    "name_lat": "Discus intervertebralis C2-C3",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống C2-C3",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-c3-c4": {
+    "name_vi": "Đĩa đệm gian đốt sống C3-C4",
+    "name_lat": "Discus intervertebralis C3-C4",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống C3-C4",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-c4-c5": {
+    "name_vi": "Đĩa đệm gian đốt sống C4-C5",
+    "name_lat": "Discus intervertebralis C4-C5",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống C4-C5",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-c5-c6": {
+    "name_vi": "Đĩa đệm gian đốt sống C5-C6",
+    "name_lat": "Discus intervertebralis C5-C6",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống C5-C6",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-c6-c7": {
+    "name_vi": "Đĩa đệm gian đốt sống C6-C7",
+    "name_lat": "Discus intervertebralis C6-C7",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống C6-C7",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-c7-t1": {
+    "name_vi": "Đĩa đệm gian đốt sống C7-T1",
+    "name_lat": "Discus intervertebralis C7-T1",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống C7-T1",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t1-t2": {
+    "name_vi": "Đĩa đệm gian đốt sống T1-T2",
+    "name_lat": "Discus intervertebralis T1-T2",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T1-T2",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t2-t3": {
+    "name_vi": "Đĩa đệm gian đốt sống T2-T3",
+    "name_lat": "Discus intervertebralis T2-T3",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T2-T3",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t3-t4": {
+    "name_vi": "Đĩa đệm gian đốt sống T3-T4",
+    "name_lat": "Discus intervertebralis T3-T4",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T3-T4",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t4-t5": {
+    "name_vi": "Đĩa đệm gian đốt sống T4-T5",
+    "name_lat": "Discus intervertebralis T4-T5",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T4-T5",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t5-t6": {
+    "name_vi": "Đĩa đệm gian đốt sống T5-T6",
+    "name_lat": "Discus intervertebralis T5-T6",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T5-T6",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t6-t7": {
+    "name_vi": "Đĩa đệm gian đốt sống T6-T7",
+    "name_lat": "Discus intervertebralis T6-T7",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T6-T7",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t7-t8": {
+    "name_vi": "Đĩa đệm gian đốt sống T7-T8",
+    "name_lat": "Discus intervertebralis T7-T8",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T7-T8",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t8-t9": {
+    "name_vi": "Đĩa đệm gian đốt sống T8-T9",
+    "name_lat": "Discus intervertebralis T8-T9",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T8-T9",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t9-t10": {
+    "name_vi": "Đĩa đệm gian đốt sống T9-T10",
+    "name_lat": "Discus intervertebralis T9-T10",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T9-T10",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t10-t11": {
+    "name_vi": "Đĩa đệm gian đốt sống T10-T11",
+    "name_lat": "Discus intervertebralis T10-T11",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T10-T11",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t11-t12": {
+    "name_vi": "Đĩa đệm gian đốt sống T11-T12",
+    "name_lat": "Discus intervertebralis T11-T12",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T11-T12",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-t12-l1": {
+    "name_vi": "Đĩa đệm gian đốt sống T12-L1",
+    "name_lat": "Discus intervertebralis T12-L1",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống T12-L1",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-l1-l2": {
+    "name_vi": "Đĩa đệm gian đốt sống L1-L2",
+    "name_lat": "Discus intervertebralis L1-L2",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống L1-L2",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-l2-l3": {
+    "name_vi": "Đĩa đệm gian đốt sống L2-L3",
+    "name_lat": "Discus intervertebralis L2-L3",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống L2-L3",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-l3-l4": {
+    "name_vi": "Đĩa đệm gian đốt sống L3-L4",
+    "name_lat": "Discus intervertebralis L3-L4",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống L3-L4",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-l4-l5": {
+    "name_vi": "Đĩa đệm gian đốt sống L4-L5",
+    "name_lat": "Discus intervertebralis L4-L5",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống L4-L5",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "intervertebral-disc-l5-s1": {
+    "name_vi": "Đĩa đệm gian đốt sống L5-S1",
+    "name_lat": "Discus intervertebralis L5-S1",
+    "region": "vertebrae",
+    "note": "Gồm nhân nhầy (nucleus pulposus) và vòng sợi (anulus fibrosus), hấp thu chấn động cột sống.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Đĩa đệm gian đốt sống L5-S1",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng vertebrae"
+  },
+  "manubrium-of-sternum": {
+    "name_vi": "Cán xương ức",
+    "name_lat": "Manubrium sterni",
+    "region": "thorax",
+    "note": "Khuyết cảnh trên cán ức: Huyệt Thiên Đột (CV22); Góc ức Louis: Ngang khoang gian sườn 2.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Cán xương ức",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng thorax"
+  },
+  "body-of-sternum": {
+    "name_vi": "Thân xương ức",
+    "name_lat": "Corpus sterni",
+    "region": "thorax",
+    "note": "Tạo thành ngực trước; Đường dọc giữa ức là mạch Nhâm: Đản Trung (CV17), Ngọc Đường (CV18), Tử Cung (CV19).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Thân xương ức",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng thorax"
+  },
+  "xiphoid-process": {
+    "name_vi": "Mỏm mũi kiếm xương ức",
+    "name_lat": "Processus xiphoideus",
+    "region": "thorax",
+    "note": "Khớp cán - mũi kiếm ức: Huyệt Cự Khuyết (CV14), Cưu Vĩ (CV15).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Mỏm mũi kiếm xương ức",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng thorax"
+  },
+  "right-first-rib": {
+    "name_vi": "Xương sườn 1 (phải)",
+    "name_lat": "Costa I (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Củ cơ bậc thang trước (Lisfranc), rãnh ĐM dưới đòn",
+    "note": "Tạo lỗ trên lồng ngực, bảo vệ đỉnh phổi và đám rối thần kinh cánh tay.",
+    "acupoints": "Khí Hộ (ST13), Du Phủ (KI27), Vân Môn (LU2 bờ dưới xương đòn trên sườn 1)"
+  },
+  "right-second-rib": {
+    "name_vi": "Xương sườn 2 (phải)",
+    "name_lat": "Costa II (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Lồi củ cơ răng trước, diện khớp góc ức Louis",
+    "note": "Mốc đếm khoang gian sườn lâm sàng quan trọng nhất.",
+    "acupoints": "Khố Phòng (ST14), Thần Tàng (KI25), tiếp khớp góc ức Louis"
+  },
+  "right-third-rib": {
+    "name_vi": "Xương sườn 3 (phải)",
+    "name_lat": "Costa III (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Rãnh sườn bờ dưới chứa bó mạch gian sườn 3",
+    "note": "Bảo vệ quai động mạch chủ và các mạch máu lớn trung thất.",
+    "acupoints": "Ốc Ế (ST15), Linh Khư (KI24), Ngực Hương (SP16)"
+  },
+  "right-fourth-rib": {
+    "name_vi": "Xương sườn 4 (phải)",
+    "name_lat": "Costa IV (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Rãnh sườn ở bờ dưới chứa bó mạch gian sườn 4; lồi củ sườn khớp mỏm ngang T4",
+    "note": "Bảo vệ tim phổi và tham gia cơ chế giãn nở lồng ngực khi hít thở.",
+    "acupoints": "Đản Trung (CV17), Nhũ Trung (ST17), Thiên Trì (PC1), Thần Phong (KI23), Uyên Dịch (GB22)"
+  },
+  "right-fifth-rib": {
+    "name_vi": "Xương sườn 5 (phải)",
+    "name_lat": "Costa V (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Diện bám cơ răng trước và cơ chéo bụng ngoài",
+    "note": "Nâng đỡ đáy tim và vòm hoành.",
+    "acupoints": "Nhũ Căn (ST18), Bộ Lang (KI22), Thực Đậu (SP17)"
+  },
+  "right-sixth-rib": {
+    "name_vi": "Xương sườn 6 (phải)",
+    "name_lat": "Costa VI (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Tiếp khớp sụn sườn 6 đổ về xương ức",
+    "note": "Giới hạn dưới của màng phổi và tim.",
+    "acupoints": "Kỳ Môn (LR14 - Mộ Can, khoang gian sườn 6 đường trung đòn)"
+  },
+  "right-seventh-rib": {
+    "name_vi": "Xương sườn 7 (phải)",
+    "name_lat": "Costa VII (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Xương sườn thật dài nhất trong 12 đôi xương sườn",
+    "note": "Tạo biên độ hô hấp lồng ngực lớn nhất.",
+    "acupoints": "Nhật Nguyệt (GB24 - Mộ Đởm, khoang gian sườn 7 đường trung đòn)"
+  },
+  "right-eighth-rib": {
+    "name_vi": "Xương sườn 8 (phải)",
+    "name_lat": "Costa VIII (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Sườn giả, đầu trước bám vào sụn sườn 7 ở trên",
+    "note": "Bảo vệ nhu mô gan bên phải và lách bên trái.",
+    "acupoints": "Đại Bao (SP21 - Đại Lạc của Tỳ, bờ sườn đường nách giữa)"
+  },
+  "right-ninth-rib": {
+    "name_vi": "Xương sườn 9 (phải)",
+    "name_lat": "Costa IX (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Tham gia tạo nên bờ sườn (Costal margin)",
+    "note": "Bảo vệ túi mật và góc đại tràng.",
+    "acupoints": "Phúc Ai (SP16), mốc xác định Can Du (BL18) ở lưng"
+  },
+  "right-tenth-rib": {
+    "name_vi": "Xương sườn 10 (phải)",
+    "name_lat": "Costa X (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Điểm thấp nhất của bờ sườn trước lồng ngực",
+    "note": "Bảo vệ thận và tuyến thượng thận.",
+    "acupoints": "Mốc phân vùng bụng mặt phẳng dưới sườn L3"
+  },
+  "right-eleventh-rib": {
+    "name_vi": "Xương sườn 11 (phải)",
+    "name_lat": "Costa XI (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Sườn lơ lửng, đầu trước tự do hoàn toàn",
+    "note": "Cử động tự do bảo vệ thành bụng bên và thận.",
+    "acupoints": "Chương Môn (LR13 - Mộ Tỳ, Hội của Tạng, tại đầu tự do sườn 11)"
+  },
+  "right-twelfth-rib": {
+    "name_vi": "Xương sườn 12 (phải)",
+    "name_lat": "Costa XII (dextra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Sườn lơ lửng ngắn và thẳng nhất, đầu trước tự do",
+    "note": "Bám cơ vuông thắt lưng, che chắn cực dưới của thận.",
+    "acupoints": "Kinh Môn (GB25 - Mộ Thận, tại đầu tự do sườn 12)"
+  },
+  "left-first-rib": {
+    "name_vi": "Xương sườn 1 (trái)",
+    "name_lat": "Costa I (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Củ cơ bậc thang trước (Lisfranc), rãnh ĐM dưới đòn",
+    "note": "Tạo lỗ trên lồng ngực, bảo vệ đỉnh phổi và đám rối thần kinh cánh tay.",
+    "acupoints": "Khí Hộ (ST13), Du Phủ (KI27), Vân Môn (LU2 bờ dưới xương đòn trên sườn 1)"
+  },
+  "left-second-rib": {
+    "name_vi": "Xương sườn 2 (trái)",
+    "name_lat": "Costa II (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Lồi củ cơ răng trước, diện khớp góc ức Louis",
+    "note": "Mốc đếm khoang gian sườn lâm sàng quan trọng nhất.",
+    "acupoints": "Khố Phòng (ST14), Thần Tàng (KI25), tiếp khớp góc ức Louis"
+  },
+  "left-third-rib": {
+    "name_vi": "Xương sườn 3 (trái)",
+    "name_lat": "Costa III (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Rãnh sườn bờ dưới chứa bó mạch gian sườn 3",
+    "note": "Bảo vệ quai động mạch chủ và các mạch máu lớn trung thất.",
+    "acupoints": "Ốc Ế (ST15), Linh Khư (KI24), Ngực Hương (SP16)"
+  },
+  "left-fourth-rib": {
+    "name_vi": "Xương sườn 4 (trái)",
+    "name_lat": "Costa IV (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Rãnh sườn ở bờ dưới chứa bó mạch gian sườn 4; lồi củ sườn khớp mỏm ngang T4",
+    "note": "Bảo vệ tim phổi và tham gia cơ chế giãn nở lồng ngực khi hít thở.",
+    "acupoints": "Đản Trung (CV17), Nhũ Trung (ST17), Thiên Trì (PC1), Thần Phong (KI23), Uyên Dịch (GB22)"
+  },
+  "left-fifth-rib": {
+    "name_vi": "Xương sườn 5 (trái)",
+    "name_lat": "Costa V (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Diện bám cơ răng trước và cơ chéo bụng ngoài",
+    "note": "Nâng đỡ đáy tim và vòm hoành.",
+    "acupoints": "Nhũ Căn (ST18), Bộ Lang (KI22), Thực Đậu (SP17)"
+  },
+  "left-sixth-rib": {
+    "name_vi": "Xương sườn 6 (trái)",
+    "name_lat": "Costa VI (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Tiếp khớp sụn sườn 6 đổ về xương ức",
+    "note": "Giới hạn dưới của màng phổi và tim.",
+    "acupoints": "Kỳ Môn (LR14 - Mộ Can, khoang gian sườn 6 đường trung đòn)"
+  },
+  "left-seventh-rib": {
+    "name_vi": "Xương sườn 7 (trái)",
+    "name_lat": "Costa VII (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Xương sườn thật dài nhất trong 12 đôi xương sườn",
+    "note": "Tạo biên độ hô hấp lồng ngực lớn nhất.",
+    "acupoints": "Nhật Nguyệt (GB24 - Mộ Đởm, khoang gian sườn 7 đường trung đòn)"
+  },
+  "left-eighth-rib": {
+    "name_vi": "Xương sườn 8 (trái)",
+    "name_lat": "Costa VIII (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Sườn giả, đầu trước bám vào sụn sườn 7 ở trên",
+    "note": "Bảo vệ nhu mô gan bên phải và lách bên trái.",
+    "acupoints": "Đại Bao (SP21 - Đại Lạc của Tỳ, bờ sườn đường nách giữa)"
+  },
+  "left-ninth-rib": {
+    "name_vi": "Xương sườn 9 (trái)",
+    "name_lat": "Costa IX (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Tham gia tạo nên bờ sườn (Costal margin)",
+    "note": "Bảo vệ túi mật và góc đại tràng.",
+    "acupoints": "Phúc Ai (SP16), mốc xác định Can Du (BL18) ở lưng"
+  },
+  "left-tenth-rib": {
+    "name_vi": "Xương sườn 10 (trái)",
+    "name_lat": "Costa X (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Điểm thấp nhất của bờ sườn trước lồng ngực",
+    "note": "Bảo vệ thận và tuyến thượng thận.",
+    "acupoints": "Mốc phân vùng bụng mặt phẳng dưới sườn L3"
+  },
+  "left-eleventh-rib": {
+    "name_vi": "Xương sườn 11 (trái)",
+    "name_lat": "Costa XI (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Sườn lơ lửng, đầu trước tự do hoàn toàn",
+    "note": "Cử động tự do bảo vệ thành bụng bên và thận.",
+    "acupoints": "Chương Môn (LR13 - Mộ Tỳ, Hội của Tạng, tại đầu tự do sườn 11)"
+  },
+  "left-twelfth-rib": {
+    "name_vi": "Xương sườn 12 (trái)",
+    "name_lat": "Costa XII (sinistra)",
+    "region": "thorax",
+    "type": "Xương dẹt cong hình cung thuộc lồng ngực",
+    "landmarks": "Sườn lơ lửng ngắn và thẳng nhất, đầu trước tự do",
+    "note": "Bám cơ vuông thắt lưng, che chắn cực dưới của thận.",
+    "acupoints": "Kinh Môn (GB25 - Mộ Thận, tại đầu tự do sườn 12)"
+  },
+  "right-first-costal-cartilage": {
+    "name_vi": "Sụn sườn 1 (phải)",
+    "name_lat": "Cartilago costalis I (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 1, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 1 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 1 giáp xương ức: Khí Hộ (ST13), Du Phủ (KI27)"
+  },
+  "right-second-costal-cartilage": {
+    "name_vi": "Sụn sườn 2 (phải)",
+    "name_lat": "Cartilago costalis II (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 2, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 2 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 2 giáp xương ức: Khố Phòng (ST14), Thần Tàng (KI25), khớp góc ức Louis"
+  },
+  "right-third-costal-cartilage": {
+    "name_vi": "Sụn sườn 3 (phải)",
+    "name_lat": "Cartilago costalis III (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 3, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 3 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 3 giáp xương ức: Ốc Ế (ST15), Linh Khư (KI24)"
+  },
+  "right-fourth-costal-cartilage": {
+    "name_vi": "Sụn sườn 4 (phải)",
+    "name_lat": "Cartilago costalis IV (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 4, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 4 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 4 giáp xương ức: Đản Trung (CV17), Thần Phong (KI23)"
+  },
+  "right-fifth-costal-cartilage": {
+    "name_vi": "Sụn sườn 5 (phải)",
+    "name_lat": "Cartilago costalis V (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 5, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 5 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 5 giáp xương ức: Nhũ Căn (ST18), Bộ Lang (KI22)"
+  },
+  "right-sixth-costal-cartilage": {
+    "name_vi": "Sụn sườn 6 (phải)",
+    "name_lat": "Cartilago costalis VI (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 6, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 6 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 6 giáp xương ức: Kỳ Môn (LR14)"
+  },
+  "right-seventh-costal-cartilage": {
+    "name_vi": "Sụn sườn 7 (phải)",
+    "name_lat": "Cartilago costalis VII (dextra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 7, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 7 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 7 giáp xương ức: Nhật Nguyệt (GB24), Cưu Vĩ (CV15)"
+  },
+  "right-lower-costal-cartilages": {
+    "name_vi": "Khối sụn sườn dưới (phải)",
+    "name_lat": "Arcus costalis cartilagineus (dextra)",
+    "region": "thorax",
+    "type": "Khối sụn sườn hợp lưu (Vòm sụn bờ sườn)",
+    "landmarks": "Hợp lưu của sụn sườn 8, 9, 10 bám vào bờ dưới sụn sườn 7",
+    "note": "Tạo thành bờ sườn (costal margin) và góc dưới ức, bảo vệ tạng phần bụng trên.",
+    "acupoints": "U Môn (KI21), Thông Cốc (KI20), Bất Dung (ST19), Thừa Mãn (ST20)"
+  },
+  "left-first-costal-cartilage": {
+    "name_vi": "Sụn sườn 1 (trái)",
+    "name_lat": "Cartilago costalis I (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 1, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 1 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 1 giáp xương ức: Khí Hộ (ST13), Du Phủ (KI27)"
+  },
+  "left-second-costal-cartilage": {
+    "name_vi": "Sụn sườn 2 (trái)",
+    "name_lat": "Cartilago costalis II (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 2, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 2 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 2 giáp xương ức: Khố Phòng (ST14), Thần Tàng (KI25), khớp góc ức Louis"
+  },
+  "left-third-costal-cartilage": {
+    "name_vi": "Sụn sườn 3 (trái)",
+    "name_lat": "Cartilago costalis III (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 3, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 3 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 3 giáp xương ức: Ốc Ế (ST15), Linh Khư (KI24)"
+  },
+  "left-fourth-costal-cartilage": {
+    "name_vi": "Sụn sườn 4 (trái)",
+    "name_lat": "Cartilago costalis IV (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 4, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 4 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 4 giáp xương ức: Đản Trung (CV17), Thần Phong (KI23)"
+  },
+  "left-fifth-costal-cartilage": {
+    "name_vi": "Sụn sườn 5 (trái)",
+    "name_lat": "Cartilago costalis V (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 5, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 5 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 5 giáp xương ức: Nhũ Căn (ST18), Bộ Lang (KI22)"
+  },
+  "left-sixth-costal-cartilage": {
+    "name_vi": "Sụn sườn 6 (trái)",
+    "name_lat": "Cartilago costalis VI (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 6, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 6 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 6 giáp xương ức: Kỳ Môn (LR14)"
+  },
+  "left-seventh-costal-cartilage": {
+    "name_vi": "Sụn sườn 7 (trái)",
+    "name_lat": "Cartilago costalis VII (sinistra)",
+    "region": "thorax",
+    "type": "Cấu trúc sụn trong (Hyaline cartilage) đàn hồi cao",
+    "landmarks": "Đầu ngoài tiếp khớp xương sườn 7, đầu trong tiếp khớp bờ ngoài xương ức",
+    "note": "Khớp nối bán động giữa xương sườn 7 và xương ức, triệt tiêu xung chấn trước lồng ngực.",
+    "acupoints": "Bờ ngoài sụn sườn 7 giáp xương ức: Nhật Nguyệt (GB24), Cưu Vĩ (CV15)"
+  },
+  "left-lower-costal-cartilages": {
+    "name_vi": "Khối sụn sườn dưới (trái)",
+    "name_lat": "Arcus costalis cartilagineus (sinistra)",
+    "region": "thorax",
+    "type": "Khối sụn sườn hợp lưu (Vòm sụn bờ sườn)",
+    "landmarks": "Hợp lưu của sụn sườn 8, 9, 10 bám vào bờ dưới sụn sườn 7",
+    "note": "Tạo thành bờ sườn (costal margin) và góc dưới ức, bảo vệ tạng phần bụng trên.",
+    "acupoints": "U Môn (KI21), Thông Cốc (KI20), Bất Dung (ST19), Thừa Mãn (ST20)"
+  },
+  "right-clavicle": {
+    "name_vi": "Xương đòn (phải)",
+    "name_lat": "Clavicula dextrum",
+    "region": "upper_limb",
+    "note": "Hố trên đòn: Khuyết Bồn (ST12); Bờ dưới đòn: Khí Hộ (ST13), Vân Môn (LU2), Du Phủ (KI27).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đòn (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-scapula": {
+    "name_vi": "Xương bả vai (phải)",
+    "name_lat": "Scapula dextrum",
+    "region": "upper_limb",
+    "note": "Gai vai: Kiên Tỉnh (GB21), Thiên Liêu (TE15); Hố trên gai: Khúc Viên (SI13); Hố dưới gai: Thiên Tông (SI11).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bả vai (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-humerus": {
+    "name_vi": "Xương cánh tay (phải)",
+    "name_lat": "Humerus dextrum",
+    "region": "upper_limb",
+    "note": "Mỏm cùng vai: Kiên Ngung (LI15); Củ lớn cánh tay: Nhu Du (SI10); Rãnh nhị đầu: Thiên Phủ (LU3).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương cánh tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-radius": {
+    "name_vi": "Xương quay (phải)",
+    "name_lat": "Radius dextrum",
+    "region": "upper_limb",
+    "note": "Chỏm quay: Khúc Trì (LI11); Mỏm trâm quay: Liệt Khuyết (LU7), Thái Uyên (LU9).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương quay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-ulna": {
+    "name_vi": "Xương trụ (phải)",
+    "name_lat": "Ulna dextrum",
+    "region": "upper_limb",
+    "note": "Mỏm khuỷu: Trúc Trạch; Rãnh thần kinh trụ: Tiểu Hải (SI8); Mỏm trâm trụ: Dương Cốc (SI5), Thần Môn (HT7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương trụ (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-scaphoid": {
+    "name_vi": "Xương thuyền tay (phải)",
+    "name_lat": "Os scaphoideum dextrum",
+    "region": "upper_limb",
+    "note": "Đáy hõm lào giải phẫu (Anatomical snuffbox); Huyệt Dương Khê (LI5).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thuyền tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-lunate": {
+    "name_vi": "Xương nguyệt (phải)",
+    "name_lat": "Os lunatum dextrum",
+    "region": "upper_limb",
+    "note": "Xương cổ tay trung tâm; Huyệt Đại Lăng (PC7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương nguyệt (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-triquetral": {
+    "name_vi": "Xương tháp tay (phải)",
+    "name_lat": "Os triquetrum dextrum",
+    "region": "upper_limb",
+    "note": "Xương bờ trụ cổ tay; Huyệt Dương Trì (TE4).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương tháp tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-pisiform": {
+    "name_vi": "Xương đậu (phải)",
+    "name_lat": "Os pisiforme dextrum",
+    "region": "upper_limb",
+    "note": "Xương vừng cổ tay bờ trụ; Điểm mốc huyệt Thần Môn (HT7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đậu (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-trapezium": {
+    "name_vi": "Xương thang (phải)",
+    "name_lat": "Os trapezium dextrum",
+    "region": "upper_limb",
+    "note": "Khớp bàn ngón tay cái.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thang (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-trapezoid": {
+    "name_vi": "Xương thê (phải)",
+    "name_lat": "Os trapezoideum dextrum",
+    "region": "upper_limb",
+    "note": "Xương khối cổ tay.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thê (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-capitate": {
+    "name_vi": "Xương cả (phải)",
+    "name_lat": "Os capitatum dextrum",
+    "region": "upper_limb",
+    "note": "Xương lớn nhất khối cổ tay.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương cả (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-hamate": {
+    "name_vi": "Xương móc (phải)",
+    "name_lat": "Os hamatum dextrum",
+    "region": "upper_limb",
+    "note": "Móc xương móc bảo vệ thần kinh trụ; Huyệt Thiếu Phủ (HT8).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương móc (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-first-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (phải)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-second-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (phải)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-third-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (phải)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-fourth-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (phải)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-fifth-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (phải)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "right-thumb-proximal-phalanx": {
+    "name_vi": "Xương đốt gần ngón cái tay (phải)",
+    "name_lat": "Phalanx proximalis pollicis dextri",
+    "region": "forearm_hand",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-index-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-middle-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-ring-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-little-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-index-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-middle-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-ring-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-little-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-thumb-distal-phalanx": {
+    "name_vi": "Xương đốt xa ngón cái tay (phải)",
+    "name_lat": "Phalanx distalis pollicis dextri",
+    "region": "forearm_hand",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-index-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-middle-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-ring-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-little-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (phải)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-clavicle": {
+    "name_vi": "Xương đòn (trái)",
+    "name_lat": "Clavicula sinistrum",
+    "region": "upper_limb",
+    "note": "Hố trên đòn: Khuyết Bồn (ST12); Bờ dưới đòn: Khí Hộ (ST13), Vân Môn (LU2), Du Phủ (KI27).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đòn (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-scapula": {
+    "name_vi": "Xương bả vai (trái)",
+    "name_lat": "Scapula sinistrum",
+    "region": "upper_limb",
+    "note": "Gai vai: Kiên Tỉnh (GB21), Thiên Liêu (TE15); Hố trên gai: Khúc Viên (SI13); Hố dưới gai: Thiên Tông (SI11).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bả vai (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-humerus": {
+    "name_vi": "Xương cánh tay (trái)",
+    "name_lat": "Humerus sinistrum",
+    "region": "upper_limb",
+    "note": "Mỏm cùng vai: Kiên Ngung (LI15); Củ lớn cánh tay: Nhu Du (SI10); Rãnh nhị đầu: Thiên Phủ (LU3).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương cánh tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-radius": {
+    "name_vi": "Xương quay (trái)",
+    "name_lat": "Radius sinistrum",
+    "region": "upper_limb",
+    "note": "Chỏm quay: Khúc Trì (LI11); Mỏm trâm quay: Liệt Khuyết (LU7), Thái Uyên (LU9).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương quay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-ulna": {
+    "name_vi": "Xương trụ (trái)",
+    "name_lat": "Ulna sinistrum",
+    "region": "upper_limb",
+    "note": "Mỏm khuỷu: Trúc Trạch; Rãnh thần kinh trụ: Tiểu Hải (SI8); Mỏm trâm trụ: Dương Cốc (SI5), Thần Môn (HT7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương trụ (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-scaphoid": {
+    "name_vi": "Xương thuyền tay (trái)",
+    "name_lat": "Os scaphoideum sinistrum",
+    "region": "upper_limb",
+    "note": "Đáy hõm lào giải phẫu (Anatomical snuffbox); Huyệt Dương Khê (LI5).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thuyền tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-lunate": {
+    "name_vi": "Xương nguyệt (trái)",
+    "name_lat": "Os lunatum sinistrum",
+    "region": "upper_limb",
+    "note": "Xương cổ tay trung tâm; Huyệt Đại Lăng (PC7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương nguyệt (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-triquetral": {
+    "name_vi": "Xương tháp tay (trái)",
+    "name_lat": "Os triquetrum sinistrum",
+    "region": "upper_limb",
+    "note": "Xương bờ trụ cổ tay; Huyệt Dương Trì (TE4).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương tháp tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-pisiform": {
+    "name_vi": "Xương đậu (trái)",
+    "name_lat": "Os pisiforme sinistrum",
+    "region": "upper_limb",
+    "note": "Xương vừng cổ tay bờ trụ; Điểm mốc huyệt Thần Môn (HT7).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đậu (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-trapezium": {
+    "name_vi": "Xương thang (trái)",
+    "name_lat": "Os trapezium sinistrum",
+    "region": "upper_limb",
+    "note": "Khớp bàn ngón tay cái.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thang (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-trapezoid": {
+    "name_vi": "Xương thê (trái)",
+    "name_lat": "Os trapezoideum sinistrum",
+    "region": "upper_limb",
+    "note": "Xương khối cổ tay.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thê (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-capitate": {
+    "name_vi": "Xương cả (trái)",
+    "name_lat": "Os capitatum sinistrum",
+    "region": "upper_limb",
+    "note": "Xương lớn nhất khối cổ tay.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương cả (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-hamate": {
+    "name_vi": "Xương móc (trái)",
+    "name_lat": "Os hamatum sinistrum",
+    "region": "upper_limb",
+    "note": "Móc xương móc bảo vệ thần kinh trụ; Huyệt Thiếu Phủ (HT8).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương móc (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-first-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (trái)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-second-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (trái)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-third-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (trái)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-fourth-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (trái)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-fifth-metacarpal-bone": {
+    "name_vi": "Xương bàn tay (trái)",
+    "name_lat": "Os metacarpale",
+    "region": "upper_limb",
+    "note": "Huyệt Hợp Cốc (LI4) nằm giữa xương bàn 1 và 2; Lao Cung (PC8) nằm giữa xương bàn 2 và 3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn tay (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng upper_limb"
+  },
+  "left-thumb-proximal-phalanx": {
+    "name_vi": "Xương đốt gần ngón cái tay (trái)",
+    "name_lat": "Phalanx proximalis pollicis sinistri",
+    "region": "forearm_hand",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-index-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-middle-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-ring-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-little-finger-proximal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-index-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-middle-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-ring-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-little-finger-middle-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-thumb-distal-phalanx": {
+    "name_vi": "Xương đốt xa ngón cái tay (trái)",
+    "name_lat": "Phalanx distalis pollicis sinistri",
+    "region": "forearm_hand",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-index-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-middle-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-ring-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "left-little-finger-distal-phalanx": {
+    "name_vi": "Đốt ngón tay (trái)",
+    "name_lat": "Phalanx manus",
+    "region": "upper_limb",
+    "note": "Khớp ròng rọc cho phép các ngón tay gấp duỗi linh hoạt thực hiện động tác tinh xảo.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón tay",
+    "landmarks": "Gồm nền, thân và ròng rọc đốt ngón tay",
+    "acupoints": "Tỉnh huyệt đầu ngón: Thiếu Thương (LU11), Thương Dương (LI1), Trung Xung (PC9), Quan Xung (TE1), Thiếu Trạch (SI1), Thiếu Xung (HT9)."
+  },
+  "right-hip-bone": {
+    "name_vi": "Xương chậu (Xương hông)",
+    "name_lat": "Os coxae dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Gồm cánh chậu, mu và ngồi; Mào chậu: Huyệt Hoàn Khiêu (GB30), Cư Liêu (GB29); Ụ ngồi: Trật Biên (BL54).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương chậu (Xương hông)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-hip-bone": {
+    "name_vi": "Xương chậu (Xương hông)",
+    "name_lat": "Os coxae sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Gồm cánh chậu, mu và ngồi; Mào chậu: Huyệt Hoàn Khiêu (GB30), Cư Liêu (GB29); Ụ ngồi: Trật Biên (BL54).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương chậu (Xương hông)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-femur": {
+    "name_vi": "Xương đùi (phải)",
+    "name_lat": "Femur dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Mấu chuyển lớn: Huyệt Hoàn Khiêu (GB30); Lồi cầu trong: Khúc Tuyền (LR8), Âm Lăng Tuyền (SP9).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đùi (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-patella": {
+    "name_vi": "Xương bánh chè (phải)",
+    "name_lat": "Patella dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Độc Tỵ (ST35 - Mắt gối ngoài), Tất Nhãn (Mắt gối trong); Bờ trên ngoài: Lương Khâu (ST34); Bờ trên trong: Huyết Hải (SP10).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bánh chè (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-tibia": {
+    "name_vi": "Xương chày (phải)",
+    "name_lat": "Tibia dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Lồi củ chày: Dưới 3 thốn là Túc Tam Lý (ST36); Mắt cá trong: Thái Khê (KI3), Tam Âm Giao (SP6).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương chày (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-fibula": {
+    "name_vi": "Xương mác (phải)",
+    "name_lat": "Fibula dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Chỏm xương mác: Dương Lăng Tuyền (GB34 - Cân hội); Mắt cá ngoài: Côn Lôn (BL60), Khâu Khư (GB40), Huyền Chung (GB39).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương mác (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-talus": {
+    "name_vi": "Xương sên (phải)",
+    "name_lat": "Talus dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Khớp cổ chân truyền lực toàn thân; Mốc huyệt Giải Khê (ST41), Thương Khâu (SP5).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương sên (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-calcaneus": {
+    "name_vi": "Xương gót (phải)",
+    "name_lat": "Calcaneus dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Xương lớn nhất bàn chân; Mốc huyệt Dũng Tuyền (KI1), Thái Khê (KI3), Chiếu Hải (KI6), Côn Lôn (BL60).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương gót (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-navicular": {
+    "name_vi": "Xương thuyền chân (phải)",
+    "name_lat": "Os naviculare dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Bờ trong bàn chân; Mốc huyệt Nhiên Cốc (KI2).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thuyền chân (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-cuboid": {
+    "name_vi": "Xương hộp (phải)",
+    "name_lat": "Os cuboideum dextrum",
+    "region": "pelvis_lower_limb",
+    "note": "Bờ ngoài bàn chân; Mốc huyệt Kim Môn (BL63).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương hộp (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-medial-cuneiform": {
+    "name_vi": "Xương chêm trong (phải)",
+    "name_lat": "Os cuneiforme mediale dextrum",
+    "region": "leg_foot",
+    "note": "Xương chêm lớn nhất trong 3 xương chêm cổ chân phải. Nơi bám tận then chốt của cơ chày trước và cơ mác dài, giữ vững vòm dọc trong bàn chân.",
+    "type": "Xương ngắn",
+    "landmarks": "Mặt trong gồ ghề, mặt trước khớp đốt bàn I, mặt ngoài khớp chêm giữa.",
+    "acupoints": "Thái Bạch (SP3 - Huyệt Nguyên kinh Tỳ), Công Tôn (SP4 - Huyệt Lạc kinh Tỳ), Trung Phong (LR4 - Huyệt Kinh kinh Can)."
+  },
+  "right-intermediate-cuneiform": {
+    "name_vi": "Xương chêm giữa (phải)",
+    "name_lat": "Os cuneiforme intermedium dextrum",
+    "region": "leg_foot",
+    "note": "Xương chêm nhỏ nhất trong khối xương cổ chân phải, chêm chặt giữa xương chêm trong và chêm ngoài.",
+    "type": "Xương ngắn",
+    "landmarks": "Hình nêm đỉnh quay xuống gan chân, khớp xương đốt bàn chân II.",
+    "acupoints": "Xung Dương (ST42 - Huyệt Nguyên kinh Vị, nằm trên mu chân ngay khớp chêm - đốt bàn II)."
+  },
+  "right-lateral-cuneiform": {
+    "name_vi": "Xương chêm ngoài (phải)",
+    "name_lat": "Os cuneiforme laterale dextrum",
+    "region": "leg_foot",
+    "note": "Xương chêm ngoài cổ chân phải, tham gia vào vòm ngang bàn chân và nâng đỡ trọng lực bước đi.",
+    "type": "Xương ngắn",
+    "landmarks": "Khớp với xương ghe phía sau, xương đốt bàn chân III phía trước và xương hộp phía ngoài.",
+    "acupoints": "Hãm Cốc (ST43 - Huyệt Du kinh Vị), Khâu Khư (GB40)."
+  },
+  "right-first-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (phải)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-second-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (phải)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-third-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (phải)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-fourth-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (phải)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-fifth-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (phải)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (phải)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "right-big-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-second-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-third-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-fourth-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-little-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-second-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-third-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-fourth-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-little-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-big-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-second-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-third-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-fourth-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-little-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (phải)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "right-sesamoid-bones-of-the-foot": {
+    "name_vi": "Các xương vừng bàn chân (phải)",
+    "name_lat": "Ossa sesamoidea pedis dextri",
+    "region": "leg_foot",
+    "note": "Hoạt động như ròng rọc chịu lực nén ép cực lớn của trọng lượng toàn bộ cơ thể khi chạy nhảy và nhón gót chân phải.",
+    "type": "Xương vừng",
+    "landmarks": "Hai xương vừng hình hạt đậu nằm trong gân cơ gấp ngón cái ngắn ở mặt gan khớp bàn - ngón I.",
+    "acupoints": "Đại Đô (SP2 - Huyệt Huỳnh kinh Tỳ, nằm ngay phía trước khớp bàn - ngón I), Dũng Tuyền (KI1)."
+  },
+  "left-femur": {
+    "name_vi": "Xương đùi (trái)",
+    "name_lat": "Femur sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Mấu chuyển lớn: Huyệt Hoàn Khiêu (GB30); Lồi cầu trong: Khúc Tuyền (LR8), Âm Lăng Tuyền (SP9).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương đùi (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-patella": {
+    "name_vi": "Xương bánh chè (trái)",
+    "name_lat": "Patella sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Độc Tỵ (ST35 - Mắt gối ngoài), Tất Nhãn (Mắt gối trong); Bờ trên ngoài: Lương Khâu (ST34); Bờ trên trong: Huyết Hải (SP10).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bánh chè (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-tibia": {
+    "name_vi": "Xương chày (trái)",
+    "name_lat": "Tibia sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Lồi củ chày: Dưới 3 thốn là Túc Tam Lý (ST36); Mắt cá trong: Thái Khê (KI3), Tam Âm Giao (SP6).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương chày (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-fibula": {
+    "name_vi": "Xương mác (trái)",
+    "name_lat": "Fibula sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Chỏm xương mác: Dương Lăng Tuyền (GB34 - Cân hội); Mắt cá ngoài: Côn Lôn (BL60), Khâu Khư (GB40), Huyền Chung (GB39).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương mác (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-talus": {
+    "name_vi": "Xương sên (trái)",
+    "name_lat": "Talus sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Khớp cổ chân truyền lực toàn thân; Mốc huyệt Giải Khê (ST41), Thương Khâu (SP5).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương sên (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-calcaneus": {
+    "name_vi": "Xương gót (trái)",
+    "name_lat": "Calcaneus sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Xương lớn nhất bàn chân; Mốc huyệt Dũng Tuyền (KI1), Thái Khê (KI3), Chiếu Hải (KI6), Côn Lôn (BL60).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương gót (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-navicular": {
+    "name_vi": "Xương thuyền chân (trái)",
+    "name_lat": "Os naviculare sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Bờ trong bàn chân; Mốc huyệt Nhiên Cốc (KI2).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương thuyền chân (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-cuboid": {
+    "name_vi": "Xương hộp (trái)",
+    "name_lat": "Os cuboideum sinistrum",
+    "region": "pelvis_lower_limb",
+    "note": "Bờ ngoài bàn chân; Mốc huyệt Kim Môn (BL63).",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương hộp (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-medial-cuneiform": {
+    "name_vi": "Xương chêm trong (trái)",
+    "name_lat": "Os cuneiforme mediale sinistrum",
+    "region": "leg_foot",
+    "note": "Xương chêm trong bàn chân trái, giữ vững vòm gan chân dọc trong.",
+    "type": "Xương ngắn",
+    "landmarks": "Mặt trong gồ ghề, nơi bám cơ chày trước và cơ mác dài.",
+    "acupoints": "Thái Bạch (SP3), Công Tôn (SP4), Trung Phong (LR4)."
+  },
+  "left-intermediate-cuneiform": {
+    "name_vi": "Xương chêm giữa (trái)",
+    "name_lat": "Os cuneiforme intermedium sinistrum",
+    "region": "leg_foot",
+    "note": "Xương chêm giữa bàn chân trái, then chốt của vòm ngang cổ chân.",
+    "type": "Xương ngắn",
+    "landmarks": "Khớp xương đốt bàn chân II bàn chân trái.",
+    "acupoints": "Xung Dương (ST42 - Huyệt Nguyên kinh Vị)."
+  },
+  "left-lateral-cuneiform": {
+    "name_vi": "Xương chêm ngoài (trái)",
+    "name_lat": "Os cuneiforme laterale sinistrum",
+    "region": "leg_foot",
+    "note": "Xương chêm ngoài bàn chân trái.",
+    "type": "Xương ngắn",
+    "landmarks": "Khớp xương ghe, xương hộp và xương đốt bàn chân III.",
+    "acupoints": "Hãm Cốc (ST43), Khâu Khư (GB40)."
+  },
+  "left-first-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (trái)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-second-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (trái)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-third-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (trái)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-fourth-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (trái)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-fifth-metatarsal-bone": {
+    "name_vi": "Xương bàn chân (trái)",
+    "name_lat": "Os metatarsale",
+    "region": "pelvis_lower_limb",
+    "note": "Huyệt Thái Xung (LR3) nằm ở kẽ xương bàn chân 1-2; Nội Đình (ST44) nằm ở kẽ xương bàn 2-3.",
+    "type": "Xương cấu trúc giải phẫu chuẩn xác Z-Anatomy",
+    "landmarks": "Các mấu củ, diện khớp và mốc giải phẫu của Xương bàn chân (trái)",
+    "acupoints": "Mốc định vị các huyệt đạo thuộc 14 đường kinh đi qua vùng pelvis_lower_limb"
+  },
+  "left-big-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-second-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-third-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-fourth-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-little-toe-proximal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-second-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-third-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-fourth-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-little-toe-middle-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-big-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-second-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-third-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-fourth-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-little-toe-distal-phalanx": {
+    "name_vi": "Đốt ngón chân (trái)",
+    "name_lat": "Phalanx pedis",
+    "region": "pelvis_lower_limb",
+    "note": "Giúp các ngón chân bám đất vững chắc và tạo lực đẩy khi bước đi.",
+    "type": "Xương dài nhỏ thuộc các đốt ngón chân",
+    "landmarks": "Gồm nền, thân và chỏm khớp đốt ngón chân",
+    "acupoints": "Tỉnh huyệt đầu ngón: Ẩn Bạch (SP1), Đại Đôn (LR1), Lệ Đoài (ST45), Túc Khiếu Âm (GB44), Chí Âm (BL67)."
+  },
+  "left-sesamoid-bones-of-the-foot": {
+    "name_vi": "Các xương vừng bàn chân (trái)",
+    "name_lat": "Ossa sesamoidea pedis sinistri",
+    "region": "leg_foot",
+    "note": "Hấp thu và chịu lực nén ép của toàn bộ cơ thể khi đẩy bước chân trái.",
+    "type": "Xương vừng",
+    "landmarks": "Hai xương vừng mặt gan khớp bàn ngón cái chân trái.",
+    "acupoints": "Đại Đô (SP2), Dũng Tuyền (KI1)."
+  }
+}

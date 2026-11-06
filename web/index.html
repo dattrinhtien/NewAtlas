@@ -1,0 +1,2586 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>Vi An Y Quán Y học 3D - Giải Phẫu Đa Tầng & Kinh Lạc Huyệt Vị</title>
+  <link rel="icon" type="image/png" href="/logo-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0b1320" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Y học 3D" />
+  <link rel="apple-touch-icon" href="/logo-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "/js/vendor/three.module.js",
+      "three/": "/js/vendor/"
+    }
+  }
+  </script>
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z38"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z38">
+
+  <!-- UI-UX Professional Upgrades -->
+  <style>
+    /* Ẩn các nút rườm rà ở header cũ & hướng dẫn chuột bàn phím ở chân trang */
+    .header-brand-contacts {
+      display: none !important;
+    }
+    .viewport-hints {
+      display: none !important;
+    }
+
+    /* Nút Trợ giúp & Q&A mới ở Header */
+    .btn-header-help {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(30, 41, 59, 0.75);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      border-radius: 9999px;
+      padding: 6px 14px;
+      color: #e2e8f0;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      margin-left: 8px;
+    }
+    .btn-header-help:hover {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: rgba(56, 189, 248, 0.6);
+      color: #38bdf8;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(56, 189, 248, 0.25);
+    }
+    .btn-header-help .help-icon {
+      font-size: 14px;
+    }
+
+    /* Floating 3D Tools - Tối ưu thanh công cụ đỉnh màn hình */
+    .floating-3d-tools {
+      display: flex !important;
+      align-items: center !important;
+      gap: 8px !important;
+      padding: 6px 12px !important;
+      border-radius: 16px !important;
+      background: rgba(11, 19, 32, 0.85) !important;
+      backdrop-filter: blur(16px) !important;
+      -webkit-backdrop-filter: blur(16px) !important;
+      border: 1px solid rgba(56, 189, 248, 0.3) !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    /* Nút Bóc Tách Studio Chuyên Nghiệp trên thanh công cụ nổi */
+    .btn-dissection-main {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 7px !important;
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.22), rgba(185, 28, 28, 0.4)) !important;
+      border: 1px solid rgba(239, 68, 68, 0.5) !important;
+      border-radius: 12px !important;
+      padding: 7px 15px !important;
+      font-weight: 700 !important;
+      color: #fecaca !important;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      box-shadow: 0 4px 14px rgba(239, 68, 68, 0.2) !important;
+    }
+    .btn-dissection-main:hover {
+      border-color: #ef4444 !important;
+      color: #ffffff !important;
+      box-shadow: 0 0 16px rgba(239, 68, 68, 0.45) !important;
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.35), rgba(185, 28, 28, 0.55)) !important;
+      transform: translateY(-1px);
+    }
+    .btn-dissection-main.active {
+      border-color: #f87171 !important;
+      color: #ffffff !important;
+      box-shadow: 0 0 20px rgba(239, 68, 68, 0.6) !important;
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.5), rgba(185, 28, 28, 0.75)) !important;
+    }
+
+    /* Tối ưu giao diện Studio Bóc Tách Giải Phẫu trên Thiết Bị Di Động (Bottom-Sheet) */
+    @media (max-width: 768px) {
+      .dissection-panel {
+        top: auto !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        max-height: 65vh !important;
+        border-radius: 20px 20px 0 0 !important;
+        border-bottom: none !important;
+        transform: translateY(105%) !important;
+        transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease !important;
+        box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.85), 0 0 30px rgba(239, 68, 68, 0.25) !important;
+      }
+      .dissection-panel.active {
+        transform: translateY(0) !important;
+      }
+      .floating-3d-tools {
+        top: 66px !important;
+        padding: 5px 10px !important;
+        gap: 6px !important;
+      }
+      .btn-dissection-main, .master-acu-cycle-btn {
+        padding: 6px 11px !important;
+        font-size: 12px !important;
+      }
+    }
+
+    /* Master Acupoint & Label Mode Button */
+    .master-acu-cycle-btn {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.9)) !important;
+      border: 1px solid rgba(245, 158, 11, 0.45) !important;
+      border-radius: 12px !important;
+      font-weight: 700 !important;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3) !important;
+      padding: 7px 14px !important;
+    }
+    .master-acu-cycle-btn.active {
+      border-color: #f59e0b !important;
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.35) !important;
+    }
+
+    /* Toast Notification for View Mode Switching */
+    .acu-mode-toast {
+      position: fixed;
+      top: 76px;
+      left: 50%;
+      transform: translateX(-50%) translateY(-10px);
+      background: rgba(11, 19, 32, 0.96);
+      border: 1px solid rgba(245, 158, 11, 0.6);
+      color: #fef08a;
+      padding: 9px 20px;
+      border-radius: 9999px;
+      font-size: 13.5px;
+      font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 15px rgba(245, 158, 11, 0.3);
+      z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .acu-mode-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Q&A Modal Styles */
+    .qa-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 10000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .qa-modal-overlay.open {
+      display: flex;
+    }
+    .qa-modal-card {
+      width: 100%;
+      max-width: 820px;
+      max-height: 88vh;
+      background: #0b1320;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 20px;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(56, 189, 248, 0.15);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      color: #f8fafc;
+    }
+    .qa-modal-close {
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.08);
+      border: none;
+      color: #94a3b8;
+      font-size: 24px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+      z-index: 10;
+    }
+    .qa-modal-close:hover {
+      background: rgba(239, 68, 68, 0.25);
+      color: #ef4444;
+    }
+    .qa-modal-header {
+      flex-shrink: 0;
+      padding: 22px 28px 14px;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.8) 0%, rgba(11, 19, 32, 0) 100%);
+    }
+    .qa-header-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 4px 10px;
+      border-radius: 9999px;
+      margin-bottom: 8px;
+    }
+    .qa-modal-header h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin: 0 0 6px;
+    }
+    .qa-header-sub {
+      font-size: 13px;
+      color: #94a3b8;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .qa-search-box {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 14px 28px 10px;
+      padding: 10px 16px;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 12px;
+    }
+    .qa-search-box:focus-within {
+      border-color: #38bdf8;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.2);
+    }
+    .qa-search-icon {
+      font-size: 16px;
+      color: #64748b;
+    }
+    .qa-search-box input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #f8fafc;
+      font-size: 14px;
+    }
+    .qa-accordion-list {
+      flex: 1 1 auto;
+      min-height: 0;
+      padding: 10px 28px 28px;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      scroll-behavior: smooth;
+    }
+    .qa-item {
+      flex-shrink: 0 !important;
+      scroll-margin-top: 12px;
+      scroll-margin-bottom: 16px;
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 12px;
+      overflow: visible !important;
+      transition: border-color 0.2s ease, background 0.2s ease;
+    }
+    .qa-accordion-list::-webkit-scrollbar {
+      width: 6px;
+    }
+    .qa-accordion-list::-webkit-scrollbar-thumb {
+      background: rgba(148, 163, 184, 0.25);
+      border-radius: 6px;
+    }
+    .qa-item:hover {
+      border-color: rgba(56, 189, 248, 0.35);
+    }
+    .qa-item.open {
+      border-color: rgba(56, 189, 248, 0.55);
+      background: rgba(15, 23, 42, 0.95);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+    .qa-question-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      background: transparent;
+      border: none;
+      color: #f1f5f9;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+      line-height: 1.45;
+    }
+    .q-icon {
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .q-text {
+      flex: 1;
+    }
+    .q-arrow {
+      font-size: 14px;
+      color: #64748b;
+      transition: transform 0.25s ease;
+      flex-shrink: 0;
+    }
+    .qa-item.open .q-arrow {
+      transform: rotate(180deg);
+      color: #38bdf8;
+    }
+    .qa-answer-body {
+      padding: 4px 20px 18px 48px;
+      font-size: 13.5px;
+      line-height: 1.7;
+      color: #cbd5e1;
+      display: none;
+      max-height: none !important;
+      overflow: visible !important;
+      word-break: break-word;
+      border-top: 1px dashed rgba(148, 163, 184, 0.14);
+      margin-top: 2px;
+      padding-top: 12px;
+    }
+    .qa-item.open .qa-answer-body {
+      display: block !important;
+    }
+    /* Chống bị co ép (flex-shrink) cho các thẻ trong bảng Điều khoản & Quy định */
+    .terms-highlight-item,
+    .terms-tab-pane,
+    .request-card {
+      flex-shrink: 0 !important;
+    }
+
+    /* Giao diện Khóa VIP cho các Hệ Cơ Quan Giải Phẫu Nâng Cao */
+    .vip-anatomy-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 9.5px;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.35));
+      border: 1px solid rgba(251, 191, 36, 0.55);
+      color: #fde047;
+      margin-left: 6px;
+      letter-spacing: 0.03em;
+      vertical-align: middle;
+    }
+    .free-anatomy-badge {
+      display: inline-flex;
+      align-items: center;
+      font-size: 9.5px;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.18);
+      border: 1px solid rgba(52, 211, 153, 0.45);
+      color: #34d399;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .layer-control.vip-locked-layer {
+      border-color: rgba(245, 158, 11, 0.28) !important;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.78), rgba(30, 27, 18, 0.55)) !important;
+      position: relative;
+      cursor: pointer;
+    }
+    .layer-control.vip-locked-layer:hover {
+      border-color: rgba(251, 191, 36, 0.65) !important;
+      box-shadow: 0 0 14px rgba(245, 158, 11, 0.18);
+    }
+    .layer-control.vip-locked-layer input[type="range"] {
+      opacity: 0.45;
+      cursor: pointer;
+    }
+    .dissect-vip-banner {
+      margin: 10px 0 12px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(234, 88, 12, 0.14));
+      border: 1px solid rgba(251, 191, 36, 0.45);
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .dissect-vip-banner-text {
+      font-size: 11.5px;
+      line-height: 1.45;
+      color: #fef3c7;
+    }
+    .dissect-vip-banner-btn {
+      width: 100%;
+      padding: 7px 10px;
+      border-radius: 7px;
+      border: none;
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: #090d16;
+      font-size: 11.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .dissect-vip-banner-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+    }
+    .qa-answer-body p {
+      margin: 0 0 8px;
+    }
+    .qa-answer-body ul, .qa-answer-body ol {
+      margin: 4px 0 8px;
+      padding-left: 20px;
+    }
+    .qa-answer-body li {
+      margin-bottom: 6px;
+    }
+    .qa-answer-body code {
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .qa-link {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .qa-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Thêm các nút phụ vào modal tài khoản nhanh */
+    .user-profile-quick-actions .btn-quick-qa {
+      background: rgba(56, 189, 248, 0.12) !important;
+      border: 1px solid rgba(56, 189, 248, 0.3) !important;
+      color: #38bdf8 !important;
+    }
+    .user-profile-quick-actions .btn-quick-qa:hover {
+      background: rgba(56, 189, 248, 0.22) !important;
+      border-color: #38bdf8 !important;
+    }
+    .user-profile-quick-actions .btn-quick-brand {
+      background: rgba(16, 185, 129, 0.12) !important;
+      border: 1px solid rgba(16, 185, 129, 0.3) !important;
+      color: #34d399 !important;
+    }
+    .user-profile-quick-actions .btn-quick-brand:hover {
+      background: rgba(16, 185, 129, 0.22) !important;
+      border-color: #34d399 !important;
+    }
+
+    /* Mobile Responsive Optimizations */
+    @media (max-width: 768px) {
+      .anatomy-popover-panel {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100vw;
+        border-radius: 20px 20px 0 0;
+        padding: 20px;
+        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.85);
+      }
+      .anatomy-layers-grid {
+        grid-template-columns: 1fr;
+        max-height: 48vh;
+      }
+      .floating-3d-tools {
+        top: 68px;
+        max-width: 96vw;
+        padding: 5px 10px !important;
+      }
+      .master-anatomy-btn {
+        padding: 6px 12px !important;
+      }
+      .master-anatomy-btn .btn-text {
+        font-size: 12px;
+      }
+      .btn-header-help .help-label {
+        display: none;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="app">
+    <!-- Top Navigation Bar -->
+    <header class="app-header">
+      <div class="header-brand" id="headerBrandClick" title="Vi An Y Quán - Y học 3D">
+        <div class="brand-logo-wrap">
+          <img src="/logo-icon.png" alt="Vi An Y Quán Logo" class="brand-logo-img" />
+        </div>
+        <div class="brand-title">
+          <h1 style="font-size: 15.5px; font-weight: 800; letter-spacing: 0.3px; color: #fff; margin: 0; line-height: 1.25;">Vi An Y Quán Y học 3D</h1>
+        </div>
+      </div>
+
+      <!-- Tý Ngọ Lưu Chú Live Badge -->
+      <div class="clock-badge-container">
+        <div class="clock-badge" id="meridianClockBadge"
+          title="Bấm để xem kinh mạch đang vượng & các huyệt khai mở theo giờ Tý Ngọ Lưu Chú">
+          <div class="clock-icon-wrapper">
+            <span class="pulse-dot"></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="clock-info">
+            <div class="clock-time" id="clockCurrentTime">--:--:--</div>
+            <div class="clock-meridian" id="clockActiveMeridian">Đang tính giờ khí...</div>
+          </div>
+          <button class="btn-highlight-current" id="btnFocusActiveMeridian"
+            title="Tập trung vào kinh mạch này">Xem</button>
+        </div>
+
+        <!-- Popover: Chi tiết Huyệt Khai Mở theo giờ (Bổ / Tả / Nguyên) -->
+        <div class="clock-opening-popover" id="clockOpeningPopover">
+          <div class="popover-header">
+            <span class="popover-title">⏳ Tý Ngọ Lưu Chú • Khai Huyệt</span>
+            <button class="btn-close-popover" id="btnCloseClockPopover">&times;</button>
+          </div>
+          <div class="popover-body" id="clockOpeningBody">
+            <!-- Populated by JS: Huyệt Bổ, Huyệt Tả, Huyệt Nguyên -->
+          </div>
+        </div>
+      </div>
+
+      <!-- View Controls & Quick Toggles -->
+      <div class="header-tools">
+        <!-- Membership Controls -->
+        <div class="header-membership-group" id="headerMembershipGroup">
+          <!-- Populated by JS: Login, Upgrade VIP, or Admin Badge -->
+        </div>
+
+        <!-- Nút Trợ giúp & Q&A / Hotline / Điều khoản -->
+        <button class="btn-header-help" id="btnHeaderHelp" title="Trung tâm Trợ giúp, Hỏi - Đáp (Q&A), Hotline & Điều khoản">
+          <span class="help-icon">❓</span>
+          <span class="help-label">Trợ giúp & Q&A</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+      <!-- Left Sidebar Panel -->
+      <aside class="sidebar-panel" id="sidebarPanel">
+        <div class="search-container">
+          <div class="search-row">
+            <div class="search-input-wrapper">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="searchInput" placeholder="Tìm huyệt (Hợp Cốc, LI4, ST36...) hoặc triệu chứng..."
+                autocomplete="off" />
+              <button class="btn-clear-search" id="btnClearSearch" style="display:none;">&times;</button>
+            </div>
+            <button class="btn-toggle-sidebar" id="btnCollapseSidebar" title="Thu gọn danh mục (Mở rộng 3D)">
+              <span class="btn-toggle-sidebar-icon">✕</span>
+              <span class="btn-toggle-sidebar-text">Thu gọn</span>
+            </button>
+          </div>
+          <!-- Realtime Search Dropdown -->
+          <div class="search-results-dropdown" id="searchResultsDropdown"></div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="sidebar-tabs">
+          <button class="tab-btn active" data-tab="tabMeridians">14 Kinh Lạc</button>
+          <button class="tab-btn" data-tab="tabRegions">Theo Vùng</button>
+          <button class="tab-btn" data-tab="tabSpecial">Huyệt Đặc Hiệu</button>
+          <button class="tab-btn" data-tab="tabSymptoms">Trị Bệnh Học</button>
+          <button class="tab-btn" data-tab="tabAcupoints">Tất Cả Huyệt</button>
+        </div>
+
+        <!-- Tab 1: 14 Meridians List -->
+        <div class="tab-content active" id="tabMeridians">
+          <div class="tab-actions">
+            <button class="action-btn" id="btnShowAllMeridians">Hiện tất cả</button>
+            <button class="action-btn" id="btnHideAllMeridians">Ẩn tất cả</button>
+          </div>
+          <div class="meridian-list" id="meridianList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Tab Region: Theo Vùng Giải Phẫu Cơ Thể -->
+        <div class="tab-content" id="tabRegions">
+          <div class="region-intro">
+            Chọn <strong>phân khu giải phẫu</strong> để định vị và tự động hiển thị các huyệt vị trên cơ thể 3D:
+          </div>
+          <div class="region-categories-container" id="regionChipsGrid">
+            <!-- Populated by JS -->
+          </div>
+          <div class="region-points-list" id="regionPointsList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Tab 2: Special Acupoints Groups (Ngũ Du, Lục Tổng, Bát Hội, Mộ, Khích, Du, Bát Mạch...) -->
+        <div class="tab-content" id="tabSpecial">
+          <div class="special-intro">
+            Khám phá <strong>các nhóm huyệt vị kinh điển</strong> trong Châm Cứu: Lục Tổng, Bát Hội, Ngũ Du, Huyệt Mộ,
+            Huyệt Khích, Du ở lưng, Bát Mạch...
+          </div>
+          <div class="special-chips-bar" id="specialChipsBar">
+            <!-- Populated by JS: filter chips -->
+          </div>
+          <div class="special-groups-list" id="specialGroupsList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Tab 2: Clinical Symptoms & Therapy Prescriptions -->
+        <div class="tab-content" id="tabSymptoms">
+          <div class="symptom-intro">
+            Chọn chứng bệnh để <strong>tự động đánh dấu & khoanh vùng nhóm huyệt trị liệu</strong> trên cơ thể 3D:
+          </div>
+          <div class="symptom-list" id="symptomList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Tab 3: All Acupoints Alphabetical / Regional Directory -->
+        <div class="tab-content" id="tabAcupoints">
+          <div class="points-filter-bar">
+            <select id="regionFilterSelect" class="region-select">
+              <option value="ALL">Tất cả vùng cơ thể</option>
+              <option value="HEAD">Đầu - Mặt - Cổ gáy</option>
+              <option value="CHEST_ABDOMEN">Ngực & Bụng</option>
+              <option value="BACK">Lưng & Thắt lưng</option>
+              <option value="UPPER_LIMB">Cánh tay & Bàn tay</option>
+              <option value="LOWER_LIMB">Chân & Bàn chân</option>
+            </select>
+            <span class="points-count" id="filteredPointsCount">419 huyệt</span>
+          </div>
+          <div class="all-points-list" id="allPointsList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </aside>
+
+      <!-- Backdrop overlay on mobile when sidebar is open -->
+      <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+      <!-- 3D Canvas Viewport -->
+      <div class="canvas-viewport" id="canvasContainer">
+        <!-- Floating Expand Button when sidebar is collapsed -->
+        <button class="btn-open-sidebar-floating" id="btnExpandSidebar" style="display:none;"
+          title="Mở danh mục tra cứu (Ctrl+B)">
+          <span class="fab-icon">☰</span>
+          <span class="fab-text">Tra cứu Kinh Lạc & Bệnh</span>
+        </button>
+
+        <!-- Floating 3D Anatomy & Meridian Controls -->
+        <div class="floating-3d-tools" id="floating3DTools">
+          <!-- Nút Master Studio Bóc Tách (kích hoạt panel bên phải) -->
+          <button class="icon-toggle btn-dissection-main" id="btnToggleDissection"
+            title="Studio Bóc Tách & Giải Phẫu Đa Tầng 3D (Shift+D)">
+            <span class="mode-icon">🔬</span>
+            <span class="btn-text">Bóc tách</span>
+          </button>
+
+          <div class="tool-divider"></div>
+
+          <!-- Chế độ hiển thị huyệt vị (xoay vòng 4 chế độ thông minh) -->
+          <button class="icon-toggle active label-cycle-btn master-acu-cycle-btn" id="btnCycleLabelMode"
+            title="Chế độ hiển thị huyệt vị: Click để xoay vòng Tên Việt ➔ Mã & Tên ➔ Chỉ Điểm ➔ Ẩn Huyệt">
+            <span class="mode-icon" id="cycleLabelIcon">🏷️</span>
+            <span id="cycleLabelText">Tên Việt</span>
+          </button>
+
+          <!-- Khí lưu -->
+          <button class="icon-toggle active" id="btnToggleFlow" title="Bật/Tắt hiệu ứng dòng kinh khí vận hành">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            <span>Khí lưu</span>
+          </button>
+
+          <!-- Công cụ Dev / Hiệu chỉnh (Ẩn mặc định cho người dùng thương mại; mở qua phím tắt Shift+C hoặc ?dev=1) -->
+          <button class="icon-toggle dev-only-toggle" id="btnToggleCalibration" style="display: none;"
+            title="Studio Hiệu Chỉnh Mốc Huyệt (Admin/Dev - Phím tắt: Shift+C)">
+            <span class="mode-icon">🎯</span>
+            <span>Hiệu chỉnh</span>
+          </button>
+        </div>
+
+        <!-- Floating Camera HUD Controls (Xoay 90° Thông Minh, Đặt lại Toàn Thân & Điều khiển Desktop) -->
+        <div class="viewport-camera-hud camera-presets" id="cameraPresetsBar">
+          <span class="hud-pill-title">Góc nhìn:</span>
+          <button class="hud-btn view-cycler-btn" id="btnCycleCameraView"
+            title="Chạm/Nhấp để xoay 90° lần lượt: Trước ➔ Trái ➔ Sau ➔ Phải">
+            <span class="hud-icon" id="viewCycleIcon">👁️</span>
+            <span id="viewCycleText">Mặt trước</span>
+            <span class="view-turn-arrow">↷</span>
+          </button>
+          <button class="hud-btn view-reset-btn" id="btnResetCameraView" title="Đặt lại góc nhìn bao quát toàn thân">
+            <span class="hud-icon">↺</span>
+            <span>Toàn thân</span>
+          </button>
+
+          <div class="hud-divider desktop-only-control"></div>
+
+          <!-- Quick Zoom & Pan Controls (Dành cho chuột/trackpad máy tính, tự ẩn trên màn hình cảm ứng) -->
+          <button class="hud-btn icon-only desktop-only-control" id="btnZoomIn"
+            title="Phóng to gần hơn (Chuột/Trackpad)">
+            <span class="hud-icon">➕</span>
+          </button>
+          <button class="hud-btn icon-only desktop-only-control" id="btnZoomOut"
+            title="Thu nhỏ xa hơn (Chuột/Trackpad)">
+            <span class="hud-icon">➖</span>
+          </button>
+          <button class="hud-btn desktop-only-control" id="btnTogglePanMode"
+            title="Chuyển chế độ kéo: Xoay ⬌ Dịch chuyển">
+            <span class="hud-icon" id="panModeIcon">✥</span>
+            <span id="panModeText">Dịch chuyển</span>
+          </button>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div class="viewport-loader" id="viewportLoader">
+          <img src="/logo-icon.png" class="loader-logo-pulse" alt="Vi An Y Quán" />
+          <div class="loader-brand-title">VI AN Y QUÁN</div>
+          <div class="loader-text">Đang tải mô hình giải phẫu 3D & 419 huyệt vị...</div>
+          <div class="loader-sub">Chuẩn hóa theo dữ liệu Tổ chức Y tế Thế giới (WHO) & Bộ Y tế</div>
+        </div>
+
+        <!-- Canvas Element -->
+        <canvas id="threeCanvas"></canvas>
+
+        <!-- Hover Tooltip -->
+        <div class="hover-tooltip" id="hoverTooltip">
+          <div class="tooltip-code" id="tooltipCode">LI4</div>
+          <div class="tooltip-name" id="tooltipName">Hợp Cốc</div>
+          <div class="tooltip-meridian" id="tooltipMeridian">Kinh Thủ Dương Minh Đại Trường</div>
+        </div>
+
+        <!-- Viewport Hints removed for clean UI -->
+      </div>
+
+      <!-- Drawer Backdrop on Mobile/Tablet -->
+      <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+      <!-- Right Detail Drawer -->
+      <aside class="detail-drawer" id="detailDrawer">
+        <!-- Top Bar with Drag Handle and Close Button -->
+        <div class="drawer-top-bar" id="drawerTopBar">
+          <div class="drawer-drag-handle"></div>
+          <button class="drawer-close-btn" id="btnCloseDrawer" title="Đóng bảng chi tiết (Phím Esc hoặc Click vùng 3D)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+            <span class="drawer-close-btn-text">Đóng</span>
+          </button>
+        </div>
+        <div class="drawer-content" id="drawerContent">
+          <!-- Populated when point is clicked -->
+          <div class="drawer-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <p>Nhấp vào bất kỳ huyệt vị nào trên mô hình 3D hoặc danh sách để xem chi tiết giải phẫu, tác dụng chủ trị
+              và kỹ thuật châm cứu.</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- Vi An Y Quán Brand Identity Modal -->
+  <div class="brand-modal-overlay" id="brandModalOverlay">
+    <div class="brand-modal-card">
+      <button class="brand-modal-close" id="btnCloseBrandModal" title="Đóng">&times;</button>
+      <div class="brand-modal-header">
+        <div class="brand-modal-logo-wrap">
+          <img src="/logo-full.png" alt="Vi An Y Quán" class="brand-modal-full-logo" />
+        </div>
+      </div>
+      <div class="brand-modal-body">
+        <div class="brand-modal-slogan">
+          🌱 <span>TINH HOA Y HỌC CỔ TRUYỀN • THÂN TÂM AN LẠC</span>
+        </div>
+        <p class="brand-modal-desc">
+          <strong>Vi An Y Quán</strong> tự hào nghiên cứu, chuẩn hóa và số hóa hệ thống
+          <strong>3D Atlas Kinh Lạc & Huyệt Vị</strong> với 419 huyệt vị YHCT (361 chính kinh chuẩn WHO + 58 kỳ huyệt)
+          và 50 phác đồ điều trị
+          đa thể bệnh lâm sàng nhằm nâng cao hiệu quả trị liệu, giảng dạy và phụng sự sức khỏe cộng đồng.
+        </p>
+
+        <div class="brand-modal-contact-grid">
+          <a href="tel:0936380666" class="contact-card-box">
+            <div class="contact-card-icon hotline">📞</div>
+            <div class="contact-card-text">
+              <span class="label">Hotline tư vấn & Đặt hẹn</span>
+              <span class="value">0936.380.666</span>
+            </div>
+          </a>
+          <a href="mailto:tiendat.trinh@gmail.com" class="contact-card-box">
+            <div class="contact-card-icon email">✉️</div>
+            <div class="contact-card-text">
+              <span class="label">Email liên hệ</span>
+              <span class="value">tiendat.trinh@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://vianyquan.trinhtiendat.com" target="_blank" rel="noopener noreferrer"
+            class="contact-card-box">
+            <div class="contact-card-icon web">🌐</div>
+            <div class="contact-card-text">
+              <span class="label">Website chính thức</span>
+              <span class="value">vianyquan.trinhtiendat.com</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="brand-modal-channels">
+          <div class="channels-title">Kênh truyền thông & Cộng đồng</div>
+          <div class="channels-links">
+            <a href="https://www.youtube.com/@ViAnYQuan" target="_blank" rel="noopener noreferrer"
+              class="channel-btn yt">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              <span>Kênh YouTube @ViAnYQuan</span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61591989621825" target="_blank" rel="noopener noreferrer"
+              class="channel-btn fb">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+              <span>Facebook Vi An Y Quán</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Auth Modal (Đăng nhập / Đăng ký) -->
+  <div class="auth-modal-overlay" id="authModalOverlay">
+    <div class="auth-modal-card">
+      <button class="auth-modal-close" id="btnCloseAuthModal">&times;</button>
+      <div class="auth-modal-header">
+        <img src="/logo-icon.png" alt="Vi An Y Quán" class="auth-header-logo" />
+        <h3 id="authModalTitle">Tài Khoản Vi An Y Quán</h3>
+        <p class="auth-modal-subtitle">Đăng nhập để đồng bộ dữ liệu và mở khóa đặc quyền VIP</p>
+      </div>
+
+      <div class="auth-tabs">
+        <button class="auth-tab-btn active" id="tabBtnLogin" data-auth="login">Đăng Nhập</button>
+        <button class="auth-tab-btn" id="tabBtnRegister" data-auth="register">Đăng Ký</button>
+      </div>
+
+      <form class="auth-form" id="authForm">
+        <div class="form-group" id="groupFullName" style="display:none;">
+          <label>Họ và Tên</label>
+          <input type="text" id="authFullName" placeholder="Bác sĩ / Lương y / Học viên..." />
+        </div>
+        <div class="form-group">
+          <label>Địa chỉ Email</label>
+          <input type="email" id="authEmail" required placeholder="nhapemail@gmail.com" />
+        </div>
+        <div class="form-group">
+          <label>Mật khẩu</label>
+          <input type="password" id="authPassword" required placeholder="Ít nhất 6 ký tự" />
+        </div>
+
+        <div class="auth-error-msg" id="authErrorMsg" style="display:none;"></div>
+        <div class="auth-success-msg" id="authSuccessMsg" style="display:none;"></div>
+
+        <button type="submit" class="btn-auth-submit" id="btnAuthSubmit">
+          Đăng Nhập
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Pricing & VIP Upgrade Modal -->
+  <div class="pricing-modal-overlay" id="pricingModalOverlay">
+    <div class="pricing-modal-card">
+      <button class="pricing-modal-close" id="btnClosePricingModal">&times;</button>
+
+      <div class="pricing-header">
+        <span class="pricing-badge">⭐ ĐẶC QUYỀN HỘI VIÊN CHUYÊN GIA</span>
+        <h2>Mở Khóa Toàn Diện 3D Atlas Kinh Lạc & Huyệt Vị</h2>
+        <p class="pricing-sub">
+          ✨ <strong>Gói 1 Năm</strong> và <strong>Gói Trọn Đời</strong> đều mở khóa <strong>100% ĐẦY ĐỦ TÍNH NĂNG NHƯ
+            NHAU</strong>.<br>
+          Khác biệt duy nhất: Gói 1 Năm có hạn dùng 365 ngày; Gói Trọn Đời dùng vĩnh viễn và <strong>được cập nhật miễn
+            phí tất cả bệnh lý & tính năng mới theo thời gian sau 1 năm</strong>.
+        </p>
+      </div>
+
+      <!-- Packages Selector Cards (Free vs 1 Năm vs Trọn Đời) -->
+      <div class="packages-grid three-col" id="packagesGrid">
+        <!-- Populated dynamically from pricing config -->
+      </div>
+
+      <!-- Feature Comparison Table (Free vs 1 Năm vs Trọn Đời) -->
+      <div class="comparison-section" id="comparisonSection">
+        <div class="comparison-section-header">
+          <span class="comparison-title">📊 Bảng So Sánh Chi Tiết Quyền Lợi Các Gói</span>
+          <span class="comparison-sub">Đối chiếu minh bạch giữa Gói Miễn Phí và Gói Trả Phí</span>
+        </div>
+        <div class="comparison-table-wrapper" id="comparisonTableWrapper">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- VietQR Transfer Instructions Box -->
+      <div class="vietqr-box" id="vietqrBox">
+        <!-- Gate Đăng nhập / Đăng ký cho người dùng chưa có tài khoản (Phương án A) -->
+        <div class="qr-auth-gate" id="qrAuthGate" style="display: none;">
+          <div class="gate-icon">🔐</div>
+          <div class="gate-title">BƯỚC TIẾP THEO: XÁC NHẬN TÀI KHOẢN ĐỂ LẤY MÃ QR VIP</div>
+          <p class="gate-desc">
+            Để hệ thống <strong>tự động tạo mã đơn riêng</strong> và gắn quyền VIP trực tiếp vào tài khoản của bạn ngay
+            khi nhận chuyển khoản, vui lòng Đăng ký hoặc Đăng nhập trước (chỉ mất 10 giây).
+          </p>
+          <div class="gate-actions">
+            <button type="button" class="btn-gate-register" id="btnGateRegister">
+              ✨ Tạo Tài Khoản Mới (10 Giây)
+            </button>
+            <button type="button" class="btn-gate-login" id="btnGateLogin">
+              Đã Có Tài Khoản? Đăng Nhập
+            </button>
+          </div>
+        </div>
+
+        <div class="qr-col-left" id="qrColLeft">
+          <div class="qr-image-wrapper">
+            <img src="" id="vietQrImage" alt="Mã VietQR Thanh Toán" class="vietqr-img" />
+            <div class="qr-scan-hint">Mở app Ngân hàng để quét QR tự động</div>
+          </div>
+        </div>
+
+        <div class="qr-col-right" id="qrColRight">
+          <div class="buyer-account-badge" id="buyerAccountBadge">
+            <!-- Render user email & name -->
+          </div>
+
+          <div class="transfer-info-title">Thông Tin Chuyển Khoản</div>
+
+          <div class="info-row">
+            <span class="row-label">Ngân hàng:</span>
+            <span class="row-value" id="qrBankName">MB Bank (Quân Đội)</span>
+          </div>
+
+          <div class="info-row">
+            <span class="row-label">Số tài khoản:</span>
+            <div class="row-value-copy">
+              <strong id="qrAccountNo">0936380666</strong>
+              <button type="button" class="btn-copy-val" data-copy="qrAccountNo"
+                title="Sao chép số tài khoản">Copy</button>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="row-label">Chủ tài khoản:</span>
+            <span class="row-value" id="qrAccountName">TRINH TIEN DAT</span>
+          </div>
+
+          <div class="info-row highlight-amount">
+            <span class="row-label">Số tiền:</span>
+            <strong class="row-value text-emerald" id="qrAmount">399.000 đ</strong>
+          </div>
+
+          <div class="info-row highlight-memo">
+            <span class="row-label">Nội dung CK:</span>
+            <div class="row-value-copy">
+              <strong class="text-amber" id="qrMemo">VIAN 123456</strong>
+              <button type="button" class="btn-copy-val" data-copy="qrMemo"
+                title="Sao chép nội dung chuyển khoản">Copy</button>
+            </div>
+          </div>
+
+          <div class="qr-action-area">
+            <div class="pricing-terms-checkbox">
+              <label>
+                <input type="checkbox" id="chkPricingTermsAgree" checked />
+                <span>Bằng việc chuyển khoản, bạn cam kết đã đọc và đồng ý với <a href="#"
+                    id="linkPricingFullTerms">Điều khoản dịch vụ & Miễn trừ trách nhiệm y tế</a> (Cá nhân tối đa 3 thiết
+                  bị, không hoàn tiền).</span>
+              </label>
+            </div>
+            <button class="btn-confirm-transfer" id="btnConfirmTransfer">
+              ✅ Tôi Đã Chuyển Khoản Thành Công
+            </button>
+            <div class="transfer-note">
+              Sau khi chuyển khoản, quản trị viên Vi An Y Quán sẽ duyệt và mở khóa VIP cho bạn trong 1 - 5 phút. Hotline
+              hỗ trợ: <strong>0936.380.666</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Orders & Pricing Management Modal (Chỉ Admin mới có quyền mở) -->
+  <div class="admin-modal-overlay" id="adminModalOverlay">
+    <div class="admin-modal-card">
+      <button class="admin-modal-close" id="btnCloseAdminModal">&times;</button>
+
+      <div class="admin-modal-header">
+        <div class="admin-header-title-wrap">
+          <span class="admin-badge">🛡️ BẢNG ĐIỀU KHIỂN QUẢN TRỊ VIÊN</span>
+          <h3>Quản Trị Duyệt Đơn & Cấu Hình Vi An Y Quán</h3>
+        </div>
+      </div>
+
+      <!-- Admin Navigation Tabs -->
+      <div class="admin-tabs">
+        <button class="admin-tab-btn active" data-admintab="tabPendingOrders">
+          📋 Đơn Chờ Duyệt <span class="admin-pending-badge" id="adminPendingCount">0</span>
+        </button>
+        <button class="admin-tab-btn" data-admintab="tabManualGrant">
+          ⚡ Cấp Quyền Theo Email
+        </button>
+        <button class="admin-tab-btn" data-admintab="tabPricingConfig">
+          ⚙️ Cấu Hình Bảng Giá & STK
+        </button>
+      </div>
+
+      <!-- Tab 1: Đơn Chờ Duyệt (1-Touch Approval) -->
+      <div class="admin-tab-content active" id="tabPendingOrders">
+        <div class="admin-requests-list" id="adminRequestsList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Tab 2: Kích Hoạt Nhanh Bằng Email -->
+      <div class="admin-tab-content" id="tabManualGrant">
+        <form class="admin-manual-form" id="adminManualForm">
+          <p class="admin-form-intro">Kích hoạt quyền VIP trực tiếp cho khách hàng nhắn tin, gọi hotline hoặc học viên:
+          </p>
+          <div class="form-group">
+            <label>Địa chỉ Email người dùng</label>
+            <input type="email" id="manualUserEmail" required placeholder="nhapemail.khach@gmail.com" />
+          </div>
+          <div class="form-group">
+            <label>Chọn gói kích hoạt</label>
+            <select id="manualPackageSelect" class="admin-select">
+              <option value="annual">Gói Hội Viên 1 Năm</option>
+              <option value="lifetime">Gói Chuyên Gia Trọn Đời</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-admin-submit-grant">
+            🚀 Cấp Quyền VIP Ngay Lập Tức
+          </button>
+          <div class="admin-feedback-msg" id="adminManualFeedback"></div>
+        </form>
+      </div>
+
+      <!-- Tab 3: Cấu Hình Giá & Thông Tin Ngân Hàng -->
+      <div class="admin-tab-content" id="tabPricingConfig">
+        <form class="admin-pricing-form" id="adminPricingForm">
+          <p class="admin-form-intro">Tự do điều chỉnh mức giá các gói, khuyến mãi và thông tin tài khoản ngân hàng nhận
+            tiền:</p>
+
+          <div class="config-row-2">
+            <div class="form-group">
+              <label>Giá Gói 1 Năm (VNĐ)</label>
+              <input type="number" id="cfgPriceAnnual" step="1000" />
+            </div>
+            <div class="form-group">
+              <label>Giá Gói Trọn Đời (VNĐ)</label>
+              <input type="number" id="cfgPriceLifetime" step="1000" />
+            </div>
+          </div>
+
+          <div class="config-row-3">
+            <div class="form-group">
+              <label>Mã Ngân Hàng</label>
+              <input type="text" id="cfgBankId" placeholder="MB, VCB, TCB..." />
+            </div>
+            <div class="form-group">
+              <label>Số Tài Khoản</label>
+              <input type="text" id="cfgAccountNo" />
+            </div>
+            <div class="form-group">
+              <label>Tên Chủ Tài Khoản</label>
+              <input type="text" id="cfgAccountName" />
+            </div>
+          </div>
+
+          <button type="submit" class="btn-admin-save-cfg">
+            💾 Lưu Thay Đổi Bảng Giá
+          </button>
+          <div class="admin-feedback-msg" id="adminPricingFeedback"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1. Mandatory Terms Consent Gate Modal (Bật 1 lần chặn người dùng chưa đồng ý phiên bản 2026.1) -->
+  <div class="terms-modal-overlay consent-gate" id="termsConsentModalOverlay">
+    <div class="terms-modal-card consent-card">
+      <div class="terms-consent-header">
+        <span class="terms-badge">📜 THÔNG BÁO QUY ĐỊNH & BẢN QUYỀN TÁC GIẢ (2026.1)</span>
+        <h3>Cập Nhật Quyền Lợi Hội Viên & Miễn Trừ Trách Nhiệm Y Tế</h3>
+        <p class="terms-consent-subtitle">
+          Kính gửi Quý học viên, thầy thuốc và người dùng Ứng dụng 3D Atlas Kinh Lạc & Huyệt Vị
+        </p>
+      </div>
+
+      <div class="terms-consent-body">
+        <div class="terms-highlight-item">
+          <div class="item-icon">🛡️</div>
+          <div class="item-content">
+            <strong>Bản quyền giải phẫu Z-Anatomy & Sở hữu trí tuệ Vi An Y Quán</strong>
+            <p>
+              Nền tảng giải phẫu học 3D cơ thể người được kế thừa và tối ưu từ dự án nguồn mở quốc tế <strong>Z-Anatomy</strong> (giấy phép CC BY-SA 4.0). Toàn bộ hệ thống bản đồ số 3D của <strong>419 huyệt vị & 14 kinh lạc</strong>, cơ sở dữ liệu đối chiếu Đông - Tây y, thuật toán Tý Ngọ Lưu Chú, công cụ Bóc tách và mã nguồn WebApp thuộc quyền sở hữu trí tuệ độc quyền của <strong>Trịnh Tiến Đạt (Vi An Y Quán)</strong>. Nghiêm cấm mọi hành vi sao chép thương mại, cào dữ liệu tự động hoặc đóng gói lại mã nguồn khi chưa có văn bản đồng ý của tác giả.
+            </p>
+          </div>
+        </div>
+
+        <div class="terms-highlight-item">
+          <div class="item-icon">📱</div>
+          <div class="item-content">
+            <strong>Quyền hội viên VIP & Giới hạn thiết bị cá nhân</strong>
+            <p>
+              Mỗi tài khoản VIP là quyền sử dụng cá nhân đích danh, được hệ thống hỗ trợ đăng nhập và sử dụng đồng thời
+              trên <strong>tối đa 03 (ba) thiết bị cá nhân</strong> (Điện thoại, iPad/Tablet, Máy tính bàn/Laptop).
+              Nghiêm cấm hành vi bán lại, cho thuê hoặc chia sẻ tài khoản cho bên thứ ba. Tác giả có quyền tạm khóa hoặc
+              chấm dứt vĩnh viễn quyền sử dụng không hoàn tiền đối với tài khoản vi phạm.
+            </p>
+          </div>
+        </div>
+
+        <div class="terms-highlight-item">
+          <div class="item-icon">⚖️</div>
+          <div class="item-content">
+            <strong>Tuyên bố Miễn trừ trách nhiệm Y tế & Cấp cứu 115</strong>
+            <p>
+              Ứng dụng là công cụ mô phỏng 3D phục vụ học tập, đào tạo và tra cứu YHCT; <strong>KHÔNG THAY THẾ CHỈ ĐỊNH
+                ĐIỀU TRỊ Y KHOA TRỰC TIẾP</strong> của bác sĩ có chứng chỉ hành nghề và không dùng cho cấp cứu khẩn cấp
+              115 (nhồi máu cơ tim, hen ác tính, đột quỵ, đau bụng ngoại khoa). Tác giả cá nhân hoàn toàn miễn trừ trách
+              nhiệm pháp lý đối với bất kỳ rủi ro hay di chứng nào do người dùng tự ý thực hành can thiệp y tế.
+            </p>
+          </div>
+        </div>
+
+        <div class="terms-highlight-item">
+          <div class="item-icon">💳</div>
+          <div class="item-content">
+            <strong>Chính sách không hoàn tiền cho sản phẩm số</strong>
+            <p>
+              Do đặc thù nội dung tri thức và tính năng VIP được mở khóa tiêu dùng ngay lập tức, các khoản phí nâng cấp
+              sẽ không được hoàn lại dưới mọi hình thức sau khi đã kích hoạt thành công.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="terms-consent-footer">
+        <label class="terms-chk-label">
+          <input type="checkbox" id="chkConsentAgreeBox" checked />
+          <span>Tôi xác nhận đã đọc, hiểu rõ các quy định trên và cam kết tuân thủ đầy đủ.</span>
+        </label>
+        <div class="terms-consent-actions">
+          <button type="button" class="btn-accept-terms-consent" id="btnAcceptTermsConsent">
+            ✅ TÔI ĐÃ HIỂU VÀ ĐỒNG Ý TIẾP TỤC
+          </button>
+        </div>
+        <div class="terms-view-full-wrap">
+          <a href="#" id="linkViewFullTermsFromConsent" class="link-full-terms">
+            📖 Xem toàn văn chi tiết Điều khoản dịch vụ & Miễn trừ trách nhiệm cá nhân
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Full Terms of Service & Medical Disclaimer Modal (Xem toàn văn chi tiết bất kỳ lúc nào) -->
+  <div class="terms-modal-overlay" id="fullTermsModalOverlay">
+    <div class="terms-modal-card full-terms-card">
+      <button class="terms-modal-close" id="btnCloseFullTermsModal">&times;</button>
+
+      <div class="full-terms-header">
+        <span class="terms-badge">📜 VĂN BẢN PHÁP LÝ & ĐIỀU KHOẢN SỬ DỤNG</span>
+        <h3>Điều Khoản Dịch Vụ & Tuyên Bố Miễn Trừ Trách Nhiệm Y Tế</h3>
+        <p class="full-terms-sub">
+          Tác giả sáng lập & Chủ sở hữu cá nhân: <strong>Trịnh Tiến Đạt (Vi An Y Quán)</strong> • Phiên bản hiệu lực
+          2026.1
+        </p>
+      </div>
+
+      <div class="full-terms-tabs">
+        <button class="terms-tab-btn active" data-termstab="termPaneDisclaimer">⚖️ 1. Miễn Trừ Y Tế</button>
+        <button class="terms-tab-btn" data-termstab="termPaneIP">🛡️ 2. Bản Quyền & Sở Hữu</button>
+        <button class="terms-tab-btn" data-termstab="termPaneVIP">📱 3. Tài Khoản & 3 Thiết Bị</button>
+        <button class="terms-tab-btn" data-termstab="termPaneRefund">💳 4. Thanh Toán & Hoàn Tiền</button>
+        <button class="terms-tab-btn" data-termstab="termPaneDispute">🏛️ 5. Tranh Chấp & Kỹ Thuật</button>
+      </div>
+
+      <div class="full-terms-body">
+        <!-- Tab 1: Miễn Trừ Y Tế -->
+        <div class="terms-tab-pane active" id="termPaneDisclaimer">
+          <h4>ĐIỀU 1: TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM Y TẾ (MEDICAL DISCLAIMER)</h4>
+          <p><strong>1. Mục đích giáo dục và tra cứu:</strong> Ứng dụng là công cụ mô phỏng giải phẫu 3D và từ điển số
+            tra cứu kinh lạc, huyệt vị, phục vụ mục đích <em>học tập, nghiên cứu học thuật, giảng dạy và tham khảo
+              chuyên môn</em> cho học viên, y bác sĩ và người quan tâm đến Y học cổ truyền (YHCT).</p>
+          <p><strong>2. Không thay thế chỉ định y khoa:</strong> Toàn bộ thông tin về huyệt vị, chủ trị, kỹ thuật châm
+            cứu và phác đồ bệnh học trong Ứng dụng được trích dẫn theo các y văn kinh điển YHCT (<em>Linh Khu, Tố Vấn,
+              Giáp Ất Kinh, Châm Cứu Đại Thành</em>) và giáo trình chính thống. Các thông tin này <strong>KHÔNG CẤU
+              THÀNH VÀ KHÔNG THAY THẾ CHO CHẨN ĐOÁN, KÊ ĐƠN HOẶC CHỈ ĐỊNH ĐIỀU TRỊ Y KHOA TRỰC TIẾP</strong> của bác sĩ
+            có chứng chỉ hành nghề.</p>
+          <p><strong>3. Cảnh báo trường hợp cấp cứu khẩn cấp:</strong> Ứng dụng <strong>hoàn toàn không có chức năng xử
+              trí cấp cứu y tế</strong>. Đối với các tình trạng nguy kịch (nhồi máu cơ tim, đau ngực dữ dội, cơn hen ác
+            tính suy hô hấp, co giật đột ngột, đột quỵ não trong giờ vàng, đau bụng ngoại khoa nghi thủng ruột/viêm ruột
+            thừa/viêm phúc mạc, xuất huyết nặng), Người dùng <strong>BẮT BUỘC PHẢI GỌI CẤP CỨU 115 HOẶC ĐƯA BỆNH NHÂN
+              ĐẾN BỆNH VIỆN GẦN NHẤT</strong>.</p>
+          <p><strong>4. Miễn trừ rủi ro do tự thực hành can thiệp y tế:</strong> Châm cứu, chích máu, ôn châm, cứu ngải
+            là các kỹ thuật y tế xâm lấn đòi hỏi đào tạo chuyên sâu và điều kiện vô trùng nghiêm ngặt. Tác giả
+            <strong>HOÀN TOÀN MIỄN TRỪ MỌI TRÁCH NHIỆM PHÁP LÝ, TRÁCH NHIỆM BỒI THƯỜNG THIỆT HẠI</strong> đối với bất kỳ
+            tổn thương thân thể, di chứng, nhiễm trùng hoặc rủi ro sức khỏe nào phát sinh do Người dùng tự ý thực hành
+            can thiệp hoặc áp dụng phác đồ mà không có chứng chỉ hành nghề y hợp pháp.</p>
+        </div>
+
+        <!-- Tab 2: Bản Quyền & Sở Hữu -->
+        <div class="terms-tab-pane" id="termPaneIP">
+          <h4>ĐIỀU 2: BẢN QUYỀN VÀ QUYỀN SỞ HỮU TRÍ TUỆ</h4>
+          <p><strong>1. Nguồn gốc dữ liệu giải phẫu học 3D (Z-Anatomy Open-Source):</strong></p>
+          <ul>
+            <li>Toàn bộ mô hình khung xương, hệ cơ bắp, hệ mạch máu (714 mạch), hệ dây thần kinh, hệ bạch huyết (220 hạch) và lục phủ ngũ tạng được kế thừa, chuẩn hóa và xử lý dựa trên dự án giải phẫu cộng đồng mã nguồn mở quốc tế <strong>Z-Anatomy</strong> (khởi xướng bởi Gauthier Kervyn và cộng đồng y khoa quốc tế).</li>
+            <li>Dữ liệu giải phẫu nền tảng được chia sẻ và tuân thủ theo giấy phép quốc tế <strong>Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>. Nguồn gốc dữ liệu Z-Anatomy luôn được ghi nhận minh bạch, đầy đủ và trân trọng.</li>
+          </ul>
+
+          <p><strong>2. Quyền sở hữu trí tuệ độc quyền của Tác giả Trịnh Tiến Đạt & Vi An Y Quán:</strong></p>
+          <ul>
+            <li><strong>Hệ thống bản đồ số 3D Kinh Lạc & Huyệt Vị:</strong> Toàn bộ công trình nghiên cứu định vị không gian 3D, tọa độ giải phẫu của <strong>419 huyệt vị (362 chính huyệt trên 14 kinh mạch + 57 kỳ huyệt ngoài kinh, biểu diễn thành 779 điểm huyệt 3D đối xứng hai bên cơ thể)</strong> gắn liền trên từng mốc giải phẫu xương, cơ, mạch và dây thần kinh; đường dẫn truyền động lực học của 14 đường kinh lạc.</li>
+            <li><strong>Cơ sở dữ liệu Y học Cổ truyền chuyên sâu:</strong> Toàn bộ kho dữ liệu tra cứu song ngữ (Việt - La-tinh - Hán tự), cơ chế sinh lý bệnh học, đối chiếu Đông - Tây y, 50 phác đồ điều trị đa thể bệnh lâm sàng và thuật toán tính toán chu chuyển khí huyết theo thời sinh học <strong>Tý Ngọ Lưu Chú</strong>.</li>
+            <li><strong>Kiến trúc phần mềm, Thiết kế giao diện (UI/UX) & Bộ nhớ đệm Offline bảo mật:</strong> Toàn bộ mã nguồn WebApp, bộ công cụ Bóc Tách Giải Phẫu Đa Tầng (Dissection Studio), dao mổ số (Digital Scalpel), bộ lọc bán cầu trực diện thông minh và cơ chế lưu trữ đệm ngoại tuyến đóng hộp trong trình duyệt (Sandboxed Browser CacheStorage / IndexedDB — chỉ phục vụ tăng tốc tải 0 giây trong ứng dụng, không cho phép trích xuất tệp 3D thô ra ngoài).</li>
+            <li><strong>Thương hiệu & Nhận diện:</strong> Tên thương mại, biểu tượng, logo và ấn phẩm của <strong>Vi An Y Quán</strong> và <strong>AcuAtlas 3D Pro / NewAtlas 3D</strong>.</li>
+          </ul>
+
+          <p><strong>3. Phạm vi cấp phép sử dụng & Các hành vi bị nghiêm cấm:</strong></p>
+          <ul>
+            <li>Người dùng được cấp quyền truy cập, hiển thị và tra cứu phi độc quyền phục vụ mục đích học tập cá nhân, nghiên cứu học thuật, giảng dạy và tham khảo trong thực hành y khoa.</li>
+            <li>Nghiêm cấm mọi hành vi trích xuất dữ liệu tự động hàng loạt (data scraping), dịch ngược mã nguồn (reverse engineering), tải về trái phép cấu trúc dữ liệu bản đồ kinh lạc.</li>
+            <li>Nghiêm cấm việc sao chép, đóng gói lại, phân phối lại hoặc sử dụng hình ảnh, nội dung số hóa độc quyền của Ứng dụng vào các khóa học thương mại, ấn phẩm sách, phần mềm cạnh tranh khi <strong>chưa có sự đồng ý bằng văn bản của Tác giả Trịnh Tiến Đạt</strong>.</li>
+            <li>Mọi hành vi xâm phạm quyền tác giả và quyền sở hữu trí tuệ sẽ được xử lý theo quy định của pháp luật Việt Nam và các công ước quốc tế về bảo hộ quyền tác giả (Công ước Berne).</li>
+          </ul>
+        </div>
+
+        <!-- Tab 3: Tài Khoản & 3 Thiết Bị -->
+        <div class="terms-tab-pane" id="termPaneVIP">
+          <h4>ĐIỀU 3: QUY ĐỊNH VỀ TÀI KHOẢN VÀ GIỚI HẠN THIẾT BỊ SỬ DỤNG</h4>
+          <p><strong>1. Quyền sử dụng cá nhân đích danh:</strong> Mỗi tài khoản VIP là quyền sử dụng cá nhân dành riêng
+            cho 01 người dùng (gắn liền với email/số điện thoại đăng ký).</p>
+          <p><strong>2. Giới hạn số lượng thiết bị đồng thời:</strong></p>
+          <ul>
+            <li>Để phục vụ nhu cầu học tập và làm việc linh hoạt của chính chủ, 01 tài khoản VIP được hỗ trợ đăng nhập
+              và sử dụng đồng thời trên <strong>tối đa 03 (ba) thiết bị cá nhân</strong> (Ví dụ: 1 Điện thoại + 1 Máy
+              tính bảng/iPad + 1 Máy tính bàn/Laptop).</li>
+            <li>Nghiêm cấm hành vi bán lại, cho thuê, mượn chung tài khoản hoặc chia sẻ công khai thông tin đăng nhập
+              trên các diễn đàn, mạng xã hội, nhóm trao đổi học tập.</li>
+          </ul>
+          <p><strong>3. Cơ chế xử lý khi vượt quá thiết bị:</strong> Khi có thiết bị thứ 4 đăng nhập vào cùng một tài
+            khoản, hệ thống sẽ tự động kích hoạt cơ chế bảo vệ: ngắt kết nối (đăng xuất) thiết bị cũ nhất hoặc yêu cầu
+            xác thực chính chủ.</p>
+          <p><strong>4. Chế tài xử lý vi phạm:</strong> Tác giả bảo lưu quyền tạm khóa hoặc chấm dứt vĩnh viễn quyền sử
+            dụng mà không hoàn tiền đối với các tài khoản phát hiện chia sẻ công khai hoặc cào dữ liệu bất thường.</p>
+        </div>
+
+        <!-- Tab 4: Thanh Toán & Hoàn Tiền -->
+        <div class="terms-tab-pane" id="termPaneRefund">
+          <h4>ĐIỀU 4: CHÍNH SÁCH THANH TOÁN VÀ KHÔNG HOÀN TIỀN (REFUND POLICY)</h4>
+          <p><strong>1. Đặc thù sản phẩm số:</strong> Ứng dụng cung cấp các dịch vụ nội dung số và tính năng hội viên
+            VIP (Gói 1 Năm hoặc Gói Trọn Đời). Toàn bộ quyền lợi chuyên gia và quyền truy cập không giới hạn được
+            <strong>mở khóa và tiêu dùng ngay lập tức</strong> sau khi giao dịch chuyển khoản hoàn tất.</p>
+          <p><strong>2. Quy định không hoàn tiền:</strong> Khoản phí nâng cấp VIP <strong>sẽ không được hoàn lại dưới
+              bất kỳ hình thức nào</strong> sau khi tài khoản đã được kích hoạt thành công.</p>
+          <p><strong>3. Quyền dùng thử:</strong> Người dùng có toàn quyền trải nghiệm đầy đủ các tính năng cơ bản, 14
+            đường kinh lạc và các huyệt vị miễn phí trước khi tự nguyện quyết định nâng cấp lên các gói trả phí.</p>
+        </div>
+
+        <!-- Tab 5: Tranh Chấp & Kỹ Thuật -->
+        <div class="terms-tab-pane" id="termPaneDispute">
+          <h4>ĐIỀU 5: GIỚI HẠN KỸ THUẬT VÀ GIẢI QUYẾT TRANH CHẤP</h4>
+          <p><strong>1. Cung cấp theo nguyên trạng (As Is):</strong> Ứng dụng được cung cấp trên cơ sở nguyên trạng. Tác
+            giả nỗ lực tối đa để đảm bảo hệ thống vận hành liên tục, ổn định và chính xác, nhưng không cam kết phần mềm
+            sẽ hoàn toàn không có lỗi kỹ thuật phát sinh từ các dòng thiết bị phần cứng cũ, trình duyệt không đạt chuẩn
+            WebGL hoặc lỗi đường truyền mạng của Người dùng.</p>
+          <p><strong>2. Luật điều chỉnh & Giải quyết tranh chấp:</strong> Các Điều khoản này được giải thích và điều
+            chỉnh theo pháp luật của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam. Mọi tranh chấp phát sinh sẽ được giải
+            quyết trước hết qua thương lượng hòa giải thiện chí; nếu không đạt được thỏa thuận, vụ việc sẽ được đưa ra
+            Tòa án có thẩm quyền tại nơi Tác giả cư trú để giải quyết.</p>
+          <div class="terms-author-box">
+            <strong>THÔNG TIN TÁC GIẢ & HỖ TRỢ:</strong><br>
+            • Tác giả sáng lập: <strong>Trịnh Tiến Đạt</strong><br>
+            • Thương hiệu chuyên môn: <strong>Vi An Y Quán</strong><br>
+            • Hotline / Zalo hỗ trợ: <strong>0936.380.666</strong><br>
+            • Email: <strong>tiendat.trinh@gmail.com</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch((err) => {
+          console.warn('ServiceWorker registration error:', err);
+        });
+      });
+    }
+  </script>
+
+  <!-- Tích hợp Hệ Giải Phẫu Z-Anatomy Gốc Đầy Đủ & Hệ Bạch Huyết (Client Cache IndexedDB) -->
+  <script type="module">
+    import * as THREE from './js/vendor/three.module.js';
+    import { GLTFLoader } from './js/vendor/GLTFLoader.js';
+    import { storageManager } from './js/storageManager.js';
+
+    const gltfLoader = new GLTFLoader();
+
+    function getThreeScene() {
+      if (window.threeScene && window.threeScene.isScene) return window.threeScene;
+      if (window.threeScene && typeof window.threeScene.add === 'function') return window.threeScene;
+      const anyObj = window.skeletonModel || window.organsModel || window.humanModel;
+      if (anyObj) {
+        let p = anyObj;
+        while (p.parent) p = p.parent;
+        window.threeScene = p;
+        return p;
+      }
+      return null;
+    }
+
+    // Hiển thị Toast thông báo tải & tiến trình lưu cache
+    function showProgressToast(message, percent = null) {
+      let toast = document.getElementById('newatlasSystemToast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'newatlasSystemToast';
+        toast.style.cssText = `
+          position: fixed;
+          bottom: 24px;
+          right: 24px;
+          z-index: 10000;
+          background: rgba(11, 19, 32, 0.96);
+          backdrop-filter: blur(14px);
+          border: 1px solid rgba(56, 189, 248, 0.45);
+          border-radius: 12px;
+          padding: 12px 18px;
+          color: #f8fafc;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          font-size: 13px;
+          font-weight: 500;
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        `;
+        document.body.appendChild(toast);
+      }
+      toast.style.display = 'flex';
+      toast.innerHTML = `
+        <span style="font-size: 18px; display:inline-block; animation: spin 1s linear infinite;">⏳</span>
+        <div>
+          <div style="font-weight:600; color:#38bdf8;">${message}</div>
+          ${percent !== null ? `<div style="font-size: 11px; color: #94a3b8; margin-top: 3px;">Tiến trình: <strong>${percent}%</strong> (Đang lưu cache máy)</div>` : ''}
+        </div>
+      `;
+    }
+
+    function hideProgressToast() {
+      const toast = document.getElementById('newatlasSystemToast');
+      if (toast) {
+        toast.style.display = 'none';
+      }
+    }
+
+    // -------------------------------------------------------------
+    // 0. BỘ HIỆU CHỈNH HÌNH HỌC ANATOMY (TUCK-IN MESHES AN TOÀN TRONG DA)
+    // Tự động thu gọn mạch máu/thần kinh tại 6 vùng nhạy cảm:
+    // Mặt, Hõm nách, Vùng bẹn, Đầu gối, Cổ cẳng chân, Bàn chân & Ngón chân
+    // -------------------------------------------------------------
+    window.tuckAnatomyGeometry = function(child) {
+      if (!child || !child.isMesh || !child.geometry || !child.geometry.attributes || !child.geometry.attributes.position) return;
+      const pos = child.geometry.attributes.position;
+      const nameL = (child.name || '').toLowerCase();
+      let modified = false;
+
+      for (let i = 0; i < pos.count; i++) {
+        let x = pos.getX(i);
+        let y = pos.getY(i);
+        let z = pos.getZ(i);
+
+        // 1. Mặt (Face, Eyes, Forehead: Y > 1.52)
+        if (y > 1.52) {
+          x = x * 0.94;
+          z = 0.015 + (z - 0.015) * 0.86 - 0.010;
+          if (nameL.includes('angular') || nameL.includes('facial') || nameL.includes('labial') ||
+              nameL.includes('nasal') || nameL.includes('?x') || nameL.includes('orbital') ||
+              nameL.includes('temporal') || nameL.includes('ophthalmic') || nameL.includes('trigeminal') ||
+              nameL.includes('maxillary') || nameL.includes('mandibular') || nameL.includes('alveolar') ||
+              nameL.includes('supraorbital') || nameL.includes('infraorbital') || nameL.includes('supratrochlear')) {
+            z -= 0.008;
+            x *= 0.93;
+          }
+          modified = true;
+        }
+        // 2. Hõm nách & Vùng nách ngực (Axilla: 1.18 <= Y <= 1.45, |X| >= 0.08, |X| <= 0.22)
+        else if (y >= 1.18 && y <= 1.45 && Math.abs(x) >= 0.08 && Math.abs(x) <= 0.22) {
+          const signX = x > 0 ? 1 : -1;
+          x = signX * (0.08 + (Math.abs(x) - 0.08) * 0.84);
+          if (nameL.includes('axillary') || nameL.includes('circumflex humeral') || 
+              nameL.includes('lateral thoracic') || nameL.includes('brachial') ||
+              nameL.includes('thoracodorsal') || nameL.includes('subscapular') ||
+              nameL.includes('pectoral') || nameL.includes('intercostobrachial')) {
+            x = signX * Math.max(0.075, Math.abs(x) - 0.014);
+            z = z * 0.88;
+          }
+          modified = true;
+        }
+        // 3. Vùng Bẹn & Hạ vị (Groin / Femoral triangle: 0.74 <= Y <= 0.94, |X| <= 0.15, Z >= 0.005)
+        else if (y >= 0.74 && y <= 0.94 && Math.abs(x) <= 0.15 && z >= 0.005) {
+          z = z - 0.015;
+          if (nameL.includes('penis') || nameL.includes('pudendal') || nameL.includes('epigastric') ||
+              nameL.includes('femoral') || nameL.includes('obturator') || nameL.includes('genitofemoral') ||
+              nameL.includes('iliac') || nameL.includes('circumflex iliac') || nameL.includes('saphenous')) {
+            z = z - 0.012;
+            x = x * 0.94;
+          }
+          modified = true;
+        }
+        // 4. Đầu gối & Xương bánh chè (Knees / Patella: 0.38 <= Y <= 0.58, Z >= -0.01)
+        else if (y >= 0.38 && y <= 0.58 && z >= -0.01) {
+          z = z - 0.018;
+          x = x * 0.95;
+          if (nameL.includes('patellar') || nameL.includes('genicular') || nameL.includes('saphenous') ||
+              nameL.includes('infrapatellar') || nameL.includes('popliteal')) {
+            z = z - 0.008;
+          }
+          modified = true;
+        }
+        // 5. Cổ cẳng chân & Cổ chân (Ankle / Lower leg: 0.07 <= Y <= 0.16)
+        else if (y >= 0.07 && y <= 0.16) {
+          if (z > -0.03) {
+            z = z - 0.014;
+          }
+          const signX = x > 0 ? 1 : -1;
+          x = signX * (Math.abs(x) * 0.95);
+          if (nameL.includes('tibial') || nameL.includes('fibular') || nameL.includes('peroneal') ||
+              nameL.includes('malleolar') || nameL.includes('saphenous')) {
+            z -= 0.006;
+          }
+          modified = true;
+        }
+        // 6. Bàn chân & Ngón chân (Foot, Dorsum & Toes: Y < 0.07)
+        else if (y < 0.07) {
+          if (z > 0.01) {
+            z = 0.01 + (z - 0.01) * 0.80 - 0.014;
+          }
+          if (y < 0.016) {
+            y = 0.016 + (y - 0.016) * 0.5;
+          }
+          const signX = x > 0 ? 1 : -1;
+          x = signX * (0.09 + (Math.abs(x) - 0.09) * 0.88);
+          if (nameL.includes('digital') || nameL.includes('metatarsal') || nameL.includes('arcuate') ||
+              nameL.includes('pedis') || nameL.includes('plantar')) {
+            z -= 0.008;
+          }
+          modified = true;
+        }
+
+        if (modified) {
+          pos.setXYZ(i, x, y, z);
+        }
+      }
+
+      if (modified) {
+        pos.needsUpdate = true;
+        child.geometry.computeVertexNormals();
+        child.geometry.computeBoundingBox();
+        child.geometry.computeBoundingSphere();
+      }
+    };
+
+    // -------------------------------------------------------------
+    // 1. TẢI VÀ QUẢN LÝ HỆ BẠCH HUYẾT (220 HẠCH BẠCH HUYẾT Z-ANATOMY GỐC)
+    // -------------------------------------------------------------
+    window.lymphaticModel = null;
+    let isLymphaticVisible = false;
+
+    window.loadLymphaticSystem = async function() {
+      if (window.lymphaticModel) return window.lymphaticModel;
+
+      showProgressToast('Đang tải Hệ Bạch Huyết gốc Z-Anatomy (220 Hạch)...', 0);
+      try {
+        const { data, isCached } = await storageManager.loadSystemData(
+          'lymphatic_v12',
+          '/models/lymphatic.glb?v=master_z31',
+          (percent) => {
+            showProgressToast('Đang tải Hệ Bạch Huyết gốc Z-Anatomy (220 Hạch)...', percent);
+          }
+        );
+
+        return new Promise((resolve, reject) => {
+          gltfLoader.parse(data, '', (gltf) => {
+            const model = gltf.scene;
+            model.traverse((child) => {
+              if (child.isMesh) {
+                child.castShadow = false;
+                child.receiveShadow = false;
+                const mat = new THREE.MeshStandardMaterial({
+                  color: new THREE.Color('#22c55e'),
+                  roughness: 0.28,
+                  metalness: 0.15,
+                  transparent: true,
+                  opacity: 0.95,
+                  polygonOffset: true,
+                  polygonOffsetFactor: 4,
+                  polygonOffsetUnits: 8
+                });
+                child.material = mat;
+                const lInfo = window.dissectionStudio?.getLymphaticInfo ? window.dissectionStudio.getLymphaticInfo(child.name) : null;
+                child.userData = {
+                  isLymphatic: true,
+                  isAnatomyStructure: true,
+                  structureType: 'lymphatic_v12',
+                  meshName: child.name,
+                  nameVi: lInfo ? lInfo.vi : child.name,
+                  nameLat: lInfo ? lInfo.lat : child.name,
+                  drainage: lInfo ? lInfo.drainage : 'Dẫn lưu dịch bạch huyết và tế bào miễn dịch.',
+                  acupoints: lInfo ? lInfo.acupoints : 'Hệ thống hạch miễn dịch phân bố dọc các đường kinh lạc.',
+                  note: lInfo ? lInfo.note : 'Cơ quan lympho ngoại vi tham gia đáp ứng miễn dịch.',
+                  layer: 'lymphatic'
+                };
+                if (window.tuckAnatomyGeometry) {
+                  window.tuckAnatomyGeometry(child);
+                }
+              }
+            });
+
+            model.position.set(0, 0.002, -0.006);
+            model.scale.set(0.995, 1.026, 0.975);
+            model.visible = isLymphaticVisible;
+
+            const sc = getThreeScene();
+            if (sc) {
+              sc.add(model);
+            }
+
+            window.lymphaticModel = model;
+            hideProgressToast();
+            console.log(`[NewAtlas] ✓ Hệ Bạch Huyết Z-Anatomy đã sẵn sàng (${isCached ? 'Từ Cache' : 'Từ Mạng'}).`);
+            resolve(model);
+          }, reject);
+        });
+      } catch (err) {
+        hideProgressToast();
+        console.error('[NewAtlas] Lỗi tải Hệ Bạch Huyết:', err);
+        return null;
+      }
+    };
+
+    window.toggleLymphatic = async function(visible = null) {
+      const targetVis = visible !== null ? !!visible : !isLymphaticVisible;
+      if (targetVis && typeof window.isVipActive === 'function' && !window.isVipActive()) {
+        isLymphaticVisible = false;
+        if (window.lymphaticModel) window.lymphaticModel.visible = false;
+        window.syncAllAnatomyControls && window.syncAllAnatomyControls();
+        window.promptVipForAnatomy && window.promptVipForAnatomy('Hệ Bạch Huyết (220 Hạch miễn dịch Z-Anatomy)');
+        return false;
+      }
+      isLymphaticVisible = targetVis;
+
+      if (isLymphaticVisible && window.ensureSkinTranslucent) {
+        window.ensureSkinTranslucent();
+      }
+
+      if (!window.lymphaticModel && isLymphaticVisible) {
+        await window.loadLymphaticSystem();
+      }
+
+      if (window.lymphaticModel) {
+        const sc = getThreeScene();
+        if (sc && !window.lymphaticModel.parent) {
+          sc.add(window.lymphaticModel);
+        }
+        window.lymphaticModel.visible = isLymphaticVisible;
+      }
+
+      if (window.syncAllAnatomyControls) {
+        window.syncAllAnatomyControls();
+      } else {
+        const btn = document.getElementById('btnToggleLymphatic');
+        if (btn) btn.classList.toggle('active', isLymphaticVisible);
+        const chk = document.getElementById('chkLymphatic');
+        if (chk) chk.checked = isLymphaticVisible;
+      }
+      return isLymphaticVisible;
+    };
+
+    // -------------------------------------------------------------
+    // 2. TẢI VÀ QUẢN LÝ HỆ MẠCH MÁU (714 MẠCH MÁU Z-ANATOMY GỐC)
+    // -------------------------------------------------------------
+    window.vesselsModel = null;
+    let isVesselsVisible = false;
+
+    window.loadVesselsSystem = async function() {
+      if (window.vesselsModel) return window.vesselsModel;
+
+      showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (714 Mạch Máu Gốc)...', 0);
+      try {
+        const { data, isCached } = await storageManager.loadSystemData(
+          'vessels_v12',
+          '/models/vessels.glb?v=master_z31',
+          (percent) => {
+            showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (714 Mạch Máu Gốc)...', percent);
+          }
+        );
+
+        return new Promise((resolve, reject) => {
+          gltfLoader.parse(data, '', (gltf) => {
+            const model = gltf.scene;
+            model.traverse((child) => {
+              if (child.isMesh) {
+                child.castShadow = false;
+                child.receiveShadow = false;
+                const nameL = child.name.toLowerCase();
+                const isArtery = nameL.includes('arter') || nameL.includes('aorta') || nameL.includes('carotid') || nameL.includes('subclavian');
+                const mat = new THREE.MeshStandardMaterial({
+                  color: isArtery ? new THREE.Color('#ef4444') : new THREE.Color('#3b82f6'),
+                  roughness: 0.32,
+                  metalness: 0.18,
+                  polygonOffset: true,
+                  polygonOffsetFactor: 4,
+                  polygonOffsetUnits: 8
+                });
+                child.material = mat;
+                child.userData = {
+                  isAnatomyStructure: true,
+                  structureType: 'vessel',
+                  nameVi: (isArtery ? 'Động mạch ' : 'Tĩnh mạch ') + child.name.replace(/CU|OB/g, '').trim(),
+                  nameLat: child.name,
+                  layer: 'vessels'
+                };
+                if (window.tuckAnatomyGeometry) {
+                  window.tuckAnatomyGeometry(child);
+                }
+              }
+            });
+
+            model.position.set(0, 0.002, -0.006);
+            model.scale.set(0.995, 1.026, 0.975);
+            model.visible = isVesselsVisible;
+
+            const sc = getThreeScene();
+            if (sc) {
+              sc.add(model);
+            }
+
+            window.vesselsModel = model;
+            hideProgressToast();
+            console.log();
+            resolve(model);
+          }, reject);
+        });
+      } catch (err) {
+        hideProgressToast();
+        console.error('[NewAtlas] Lỗi tải Hệ Mạch Máu:', err);
+        return null;
+      }
+    };
+
+    window.toggleVessels = async function(visible = null) {
+      const targetVis = visible !== null ? !!visible : !isVesselsVisible;
+      if (targetVis && typeof window.isVipActive === 'function' && !window.isVipActive()) {
+        isVesselsVisible = false;
+        if (window.vesselsModel) window.vesselsModel.visible = false;
+        window.syncAllAnatomyControls && window.syncAllAnatomyControls();
+        window.promptVipForAnatomy && window.promptVipForAnatomy('Hệ Tuần Hoàn (676 Động mạch & Tĩnh mạch Z-Anatomy)');
+        return false;
+      }
+      isVesselsVisible = targetVis;
+
+      if (isVesselsVisible && window.ensureSkinTranslucent) {
+        window.ensureSkinTranslucent();
+      }
+
+      if (!window.vesselsModel && isVesselsVisible) {
+        await window.loadVesselsSystem();
+      }
+
+      if (window.vesselsModel) {
+        const sc = getThreeScene();
+        if (sc && !window.vesselsModel.parent) {
+          sc.add(window.vesselsModel);
+        }
+        window.vesselsModel.visible = isVesselsVisible;
+      }
+
+      if (window.syncAllAnatomyControls) {
+        window.syncAllAnatomyControls();
+      } else {
+        const btn = document.getElementById('btnToggleVessels');
+        if (btn) btn.classList.toggle('active', isVesselsVisible);
+        const chk = document.getElementById('chkArteries');
+        if (chk) chk.checked = isVesselsVisible;
+      }
+      return isVesselsVisible;
+    };
+
+    // -------------------------------------------------------------
+    // 2B. CƠ CHẾ KHÓA VIP CHO CÁC HỆ GIẢI PHẪU NÂNG CAO TRONG STUDIO BÓC TÁCH
+    // Gói Free: Mở Lớp Da Ngoài + Khung Xương (242 xương).
+    // Gói VIP: Mở khóa Cơ Nông, Cơ Sâu, Mạch Máu, Thần Kinh, Lục Phủ Ngũ Tạng, Bạch Huyết, Dao Mổ & X-Ray.
+    // -------------------------------------------------------------
+    window.promptVipForAnatomy = function(featureName = 'Giải phẫu chuyên sâu đa tầng') {
+      let toast = document.getElementById('vipAnatomyLockToast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'vipAnatomyLockToast';
+        toast.style.cssText = `
+          position: fixed;
+          top: 78px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 10050;
+          background: rgba(15, 23, 42, 0.96);
+          border: 1px solid rgba(251, 191, 36, 0.65);
+          border-radius: 12px;
+          padding: 10px 16px;
+          color: #fef3c7;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          font-size: 13px;
+          font-weight: 600;
+          box-shadow: 0 12px 32px rgba(0, 0, 0, 0.75);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          pointer-events: none;
+          transition: opacity 0.25s ease;
+        `;
+        document.body.appendChild(toast);
+      }
+      toast.style.opacity = '1';
+      toast.innerHTML = `<span style="font-size:17px;">🔒</span><span>Tính năng <strong>${featureName}</strong> thuộc đặc quyền <strong>Hội Viên VIP</strong>!</span>`;
+      clearTimeout(window.__vipAnatToastTimer);
+      window.__vipAnatToastTimer = setTimeout(() => {
+        if (toast) toast.style.opacity = '0';
+      }, 2800);
+
+      if (typeof window.openPricingModal === 'function') {
+        window.openPricingModal('annual');
+      } else {
+        document.getElementById('btnHeaderUpgrade')?.click();
+      }
+    };
+
+    const VIP_LOCKED_CONTROLS = [
+      { chk: 'chkSuperficial', slider: 'sliderSuperficialOpacity', val: 'valSuperficialOpacity', name: 'Lớp Cơ Nông (Superficial Muscles)' },
+      { chk: 'chkDeep',        slider: 'sliderDeepOpacity',        val: 'valDeepOpacity',        name: 'Lớp Cơ Sâu (Deep Muscles)' },
+      { chk: 'chkArteries',    slider: 'sliderVesselsOpacity',     val: 'valVesselsOpacity',     name: 'Hệ Mạch Máu (676 Động & Tĩnh mạch)' },
+      { chk: 'chkNerves',      slider: 'sliderNervesOpacity',      val: 'valNervesOpacity',      name: 'Hệ Dây Thần Kinh (518 nhánh Z-Anatomy)' },
+      { chk: 'chkOrgans',      slider: 'sliderOrgansOpacity',      val: 'valOrgansOpacity',      name: 'Lục Phủ Ngũ Tạng (13 Tạng phủ YHCT)' },
+      { chk: 'chkLymphatic',   slider: 'sliderLymphaticOpacity',   val: 'valLymphaticOpacity',   name: 'Hệ Bạch Huyết (220 Hạch miễn dịch)' }
+    ];
+
+    window.refreshAnatomyVipLocks = function() {
+      const panel = document.getElementById('anatomyDissectionPanel');
+      if (!panel) return;
+      const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
+
+      // Gắn nhãn Free cho Lớp Da & Khung Xương
+      ['chkSkin', 'chkSkeleton'].forEach((id) => {
+        const chkEl = document.getElementById(id);
+        const ctrl = chkEl?.closest('.layer-control');
+        const titleSpan = ctrl?.querySelector('.layer-header > span');
+        if (titleSpan && !titleSpan.querySelector('.free-anatomy-badge')) {
+          const b = document.createElement('span');
+          b.className = 'free-anatomy-badge';
+          b.textContent = 'FREE';
+          titleSpan.appendChild(b);
+        }
+      });
+
+      // Quản lý trạng thái khóa VIP trên 6 hệ cơ quan nâng cao
+      VIP_LOCKED_CONTROLS.forEach((cfg) => {
+        const chkEl = document.getElementById(cfg.chk);
+        const sliderEl = document.getElementById(cfg.slider);
+        const valEl = document.getElementById(cfg.val);
+        const ctrl = chkEl?.closest('.layer-control');
+        const titleSpan = ctrl?.querySelector('.layer-header > span');
+
+        if (titleSpan) {
+          let badge = titleSpan.querySelector('.vip-anatomy-badge');
+          if (!isVip) {
+            if (!badge) {
+              badge = document.createElement('span');
+              badge.className = 'vip-anatomy-badge';
+              titleSpan.appendChild(badge);
+            }
+            badge.innerHTML = '🔒 VIP';
+          } else if (badge) {
+            badge.innerHTML = '👑 VIP';
+          }
+        }
+
+        if (ctrl) {
+          ctrl.classList.toggle('vip-locked-layer', !isVip);
+        }
+
+        if (!isVip) {
+          if (chkEl) chkEl.checked = false;
+          if (sliderEl) sliderEl.value = 0;
+          if (valEl) valEl.textContent = '🔒 VIP';
+        }
+      });
+
+      // Gắn nhãn khóa trên nút Dao Mổ Bóc, Bóc Toàn Bộ Cơ Nông, X-Ray
+      [
+        { id: 'btnModeScalpel', label: '🔪 Dao Mổ Bóc', vipName: 'Dao Mổ Số (Digital Scalpel)' },
+        { id: 'btnPeelAllSuperficial', label: '⚡ Bóc Toàn Bộ Cơ Nông', vipName: 'Bóc Toàn Bộ Cơ Nông 1 Chạm' },
+        { id: 'btnToggleXRay', label: '🔮 Chế Độ X-Ray Xuyên Thấu', vipName: 'Chế Độ X-Ray Xuyên Thấu' }
+      ].forEach((btnCfg) => {
+        const btn = document.getElementById(btnCfg.id);
+        if (!btn) return;
+        btn.innerHTML = isVip ? btnCfg.label : `${btnCfg.label} <span class="vip-anatomy-badge">🔒 VIP</span>`;
+      });
+
+      // Chèn hoặc ẩn Banner nâng cấp VIP ngay trong Studio Bóc Tách
+      let banner = document.getElementById('dissectVipUpgradeBanner');
+      if (!isVip) {
+        if (!banner) {
+          banner = document.createElement('div');
+          banner.id = 'dissectVipUpgradeBanner';
+          banner.className = 'dissect-vip-banner';
+          banner.innerHTML = `
+            <div class="dissect-vip-banner-text">
+              👑 <strong>Bản Miễn Phí (Free):</strong> Đang mở Lớp Da & Khung Xương (242 xương). Nâng cấp <strong>VIP</strong> để mở khóa bóc tách <strong>Cơ Nông, Cơ Sâu, Mạch Máu, Thần Kinh, Lục Phủ Ngũ Tạng, Bạch Huyết & Dao Mổ Số</strong>!
+            </div>
+            <button type="button" class="dissect-vip-banner-btn" id="btnUnlockVipFromDissect">
+              ⚡ Mở Khóa Trọn Bộ 8 Tầng Giải Phẫu (399k/Năm • 799k Trọn Đời)
+            </button>
+          `;
+          const section = panel.querySelector('.dissect-section');
+          if (section && section.parentNode) {
+            section.parentNode.insertBefore(banner, section);
+          }
+          banner.querySelector('#btnUnlockVipFromDissect')?.addEventListener('click', () => {
+            window.promptVipForAnatomy('Trọn bộ 8 tầng Giải Phẫu Z-Anatomy & Dao Mổ Số');
+          });
+        }
+        banner.style.display = 'flex';
+      } else if (banner) {
+        banner.style.display = 'none';
+      }
+    };
+
+    function bindAnatomyVipCaptureGuards() {
+      const panel = document.getElementById('anatomyDissectionPanel');
+      if (!panel || panel.dataset.vipGuardBound === '1') return;
+      panel.dataset.vipGuardBound = '1';
+
+      // Chặn ở pha Capture trước khi DissectionStudio xử lý nếu tài khoản chưa phải VIP
+      VIP_LOCKED_CONTROLS.forEach((cfg) => {
+        const chkEl = document.getElementById(cfg.chk);
+        const sliderEl = document.getElementById(cfg.slider);
+        const ctrl = chkEl?.closest('.layer-control');
+
+        const intercept = (e) => {
+          const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
+          if (!isVip) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            if (chkEl) chkEl.checked = false;
+            if (sliderEl) sliderEl.value = 0;
+            const valEl = document.getElementById(cfg.val);
+            if (valEl) valEl.textContent = '🔒 VIP';
+            window.promptVipForAnatomy(cfg.name);
+            return false;
+          }
+        };
+
+        chkEl?.addEventListener('change', intercept, true);
+        chkEl?.addEventListener('click', intercept, true);
+        sliderEl?.addEventListener('input', intercept, true);
+        sliderEl?.addEventListener('mousedown', intercept, true);
+        sliderEl?.addEventListener('touchstart', intercept, { capture: true, passive: false });
+        ctrl?.addEventListener('click', (e) => {
+          const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
+          if (!isVip && !e.target.closest('input')) {
+            intercept(e);
+          }
+        }, true);
+      });
+
+      [
+        { id: 'btnModeScalpel', name: 'Dao Mổ Số (Digital Scalpel)' },
+        { id: 'btnPeelAllSuperficial', name: 'Bóc Toàn Bộ Cơ Nông 1 Chạm' },
+        { id: 'btnToggleXRay', name: 'Chế Độ X-Ray Xuyên Thấu' }
+      ].forEach((btnCfg) => {
+        const btn = document.getElementById(btnCfg.id);
+        btn?.addEventListener('click', (e) => {
+          const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
+          if (!isVip) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            window.promptVipForAnatomy(btnCfg.name);
+          }
+        }, true);
+      });
+
+      // Chặn tìm kiếm các cấu trúc ngoài Xương trong ô tìm kiếm giải phẫu đối với tài khoản Free
+      const sInput = document.getElementById('dissectSearchInput');
+      if (sInput) {
+        const updatePlaceholder = () => {
+          const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
+          sInput.placeholder = isVip
+            ? '🔍 Tra cứu 242 xương, 177 cơ, tạng, mạch, thần kinh...'
+            : '🔍 Tra cứu 242 xương (Nâng cấp VIP để tra cứu 177 cơ, tạng, mạch...)';
+        };
+        updatePlaceholder();
+        sInput.addEventListener('focus', updatePlaceholder);
+      }
+
+      window.refreshAnatomyVipLocks();
+    }
+
+    // -------------------------------------------------------------
+    // 3. TÍCH HỢP ĐIỀU KHIỂN VÀO STUDIO BÓC TÁCH & GIAO DIỆN
+    // -------------------------------------------------------------
+    function setupDissectionIntegration() {
+      bindAnatomyVipCaptureGuards();
+
+      const btnLymph = document.getElementById('btnToggleLymphatic');
+      if (btnLymph) {
+        btnLymph.onclick = () => window.toggleLymphatic();
+      }
+
+      const btnVessels = document.getElementById('btnToggleVessels');
+      if (btnVessels) {
+        btnVessels.onclick = () => window.toggleVessels();
+      }
+
+      // Đăng ký quan sát để tự động gán guard khi panel được tạo vào DOM
+      const observer = new MutationObserver(() => {
+        if (document.getElementById('anatomyDissectionPanel')) {
+          bindAnatomyVipCaptureGuards();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+
+      window.syncAllAnatomyControls && window.syncAllAnatomyControls();
+    }
+
+    // -------------------------------------------------------------
+    // 4. TỰ ĐỘNG TẢI NGẦM TRỌN BỘ 7 HỆ GIẢI PHẪU 3D VỀ THIẾT BỊ
+    // Không nén mô hình, giữ nguyên 100% chi tiết gốc Z-Anatomy.
+    // Tải ngầm tuần tự sau khi cảnh 3D chính đã hiển thị để lần sau mở tức thì (0s).
+    // -------------------------------------------------------------
+    const ANATOMY_PRELOAD_QUEUE = [
+      { id: 'skin',      type: 'cache', url: '/models/human-learning.glb?v=master_z36', label: 'Lớp Da Ngoài',               expectedBytes: 897388 },
+      { id: 'skeleton',  type: 'cache', url: '/models/skeleton.glb',                    label: 'Khung Xương (242 Xương)',    expectedBytes: 5219824 },
+      { id: 'muscles',   type: 'cache', url: '/models/muscles.glb?v=master_z36',        label: 'Hệ Cơ (177 Bó cơ)',          expectedBytes: 5621352 },
+      { id: 'lymphatic_v12', type: 'idb', url: '/models/lymphatic.glb?v=master_z31',    label: 'Hệ Bạch Huyết (220 Hạch)',   expectedBytes: 2979540 },
+      { id: 'organs',    type: 'cache', url: '/models/organs.glb?v=master_z19',         label: 'Lục Phủ Ngũ Tạng (136 Tạng)',expectedBytes: 17056588 },
+      { id: 'nerves',    type: 'cache', url: '/models/nerves.glb?v=master_z19',         label: 'Hệ Thần Kinh (518 Nhánh)',   expectedBytes: 46266616 },
+      { id: 'vessels_v12',   type: 'idb', url: '/models/vessels.glb?v=master_z31',      label: 'Hệ Mạch Máu (676 Mạch)',     expectedBytes: 81242340 }
+    ];
+
+    function updateBgPreloadBadge({ title, sub, percent = null, done = false, hideAfterMs = 0 }) {
+      let badge = document.getElementById('bgPreloadBadge');
+      if (!badge) {
+        badge = document.createElement('div');
+        badge.id = 'bgPreloadBadge';
+        badge.style.cssText = `
+          position: fixed;
+          bottom: 16px;
+          left: 16px;
+          z-index: 9500;
+          background: rgba(11, 19, 32, 0.92);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid rgba(56, 189, 248, 0.35);
+          border-radius: 12px;
+          padding: 9px 14px;
+          color: #e2e8f0;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          font-size: 11.5px;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+          pointer-events: none;
+          transition: opacity 0.4s ease, transform 0.4s ease;
+          min-width: 250px;
+          max-width: 330px;
+        `;
+        document.body.appendChild(badge);
+      }
+
+      badge.style.opacity = '1';
+      badge.style.transform = 'translateY(0)';
+      badge.style.borderColor = done ? 'rgba(34, 197, 94, 0.5)' : 'rgba(56, 189, 248, 0.35)';
+
+      const barHtml = percent !== null ? `
+        <div style="width:100%; height:4px; background:rgba(148,163,184,0.2); border-radius:4px; overflow:hidden; margin-top:6px;">
+          <div style="width:${Math.max(2, Math.min(100, percent))}%; height:100%; background:${done ? '#22c55e' : 'linear-gradient(90deg, #38bdf8, #22d3ee)'}; transition:width 0.2s ease;"></div>
+        </div>
+      ` : '';
+
+      badge.innerHTML = `
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
+          <span style="font-weight:600; color:${done ? '#4ade80' : '#38bdf8'};">${title}</span>
+          ${percent !== null ? `<span style="font-weight:700; color:#f8fafc; font-size:11px;">${Math.round(percent)}%</span>` : ''}
+        </div>
+        ${sub ? `<div style="font-size:10.5px; color:#94a3b8; margin-top:2px;">${sub}</div>` : ''}
+        ${barHtml}
+      `;
+
+      if (hideAfterMs > 0) {
+        setTimeout(() => {
+          if (badge) {
+            badge.style.opacity = '0';
+            badge.style.transform = 'translateY(10px)';
+          }
+        }, hideAfterMs);
+      }
+    }
+
+    async function isItemAlreadyCached(item) {
+      if (item.type === 'idb') {
+        return await storageManager.isCached(item.id);
+      }
+      if ('caches' in window) {
+        try {
+          const cacheName = window.__MODEL_CACHE_NAME || 'acuatlas3d-models-v7-real-zanatomy-nervous-system';
+          const c = await caches.open(cacheName);
+          const match = await c.match(item.url);
+          return !!match;
+        } catch (e) {
+          return false;
+        }
+      }
+      return false;
+    }
+
+    async function startBackgroundModelPreloader() {
+      // Đợi cảnh 3D chính (Da + Xương) hiển thị xong trước khi tải ngầm các hệ còn lại
+      const t0 = Date.now();
+      while ((!window.humanModel || !window.skeletonModel) && Date.now() - t0 < 6000) {
+        await new Promise((r) => setTimeout(r, 350));
+      }
+      // Nghỉ 1.5s để GPU/CPU hoàn tất khởi tạo khung hình mượt mà
+      await new Promise((r) => setTimeout(r, 1500));
+
+      await storageManager.init();
+
+      const totalCount = ANATOMY_PRELOAD_QUEUE.length;
+      const uncachedList = [];
+      for (let i = 0; i < totalCount; i++) {
+        const item = ANATOMY_PRELOAD_QUEUE[i];
+        const cached = await isItemAlreadyCached(item);
+        if (!cached) {
+          uncachedList.push({ item, index: i + 1 });
+        }
+      }
+
+      // Nếu cả 7/7 mô hình đã có sẵn trong máy người dùng
+      if (uncachedList.length === 0) {
+        updateBgPreloadBadge({
+          title: '⚡ Đã nạp 7/7 hệ giải phẫu 3D từ thiết bị',
+          sub: 'Trọn bộ 163 MB dữ liệu gốc đã lưu sẵn • Bóc tách tức thì 0s',
+          percent: 100,
+          done: true,
+          hideAfterMs: 3200
+        });
+        return;
+      }
+
+      // Tải ngầm tuần tự từng mô hình chưa có trong máy
+      for (const { item, index } of uncachedList) {
+        try {
+          const totalMB = (item.expectedBytes / (1024 * 1024)).toFixed(1);
+          const onProg = (pct, loadedBytes, totalBytes) => {
+            const curMB = ((loadedBytes || 0) / (1024 * 1024)).toFixed(1);
+            const maxMB = totalBytes > 0 ? (totalBytes / (1024 * 1024)).toFixed(1) : totalMB;
+            const p = pct !== null ? pct : Math.min(99, Math.round(((loadedBytes || 0) / item.expectedBytes) * 100));
+            updateBgPreloadBadge({
+              title: `☁️ Đang lưu ngầm về máy (${index}/${totalCount})`,
+              sub: `${item.label} • ${curMB}/${maxMB} MB (Vẫn thao tác bình thường)`,
+              percent: p,
+              done: false
+            });
+          };
+
+          onProg(0, 0, item.expectedBytes);
+
+          if (item.type === 'idb') {
+            await storageManager.loadSystemData(item.id, item.url, onProg);
+          } else if (window.__fetchAndCacheModelBuffer) {
+            await window.__fetchAndCacheModelBuffer(item.url, onProg, item.expectedBytes);
+          } else if ('caches' in window) {
+            const cacheName = window.__MODEL_CACHE_NAME || 'acuatlas3d-models-v7-real-zanatomy-nervous-system';
+            const c = await caches.open(cacheName);
+            const res = await fetch(item.url);
+            if (res.ok) await c.put(item.url, res);
+          }
+        } catch (err) {
+          console.warn(`[BackgroundPreloader] Tạm hoãn tải ngầm ${item.label}:`, err);
+        }
+      }
+
+      updateBgPreloadBadge({
+        title: '✅ Đã lưu trọn bộ 7/7 hệ 3D vào thiết bị!',
+        sub: 'Từ lần truy cập sau mọi lớp giải phẫu sẽ mở tức thì (0s)',
+        percent: 100,
+        done: true,
+        hideAfterMs: 4500
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        setupDissectionIntegration();
+        startBackgroundModelPreloader();
+      });
+    } else {
+      setupDissectionIntegration();
+      startBackgroundModelPreloader();
+    }
+  </script>
+
+  <!-- Toast thông báo chuyển chế độ hiển thị huyệt -->
+  <div class="acu-mode-toast" id="acuModeToast">
+    <span id="acuToastIcon">🏷️</span>
+    <span id="acuToastText">Đang hiển thị: Tên Việt</span>
+  </div>
+
+  <!-- Modal: Hỏi - Đáp Thường Gặp (Q&A) & Trung Tâm Hỗ Trợ -->
+  <div class="qa-modal-overlay" id="qaModalOverlay">
+    <div class="qa-modal-card">
+      <button class="qa-modal-close" id="btnCloseQAModal" title="Đóng">&times;</button>
+      
+      <div class="qa-modal-header">
+        <div class="qa-header-badge">❓ TRUNG TÂM TRỢ GIÚP & HỎI ĐÁP (Q&A)</div>
+        <h3>Câu Hỏi Thường Gặp Khi Sử Dụng AcuAtlas 3D Pro</h3>
+        <p class="qa-header-sub">
+          Hướng dẫn thao tác 3D bóc tách, tra cứu 419 huyệt đạo, kích hoạt tài khoản VIP và kết nối chuyên gia YHCT.
+        </p>
+      </div>
+
+      <!-- Khung tìm kiếm câu hỏi nhanh -->
+      <div class="qa-search-box">
+        <span class="qa-search-icon">🔍</span>
+        <input type="text" id="qaSearchInput" placeholder="Tìm kiếm câu hỏi (ví dụ: bóc tách, VIP, thiết bị, hotline...)" autocomplete="off" />
+      </div>
+
+      <!-- Danh sách câu hỏi Accordion FAQ -->
+      <div class="qa-accordion-list" id="qaAccordionList">
+        
+        <!-- Câu 1 -->
+        <div class="qa-item" data-keywords="tim huyet phong to camera zoom tra cuu 419 huyet 779 diem">
+          <button class="qa-question-btn">
+            <span class="q-icon">🎯</span>
+            <span class="q-text">1. Ứng dụng có bao nhiêu huyệt vị & làm sao để tìm kiếm, phóng to nhanh?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              <strong>AcuAtlas 3D Pro</strong> tích hợp đầy đủ <strong>419 huyệt vị YHCT</strong> (gồm <strong>362 chính huyệt</strong> trên 14 đường kinh mạch chuẩn WHO và <strong>57 kỳ huyệt ngoài kinh</strong>), được biểu diễn thành <strong>779 điểm huyệt 3D</strong> (do các đường kinh chính và nhiều kỳ huyệt đối xứng hai bên trái – phải cơ thể).
+            </p>
+            <p>
+              Để tra cứu nhanh, bạn chỉ cần gõ vào thanh tìm kiếm góc trên bên trái: <strong>tên tiếng Việt</strong> (có dấu hoặc không dấu, ví dụ: <code>hop coc</code>, <code>Hợp Cốc</code>), <strong>mã quốc tế WHO</strong> (như <code>LI4</code>, <code>ST36</code>, <code>EX-HN5</code>) hoặc <strong>triệu chứng bệnh lý</strong> (ví dụ: <code>đau đầu</code>, <code>mất ngủ</code>, <code>dạ dày</code>). Nhấp vào kết quả, camera 3D sẽ tự động bay cận cảnh đến đúng mốc giải phẫu của huyệt và mở hồ sơ y khoa chi tiết ở cột phải.
+            </p>
+          </div>
+        </div>
+
+        <!-- Câu 2 -->
+        <div class="qa-item" data-keywords="boc tach da tang he co quan giai phau da co xuong noi tang mach mau bach huyet dao mo">
+          <button class="qa-question-btn">
+            <span class="q-icon">🔬</span>
+            <span class="q-text">2. Cách bóc tách 7 tầng cơ thể (Da, Cơ nông/sâu, Xương, Thần kinh, Tạng, Mạch máu, Bạch huyết)?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Nhấp vào nút <strong>"🔬 Bóc Tách"</strong> ở thanh công cụ nổi phía trên màn hình (hoặc nhấn phím tắt <code>Shift + D</code>) để mở bảng điều khiển <strong>Bóc Tách & Soi Giải Phẫu 3D (Z-Anatomy Engine)</strong>:
+            </p>
+            <ul>
+              <li><strong>Phân tầng độ mờ (Opacity Sliders):</strong> Kéo thanh trượt từ 0% đến 100% độc lập cho từng hệ: Lớp Da Ngoài, Lớp Cơ Nông (Superficial), Lớp Cơ Sâu (Deep Muscles), Hệ Mạch Máu, Hệ Dây Thần Kinh (123 nhánh), Lục Phủ Ngũ Tạng (13 tạng phủ YHCT), Khung Xương (242 xương) và Hệ Bạch Huyết (220 hạch).</li>
+              <li><strong>Chế độ Soi Thông Tin & Dao Mổ Bóc:</strong> Rê chuột đến bó cơ/xương nào sẽ tự động sáng viền kèm bảng thông tin Nguyên uỷ – Bám tận – Động tác – Thần kinh chi phối và các huyệt YHCT liên đới; hoặc bật <strong>Dao Mổ Bóc</strong> để ẩn từng cấu trúc riêng lẻ.</li>
+              <li><strong>Tự động lọc huyệt theo độ trong suốt của Da:</strong> Khi Lớp Da đặt ở chế độ đặc (<code>100%</code>), hệ thống tự động chỉ hiển thị các huyệt thuộc mặt trực diện đang nhìn và ẩn các huyệt mặt sau lưng để không bị rối mắt; khi giảm độ mờ lớp da để nhìn xuyên thấu, toàn bộ huyệt không gian 3D sẽ hiển thị đầy đủ.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Câu 3 -->
+        <div class="qa-item" data-keywords="che do huyet ma so ten viet an huyet label ty ngo luu chu khi luu">
+          <button class="qa-question-btn">
+            <span class="q-icon">🏷️</span>
+            <span class="q-text">3. Cách đổi chế độ hiển thị Tên Việt / Mã WHO, Dẫn truyền Khí lưu & Đồng hồ Tý Ngọ Lưu Chú?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Trên thanh công cụ nổi góc trên bên phải màn hình 3D, bạn có thể điều khiển tức thì:
+            </p>
+            <ul>
+              <li><strong>Nút Chế độ Nhãn Huyệt (4 chế độ xoay vòng):</strong> Nhấp liên tiếp để chuyển đổi giữa: <code>Tên Việt</code> ➔ <code>Mã WHO & Tên</code> ➔ <code>Chỉ Điểm Huyệt (ẩn chữ)</code> ➔ <code>Ẩn Tất Cả Huyệt (tập trung giải phẫu)</code>.</li>
+              <li><strong>Nút ⚡ Khí lưu:</strong> Bật/tắt hiệu ứng dòng hạt năng lượng vận hành dọc theo 14 đường kinh mạch theo đúng chiều thuận – nghịch khí huyết.</li>
+              <li><strong>Đồng hồ Tý Ngọ Lưu Chú (thanh trên cùng):</strong> Tự động tính toán Can Chi theo thời gian thực để báo kinh mạch nào đang vượng khí trong canh giờ hiện tại và gợi ý <strong>Huyệt Khai (Nạp Giáp / Nạp Tử)</strong> ứng dụng lâm sàng.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Câu 4 -->
+        <div class="qa-item" data-keywords="nang cap vip dang ky chuyen khoan vietqr gia tien 399k 799k">
+          <button class="qa-question-btn">
+            <span class="q-icon">⚡</span>
+            <span class="q-text">4. Bảng giá và cách đăng ký kích hoạt Gói Hội Viên VIP như thế nào?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Hiện tại <strong>AcuAtlas 3D Pro</strong> cung cấp 2 gói nâng cấp chính thức:
+            </p>
+            <ul>
+              <li><strong>Gói Hội Viên VIP 1 Năm (365 ngày):</strong> <code>399.000 đ</code></li>
+              <li><strong>Gói Chuyên Gia VIP Trọn Đời (Sở hữu vĩnh viễn):</strong> <code>799.000 đ</code></li>
+            </ul>
+            <p>
+              <strong>Quy trình kích hoạt:</strong><br>
+              1. Bấm nút <strong>"⚡ Nâng Cấp VIP"</strong> trên thanh công cụ và đăng nhập tài khoản email của bạn.<br>
+              2. Chọn <strong>Gói 1 Năm (399.000 đ)</strong> hoặc <strong>Gói Trọn Đời (799.000 đ)</strong>.<br>
+              3. Mở ứng dụng ngân hàng quét mã <strong>VietQR động</strong> (đã điền sẵn số tiền và nội dung chuyển khoản riêng của bạn) rồi bấm xác nhận.<br>
+              4. Quản trị viên Vi An Y Quán sẽ đối soát và kích hoạt VIP trong vòng <strong>1 – 5 phút</strong> (hoặc liên hệ Hotline/Zalo <strong>0936.380.666</strong> để được duyệt ngay lập tức).
+            </p>
+          </div>
+        </div>
+
+        <!-- Câu 5 -->
+        <div class="qa-item" data-keywords="goi 1 nam tron doi khac nhau quyen loi 399000 799000">
+          <button class="qa-question-btn">
+            <span class="q-icon">⭐</span>
+            <span class="q-text">5. Gói Hội Viên 1 Năm (399k) khác gì Gói Chuyên Gia Trọn Đời (799k)?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Cả hai gói đều mở khóa <strong>100% ĐẦY ĐỦ TÍNH NĂNG NHƯ NHAU</strong>: Trọn bộ 419 huyệt vị YHCT (779 điểm 3D), hướng châm – độ sâu an toàn & cảnh báo tai biến giải phẫu, toàn bộ phác đồ điều trị đa thể bệnh, bóc tách 7 hệ giải phẫu Z-Anatomy và tính toán Tý Ngọ Lưu Chú.
+            </p>
+            <p>
+              <strong>Điểm khác biệt:</strong> Gói 1 Năm (<code>399.000 đ</code>) có hạn sử dụng 365 ngày; Gói Chuyên Gia Trọn Đời (<code>799.000 đ</code>) chỉ thanh toán 1 lần duy nhất để sở hữu vĩnh viễn, không tốn phí duy trì hàng năm và được <strong>cập nhật miễn phí trọn đời</strong> mọi mô hình 3D, phác đồ bệnh học & tính năng mới trong tương lai.
+            </p>
+          </div>
+        </div>
+
+        <!-- Câu 6 -->
+        <div class="qa-item" data-keywords="thiet bi dien thoai ipad may tinh toi da 3">
+          <button class="qa-question-btn">
+            <span class="q-icon">📱</span>
+            <span class="q-text">6. Một tài khoản VIP được dùng trên bao nhiêu thiết bị?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Mỗi tài khoản VIP cá nhân được đăng nhập và sử dụng đồng thời trên <strong>tối đa 03 (ba) thiết bị cá nhân</strong> (ví dụ: 1 Điện thoại + 1 iPad/Máy tính bảng + 1 Máy tính bàn/Laptop) phục vụ nhu cầu học tập, giảng dạy và khám chữa bệnh linh hoạt của chính chủ.
+            </p>
+            <p>
+              Khi đăng nhập thiết bị thứ 4, hệ thống sẽ tự động ngắt kết nối thiết bị cũ nhất. Nghiêm cấm hành vi chia sẻ công khai, cho thuê hoặc bán lại tài khoản cho bên thứ ba.
+            </p>
+          </div>
+        </div>
+
+        <!-- Câu 7 -->
+        <div class="qa-item" data-keywords="tai ve may offline cache toc do muot ban quyen dung luong pwa">
+          <button class="qa-question-btn">
+            <span class="q-icon">🚀</span>
+            <span class="q-text">7. Cơ chế tự tải mô hình 3D về máy để chạy mượt Offline &安装 App (PWA) hoạt động thế nào?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Để giữ nguyên <strong>100% độ sắc nét giải phẫu gốc không nén</strong> mà vẫn khởi động tức thì (<code>0 giây</code>), ngay sau khi bạn mở ứng dụng lần đầu, hệ thống sẽ <strong>tự động tải ngầm các tầng giải phẫu 3D vào Bộ nhớ đệm bảo mật (Sandboxed CacheStorage & IndexedDB)</strong> của trình duyệt trên thiết bị. Từ lần truy cập thứ 2 trở đi, ứng dụng đọc trực tiếp từ bộ nhớ đệm trên máy bạn nên xoay/bóc tách siêu mượt mà không cần tải lại mạng.
+            </p>
+            <p>
+              <strong>Mẹo cài ra màn hình chính như App (PWA):</strong>
+            </p>
+            <ul>
+              <li><strong>Trên iPhone / iPad (Safari):</strong> Nhấp nút <strong>Chia sẻ (Share)</strong> ➔ Chọn <strong>"Thêm vào Màn hình chính" (Add to Home Screen)</strong>.</li>
+              <li><strong>Trên Android / Máy tính (Chrome, Edge):</strong> Nhấp biểu tượng <strong>Cài đặt ứng dụng (Install)</strong> trên thanh địa chỉ hoặc menu 3 chấm ➔ <strong>"Thêm vào màn hình chính"</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Câu 8 -->
+        <div class="qa-item" data-keywords="lien he hotline ho tro ky thuat chuyen mon vi an y quan dieu khoan ban quyen">
+          <button class="qa-question-btn">
+            <span class="q-icon">📞</span>
+            <span class="q-text">8. Thông tin Bản quyền, Điều khoản dịch vụ & Liên hệ hỗ trợ chuyên môn YHCT?</span>
+            <span class="q-arrow">▾</span>
+          </button>
+          <div class="qa-answer-body">
+            <p>
+              Nền tảng giải phẫu 3D được kế thừa từ dự án quốc tế <strong>Z-Anatomy (CC BY-SA 4.0)</strong>; toàn bộ hệ thống bản đồ số 419 huyệt vị & 14 kinh lạc, phác đồ bệnh học Đông – Tây y, thuật toán Tý Ngọ Lưu Chú và kiến trúc phần mềm thuộc bản quyền sở hữu trí tuệ của <strong>Tác giả Trịnh Tiến Đạt (Vi An Y Quán)</strong>.
+            </p>
+            <ul>
+              <li><strong>Hotline / Zalo hỗ trợ 24/7:</strong> <a href="tel:0936380666" class="qa-link"><strong>0936.380.666</strong></a> (Thầy thuốc Trịnh Tiến Đạt)</li>
+              <li><strong>Email:</strong> <a href="mailto:tiendat.trinh@gmail.com" class="qa-link">tiendat.trinh@gmail.com</a></li>
+              <li><strong>Website chính thức:</strong> <a href="https://vianyquan.trinhtiendat.com" target="_blank" rel="noopener noreferrer" class="qa-link">vianyquan.trinhtiendat.com</a></li>
+              <li><strong>Xem toàn văn Pháp lý & Bản quyền:</strong> <a href="#" id="linkOpenFullTermsFromQA" class="qa-link">📜 Mở toàn văn Điều khoản Dịch vụ & Miễn trừ Y tế (5 Điều)</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Module Quản Lý UI/UX Nâng Cấp: Bóc Tách Đa Tầng, Chu Kỳ Huyệt & Q&A -->
+  <script type="module">
+    // -------------------------------------------------------------
+    // A. ĐỒNG BỘ NÚT BÓC TÁCH VỚI STUDIO BÓC TÁCH GIẢI PHẪU 3D
+    // -------------------------------------------------------------
+    // Nút #btnToggleDissection được DissectionStudio tự động liên kết
+    // Khi click sẽ mở/đóng #anatomyDissectionPanel chuyên sâu bên phải màn hình
+
+    // -------------------------------------------------------------
+    // B. MASTER NÚT XOAY VÒNG CHẾ ĐỘ HUYỆT VỊ & NHÃN (4 CHẾ ĐỘ)
+    // -------------------------------------------------------------
+    const btnCycleLabel = document.getElementById('btnCycleLabelMode');
+    const cycleLabelIcon = document.getElementById('cycleLabelIcon');
+    const cycleLabelText = document.getElementById('cycleLabelText');
+    const acuModeToast = document.getElementById('acuModeToast');
+    const acuToastIcon = document.getElementById('acuToastIcon');
+    const acuToastText = document.getElementById('acuToastText');
+
+    let toastTimer = null;
+    function showAcuToast(icon, text) {
+      if (!acuModeToast) return;
+      if (acuToastIcon) acuToastIcon.textContent = icon;
+      if (acuToastText) acuToastText.textContent = text;
+      acuModeToast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        acuModeToast.classList.remove('show');
+      }, 2200);
+    }
+
+    // 4 Chế độ: 
+    // 0: 'vi_only' (Chấm huyệt + Tên Việt)
+    // 1: 'code_and_vi' (Chấm huyệt + Mã WHO & Tên Việt)
+    // 2: 'dots_only' (Chỉ chấm huyệt phát sáng, ẩn nhãn chữ)
+    // 3: 'all_hidden' (Ẩn toàn bộ chấm huyệt + nhãn để tập trung giải phẫu)
+    let masterAcuMode = 0;
+    const acuModes = [
+      { id: 'vi_only', icon: '🏷️', label: 'Tên Việt', toast: 'Đang hiển thị: Tên tiếng Việt' },
+      { id: 'code_and_vi', icon: '🔢', label: 'Mã & Tên', toast: 'Đang hiển thị: Mã WHO & Tên Việt' },
+      { id: 'dots_only', icon: '📍', label: 'Chỉ Điểm', toast: 'Đang hiển thị: Chỉ chấm huyệt (Ẩn chữ)' },
+      { id: 'all_hidden', icon: '👁️‍🗨️', label: 'Ẩn Huyệt', toast: 'Đã ẩn toàn bộ huyệt (Tập trung Giải Phẫu)' }
+    ];
+
+    function applyAcuMode(modeIndex) {
+      masterAcuMode = modeIndex % acuModes.length;
+      const cur = acuModes[masterAcuMode];
+      if (cycleLabelIcon) cycleLabelIcon.textContent = cur.icon;
+      if (cycleLabelText) cycleLabelText.textContent = cur.label;
+      showAcuToast(cur.icon, cur.toast);
+
+      // Điều khiển các đối tượng trong Three.js Scene
+      if (window.threeScene) {
+        window.threeScene.traverse((child) => {
+          // Điểm huyệt (Mesh)
+          if (child.isMesh && child.userData && child.userData.code) {
+            child.visible = cur.id !== 'all_hidden';
+          }
+          // Nhãn chữ (Sprite)
+          if (child.isSprite && child.userData && (child.userData.isLabel || child.userData.code)) {
+            if (cur.id === 'all_hidden' || cur.id === 'dots_only') {
+              child.visible = false;
+            } else {
+              child.visible = true;
+            }
+          }
+        });
+      }
+    }
+
+    // Đè event click lên btnCycleLabelMode
+    btnCycleLabel?.addEventListener('click', (e) => {
+      // Cho script gốc chạy 1 lượt nếu cần, sau đó chúng ta đồng bộ hóa
+      setTimeout(() => {
+        applyAcuMode(masterAcuMode + 1);
+      }, 50);
+    }, true);
+
+    // -------------------------------------------------------------
+    // C. QUẢN LÝ MODAL HỎI - ĐÁP (Q&A) & ĐIỀU HƯỚNG TÀI KHOẢN
+    // -------------------------------------------------------------
+    const qaModal = document.getElementById('qaModalOverlay');
+    const btnCloseQAModal = document.getElementById('btnCloseQAModal');
+    const btnHeaderHelp = document.getElementById('btnHeaderHelp');
+    const qaSearchInput = document.getElementById('qaSearchInput');
+    const qaItems = document.querySelectorAll('.qa-item');
+
+    function openQAModal() {
+      if (qaModal) qaModal.classList.add('open');
+    }
+    function closeQAModal() {
+      if (qaModal) qaModal.classList.remove('open');
+    }
+
+    btnHeaderHelp?.addEventListener('click', openQAModal);
+    btnCloseQAModal?.addEventListener('click', closeQAModal);
+    qaModal?.addEventListener('click', (e) => {
+      if (e.target === qaModal) closeQAModal();
+    });
+    document.getElementById('linkOpenFullTermsFromQA')?.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeQAModal();
+      document.getElementById('fullTermsModalOverlay')?.classList.add('open');
+    });
+
+    // Accordion toggle: Single-open với tính năng tự động cuộn đọc trọn vẹn nội dung
+    document.querySelectorAll('.qa-question-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.qa-item');
+        if (!item) return;
+        const isOpen = item.classList.contains('open');
+
+        // Đóng toàn bộ các câu hỏi khác (chỉ mở duy nhất câu đang xem)
+        document.querySelectorAll('.qa-item').forEach(el => {
+          if (el !== item) el.classList.remove('open');
+        });
+
+        // Đổi trạng thái câu được click
+        if (isOpen) {
+          item.classList.remove('open');
+        } else {
+          item.classList.add('open');
+          // Cuộn mượt mà để hiển thị toàn bộ câu hỏi và câu trả lời trong khung
+          setTimeout(() => {
+            item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 100);
+        }
+      });
+    });
+
+    // Tìm kiếm trong Q&A
+    qaSearchInput?.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      qaItems.forEach(item => {
+        const text = (item.textContent + ' ' + (item.dataset.keywords || '')).toLowerCase();
+        if (!q || text.includes(q)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+
+    // -------------------------------------------------------------
+    // D. TỰ ĐỘNG CHÈN NÚT "GIỚI THIỆU", "ĐIỀU KHOẢN", "Q&A" VÀO MODAL TÀI KHOẢN
+    // -------------------------------------------------------------
+    function enhanceQuickProfileModal() {
+      const profileModal = document.getElementById('userProfileQuickModal');
+      if (!profileModal) return;
+      const actionsBox = profileModal.querySelector('.user-profile-quick-actions');
+      if (!actionsBox || actionsBox.querySelector('#btnQuickInjectedQA')) return;
+
+      // Tạo nút Q&A
+      const btnQA = document.createElement('button');
+      btnQA.className = 'btn-quick-menu-action btn-quick-qa';
+      btnQA.id = 'btnQuickInjectedQA';
+      btnQA.innerHTML = '<span>❓ Hỏi - Đáp Thường Gặp (Q&A)</span>';
+      btnQA.onclick = () => {
+        profileModal.remove();
+        openQAModal();
+      };
+
+      // Tạo nút Giới thiệu & Hotline
+      const btnBrand = document.createElement('button');
+      btnBrand.className = 'btn-quick-menu-action btn-quick-brand';
+      btnBrand.id = 'btnQuickInjectedBrand';
+      btnBrand.innerHTML = '<span>ℹ️ Giới Thiệu Vi An Y Quán & Hotline</span>';
+      btnBrand.onclick = () => {
+        profileModal.remove();
+        document.getElementById('brandModalOverlay')?.classList.add('open');
+      };
+
+      // Chèn lên trước nút Đăng xuất
+      const logoutBtn = actionsBox.querySelector('#btnQuickLogout');
+      if (logoutBtn) {
+        actionsBox.insertBefore(btnBrand, logoutBtn);
+        actionsBox.insertBefore(btnQA, logoutBtn);
+      } else {
+        actionsBox.appendChild(btnBrand);
+        actionsBox.appendChild(btnQA);
+      }
+    }
+
+    // Quan sát DOM khi modal tài khoản mở ra
+    const bodyObserver = new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        for (const node of m.addedNodes) {
+          if (node.id === 'userProfileQuickModal' || (node.querySelector && node.querySelector('#userProfileQuickModal'))) {
+            setTimeout(enhanceQuickProfileModal, 50);
+          }
+        }
+      }
+    });
+    bodyObserver.observe(document.body, { childList: true, subtree: true });
+
+    // Hỗ trợ phím Escape đóng Q&A
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && qaModal?.classList.contains('open')) {
+        closeQAModal();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
