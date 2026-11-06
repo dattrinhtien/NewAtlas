@@ -25,8 +25,13 @@
     }
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z41"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z41">
+  <script>
+    if (window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches) {
+      document.documentElement.classList.add('pwa-standalone');
+    }
+  </script>
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z42"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z42">
 
   <!-- UI-UX Professional Upgrades -->
   <style>
@@ -257,11 +262,30 @@
         transform: translateY(0) !important;
       }
 
-      /* SỬA LỖI MẤT CHỮ ĐĂNG NHẬP TRÊN MOBILE */
+      /* SỬA LỖI MẤT CHỮ ĐĂNG NHẬP TRÊN MOBILE & TỐI ƯU PWA AN TOÀN */
       .app-header {
-        padding: env(safe-area-inset-top, 0px) 6px 0 6px !important;
-        height: 48px !important;
+        padding-top: env(safe-area-inset-top, 0px) !important;
+        padding-bottom: 0 !important;
+        padding-left: calc(env(safe-area-inset-left, 0px) + 6px) !important;
+        padding-right: calc(env(safe-area-inset-right, 0px) + 6px) !important;
+        height: calc(50px + env(safe-area-inset-top, 0px)) !important;
+        min-height: calc(50px + env(safe-area-inset-top, 0px)) !important;
+        box-sizing: border-box !important;
         gap: 3px !important;
+      }
+
+      /* Tối ưu riêng khi GHIM RA MÀN HÌNH CHÍNH (PWA Standalone Mode trên iPhone) */
+      @media all and (display-mode: standalone), (display-mode: fullscreen) {
+        .app-header {
+          padding-top: max(44px, env(safe-area-inset-top, 44px)) !important;
+          height: calc(50px + max(44px, env(safe-area-inset-top, 44px))) !important;
+          min-height: calc(50px + max(44px, env(safe-area-inset-top, 44px))) !important;
+        }
+      }
+      .pwa-standalone .app-header {
+        padding-top: max(44px, env(safe-area-inset-top, 44px)) !important;
+        height: calc(50px + max(44px, env(safe-area-inset-top, 44px))) !important;
+        min-height: calc(50px + max(44px, env(safe-area-inset-top, 44px))) !important;
       }
       .header-brand {
         gap: 4px !important;
