@@ -3,7 +3,7 @@
  * Cung cấp khả năng Offline & Caching PWA tối ưu cho Mobile & Desktop
  */
 
-const STATIC_CACHE = 'acuatlas3d-static-v6';
+const STATIC_CACHE = 'acuatlas3d-static-v7';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -12,8 +12,8 @@ const ASSETS_TO_CACHE = [
   '/logo-icon-hd.png',
   '/logo-full.png',
   '/css/style.css',
-  '/assets/index-C5F3MQx3.css?v=master_z39',
-  '/assets/index-CGRTTg94.js?v=master_z39',
+  '/assets/index-C5F3MQx3.css?v=master_z40',
+  '/assets/index-CGRTTg94.js?v=master_z40',
   '/js/vendor/three.module.js',
   '/js/vendor/GLTFLoader.js',
   '/js/utils/BufferGeometryUtils.js',

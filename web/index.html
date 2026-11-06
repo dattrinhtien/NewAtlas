@@ -25,8 +25,8 @@
     }
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z39"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z39">
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z40"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z40">
 
   <!-- UI-UX Professional Upgrades -->
   <style>
@@ -67,51 +67,130 @@
       font-size: 14px;
     }
 
-    /* Floating 3D Tools - Tối ưu thanh công cụ đỉnh màn hình */
-    .floating-3d-tools {
-      display: flex !important;
-      align-items: center !important;
-      gap: 8px !important;
-      padding: 6px 12px !important;
-      border-radius: 16px !important;
-      background: rgba(11, 19, 32, 0.85) !important;
-      backdrop-filter: blur(16px) !important;
-      -webkit-backdrop-filter: blur(16px) !important;
-      border: 1px solid rgba(56, 189, 248, 0.3) !important;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+    /* Nút Bóc Tách nổi ở góc phải, dưới màn hình (ngang với nút Tra cứu ở góc trái) */
+    .btn-open-dissection-floating {
+      position: absolute;
+      bottom: 24px;
+      right: 20px;
+      z-index: 50;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.22), rgba(15, 23, 42, 0.94));
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(248, 113, 113, 0.6);
+      color: #fca5a5;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 9999px;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 16px rgba(239, 68, 68, 0.3);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .btn-open-dissection-floating:hover {
+      background: linear-gradient(135deg, #ef4444, #dc2626);
+      color: #ffffff;
+      border-color: #fca5a5;
+      box-shadow: 0 8px 28px rgba(239, 68, 68, 0.7);
+      transform: translateY(-2px);
+    }
+    .btn-open-dissection-floating.active {
+      background: linear-gradient(135deg, #ef4444, #b91c1c);
+      color: #ffffff;
+      border-color: #fca5a5;
+      box-shadow: 0 0 24px rgba(239, 68, 68, 0.8);
+    }
+    .btn-open-dissection-floating .fab-icon {
+      font-size: 16px;
     }
 
-    /* Nút Bóc Tách Studio Chuyên Nghiệp trên thanh công cụ nổi */
-    .btn-dissection-main {
+    /* Đưa nút Tra cứu ở desktop xuống góc trái phía dưới tương xứng */
+    .btn-open-sidebar-floating {
+      top: auto !important;
+      bottom: 24px !important;
+      left: 20px !important;
+    }
+
+    /* Cụm Góc nhìn HUD bao gồm Ẩn/Hiện Huyệt và Khí lưu */
+    .viewport-camera-hud {
       display: inline-flex !important;
       align-items: center !important;
-      gap: 7px !important;
-      background: linear-gradient(135deg, rgba(239, 68, 68, 0.22), rgba(185, 28, 28, 0.4)) !important;
-      border: 1px solid rgba(239, 68, 68, 0.5) !important;
-      border-radius: 12px !important;
-      padding: 7px 15px !important;
-      font-weight: 700 !important;
-      color: #fecaca !important;
+      gap: 4px !important;
+      padding: 4px 8px !important;
+      border-radius: 9999px !important;
+      background: rgba(11, 19, 32, 0.9) !important;
+      border: 1px solid rgba(56, 189, 248, 0.3) !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6) !important;
+      z-index: 40 !important;
+    }
+    .viewport-camera-hud .hud-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 9999px;
+      padding: 5px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #e2e8f0;
       cursor: pointer;
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
-      box-shadow: 0 4px 14px rgba(239, 68, 68, 0.2) !important;
+      transition: all 0.2s ease;
+      white-space: nowrap;
     }
-    .btn-dissection-main:hover {
-      border-color: #ef4444 !important;
-      color: #ffffff !important;
-      box-shadow: 0 0 16px rgba(239, 68, 68, 0.45) !important;
-      background: linear-gradient(135deg, rgba(239, 68, 68, 0.35), rgba(185, 28, 28, 0.55)) !important;
-      transform: translateY(-1px);
+    .viewport-camera-hud .hud-btn:hover {
+      background: rgba(56, 189, 248, 0.25);
+      border-color: rgba(56, 189, 248, 0.6);
+      color: #38bdf8;
     }
-    .btn-dissection-main.active {
-      border-color: #f87171 !important;
-      color: #ffffff !important;
-      box-shadow: 0 0 20px rgba(239, 68, 68, 0.6) !important;
-      background: linear-gradient(135deg, rgba(239, 68, 68, 0.5), rgba(185, 28, 28, 0.75)) !important;
+    .viewport-camera-hud .hud-btn.active {
+      background: rgba(14, 165, 233, 0.25);
+      border-color: #38bdf8;
+      color: #7dd3fc;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
+    }
+    .viewport-camera-hud .hud-divider {
+      width: 1px;
+      height: 18px;
+      background: rgba(148, 163, 184, 0.25);
+      margin: 0 2px;
     }
 
-    /* Tối ưu giao diện Studio Bóc Tách Giải Phẫu trên Thiết Bị Di Động (Bottom-Sheet) */
+    /* Ẩn thanh nổi cũ vì các nút đã được dời vào Góc nhìn và dưới màn hình */
+    .floating-3d-tools {
+      display: none !important;
+    }
+
+    /* Tối ưu giao diện Studio Bóc Tách & Header trên Thiết Bị Di Động */
     @media (max-width: 768px) {
+      /* Cả 2 nút Tra cứu & Bóc tách đều nằm đối xứng ở 2 góc dưới màn hình */
+      .btn-open-sidebar-floating {
+        bottom: calc(env(safe-area-inset-bottom, 0px) + 20px) !important;
+        left: 14px !important;
+        padding: 10px 15px !important;
+        font-size: 12px !important;
+      }
+      .btn-open-dissection-floating {
+        bottom: calc(env(safe-area-inset-bottom, 0px) + 20px) !important;
+        right: 14px !important;
+        padding: 10px 15px !important;
+        font-size: 12px !important;
+      }
+      .desktop-only-control {
+        display: none !important;
+      }
+      .viewport-camera-hud {
+        top: 6px !important;
+        max-width: calc(100vw - 16px) !important;
+        gap: 3px !important;
+        padding: 3px 6px !important;
+      }
+      .viewport-camera-hud .hud-btn {
+        padding: 4px 7px !important;
+        font-size: 10px !important;
+      }
       .dissection-panel {
         top: auto !important;
         bottom: 0 !important;
@@ -129,14 +208,88 @@
       .dissection-panel.active {
         transform: translateY(0) !important;
       }
-      .floating-3d-tools {
-        top: 66px !important;
-        padding: 5px 10px !important;
-        gap: 6px !important;
+
+      /* SỬA LỖI MẤT CHỮ ĐĂNG NHẬP TRÊN MOBILE */
+      .app-header {
+        padding: env(safe-area-inset-top, 0px) 6px 0 6px !important;
+        height: 48px !important;
+        gap: 3px !important;
       }
-      .btn-dissection-main, .master-acu-cycle-btn {
-        padding: 6px 11px !important;
-        font-size: 12px !important;
+      .header-brand {
+        gap: 4px !important;
+        padding: 2px 0 !important;
+        flex-shrink: 0 !important;
+      }
+      .brand-logo-wrap {
+        width: 26px !important;
+        height: 26px !important;
+      }
+      .brand-title h1 {
+        font-size: 10.5px !important;
+        letter-spacing: -0.2px !important;
+        white-space: nowrap !important;
+      }
+      .clock-badge {
+        padding: 2px 5px !important;
+        gap: 2px !important;
+        max-width: 75px !important;
+        flex-shrink: 1 !important;
+      }
+      .clock-meridian {
+        font-size: 8.5px !important;
+        max-width: 44px !important;
+      }
+      .btn-highlight-current {
+        display: none !important;
+      }
+      .header-membership-group {
+        display: flex !important;
+        align-items: center !important;
+        gap: 4px !important;
+        flex-shrink: 0 !important;
+      }
+      .btn-header-login {
+        display: inline-flex !important;
+        align-items: center !important;
+        padding: 4px 7px !important;
+        font-size: 10.5px !important;
+        font-weight: 700 !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+        border-radius: 9999px !important;
+      }
+      .btn-header-upgrade {
+        display: inline-flex !important;
+        align-items: center !important;
+        padding: 4px 7px !important;
+        font-size: 10px !important;
+        font-weight: 700 !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+        border-radius: 9999px !important;
+      }
+      .vip-full-label {
+        display: none !important;
+      }
+      .vip-short-label {
+        display: inline !important;
+      }
+      .btn-header-help {
+        padding: 4px 7px !important;
+        margin-left: 2px !important;
+        border-radius: 9999px !important;
+        flex-shrink: 0 !important;
+      }
+      .btn-header-help .help-label {
+        display: none !important;
+      }
+    }
+    @media (min-width: 769px) {
+      .vip-short-label {
+        display: none !important;
+      }
+      .vip-full-label {
+        display: inline !important;
       }
     }
 
@@ -703,48 +856,21 @@
 
       <!-- 3D Canvas Viewport -->
       <div class="canvas-viewport" id="canvasContainer">
-        <!-- Floating Expand Button when sidebar is collapsed -->
+        <!-- Floating Expand Button when sidebar is collapsed (Góc trái, dưới màn hình) -->
         <button class="btn-open-sidebar-floating" id="btnExpandSidebar" style="display:none;"
           title="Mở danh mục tra cứu (Ctrl+B)">
           <span class="fab-icon">☰</span>
           <span class="fab-text">Tra cứu Kinh Lạc & Bệnh</span>
         </button>
 
-        <!-- Floating 3D Anatomy & Meridian Controls -->
-        <div class="floating-3d-tools" id="floating3DTools">
-          <!-- Nút Master Studio Bóc Tách (kích hoạt panel bên phải) -->
-          <button class="icon-toggle btn-dissection-main" id="btnToggleDissection"
-            title="Studio Bóc Tách & Giải Phẫu Đa Tầng 3D (Shift+D)">
-            <span class="mode-icon">🔬</span>
-            <span class="btn-text">Bóc tách</span>
-          </button>
+        <!-- Floating Dissection Button: Góc phải, dưới màn hình (Ngang hàng với nút Tra cứu ở góc trái) -->
+        <button class="btn-open-dissection-floating" id="btnToggleDissection"
+          title="Studio Bóc Tách & Soi Giải Phẫu Đa Tầng 3D (Shift+D)">
+          <span class="fab-icon">🔬</span>
+          <span class="fab-text">Bóc tách</span>
+        </button>
 
-          <div class="tool-divider"></div>
-
-          <!-- Chế độ hiển thị huyệt vị (xoay vòng 4 chế độ thông minh) -->
-          <button class="icon-toggle active label-cycle-btn master-acu-cycle-btn" id="btnCycleLabelMode"
-            title="Chế độ hiển thị huyệt vị: Click để xoay vòng Tên Việt ➔ Mã & Tên ➔ Chỉ Điểm ➔ Ẩn Huyệt">
-            <span class="mode-icon" id="cycleLabelIcon">🏷️</span>
-            <span id="cycleLabelText">Tên Việt</span>
-          </button>
-
-          <!-- Khí lưu -->
-          <button class="icon-toggle active" id="btnToggleFlow" title="Bật/Tắt hiệu ứng dòng kinh khí vận hành">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-            </svg>
-            <span>Khí lưu</span>
-          </button>
-
-          <!-- Công cụ Dev / Hiệu chỉnh (Ẩn mặc định cho người dùng thương mại; mở qua phím tắt Shift+C hoặc ?dev=1) -->
-          <button class="icon-toggle dev-only-toggle" id="btnToggleCalibration" style="display: none;"
-            title="Studio Hiệu Chỉnh Mốc Huyệt (Admin/Dev - Phím tắt: Shift+C)">
-            <span class="mode-icon">🎯</span>
-            <span>Hiệu chỉnh</span>
-          </button>
-        </div>
-
-        <!-- Floating Camera HUD Controls (Xoay 90° Thông Minh, Đặt lại Toàn Thân & Điều khiển Desktop) -->
+        <!-- Floating Camera & Display HUD Controls (Nhóm Góc nhìn + Ẩn/Hiện Huyệt + Khí Lưu) -->
         <div class="viewport-camera-hud camera-presets" id="cameraPresetsBar">
           <span class="hud-pill-title">Góc nhìn:</span>
           <button class="hud-btn view-cycler-btn" id="btnCycleCameraView"
@@ -756,6 +882,22 @@
           <button class="hud-btn view-reset-btn" id="btnResetCameraView" title="Đặt lại góc nhìn bao quát toàn thân">
             <span class="hud-icon">↺</span>
             <span>Toàn thân</span>
+          </button>
+
+          <div class="hud-divider"></div>
+
+          <!-- Cụm Ẩn/Hiện Huyệt và Khí lưu cùng nhóm Góc nhìn -->
+          <button class="hud-btn label-cycle-btn master-acu-cycle-btn" id="btnCycleLabelMode"
+            title="Chế độ hiển thị huyệt vị: Click để xoay vòng Tên Việt ➔ Mã & Tên ➔ Chỉ Điểm ➔ Ẩn Huyệt">
+            <span class="hud-icon" id="cycleLabelIcon">🏷️</span>
+            <span id="cycleLabelText">Tên Việt</span>
+          </button>
+
+          <button class="hud-btn hud-flow-btn active" id="btnToggleFlow" title="Bật/Tắt hiệu ứng dòng kinh khí vận hành">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            <span>Khí lưu</span>
           </button>
 
           <div class="hud-divider desktop-only-control"></div>
