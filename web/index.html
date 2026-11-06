@@ -30,8 +30,8 @@
       document.documentElement.classList.add('pwa-standalone');
     }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z42"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z42">
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z43"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z43">
 
   <!-- UI-UX Professional Upgrades -->
   <style>
@@ -296,10 +296,41 @@
         width: 26px !important;
         height: 26px !important;
       }
+      .brand-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.15;
+      }
+      .brand-name-top {
+        font-size: 14px;
+        font-weight: 800;
+        color: #ffffff;
+        letter-spacing: 0.3px;
+        white-space: nowrap;
+      }
+      .brand-name-bottom {
+        font-size: 10px;
+        font-weight: 700;
+        color: #38bdf8;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
       .brand-title h1 {
         font-size: 10.5px !important;
         letter-spacing: -0.2px !important;
         white-space: nowrap !important;
+      }
+      @media (max-width: 600px) {
+        .brand-name-top {
+          font-size: 11px !important;
+          line-height: 1.1 !important;
+        }
+        .brand-name-bottom {
+          font-size: 8.5px !important;
+          line-height: 1.1 !important;
+        }
       }
       .clock-badge {
         padding: 2px 5px !important;
@@ -773,7 +804,8 @@
           <img src="/logo-icon.png" alt="Vi An Y Quán Logo" class="brand-logo-img" />
         </div>
         <div class="brand-title">
-          <h1 style="font-size: 15.5px; font-weight: 800; letter-spacing: 0.3px; color: #fff; margin: 0; line-height: 1.25;">Vi An Y Quán Y học 3D</h1>
+          <span class="brand-name-top">Vi An Y Quán</span>
+          <span class="brand-name-bottom">Y học 3D</span>
         </div>
       </div>
 
@@ -814,12 +846,6 @@
         <div class="header-membership-group" id="headerMembershipGroup">
           <!-- Populated by JS: Login, Upgrade VIP, or Admin Badge -->
         </div>
-
-        <!-- Nút Trợ giúp & Q&A / Hotline / Điều khoản -->
-        <button class="btn-header-help" id="btnHeaderHelp" title="Trung tâm Trợ giúp, Hỏi - Đáp (Q&A), Hotline & Điều khoản">
-          <span class="help-icon">❓</span>
-          <span class="help-label">Trợ giúp & Q&A</span>
-        </button>
       </div>
     </header>
 
@@ -2045,16 +2071,21 @@
       if (!panel) return;
       const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
 
-      // Gắn nhãn Free cho Lớp Da & Khung Xương
+      // Gắn / Ẩn nhãn Free cho Lớp Da & Khung Xương (khi đã là VIP/Admin thì không hiện chữ FREE thừa)
       ['chkSkin', 'chkSkeleton'].forEach((id) => {
         const chkEl = document.getElementById(id);
         const ctrl = chkEl?.closest('.layer-control');
         const titleSpan = ctrl?.querySelector('.layer-header > span');
-        if (titleSpan && !titleSpan.querySelector('.free-anatomy-badge')) {
-          const b = document.createElement('span');
-          b.className = 'free-anatomy-badge';
-          b.textContent = 'FREE';
-          titleSpan.appendChild(b);
+        const existingFree = titleSpan?.querySelector('.free-anatomy-badge');
+        if (isVip) {
+          if (existingFree) existingFree.remove();
+        } else {
+          if (titleSpan && !existingFree) {
+            const b = document.createElement('span');
+            b.className = 'free-anatomy-badge';
+            b.textContent = 'FREE';
+            titleSpan.appendChild(b);
+          }
         }
       });
 
@@ -2076,7 +2107,7 @@
             }
             badge.innerHTML = '🔒 VIP';
           } else if (badge) {
-            badge.innerHTML = '👑 VIP';
+            badge.remove();
           }
         }
 
@@ -2091,10 +2122,9 @@
         }
       });
 
-      // Gắn nhãn khóa trên nút Dao Mổ Bóc, Bóc Toàn Bộ Cơ Nông, X-Ray
+      // Gắn nhãn khóa trên nút Dao Mổ Bóc, X-Ray
       [
         { id: 'btnModeScalpel', label: '🔪 Dao Mổ Bóc', vipName: 'Dao Mổ Số (Digital Scalpel)' },
-        { id: 'btnPeelAllSuperficial', label: '⚡ Bóc Toàn Bộ Cơ Nông', vipName: 'Bóc Toàn Bộ Cơ Nông 1 Chạm' },
         { id: 'btnToggleXRay', label: '🔮 Chế Độ X-Ray Xuyên Thấu', vipName: 'Chế Độ X-Ray Xuyên Thấu' }
       ].forEach((btnCfg) => {
         const btn = document.getElementById(btnCfg.id);
@@ -2172,7 +2202,6 @@
 
       [
         { id: 'btnModeScalpel', name: 'Dao Mổ Số (Digital Scalpel)' },
-        { id: 'btnPeelAllSuperficial', name: 'Bóc Toàn Bộ Cơ Nông 1 Chạm' },
         { id: 'btnToggleXRay', name: 'Chế Độ X-Ray Xuyên Thấu' }
       ].forEach((btnCfg) => {
         const btn = document.getElementById(btnCfg.id);
@@ -2602,17 +2631,14 @@
     // Khi click sẽ mở/đóng #anatomyDissectionPanel chuyên sâu bên phải màn hình
 
     // -------------------------------------------------------------
-    // B. MASTER NÚT XOAY VÒNG CHẾ ĐỘ HUYỆT VỊ & NHÃN (4 CHẾ ĐỘ)
+    // B. MASTER TOAST THÔNG BÁO CHẾ ĐỘ HUYỆT VỊ
     // -------------------------------------------------------------
-    const btnCycleLabel = document.getElementById('btnCycleLabelMode');
-    const cycleLabelIcon = document.getElementById('cycleLabelIcon');
-    const cycleLabelText = document.getElementById('cycleLabelText');
     const acuModeToast = document.getElementById('acuModeToast');
     const acuToastIcon = document.getElementById('acuToastIcon');
     const acuToastText = document.getElementById('acuToastText');
 
     let toastTimer = null;
-    function showAcuToast(icon, text) {
+    window.showAcuToast = function(icon, text) {
       if (!acuModeToast) return;
       if (acuToastIcon) acuToastIcon.textContent = icon;
       if (acuToastText) acuToastText.textContent = text;
@@ -2621,54 +2647,7 @@
       toastTimer = setTimeout(() => {
         acuModeToast.classList.remove('show');
       }, 2200);
-    }
-
-    // 4 Chế độ: 
-    // 0: 'vi_only' (Chấm huyệt + Tên Việt)
-    // 1: 'code_and_vi' (Chấm huyệt + Mã WHO & Tên Việt)
-    // 2: 'dots_only' (Chỉ chấm huyệt phát sáng, ẩn nhãn chữ)
-    // 3: 'all_hidden' (Ẩn toàn bộ chấm huyệt + nhãn để tập trung giải phẫu)
-    let masterAcuMode = 0;
-    const acuModes = [
-      { id: 'vi_only', icon: '🏷️', label: 'Tên Việt', toast: 'Đang hiển thị: Tên tiếng Việt' },
-      { id: 'code_and_vi', icon: '🔢', label: 'Mã & Tên', toast: 'Đang hiển thị: Mã WHO & Tên Việt' },
-      { id: 'dots_only', icon: '📍', label: 'Chỉ Điểm', toast: 'Đang hiển thị: Chỉ chấm huyệt (Ẩn chữ)' },
-      { id: 'all_hidden', icon: '👁️‍🗨️', label: 'Ẩn Huyệt', toast: 'Đã ẩn toàn bộ huyệt (Tập trung Giải Phẫu)' }
-    ];
-
-    function applyAcuMode(modeIndex) {
-      masterAcuMode = modeIndex % acuModes.length;
-      const cur = acuModes[masterAcuMode];
-      if (cycleLabelIcon) cycleLabelIcon.textContent = cur.icon;
-      if (cycleLabelText) cycleLabelText.textContent = cur.label;
-      showAcuToast(cur.icon, cur.toast);
-
-      // Điều khiển các đối tượng trong Three.js Scene
-      if (window.threeScene) {
-        window.threeScene.traverse((child) => {
-          // Điểm huyệt (Mesh)
-          if (child.isMesh && child.userData && child.userData.code) {
-            child.visible = cur.id !== 'all_hidden';
-          }
-          // Nhãn chữ (Sprite)
-          if (child.isSprite && child.userData && (child.userData.isLabel || child.userData.code)) {
-            if (cur.id === 'all_hidden' || cur.id === 'dots_only') {
-              child.visible = false;
-            } else {
-              child.visible = true;
-            }
-          }
-        });
-      }
-    }
-
-    // Đè event click lên btnCycleLabelMode
-    btnCycleLabel?.addEventListener('click', (e) => {
-      // Cho script gốc chạy 1 lượt nếu cần, sau đó chúng ta đồng bộ hóa
-      setTimeout(() => {
-        applyAcuMode(masterAcuMode + 1);
-      }, 50);
-    }, true);
+    };
 
     // -------------------------------------------------------------
     // C. QUẢN LÝ MODAL HỎI - ĐÁP (Q&A) & ĐIỀU HƯỚNG TÀI KHOẢN
