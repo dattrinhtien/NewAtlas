@@ -210,7 +210,7 @@
   },
   {
     "id": "huyet_du",
-    "name": "Huyệt Du Tạng Phủ & Du Lưng (14 Huyệt Du)",
+    "name": "Thập Bát Bối Du Huyệt (18 Huyệt Du Ở Lưng)",
     "subtitle": "Nơi khí của tạng phủ rót vào kinh Bàng Quang ở lưng",
     "verse": "Phế Du (D3) - Tâm Bào Du (D4) - Tâm Du (D5) - Đốc Du (D6) - Cách Du (D7) - Can Du (D9) - Đởm Du (D10) - Tỳ Du (D11) - Vị Du (D12) - Tam Tiêu Du (L1) - Thận Du (L2) - Đại Trường Du (L4) - Tiểu Trường Du (S1) - Bàng Quang Du (S2)",
     "description": "Bao gồm 12 huyệt Du ứng với 12 tạng phủ cùng 2 huyệt Du kinh điển: Đốc Du (BL16) và Cách Du (BL17 - Hội của Huyết). Các huyệt Du nằm ở phần Dương (lưng), dọc theo kinh Bàng Quang cách mạch Đốc 1.5 thốn. Đặc biệt hiệu quả điều trị bệnh lý mạn tính, hư chứng, hàn chứng của tạng phủ.",
@@ -312,6 +312,41 @@
           "BL28"
         ],
         "note": "Ngang dưới gai đốt cùng 2 (S2): Trị đái dầm, viêm bàng quang"
+      },
+      {
+        "name": "Cao Hoang Du (Tứ Hoa / Hư Lao Đại Huyệt)",
+        "points": [
+          "BL43"
+        ],
+        "note": "Cao Hoang (dưới D4 đo ra 3 thốn): Đại huyệt trị bách bệnh hư lao, suy kiệt, hen suyễn mạn tính, di mộng tinh"
+      },
+      {
+        "name": "Khí Hải Du (Bể Của Khí Ở Lưng)",
+        "points": [
+          "BL24"
+        ],
+        "note": "Khí Hải Du (dưới L3 đo ra 1.5 thốn): Điều khí bổ huyết, mạnh thắt lưng, trị đau lưng, trĩ, thống kinh"
+      },
+      {
+        "name": "Quan Nguyên Du (Nguyên Khí Hạ Tiêu)",
+        "points": [
+          "BL26"
+        ],
+        "note": "Quan Nguyên Du (dưới L5 đo ra 1.5 thốn): Ôn bổ nguyên dương hạ tiêu, trị đau thắt lưng cùng, tiểu đêm, tiêu chảy mạn"
+      },
+      {
+        "name": "Trung Lữ Du (Cơ Nhục Vùng Cùng)",
+        "points": [
+          "BL29"
+        ],
+        "note": "Trung Lữ Du (ngang lỗ cùng S3 ra 1.5 thốn): Bổ thận tráng yêu, trị đau thần kinh tọa, viêm đại tràng, thoát vị"
+      },
+      {
+        "name": "Bạch Hoàn Du (Cơ Vòng Hậu Môn - Sinh Dục)",
+        "points": [
+          "BL30"
+        ],
+        "note": "Bạch Hoàn Du (ngang lỗ cùng S4 ra 1.5 thốn): Trị trĩ, sa trực tràng, đau vùng cùng cụt, di tinh, khí hư"
       }
     ]
   },
@@ -741,6 +776,229 @@
           "SP21"
         ],
         "note": "Đại Bao: Đại Lạc của kinh Tỳ, thống quản toàn bộ các lạc mạch âm dương, chủ trị đau nhức toàn thân, mệt mỏi tứ chi"
+      }
+    ]
+  },
+  {
+    "id": "ha_hop",
+    "name": "Lục Phủ Hạ Hợp Huyệt (6 Huyệt Hạ Hợp Ở Chân)",
+    "subtitle": "Nguyên tắc 'Hợp trị nội phủ' (Linh Khu - Tà Khí Tạng Phủ Bệnh Hình)",
+    "verse": "Vị hợp tại Tam Lý - Đại Trường hợp Thượng Cự Hư - Tiểu Trường hợp Hạ Cự Hư - Tam Tiêu hợp Ủy Dương - Bàng Quang hợp Ủy Trung - Đởm hợp Dương Lăng Tuyền",
+    "description": "Khí của Lục Phủ đều thông xuống 3 kinh Dương ở chân (Vị, Đởm, Bàng Quang). Mọi bệnh lý thuộc Lục Phủ (đặc biệt là đau bụng cấp, rối loạn tiêu hóa, tiết niệu, đường mật) đều lấy Hạ Hợp Huyệt làm chủ huyệt.",
+    "subgroups": [
+      {
+        "name": "Hạ Hợp của Vị (Dạ dày)",
+        "points": [
+          "ST36"
+        ],
+        "note": "Túc Tam Lý: Chủ trị mọi bệnh lý dạ dày (đau thượng vị, nôn, đầy trướng, viêm loét dạ dày)"
+      },
+      {
+        "name": "Hạ Hợp của Đại Trường (Ruột già)",
+        "points": [
+          "ST37"
+        ],
+        "note": "Thượng Cự Hư: Chủ trị viêm đại tràng, tiêu chảy, kiết lỵ, táo bón, viêm ruột thừa"
+      },
+      {
+        "name": "Hạ Hợp của Tiểu Trường (Ruột non)",
+        "points": [
+          "ST39"
+        ],
+        "note": "Hạ Cự Hư: Chủ trị đau bụng quanh rốn, sôi bụng, rối loạn hấp thu ruột non"
+      },
+      {
+        "name": "Hạ Hợp của Đởm (Túi mật)",
+        "points": [
+          "GB34"
+        ],
+        "note": "Dương Lăng Tuyền: Chủ trị viêm túi mật, sỏi mật, đau tức hông sườn, đắng miệng"
+      },
+      {
+        "name": "Hạ Hợp của Bàng Quang",
+        "points": [
+          "BL40"
+        ],
+        "note": "Ủy Trung: Chủ trị bí tiểu, tiểu buốt dắt, đái dầm, đau lưng dọc kinh Bàng Quang"
+      },
+      {
+        "name": "Hạ Hợp của Tam Tiêu (Thủy đạo)",
+        "points": [
+          "BL39"
+        ],
+        "note": "Ủy Dương: Chủ trị phù thũng, bí tiểu, khí hóa Tam Tiêu bất lợi"
+      }
+    ]
+  },
+  {
+    "id": "hoi_duong_cuu_cham",
+    "name": "Hồi Dương Cửu Châm (9 Huyệt Cấp Cứu Thoát Dương)",
+    "subtitle": "Phương huyệt kinh điển trong Châm Cứu Tụ Anh giúp hồi dương cứu nghịch, tỉnh thần",
+    "verse": "Á Môn, Lao Cung, Tam Âm Giao - Dũng Tuyền, Thái Khê, Trung Quản tiếp - Hoàn Khiêu, Tam Lý, Hợp Cốc giao",
+    "description": "Gồm 9 đại huyệt có tác dụng hồi dương cứu nghịch, khai khiếu tỉnh thần, nâng huyết áp và phục hồi nguyên khí trong các chứng trúng phong thoát chứng, ngất xỉu, trụy mạch, tay chân quyết lạnh.",
+    "subgroups": [
+      {
+        "name": "1. Á Môn (Khai khiếu tỉnh não)",
+        "points": [
+          "GV15"
+        ],
+        "note": "Á Môn: Thông Đốc mạch, khai khiếu thanh thần, trị trúng phong á khẩu"
+      },
+      {
+        "name": "2. Lao Cung (Thanh tâm khai khiếu)",
+        "points": [
+          "PC8"
+        ],
+        "note": "Lao Cung: Huỳnh huyệt kinh Tâm Bào, tỉnh thần định chí"
+      },
+      {
+        "name": "3. Tam Âm Giao (Hội 3 kinh Âm chân)",
+        "points": [
+          "SP6"
+        ],
+        "note": "Tam Âm Giao: Tư âm liễm dương, điều huyết thống nhiếp nguyên khí"
+      },
+      {
+        "name": "4. Dũng Tuyền (Tỉnh huyệt kinh Thận)",
+        "points": [
+          "KI1"
+        ],
+        "note": "Dũng Tuyền: Dẫn hỏa quy nguyên, khai khiếu tỉnh thần cấp cứu ngất"
+      },
+      {
+        "name": "5. Thái Khê (Nguyên huyệt kinh Thận)",
+        "points": [
+          "KI3"
+        ],
+        "note": "Thái Khê: Bồi bổ chân nguyên tiên thiên, cứu thận dương suy thoát"
+      },
+      {
+        "name": "6. Trung Quản (Hội của Lục Phủ)",
+        "points": [
+          "CV12"
+        ],
+        "note": "Trung Quản: Ôn trung kiện Tỳ Vị, phục hồi nguồn khí huyết hậu thiên"
+      },
+      {
+        "name": "7. Hoàn Khiêu (Thông kinh Dương khí)",
+        "points": [
+          "GB30"
+        ],
+        "note": "Hoàn Khiêu: Giao hội Đởm và Bàng Quang,振 phấn dương khí toàn thân"
+      },
+      {
+        "name": "8. Túc Tam Lý (Bổ khí huyết đại huyệt)",
+        "points": [
+          "ST36"
+        ],
+        "note": "Túc Tam Lý: Hồi dương ích khí, nâng huyết áp, chống suy kiệt"
+      },
+      {
+        "name": "9. Hợp Cốc (Nguyên huyệt Đại Trường)",
+        "points": [
+          "LI4"
+        ],
+        "note": "Hợp Cốc: Hành khí thông dương, đẩy mạnh vận hành khí huyết lên đầu mặt"
+      }
+    ]
+  },
+  {
+    "id": "thap_tam_quy",
+    "name": "Thập Tam Quỷ Huyệt (13 Huyệt Tôn Tư Mạc Trị Tâm Thần)",
+    "subtitle": "Phương huyệt cổ truyền của Dược Vương Tôn Tư Mạc (Bị Cấp Thiên Kim Yếu Phương)",
+    "verse": "Nhất châm Nhân Trung Quỷ Cung đình - Nhị châm Thiếu Thương Quỷ Tín linh - Tam châm Ẩn Bạch Quỷ Lũy tinh...",
+    "description": "13 huyệt đặc hiệu điều trị các chứng bệnh thần chí, điên cuồng, động kinh (간증), rối loạn phân liệt, trầm cảm uất ức, hysteria và mất ngủ nặng do đàm mê tâm khiếu.",
+    "subgroups": [
+      {
+        "name": "1. Quỷ Cung (Nhân Trung / Thủy Câu)",
+        "points": [
+          "GV26"
+        ],
+        "note": "Thủy Câu (GV26): Tỉnh thần khai khiếu số 1 trong cấp cứu hôn mê, động kinh"
+      },
+      {
+        "name": "2. Quỷ Tín (Thiếu Thương)",
+        "points": [
+          "LU11"
+        ],
+        "note": "Thiếu Thương (LU11): Tỉnh huyệt kinh Phế, tả nhiệt khai khiếu"
+      },
+      {
+        "name": "3. Quỷ Lũy (Ẩn Bạch)",
+        "points": [
+          "SP1"
+        ],
+        "note": "Ẩn Bạch (SP1): Tỉnh huyệt kinh Tỳ, an thần định chí, trị ác mộng kinh sợ"
+      },
+      {
+        "name": "4. Quỷ Tâm (Đại Lăng)",
+        "points": [
+          "PC7"
+        ],
+        "note": "Đại Lăng (PC7): Nguyên/Du huyệt Tâm Bào, thanh tâm hỏa, định thần"
+      },
+      {
+        "name": "5. Quỷ Lộ (Thân Mạch)",
+        "points": [
+          "BL62"
+        ],
+        "note": "Thân Mạch (BL62): Thông Dương Kiều mạch, trị động kinh phát ban ngày"
+      },
+      {
+        "name": "6. Quỷ Chẩm (Phong Phủ)",
+        "points": [
+          "GV16"
+        ],
+        "note": "Phong Phủ (GV16): Thông não tủy, khu phong đàm ở thượng tiêu"
+      },
+      {
+        "name": "7. Quỷ Sàng (Giáp Xa)",
+        "points": [
+          "ST6"
+        ],
+        "note": "Giáp Xa (ST6): Giải co cứng hàm, trị cấm khẩu, co giật mặt"
+      },
+      {
+        "name": "8. Quỷ Thị (Thừa Tương)",
+        "points": [
+          "CV24"
+        ],
+        "note": "Thừa Tương (CV24): Giao hội Nhâm - Vị - Đại Trường, ninh thần định chí"
+      },
+      {
+        "name": "9. Quỷ Khốc (Lao Cung)",
+        "points": [
+          "PC8"
+        ],
+        "note": "Lao Cung (PC8): Thanh tả tâm bào hỏa vượng gây cười nói huyên thuyên"
+      },
+      {
+        "name": "10. Quỷ Đường (Thượng Tinh)",
+        "points": [
+          "GV23"
+        ],
+        "note": "Thượng Tinh (GV23): Tỉnh não minh mục, thanh nhiệt vùng đầu mặt"
+      },
+      {
+        "name": "11. Quỷ Tàng (Hội Âm)",
+        "points": [
+          "CV1"
+        ],
+        "note": "Hội Âm (CV1): Giao hội Nhâm - Đốc - Xung, điều hòa âm dương toàn thân"
+      },
+      {
+        "name": "12. Quỷ Thần (Khúc Trì)",
+        "points": [
+          "LI11"
+        ],
+        "note": "Khúc Trì (LI11): Thanh nhiệt giáng hỏa Dương Minh, bình can tức phong"
+      },
+      {
+        "name": "13. Quỷ Phong (Bách Hội)",
+        "points": [
+          "GV20"
+        ],
+        "note": "Bách Hội (GV20): Tam dương ngũ hội, thống lĩnh thần chí toàn thân"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "(Accessory parotid gland)": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -10,8 +10,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Accessory parotid gland).001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -20,8 +20,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Accessory parotid gland).l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ (Trái)",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -30,8 +30,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Accessory parotid gland).r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ (Phải)",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -40,8 +40,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Anteromedial basal segmental bronchus of left lung)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trước - trong phổi trái",
+    "lat": "Anteromedial basal segmental bronchus of left lung",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -50,8 +50,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Accessory pancreatic duct": {
-    "vi": "Tuyến tụy (Tạng Tỳ - Tụy dịch)",
-    "lat": "Pancreas",
+    "vi": "Ống tụy phụ (Ống Santorini)",
+    "lat": "Ductus pancreaticus accessorius",
     "pos": "Nằm vắt ngang sau phúc mạc thành bụng sau, từ khung tá tràng bên phải sang cuống lách bên trái (gồm đầu, cổ, thân và đuôi tụy).",
     "phys": "Ngoại tiết: Tiết 1.5 - 2 lít dịch tụy kiềm tính giàu enzym (amylase, lipase, trypsin) tiêu hóa thức ăn. Nội tiết: Tiểu đảo Langerhans tiết Insulin (tế bào Beta) hạ đường huyết và Glucagon (tế bào Alpha) tăng đường huyết.",
     "blood": "ĐM vị tá tràng, ĐM tụy dưới và các nhánh từ ĐM lách; Thần kinh phế vị và đám rối tạng.",
@@ -60,7 +60,7 @@
     "note": "Viêm tụy cấp là bệnh cấp cứu ngoại khoa nghiêm trọng; u đầu tụy dễ gây tắc mật hoàng đản."
   },
   "Adenohypophysis": {
-    "vi": "Cấu trúc tạng phủ (Adenohypophysis)",
+    "vi": "Thùy trước tuyến yên (Tuyến yên tuyến)",
     "lat": "Adenohypophysis",
     "pos": "Cấu trúc giải phẫu chuyên sâu thuộc hệ thống tạng phủ lồng ngực và ổ bụng.",
     "phys": "Tham gia vào chức năng sinh lý điều hòa nội môi, tuần hoàn, hô hấp hoặc tiêu hóa.",
@@ -70,8 +70,8 @@
     "note": "Cấu trúc giải phẫu 3D chuẩn xác Z-Anatomy."
   },
   "Anterior basal segmental bronchus of left lung (BVIII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trước phổi trái (BVIII)",
+    "lat": "Anterior basal segmental bronchus of left lung (BVIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -80,8 +80,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior basal segmental bronchus of right lung (BVIII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trước phổi phải (BVIII)",
+    "lat": "Anterior basal segmental bronchus of right lung (BVIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -90,8 +90,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior lateral segment of liver (VI)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy VI (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy VI (Trước ngoài phải)",
+    "lat": "Segmentum hepatis laterale dextrum anterius (VI)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -100,8 +100,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Anterior medial segment of liver (V)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Trước trong phải)",
+    "lat": "Segmentum hepatis mediale dextrum anterius (V)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -110,8 +110,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Anterior papillary muscle of right ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú trước tâm thất phải",
+    "lat": "Musculus papillaris anterior ventriculi dextri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -120,8 +120,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Anterior segmental bronchus of left lung (BIII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy trước phổi trái (BIII)",
+    "lat": "Anterior segmental bronchus of left lung (BIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -130,8 +130,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior segmental bronchus of right lung (BIII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy trước phổi phải (BIII)",
+    "lat": "Anterior segmental bronchus of right lung (BIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -140,8 +140,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior semilunar leaflet of pulmonary valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van bán nguyệt trước (Van động mạch phổi)",
+    "lat": "Valvula semilunaris anterior valvae trunci pulmonalis",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -150,8 +150,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Apical segmental bronchus of right lung (BI)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh phổi phải (BI)",
+    "lat": "Apical segmental bronchus of right lung (BI)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -160,8 +160,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Apicoposterior segmental bronchus of left lung (BI+BII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh - sau phổi trái",
+    "lat": "Apicoposterior segmental bronchus of left lung (BI+BII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -171,7 +171,7 @@
   },
   "Ascending colon": {
     "vi": "Đại tràng lên (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon ascendens",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -190,8 +190,8 @@
     "note": "Vị trí thường xảy ra tắc mật do sỏi ống mật chủ hoặc u đầu tụy chèn ép."
   },
   "Corpus cavernosum of penis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Vật hang",
+    "lat": "Corpus cavernosum penis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -200,8 +200,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Corpus spongiosum of penis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Vật xốp",
+    "lat": "Corpus spongiosum penis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -211,7 +211,7 @@
   },
   "Descending colon": {
     "vi": "Đại tràng xuống (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon descendens",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -220,8 +220,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Ductus deferens.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống dẫn tinh (Trái)",
+    "lat": "Ductus deferens",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -230,8 +230,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ductus deferens.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống dẫn tinh (Phải)",
+    "lat": "Ductus deferens",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -240,8 +240,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ductus deferens.r.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống dẫn tinh (Phải)",
+    "lat": "Ductus deferens",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -250,8 +250,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Duodenum": {
-    "vi": "Tá tràng (Tiểu Trường)",
-    "lat": "Intestinum tenue (Small intestine)",
+    "vi": "Tá tràng (Đoạn đầu Tiểu Trường)",
+    "lat": "Duodenum",
     "pos": "Dài 5-6 mét, cuộn thành các quai ruột non xếp nếp trong khoang bụng trung tâm và chậu hông bé.",
     "phys": "Cơ quan hấp thu chất dinh dưỡng chính của cơ thể: Hoàn tất quá trình tiêu hóa nhũ trấp nhờ enzym mật, tụy và ruột; diện tích hấp thu >200 m2 nhờ các vi nhung mao.",
     "blood": "Các nhánh ruột từ Động mạch mạc treo tràng trên; Tĩnh mạch mạc treo tràng trên dẫn máu về tĩnh mạch cửa gan.",
@@ -260,8 +260,8 @@
     "note": "Hấp thu hơn 90% nước và dưỡng chất của toàn bộ thức ăn ăn vào."
   },
   "Ejaculatory duct.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống phóng tinh (Trái)",
+    "lat": "Ductus ejaculatorius",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -270,8 +270,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ejaculatory duct.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống phóng tinh (Phải)",
+    "lat": "Ductus ejaculatorius",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -280,8 +280,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ejaculatory duct.r.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống phóng tinh (Phải)",
+    "lat": "Ductus ejaculatorius",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -290,8 +290,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Epididymis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Mào tinh hoàn",
+    "lat": "Epididymis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -300,8 +300,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Epididymis.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Mào tinh hoàn",
+    "lat": "Epididymis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -310,8 +310,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Epididymis.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Mào tinh hoàn (Trái)",
+    "lat": "Epididymis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -320,8 +320,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Epididymis.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Mào tinh hoàn (Phải)",
+    "lat": "Epididymis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -330,8 +330,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Epiglottis": {
-    "vi": "Hầu họng & Thực quản",
-    "lat": "Pharynx et Oesophagus",
+    "vi": "Nắp thanh môn (Sụn nắp thanh quản)",
+    "lat": "Epiglottis",
     "pos": "Ống cơ niêm mạc nối khoang miệng, khoang mũi xuống dạ dày.",
     "phys": "Nuốt và vận chuyển thức ăn xuống dạ dày bằng nhu động cơ trơn; nắp thanh quản đóng kín thanh môn khi nuốt tránh sặc thức ăn vào đường thở.",
     "blood": "ĐM giáp dưới, ĐM thực quản nhánh từ ĐM chủ ngực.",
@@ -340,8 +340,8 @@
     "note": "Ngã tư đường ăn và đường thở."
   },
   "Free taenia": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Dải cơ dọc tự do đại tràng",
+    "lat": "Taenia libera",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -351,7 +351,7 @@
   },
   "Gallbladder": {
     "vi": "Túi mật (Đởm phủ)",
-    "lat": "Vesica biliaris (Gallbladder)",
+    "lat": "Vesica biliaris",
     "pos": "Hình quả lê nằm trong hố túi mật ở mặt dưới thùy phải gan; gồm đáy, thân và cổ tiếp nối ống túi mật.",
     "phys": "Chứa và cô đặc dịch mật gấp 5-10 lần (dung tích 30-50ml); co bóp tống mật xuống tá tràng khi có thức ăn chứa lipid kích thích bài tiết hormone CCK.",
     "blood": "Động mạch túi mật (thường xuất phát từ nhánh phải ĐM gan riêng); Thần kinh giao cảm và dây X.",
@@ -360,8 +360,8 @@
     "note": "Điểm đau túi mật Murphy (giao điểm bờ ngoài cơ thẳng bụng và bờ sườn phải) chẩn đoán viêm túi mật cấp."
   },
   "Gingiva": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Nướu răng (Lợi)",
+    "lat": "Gingiva",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -370,8 +370,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Glans penis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Quy đầu",
+    "lat": "Glans penis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -380,8 +380,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Greater omentum": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Mạc nối lớn",
+    "lat": "Omentum majus",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -390,8 +390,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Inferior leaflet of right atrioventricular valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van dưới / sau (Van ba lá)",
+    "lat": "Cuspis posterior valvae atrioventricularis dextrae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -400,8 +400,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Inferior lingular segmental bronchus of left lung (BV)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy lưỡi dưới phổi trái (BV)",
+    "lat": "Inferior lingular segmental bronchus of left lung (BV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -410,7 +410,7 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Inferior lobe of left lung": {
-    "vi": "Thùy dưới phổi trái",
+    "vi": "Thùy dưới phổi trái (Tạng Phế)",
     "lat": "Lobus inferior pulmonis sinistri",
     "pos": "Nằm ở nửa dưới phía sau khoang ngực trái, tựa lên vòm hoành trái qua mặt hoành của phổi; ngăn cách với thùy trên bởi khe chếch.",
     "phys": "Chịu trách nhiệm thông khí phần đáy phổi trái; diện tích tiếp xúc phế nang lớn nhất khi hít thở sâu nhờ sự vận động hạ xuống của cơ hoành.",
@@ -420,7 +420,7 @@
     "note": "Đáy phổi tiếp giáp sát cơ hoành, phía dưới là lách và dạ dày."
   },
   "Inferior lobe of right lung": {
-    "vi": "Thùy dưới phổi phải",
+    "vi": "Thùy dưới phổi phải (Tạng Phế)",
     "lat": "Lobus inferior pulmonis dextri",
     "pos": "Thùy lớn nhất của phổi phải, chiếm phần lớn phía sau và đáy phổi, tựa trực tiếp lên vòm hoành phải (ngăn cách với gan).",
     "phys": "Dung tích chứa khí lớn nhất; đóng vai trò then chốt trong trao đổi khí tối đa khi gắng sức và thông khí thì thở ra.",
@@ -430,8 +430,8 @@
     "note": "Tiếp xúc qua cơ hoành với thùy phải của gan."
   },
   "Inferior papillary muscle of left ventricle": {
-    "vi": "Tâm thất trái (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú sau (dưới) tâm thất trái",
+    "lat": "Musculus papillaris posterior ventriculi sinistri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -440,8 +440,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Inferior papillary muscle of right ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú dưới tâm thất phải",
+    "lat": "Musculus papillaris posterior ventriculi dextri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -470,7 +470,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Inferior parathyroid gland.l": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Trái)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -480,7 +480,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Inferior parathyroid gland.r": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Phải)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -490,8 +490,8 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Intermediate bronchus": {
-    "vi": "Phân nhánh cây phế quản",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản trung gian (Phổi phải)",
+    "lat": "Bronchus intermedius",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -500,8 +500,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Intermediate bronchus.r": {
-    "vi": "Phân nhánh cây phế quản",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản trung gian (Phổi phải) (Phải)",
+    "lat": "Bronchus intermedius",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -511,7 +511,7 @@
   },
   "Jejunum": {
     "vi": "Hỗng tràng (Tiểu Trường)",
-    "lat": "Intestinum tenue (Small intestine)",
+    "lat": "Jejunum",
     "pos": "Dài 5-6 mét, cuộn thành các quai ruột non xếp nếp trong khoang bụng trung tâm và chậu hông bé.",
     "phys": "Cơ quan hấp thu chất dinh dưỡng chính của cơ thể: Hoàn tất quá trình tiêu hóa nhũ trấp nhờ enzym mật, tụy và ruột; diện tích hấp thu >200 m2 nhờ các vi nhung mao.",
     "blood": "Các nhánh ruột từ Động mạch mạc treo tràng trên; Tĩnh mạch mạc treo tràng trên dẫn máu về tĩnh mạch cửa gan.",
@@ -520,8 +520,8 @@
     "note": "Hấp thu hơn 90% nước và dưỡng chất của toàn bộ thức ăn ăn vào."
   },
   "Kidney.l": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Tạng Thận (Trái)",
+    "lat": "Ren",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -530,8 +530,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Kidney.r": {
-    "vi": "Tạng Thận (phải)",
-    "lat": "Ren (Kidney)",
+    "vi": "Tạng Thận (Phải)",
+    "lat": "Ren",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -540,8 +540,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Laryngopharynx": {
-    "vi": "Hầu họng & Thực quản",
-    "lat": "Pharynx et Oesophagus",
+    "vi": "Hầu thanh quản (Hạ hầu)",
+    "lat": "Laryngopharynx",
     "pos": "Ống cơ niêm mạc nối khoang miệng, khoang mũi xuống dạ dày.",
     "phys": "Nuốt và vận chuyển thức ăn xuống dạ dày bằng nhu động cơ trơn; nắp thanh quản đóng kín thanh môn khi nuốt tránh sặc thức ăn vào đường thở.",
     "blood": "ĐM giáp dưới, ĐM thực quản nhánh từ ĐM chủ ngực.",
@@ -550,8 +550,8 @@
     "note": "Ngã tư đường ăn và đường thở."
   },
   "Lateral basal segmental bronchus of left lung": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy ngoài phổi trái",
+    "lat": "Lateral basal segmental bronchus of left lung",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -560,8 +560,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral basal segmental bronchus of left lung (BIX)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy ngoài phổi trái (BIX)",
+    "lat": "Lateral basal segmental bronchus of left lung (BIX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -570,8 +570,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral basal segmental bronchus of right lung (BIX)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy ngoài phổi phải (BIX)",
+    "lat": "Lateral basal segmental bronchus of right lung (BIX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -580,8 +580,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral segmental bronchus of right lung (BIV)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy ngoài phổi phải (BIV)",
+    "lat": "Lateral segmental bronchus of right lung (BIV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -590,8 +590,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Left anterior lateral segment of liver (III)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy III (Trước ngoài trái)",
+    "lat": "Segmentum hepatis laterale sinistrum anterius (III)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -600,8 +600,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Left atrium": {
-    "vi": "Tâm nhĩ trái (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm nhĩ trái (Tạng Tâm)",
+    "lat": "Atrium sinistrum",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -610,8 +610,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Left coronary leaflet": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van vành trái (Van động mạch chủ)",
+    "lat": "Valvula semilunaris sinistra valvae aortae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -620,8 +620,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Left inferior lobar bronchus": {
-    "vi": "Thùy dưới phổi trái",
-    "lat": "Lobus inferior pulmonis sinistri",
+    "vi": "Phế quản thùy dưới phổi trái",
+    "lat": "Bronchus lobaris inferior sinister",
     "pos": "Nằm ở nửa dưới phía sau khoang ngực trái, tựa lên vòm hoành trái qua mặt hoành của phổi; ngăn cách với thùy trên bởi khe chếch.",
     "phys": "Chịu trách nhiệm thông khí phần đáy phổi trái; diện tích tiếp xúc phế nang lớn nhất khi hít thở sâu nhờ sự vận động hạ xuống của cơ hoành.",
     "blood": "Nhánh thùy dưới của ĐM và TM phổi trái; ĐM phế quản nuôi dưỡng mô liên kết; Đám rối thần kinh phổi (nhánh X và giao cảm ngực).",
@@ -630,8 +630,8 @@
     "note": "Đáy phổi tiếp giáp sát cơ hoành, phía dưới là lách và dạ dày."
   },
   "Left main bronchus": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản chính trái",
+    "lat": "Bronchus principalis sinister",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -640,8 +640,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Left medial segment of liver (IV)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy IV (Giữa trái / Thùy vuông)",
+    "lat": "Segmentum hepatis mediale sinistrum (IV)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -650,8 +650,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Left posterior lateral segment of liver (II)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy II (Sau ngoài trái)",
+    "lat": "Segmentum hepatis laterale sinistrum posterius (II)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -660,8 +660,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Left semilunar leaflet of pulmonary valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van bán nguyệt trái (Van động mạch phổi)",
+    "lat": "Valvula semilunaris sinistra valvae trunci pulmonalis",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -670,8 +670,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Left superior lobar bronchus": {
-    "vi": "Thùy trên phổi trái",
-    "lat": "Lobus superior pulmonis sinistri",
+    "vi": "Phế quản thùy trên phổi trái",
+    "lat": "Bronchus lobaris superior sinister",
     "pos": "Nằm ở nửa trên khoang ngực trái, từ đỉnh phổi xuống ngang mức khe chếch; gồm các phân thùy đỉnh - sau, phân thùy trước và thùy lưỡi ôm lấy bóng tim.",
     "phys": "Thực hiện chức năng thông khí và trao đổi khí O2/CO2 giữa phế nang và mao mạch phổi trái; điều hòa pH máu và thanh lọc dịch khí quản.",
     "blood": "Động mạch phổi trái (dẫn máu đỏ thẫm khử oxy từ tâm thất phải lên trao đổi khí); Tĩnh mạch phổi (đưa máu giàu O2 về tâm nhĩ trái); ĐM phế quản nuôi dưỡng.",
@@ -680,8 +680,8 @@
     "note": "Khu vực liên quan trực tiếp đến các bệnh lý viêm phổi thùy trên và các huyệt đầu kinh Phế."
   },
   "Left ventricle": {
-    "vi": "Tâm thất trái (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm thất trái (Tạng Tâm)",
+    "lat": "Ventriculus sinister",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -690,8 +690,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Lesser omentum": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Mạc nối nhỏ",
+    "lat": "Omentum minus",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -700,8 +700,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Liver": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan)",
+    "lat": "Hepar",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -710,8 +710,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Medial basal segmental bronchus of left lung (BVII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trong phổi trái (BVII)",
+    "lat": "Medial basal segmental bronchus of left lung (BVII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -720,8 +720,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Medial basal segmental bronchus of right lung": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trong phổi phải",
+    "lat": "Medial basal segmental bronchus of right lung",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -730,8 +730,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Medial basal segmental bronchus of right lung (BVII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trong phổi phải (BVII)",
+    "lat": "Medial basal segmental bronchus of right lung (BVII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -740,8 +740,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Medial segmental bronchus of right lung (BV)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy trong phổi phải (BV)",
+    "lat": "Medial segmental bronchus of right lung (BV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -750,8 +750,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Meso-appendix": {
-    "vi": "Ruột thừa (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Mạc treo ruột thừa",
+    "lat": "Mesoappendix",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -760,8 +760,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Mesocolic taenia": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Dải cơ dọc mạc treo đại tràng",
+    "lat": "Taenia mesocolica",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -770,8 +770,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Mesocolon": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Mạc treo đại tràng",
+    "lat": "Mesocolon",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -780,8 +780,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Middle lobar bronchus": {
-    "vi": "Thùy giữa phổi phải",
-    "lat": "Lobus medius pulmonis dextri",
+    "vi": "Phế quản thùy giữa phổi phải",
+    "lat": "Bronchus lobaris medius",
     "pos": "Hình chêm, nằm ở mặt trước bên khoang ngực phải, kẹp giữa khe ngang ở trên và khe chếch ở dưới.",
     "phys": "Thông khí phân thùy bên và phân thùy giữa; hỗ trợ đàn hồi khi lồng ngực giãn nở chiều trước - sau.",
     "blood": "Nhánh thùy giữa của ĐM phổi phải và TM phổi phải trên.",
@@ -790,8 +790,8 @@
     "note": "Hội chứng thùy giữa phổi (Middle lobe syndrome) thường gây xẹp hoặc viêm mạn tính do phế quản thùy giữa dài và hẹp."
   },
   "Middle lobar bronchus.r": {
-    "vi": "Thùy giữa phổi phải",
-    "lat": "Lobus medius pulmonis dextri",
+    "vi": "Phế quản thùy giữa phổi phải (Phải)",
+    "lat": "Bronchus lobaris medius",
     "pos": "Hình chêm, nằm ở mặt trước bên khoang ngực phải, kẹp giữa khe ngang ở trên và khe chếch ở dưới.",
     "phys": "Thông khí phân thùy bên và phân thùy giữa; hỗ trợ đàn hồi khi lồng ngực giãn nở chiều trước - sau.",
     "blood": "Nhánh thùy giữa của ĐM phổi phải và TM phổi phải trên.",
@@ -800,7 +800,7 @@
     "note": "Hội chứng thùy giữa phổi (Middle lobe syndrome) thường gây xẹp hoặc viêm mạn tính do phế quản thùy giữa dài và hẹp."
   },
   "Middle lobe of right lung": {
-    "vi": "Thùy giữa phổi phải",
+    "vi": "Thùy giữa phổi phải (Tạng Phế)",
     "lat": "Lobus medius pulmonis dextri",
     "pos": "Hình chêm, nằm ở mặt trước bên khoang ngực phải, kẹp giữa khe ngang ở trên và khe chếch ở dưới.",
     "phys": "Thông khí phân thùy bên và phân thùy giữa; hỗ trợ đàn hồi khi lồng ngực giãn nở chiều trước - sau.",
@@ -810,8 +810,8 @@
     "note": "Hội chứng thùy giữa phổi (Middle lobe syndrome) thường gây xẹp hoặc viêm mạn tính do phế quản thùy giữa dài và hẹp."
   },
   "Mucosa of nasal cavity": {
-    "vi": "Cấu trúc tạng phủ (Mucosa of nasal cavity)",
-    "lat": "Mucosa of nasal cavity",
+    "vi": "Niêm mạc khoang mũi (Tỵ khiếu)",
+    "lat": "Tunica mucosa cavitatis nasi",
     "pos": "Cấu trúc giải phẫu chuyên sâu thuộc hệ thống tạng phủ lồng ngực và ổ bụng.",
     "phys": "Tham gia vào chức năng sinh lý điều hòa nội môi, tuần hoàn, hô hấp hoặc tiêu hóa.",
     "blood": "Hệ thống mạch máu và thần kinh thực vật tương ứng của phân khu tạng phủ.",
@@ -820,8 +820,8 @@
     "note": "Cấu trúc giải phẫu 3D chuẩn xác Z-Anatomy."
   },
   "Mucosa of stomach": {
-    "vi": "Dạ dày (Vị phủ)",
-    "lat": "Gaster (Stomach)",
+    "vi": "Niêm mạc dạ dày (Vị phủ)",
+    "lat": "Tunica mucosa gastrica",
     "pos": "Nằm ở vùng thượng vị và hạ sườn trái, ngay dưới vòm hoành trái; nối thực quản ở tâm vị và tá tràng ở môn vị.",
     "phys": "Chứa đựng (dung tích 1.5 - 2 lít), nhào trộn cơ học và tiêu hóa hóa học thức ăn nhờ acid HCl và men pepsin; tiết yếu tố nội tại hấp thu vitamin B12.",
     "blood": "Động mạch vị trái (nhánh thân tạng), ĐM vị mạc nối trái/phải, ĐM vị phải; Dây X trước/sau kích thích tiết acid và tăng nhu động.",
@@ -830,8 +830,8 @@
     "note": "Cơ quan tiêu hóa ban đầu; ổ loét thường gặp ở bờ cong nhỏ và tiền môn vị."
   },
   "Nasopharynx": {
-    "vi": "Hầu họng & Thực quản",
-    "lat": "Pharynx et Oesophagus",
+    "vi": "Hầu mũi (Tỵ hầu)",
+    "lat": "Nasopharynx",
     "pos": "Ống cơ niêm mạc nối khoang miệng, khoang mũi xuống dạ dày.",
     "phys": "Nuốt và vận chuyển thức ăn xuống dạ dày bằng nhu động cơ trơn; nắp thanh quản đóng kín thanh môn khi nuốt tránh sặc thức ăn vào đường thở.",
     "blood": "ĐM giáp dưới, ĐM thực quản nhánh từ ĐM chủ ngực.",
@@ -840,7 +840,7 @@
     "note": "Ngã tư đường ăn và đường thở."
   },
   "Neurohypophysis": {
-    "vi": "Cấu trúc tạng phủ (Neurohypophysis)",
+    "vi": "Thùy sau tuyến yên (Tuyến yên thần kinh)",
     "lat": "Neurohypophysis",
     "pos": "Cấu trúc giải phẫu chuyên sâu thuộc hệ thống tạng phủ lồng ngực và ổ bụng.",
     "phys": "Tham gia vào chức năng sinh lý điều hòa nội môi, tuần hoàn, hô hấp hoặc tiêu hóa.",
@@ -850,8 +850,8 @@
     "note": "Cấu trúc giải phẫu 3D chuẩn xác Z-Anatomy."
   },
   "Non-coronary leaflet": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van không vành / Lá sau (Van động mạch chủ)",
+    "lat": "Valvula semilunaris posterior valvae aortae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -860,8 +860,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Oesophagus": {
-    "vi": "Hầu họng & Thực quản",
-    "lat": "Pharynx et Oesophagus",
+    "vi": "Thực quản",
+    "lat": "Oesophagus",
     "pos": "Ống cơ niêm mạc nối khoang miệng, khoang mũi xuống dạ dày.",
     "phys": "Nuốt và vận chuyển thức ăn xuống dạ dày bằng nhu động cơ trơn; nắp thanh quản đóng kín thanh môn khi nuốt tránh sặc thức ăn vào đường thở.",
     "blood": "ĐM giáp dưới, ĐM thực quản nhánh từ ĐM chủ ngực.",
@@ -870,8 +870,8 @@
     "note": "Ngã tư đường ăn và đường thở."
   },
   "Omental taenia": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Dải cơ dọc mạc nối đại tràng",
+    "lat": "Taenia omentalis",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -880,8 +880,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Oropharynx": {
-    "vi": "Hầu họng & Thực quản",
-    "lat": "Pharynx et Oesophagus",
+    "vi": "Hầu miệng (Khẩu hầu)",
+    "lat": "Oropharynx",
     "pos": "Ống cơ niêm mạc nối khoang miệng, khoang mũi xuống dạ dày.",
     "phys": "Nuốt và vận chuyển thức ăn xuống dạ dày bằng nhu động cơ trơn; nắp thanh quản đóng kín thanh môn khi nuốt tránh sặc thức ăn vào đường thở.",
     "blood": "ĐM giáp dưới, ĐM thực quản nhánh từ ĐM chủ ngực.",
@@ -890,7 +890,7 @@
     "note": "Ngã tư đường ăn và đường thở."
   },
   "Pancreas": {
-    "vi": "Tuyến tụy (Tạng Tỳ - Tụy dịch)",
+    "vi": "Tuyến tụy (Tạng Tỳ - Tụy)",
     "lat": "Pancreas",
     "pos": "Nằm vắt ngang sau phúc mạc thành bụng sau, từ khung tá tràng bên phải sang cuống lách bên trái (gồm đầu, cổ, thân và đuôi tụy).",
     "phys": "Ngoại tiết: Tiết 1.5 - 2 lít dịch tụy kiềm tính giàu enzym (amylase, lipase, trypsin) tiêu hóa thức ăn. Nội tiết: Tiểu đảo Langerhans tiết Insulin (tế bào Beta) hạ đường huyết và Glucagon (tế bào Alpha) tăng đường huyết.",
@@ -900,8 +900,8 @@
     "note": "Viêm tụy cấp là bệnh cấp cứu ngoại khoa nghiêm trọng; u đầu tụy dễ gây tắc mật hoàng đản."
   },
   "Pancreatic duct": {
-    "vi": "Tuyến tụy (Tạng Tỳ - Tụy dịch)",
-    "lat": "Pancreas",
+    "vi": "Ống tụy chính (Ống Wirsung)",
+    "lat": "Ductus pancreaticus",
     "pos": "Nằm vắt ngang sau phúc mạc thành bụng sau, từ khung tá tràng bên phải sang cuống lách bên trái (gồm đầu, cổ, thân và đuôi tụy).",
     "phys": "Ngoại tiết: Tiết 1.5 - 2 lít dịch tụy kiềm tính giàu enzym (amylase, lipase, trypsin) tiêu hóa thức ăn. Nội tiết: Tiểu đảo Langerhans tiết Insulin (tế bào Beta) hạ đường huyết và Glucagon (tế bào Alpha) tăng đường huyết.",
     "blood": "ĐM vị tá tràng, ĐM tụy dưới và các nhánh từ ĐM lách; Thần kinh phế vị và đám rối tạng.",
@@ -910,8 +910,8 @@
     "note": "Viêm tụy cấp là bệnh cấp cứu ngoại khoa nghiêm trọng; u đầu tụy dễ gây tắc mật hoàng đản."
   },
   "Parotid duct": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -920,8 +920,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid duct.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -930,8 +930,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid duct.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen) (Trái)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -940,8 +940,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid duct.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen) (Phải)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -950,8 +950,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid gland": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -960,8 +960,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid gland.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -970,8 +970,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid gland.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai (Trái)",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -980,8 +980,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid gland.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai (Phải)",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1010,8 +1010,8 @@
     "note": "Cấu trúc thanh mạc mỏng nhưng cực kỳ quan trọng trong lâm sàng chấn thương ngực và châm cứu huyệt ngực."
   },
   "Posterior basal segmental bronchus of left lung (BX)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy sau phổi trái (BX)",
+    "lat": "Posterior basal segmental bronchus of left lung (BX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1020,8 +1020,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Posterior basal segmental bronchus of right lung (BX)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy sau phổi phải (BX)",
+    "lat": "Posterior basal segmental bronchus of right lung (BX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1030,8 +1030,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Posterior lateral segment of liver (VII)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy VII (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy VII (Sau ngoài phải)",
+    "lat": "Segmentum hepatis laterale dextrum posterius (VII)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -1040,8 +1040,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Posterior leaflet of left atrioventricular valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van sau (Van hai lá / Mitral)",
+    "lat": "Cuspis posterior valvae atrioventricularis sinistrae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1050,8 +1050,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Posterior medial segment of liver (VIII)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy VIII (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy VIII (Sau trong phải)",
+    "lat": "Segmentum hepatis mediale dextrum posterius (VIII)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -1060,8 +1060,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Posterior segment of liver (I)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy I (Thùy đuôi)",
+    "lat": "Segmentum hepatis posterius (I)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -1070,8 +1070,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Posterior segmental bronchus of right lung (BII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy sau phổi phải (BII)",
+    "lat": "Posterior segmental bronchus of right lung (BII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1090,8 +1090,8 @@
     "note": "Thăm khám trực tràng bằng ngón tay (DRE) và định lượng kháng nguyên PSA giúp tầm soát u xơ và ung thư tuyến tiền liệt."
   },
   "Renal pelvis.l": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Bể thận (Trái)",
+    "lat": "Pelvis renalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -1100,8 +1100,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Renal pelvis.r": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Bể thận (Phải)",
+    "lat": "Pelvis renalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -1110,8 +1110,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Right atrium": {
-    "vi": "Tâm nhĩ phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm nhĩ phải (Tạng Tâm)",
+    "lat": "Atrium dextrum",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1120,8 +1120,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Right coronary leaflet": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van vành phải (Van động mạch chủ)",
+    "lat": "Valvula semilunaris dextra valvae aortae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1130,8 +1130,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Right inferior lobar bronchus": {
-    "vi": "Thùy dưới phổi phải",
-    "lat": "Lobus inferior pulmonis dextri",
+    "vi": "Phế quản thùy dưới phổi phải",
+    "lat": "Bronchus lobaris inferior dexter",
     "pos": "Thùy lớn nhất của phổi phải, chiếm phần lớn phía sau và đáy phổi, tựa trực tiếp lên vòm hoành phải (ngăn cách với gan).",
     "phys": "Dung tích chứa khí lớn nhất; đóng vai trò then chốt trong trao đổi khí tối đa khi gắng sức và thông khí thì thở ra.",
     "blood": "Nhánh thùy dưới ĐM và TM phổi phải; Bạch huyết đổ về hạch phế quản phổi.",
@@ -1140,8 +1140,8 @@
     "note": "Tiếp xúc qua cơ hoành với thùy phải của gan."
   },
   "Right main bronchus": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản chính phải",
+    "lat": "Bronchus principalis dexter",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1150,8 +1150,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Right semilunar leaflet of pulmonary valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van bán nguyệt phải (Van động mạch phổi)",
+    "lat": "Valvula semilunaris dextra valvae trunci pulmonalis",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1160,8 +1160,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Right superior lobar bronchus": {
-    "vi": "Thùy trên phổi phải",
-    "lat": "Lobus superior pulmonis dextri",
+    "vi": "Phế quản thùy trên phổi phải",
+    "lat": "Bronchus lobaris superior dexter",
     "pos": "Nằm ở đỉnh và phần trên khoang ngực phải; ngăn cách với thùy giữa bởi khe ngang và thùy dưới bởi khe chếch.",
     "phys": "Thông khí thùy đỉnh và thùy trước phổi phải; nơi trao đổi khí O2/CO2 với động mạch phổi nhánh thùy trên.",
     "blood": "Động mạch phổi phải (nhánh trên), tĩnh mạch phổi phải trên; Thần kinh phế vị (X) và chuỗi hạch giao cảm ngực T2-T4.",
@@ -1170,8 +1170,8 @@
     "note": "Vị trí phổ biến của lao phổi đỉnh phổi và thâm nhiễm viêm phế quản thùy trên."
   },
   "Right ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm thất phải (Tạng Tâm)",
+    "lat": "Ventriculus dexter",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1180,8 +1180,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Seminal gland": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1190,8 +1190,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Seminal gland.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1200,8 +1200,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Seminal gland.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh (Trái)",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1210,8 +1210,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Seminal gland.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh (Phải)",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1220,8 +1220,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Septal leaflet of right atrioventricular valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van vách (Van ba lá)",
+    "lat": "Cuspis septalis valvae atrioventricularis dextrae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1230,8 +1230,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Septal papillary muscle of right ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú vách tâm thất phải",
+    "lat": "Musculus papillaris septalis ventriculi dextri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1241,7 +1241,7 @@
   },
   "Sigmoid colon": {
     "vi": "Đại tràng Sigma (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon sigmoideum",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1250,8 +1250,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Soft palate": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Khẩu cái mềm (Màn hầu)",
+    "lat": "Palatum molle",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1270,8 +1270,8 @@
     "note": "Cơ quan tiêu hóa ban đầu; ổ loét thường gặp ở bờ cong nhỏ và tiền môn vị."
   },
   "Sublingual gland": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1280,8 +1280,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual gland.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1290,8 +1290,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual gland.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi (Trái)",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1300,8 +1300,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual gland.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi (Phải)",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1310,8 +1310,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular duct": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1320,8 +1320,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular duct.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1330,8 +1330,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular duct.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton) (Trái)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1340,8 +1340,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular duct.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton) (Phải)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1350,8 +1350,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular gland": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1360,8 +1360,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular gland.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1370,8 +1370,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular gland.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm (Trái)",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1380,8 +1380,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular gland.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm (Phải)",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1390,8 +1390,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Superior lingular segmental bronchus of left lung (BIV)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy lưỡi trên phổi trái (BIV)",
+    "lat": "Superior lingular segmental bronchus of left lung (BIV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1400,7 +1400,7 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Superior lobe of left lung": {
-    "vi": "Thùy trên phổi trái",
+    "vi": "Thùy trên phổi trái (Tạng Phế)",
     "lat": "Lobus superior pulmonis sinistri",
     "pos": "Nằm ở nửa trên khoang ngực trái, từ đỉnh phổi xuống ngang mức khe chếch; gồm các phân thùy đỉnh - sau, phân thùy trước và thùy lưỡi ôm lấy bóng tim.",
     "phys": "Thực hiện chức năng thông khí và trao đổi khí O2/CO2 giữa phế nang và mao mạch phổi trái; điều hòa pH máu và thanh lọc dịch khí quản.",
@@ -1410,7 +1410,7 @@
     "note": "Khu vực liên quan trực tiếp đến các bệnh lý viêm phổi thùy trên và các huyệt đầu kinh Phế."
   },
   "Superior lobe of right lung": {
-    "vi": "Thùy trên phổi phải",
+    "vi": "Thùy trên phổi phải (Tạng Phế)",
     "lat": "Lobus superior pulmonis dextri",
     "pos": "Nằm ở đỉnh và phần trên khoang ngực phải; ngăn cách với thùy giữa bởi khe ngang và thùy dưới bởi khe chếch.",
     "phys": "Thông khí thùy đỉnh và thùy trước phổi phải; nơi trao đổi khí O2/CO2 với động mạch phổi nhánh thùy trên.",
@@ -1440,7 +1440,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Superior parathyroid gland.l": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Trái)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -1450,7 +1450,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Superior parathyroid gland.r": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Phải)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -1460,8 +1460,8 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Superior segmental bronchus of left lung (BVI)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh thùy dưới phổi trái (BVI)",
+    "lat": "Superior segmental bronchus of left lung (BVI)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1470,8 +1470,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Superior segmental bronchus of right lung (BVI)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh thùy dưới phổi phải (BVI)",
+    "lat": "Superior segmental bronchus of right lung (BVI)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1480,8 +1480,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Suprarenal gland.l": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Tuyến thượng thận (Mệnh Môn) (Trái)",
+    "lat": "Glandula suprarenalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -1490,8 +1490,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Suprarenal gland.r": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Tuyến thượng thận (Mệnh Môn) (Phải)",
+    "lat": "Glandula suprarenalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -1520,7 +1520,7 @@
     "note": "Xoắn tinh hoàn là cấp cứu ngoại khoa khẩn cấp phải mổ tháo xoắn trong vòng 6 giờ vàng."
   },
   "Testis.l": {
-    "vi": "Tinh hoàn",
+    "vi": "Tinh hoàn (Trái)",
     "lat": "Testis",
     "pos": "Nằm trong bìu ngoài ổ bụng để duy trì nhiệt độ thấp hơn thân nhiệt khoảng 2-3°C.",
     "phys": "Cơ quan sinh sản nam: Sinh tinh trùng tại các ống sinh tinh xoắn (khoảng 100-200 triệu tinh trùng/ngày); Tế bào kẽ Leydig tiết nội tiết tố nam Testosterone.",
@@ -1530,7 +1530,7 @@
     "note": "Xoắn tinh hoàn là cấp cứu ngoại khoa khẩn cấp phải mổ tháo xoắn trong vòng 6 giờ vàng."
   },
   "Testis.r": {
-    "vi": "Tinh hoàn",
+    "vi": "Tinh hoàn (Phải)",
     "lat": "Testis",
     "pos": "Nằm trong bìu ngoài ổ bụng để duy trì nhiệt độ thấp hơn thân nhiệt khoảng 2-3°C.",
     "phys": "Cơ quan sinh sản nam: Sinh tinh trùng tại các ống sinh tinh xoắn (khoảng 100-200 triệu tinh trùng/ngày); Tế bào kẽ Leydig tiết nội tiết tố nam Testosterone.",
@@ -1571,7 +1571,7 @@
   },
   "Transverse colon": {
     "vi": "Đại tràng ngang (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon transversum",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1580,7 +1580,7 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Ureter.l": {
-    "vi": "Niệu quản (trái)",
+    "vi": "Niệu quản (trái) (Trái)",
     "lat": "Ureter",
     "pos": "Ống dẫn cơ trơn dài 25-30 cm, chạy từ bể thận xuống chậu hông bé cắm vào đáy bàng quang.",
     "phys": "Vận chuyển nước tiểu từ bể thận xuống bàng quang bằng sóng nhu động cơ trơn (1-5 nhịp/phút).",
@@ -1590,7 +1590,7 @@
     "note": "Có 3 chỗ hẹp sinh lý (khúc nối bể thận, chỗ bắt chéo ĐM chậu, đoạn nội thành bàng quang) là nơi sỏi niệu quản hay bị kẹt."
   },
   "Ureter.r": {
-    "vi": "Niệu quản (phải)",
+    "vi": "Niệu quản (phải) (Phải)",
     "lat": "Ureter",
     "pos": "Ống dẫn cơ trơn dài 25-30 cm, chạy từ bể thận xuống chậu hông bé cắm vào đáy bàng quang.",
     "phys": "Vận chuyển nước tiểu từ bể thận xuống bàng quang bằng sóng nhu động cơ trơn (1-5 nhịp/phút).",
@@ -1610,8 +1610,8 @@
     "note": "Niệu đạo nữ ngắn và thẳng nên tỷ lệ nhiễm khuẩn đường tiết niệu ngược dòng cao hơn nam giới."
   },
   "Urinary bladder": {
-    "vi": "Bàng quang (Phủ Bàng Quang)",
-    "lat": "Vesica urinaria (Urinary bladder)",
+    "vi": "Bàng quang (Bọng đái)",
+    "lat": "Vesica urinaria",
     "pos": "Nằm trong chậu hông bé sau khớp mu; trước trực tràng ở nam và trước tử cung ở nữ. Khi căng phình vượt lên trên khớp mu.",
     "phys": "Chứa đựng nước tiểu (dung tích 300 - 500ml); cơ bàng quang (detrusor) và cơ thắt niệu đạo co giãn nhịp nhàng để đào thải nước tiểu theo ý muốn.",
     "blood": "Động mạch bàng quang trên và dưới (nhánh từ ĐM chậu trong); Thần kinh đối giao cảm S2-S4 gây co bàng quang, giao cảm T11-L2 giữ nước tiểu.",
@@ -1620,8 +1620,8 @@
     "note": "Cầu bàng quang xuất hiện trên khớp mu trong trường hợp bí tiểu cấp tính."
   },
   "Uvula of palate": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Lưỡi gà khẩu cái",
+    "lat": "Uvula palatina",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1630,8 +1630,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Vermiform appendix": {
-    "vi": "Ruột thừa (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Ruột thừa",
+    "lat": "Appendix vermiformis",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1640,8 +1640,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "(Accessory_parotid_gland)": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1650,8 +1650,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Accessory_parotid_gland).001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1660,8 +1660,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Accessory_parotid_gland).l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ (Trái)",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1670,8 +1670,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Accessory_parotid_gland).r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai phụ (Phải)",
+    "lat": "Glandula parotidea accessoria",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -1680,8 +1680,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "(Anteromedial_basal_segmental_bronchus_of_left_lung)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trước - trong phổi trái",
+    "lat": "Anteromedial basal segmental bronchus of left lung",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1690,8 +1690,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Accessory_pancreatic_duct": {
-    "vi": "Tuyến tụy (Tạng Tỳ - Tụy dịch)",
-    "lat": "Pancreas",
+    "vi": "Ống tụy phụ (Ống Santorini)",
+    "lat": "Ductus pancreaticus accessorius",
     "pos": "Nằm vắt ngang sau phúc mạc thành bụng sau, từ khung tá tràng bên phải sang cuống lách bên trái (gồm đầu, cổ, thân và đuôi tụy).",
     "phys": "Ngoại tiết: Tiết 1.5 - 2 lít dịch tụy kiềm tính giàu enzym (amylase, lipase, trypsin) tiêu hóa thức ăn. Nội tiết: Tiểu đảo Langerhans tiết Insulin (tế bào Beta) hạ đường huyết và Glucagon (tế bào Alpha) tăng đường huyết.",
     "blood": "ĐM vị tá tràng, ĐM tụy dưới và các nhánh từ ĐM lách; Thần kinh phế vị và đám rối tạng.",
@@ -1700,8 +1700,8 @@
     "note": "Viêm tụy cấp là bệnh cấp cứu ngoại khoa nghiêm trọng; u đầu tụy dễ gây tắc mật hoàng đản."
   },
   "Anterior_basal_segmental_bronchus_of_left_lung_(BVIII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trước phổi trái (BVIII)",
+    "lat": "Anterior basal segmental bronchus of left lung (BVIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1710,8 +1710,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior_basal_segmental_bronchus_of_right_lung_(BVIII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trước phổi phải (BVIII)",
+    "lat": "Anterior basal segmental bronchus of right lung (BVIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1720,8 +1720,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior_lateral_segment_of_liver_(VI)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy VI (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy VI (Trước ngoài phải)",
+    "lat": "Segmentum hepatis laterale dextrum anterius (VI)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -1730,8 +1730,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Anterior_medial_segment_of_liver_(V)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Trước trong phải)",
+    "lat": "Segmentum hepatis mediale dextrum anterius (V)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -1740,8 +1740,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Anterior_papillary_muscle_of_right_ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú trước tâm thất phải",
+    "lat": "Musculus papillaris anterior ventriculi dextri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1750,8 +1750,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Anterior_segmental_bronchus_of_left_lung_(BIII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy trước phổi trái (BIII)",
+    "lat": "Anterior segmental bronchus of left lung (BIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1760,8 +1760,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior_segmental_bronchus_of_right_lung_(BIII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy trước phổi phải (BIII)",
+    "lat": "Anterior segmental bronchus of right lung (BIII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1770,8 +1770,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Anterior_semilunar_leaflet_of_pulmonary_valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van bán nguyệt trước (Van động mạch phổi)",
+    "lat": "Valvula semilunaris anterior valvae trunci pulmonalis",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1780,8 +1780,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Apical_segmental_bronchus_of_right_lung_(BI)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh phổi phải (BI)",
+    "lat": "Apical segmental bronchus of right lung (BI)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1790,8 +1790,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Apicoposterior_segmental_bronchus_of_left_lung_(BI+BII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh - sau phổi trái",
+    "lat": "Apicoposterior segmental bronchus of left lung (BI+BII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1801,7 +1801,7 @@
   },
   "Ascending_colon": {
     "vi": "Đại tràng lên (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon ascendens",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1820,8 +1820,8 @@
     "note": "Vị trí thường xảy ra tắc mật do sỏi ống mật chủ hoặc u đầu tụy chèn ép."
   },
   "Corpus_cavernosum_of_penis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Vật hang",
+    "lat": "Corpus cavernosum penis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1830,8 +1830,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Corpus_spongiosum_of_penis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Vật xốp",
+    "lat": "Corpus spongiosum penis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1841,7 +1841,7 @@
   },
   "Descending_colon": {
     "vi": "Đại tràng xuống (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon descendens",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1850,8 +1850,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Ductus_deferens.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống dẫn tinh (Trái)",
+    "lat": "Ductus deferens",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1860,8 +1860,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ductus_deferens.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống dẫn tinh (Phải)",
+    "lat": "Ductus deferens",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1870,8 +1870,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ductus_deferens.r.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống dẫn tinh (Phải)",
+    "lat": "Ductus deferens",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1880,8 +1880,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ejaculatory_duct.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống phóng tinh (Trái)",
+    "lat": "Ductus ejaculatorius",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1890,8 +1890,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ejaculatory_duct.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống phóng tinh (Phải)",
+    "lat": "Ductus ejaculatorius",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1900,8 +1900,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Ejaculatory_duct.r.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Ống phóng tinh (Phải)",
+    "lat": "Ductus ejaculatorius",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1910,8 +1910,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Free_taenia": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Dải cơ dọc tự do đại tràng",
+    "lat": "Taenia libera",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1920,8 +1920,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Glans_penis": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Quy đầu",
+    "lat": "Glans penis",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -1930,8 +1930,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Greater_omentum": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Mạc nối lớn",
+    "lat": "Omentum majus",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -1940,8 +1940,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Inferior_leaflet_of_right_atrioventricular_valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van dưới / sau (Van ba lá)",
+    "lat": "Cuspis posterior valvae atrioventricularis dextrae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1950,8 +1950,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Inferior_lingular_segmental_bronchus_of_left_lung_(BV)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy lưỡi dưới phổi trái (BV)",
+    "lat": "Inferior lingular segmental bronchus of left lung (BV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -1960,7 +1960,7 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Inferior_lobe_of_left_lung": {
-    "vi": "Thùy dưới phổi trái",
+    "vi": "Thùy dưới phổi trái (Tạng Phế)",
     "lat": "Lobus inferior pulmonis sinistri",
     "pos": "Nằm ở nửa dưới phía sau khoang ngực trái, tựa lên vòm hoành trái qua mặt hoành của phổi; ngăn cách với thùy trên bởi khe chếch.",
     "phys": "Chịu trách nhiệm thông khí phần đáy phổi trái; diện tích tiếp xúc phế nang lớn nhất khi hít thở sâu nhờ sự vận động hạ xuống của cơ hoành.",
@@ -1970,7 +1970,7 @@
     "note": "Đáy phổi tiếp giáp sát cơ hoành, phía dưới là lách và dạ dày."
   },
   "Inferior_lobe_of_right_lung": {
-    "vi": "Thùy dưới phổi phải",
+    "vi": "Thùy dưới phổi phải (Tạng Phế)",
     "lat": "Lobus inferior pulmonis dextri",
     "pos": "Thùy lớn nhất của phổi phải, chiếm phần lớn phía sau và đáy phổi, tựa trực tiếp lên vòm hoành phải (ngăn cách với gan).",
     "phys": "Dung tích chứa khí lớn nhất; đóng vai trò then chốt trong trao đổi khí tối đa khi gắng sức và thông khí thì thở ra.",
@@ -1980,8 +1980,8 @@
     "note": "Tiếp xúc qua cơ hoành với thùy phải của gan."
   },
   "Inferior_papillary_muscle_of_left_ventricle": {
-    "vi": "Tâm thất trái (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú sau (dưới) tâm thất trái",
+    "lat": "Musculus papillaris posterior ventriculi sinistri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -1990,8 +1990,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Inferior_papillary_muscle_of_right_ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú dưới tâm thất phải",
+    "lat": "Musculus papillaris posterior ventriculi dextri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2020,7 +2020,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Inferior_parathyroid_gland.l": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Trái)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -2030,7 +2030,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Inferior_parathyroid_gland.r": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Phải)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -2040,8 +2040,8 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Intermediate_bronchus": {
-    "vi": "Phân nhánh cây phế quản",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản trung gian (Phổi phải)",
+    "lat": "Bronchus intermedius",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2050,8 +2050,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Intermediate_bronchus.r": {
-    "vi": "Phân nhánh cây phế quản",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản trung gian (Phổi phải) (Phải)",
+    "lat": "Bronchus intermedius",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2060,8 +2060,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral_basal_segmental_bronchus_of_left_lung": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy ngoài phổi trái",
+    "lat": "Lateral basal segmental bronchus of left lung",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2070,8 +2070,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral_basal_segmental_bronchus_of_left_lung_(BIX)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy ngoài phổi trái (BIX)",
+    "lat": "Lateral basal segmental bronchus of left lung (BIX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2080,8 +2080,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral_basal_segmental_bronchus_of_right_lung_(BIX)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy ngoài phổi phải (BIX)",
+    "lat": "Lateral basal segmental bronchus of right lung (BIX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2090,8 +2090,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Lateral_segmental_bronchus_of_right_lung_(BIV)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy ngoài phổi phải (BIV)",
+    "lat": "Lateral segmental bronchus of right lung (BIV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2100,8 +2100,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Left_anterior_lateral_segment_of_liver_(III)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy III (Trước ngoài trái)",
+    "lat": "Segmentum hepatis laterale sinistrum anterius (III)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -2110,8 +2110,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Left_atrium": {
-    "vi": "Tâm nhĩ trái (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm nhĩ trái (Tạng Tâm)",
+    "lat": "Atrium sinistrum",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2120,8 +2120,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Left_coronary_leaflet": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van vành trái (Van động mạch chủ)",
+    "lat": "Valvula semilunaris sinistra valvae aortae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2130,8 +2130,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Left_inferior_lobar_bronchus": {
-    "vi": "Thùy dưới phổi trái",
-    "lat": "Lobus inferior pulmonis sinistri",
+    "vi": "Phế quản thùy dưới phổi trái",
+    "lat": "Bronchus lobaris inferior sinister",
     "pos": "Nằm ở nửa dưới phía sau khoang ngực trái, tựa lên vòm hoành trái qua mặt hoành của phổi; ngăn cách với thùy trên bởi khe chếch.",
     "phys": "Chịu trách nhiệm thông khí phần đáy phổi trái; diện tích tiếp xúc phế nang lớn nhất khi hít thở sâu nhờ sự vận động hạ xuống của cơ hoành.",
     "blood": "Nhánh thùy dưới của ĐM và TM phổi trái; ĐM phế quản nuôi dưỡng mô liên kết; Đám rối thần kinh phổi (nhánh X và giao cảm ngực).",
@@ -2140,8 +2140,8 @@
     "note": "Đáy phổi tiếp giáp sát cơ hoành, phía dưới là lách và dạ dày."
   },
   "Left_main_bronchus": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản chính trái",
+    "lat": "Bronchus principalis sinister",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2150,8 +2150,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Left_medial_segment_of_liver_(IV)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy IV (Giữa trái / Thùy vuông)",
+    "lat": "Segmentum hepatis mediale sinistrum (IV)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -2160,8 +2160,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Left_posterior_lateral_segment_of_liver_(II)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy II (Sau ngoài trái)",
+    "lat": "Segmentum hepatis laterale sinistrum posterius (II)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -2170,8 +2170,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Left_semilunar_leaflet_of_pulmonary_valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van bán nguyệt trái (Van động mạch phổi)",
+    "lat": "Valvula semilunaris sinistra valvae trunci pulmonalis",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2180,8 +2180,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Left_superior_lobar_bronchus": {
-    "vi": "Thùy trên phổi trái",
-    "lat": "Lobus superior pulmonis sinistri",
+    "vi": "Phế quản thùy trên phổi trái",
+    "lat": "Bronchus lobaris superior sinister",
     "pos": "Nằm ở nửa trên khoang ngực trái, từ đỉnh phổi xuống ngang mức khe chếch; gồm các phân thùy đỉnh - sau, phân thùy trước và thùy lưỡi ôm lấy bóng tim.",
     "phys": "Thực hiện chức năng thông khí và trao đổi khí O2/CO2 giữa phế nang và mao mạch phổi trái; điều hòa pH máu và thanh lọc dịch khí quản.",
     "blood": "Động mạch phổi trái (dẫn máu đỏ thẫm khử oxy từ tâm thất phải lên trao đổi khí); Tĩnh mạch phổi (đưa máu giàu O2 về tâm nhĩ trái); ĐM phế quản nuôi dưỡng.",
@@ -2190,8 +2190,8 @@
     "note": "Khu vực liên quan trực tiếp đến các bệnh lý viêm phổi thùy trên và các huyệt đầu kinh Phế."
   },
   "Left_ventricle": {
-    "vi": "Tâm thất trái (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm thất trái (Tạng Tâm)",
+    "lat": "Ventriculus sinister",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2200,8 +2200,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Lesser_omentum": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Mạc nối nhỏ",
+    "lat": "Omentum minus",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -2210,8 +2210,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Medial_basal_segmental_bronchus_of_left_lung_(BVII)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trong phổi trái (BVII)",
+    "lat": "Medial basal segmental bronchus of left lung (BVII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2220,8 +2220,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Medial_basal_segmental_bronchus_of_right_lung": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trong phổi phải",
+    "lat": "Medial basal segmental bronchus of right lung",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2230,8 +2230,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Medial_basal_segmental_bronchus_of_right_lung_(BVII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy trong phổi phải (BVII)",
+    "lat": "Medial basal segmental bronchus of right lung (BVII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2240,8 +2240,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Medial_segmental_bronchus_of_right_lung_(BV)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy trong phổi phải (BV)",
+    "lat": "Medial segmental bronchus of right lung (BV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2250,8 +2250,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Mesocolic_taenia": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Dải cơ dọc mạc treo đại tràng",
+    "lat": "Taenia mesocolica",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -2260,8 +2260,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Middle_lobar_bronchus": {
-    "vi": "Thùy giữa phổi phải",
-    "lat": "Lobus medius pulmonis dextri",
+    "vi": "Phế quản thùy giữa phổi phải",
+    "lat": "Bronchus lobaris medius",
     "pos": "Hình chêm, nằm ở mặt trước bên khoang ngực phải, kẹp giữa khe ngang ở trên và khe chếch ở dưới.",
     "phys": "Thông khí phân thùy bên và phân thùy giữa; hỗ trợ đàn hồi khi lồng ngực giãn nở chiều trước - sau.",
     "blood": "Nhánh thùy giữa của ĐM phổi phải và TM phổi phải trên.",
@@ -2270,8 +2270,8 @@
     "note": "Hội chứng thùy giữa phổi (Middle lobe syndrome) thường gây xẹp hoặc viêm mạn tính do phế quản thùy giữa dài và hẹp."
   },
   "Middle_lobar_bronchus.r": {
-    "vi": "Thùy giữa phổi phải",
-    "lat": "Lobus medius pulmonis dextri",
+    "vi": "Phế quản thùy giữa phổi phải (Phải)",
+    "lat": "Bronchus lobaris medius",
     "pos": "Hình chêm, nằm ở mặt trước bên khoang ngực phải, kẹp giữa khe ngang ở trên và khe chếch ở dưới.",
     "phys": "Thông khí phân thùy bên và phân thùy giữa; hỗ trợ đàn hồi khi lồng ngực giãn nở chiều trước - sau.",
     "blood": "Nhánh thùy giữa của ĐM phổi phải và TM phổi phải trên.",
@@ -2280,7 +2280,7 @@
     "note": "Hội chứng thùy giữa phổi (Middle lobe syndrome) thường gây xẹp hoặc viêm mạn tính do phế quản thùy giữa dài và hẹp."
   },
   "Middle_lobe_of_right_lung": {
-    "vi": "Thùy giữa phổi phải",
+    "vi": "Thùy giữa phổi phải (Tạng Phế)",
     "lat": "Lobus medius pulmonis dextri",
     "pos": "Hình chêm, nằm ở mặt trước bên khoang ngực phải, kẹp giữa khe ngang ở trên và khe chếch ở dưới.",
     "phys": "Thông khí phân thùy bên và phân thùy giữa; hỗ trợ đàn hồi khi lồng ngực giãn nở chiều trước - sau.",
@@ -2290,8 +2290,8 @@
     "note": "Hội chứng thùy giữa phổi (Middle lobe syndrome) thường gây xẹp hoặc viêm mạn tính do phế quản thùy giữa dài và hẹp."
   },
   "Mucosa_of_nasal_cavity": {
-    "vi": "Cấu trúc tạng phủ (Mucosa of nasal cavity)",
-    "lat": "Mucosa of nasal cavity",
+    "vi": "Niêm mạc khoang mũi (Tỵ khiếu)",
+    "lat": "Tunica mucosa cavitatis nasi",
     "pos": "Cấu trúc giải phẫu chuyên sâu thuộc hệ thống tạng phủ lồng ngực và ổ bụng.",
     "phys": "Tham gia vào chức năng sinh lý điều hòa nội môi, tuần hoàn, hô hấp hoặc tiêu hóa.",
     "blood": "Hệ thống mạch máu và thần kinh thực vật tương ứng của phân khu tạng phủ.",
@@ -2300,8 +2300,8 @@
     "note": "Cấu trúc giải phẫu 3D chuẩn xác Z-Anatomy."
   },
   "Mucosa_of_stomach": {
-    "vi": "Dạ dày (Vị phủ)",
-    "lat": "Gaster (Stomach)",
+    "vi": "Niêm mạc dạ dày (Vị phủ)",
+    "lat": "Tunica mucosa gastrica",
     "pos": "Nằm ở vùng thượng vị và hạ sườn trái, ngay dưới vòm hoành trái; nối thực quản ở tâm vị và tá tràng ở môn vị.",
     "phys": "Chứa đựng (dung tích 1.5 - 2 lít), nhào trộn cơ học và tiêu hóa hóa học thức ăn nhờ acid HCl và men pepsin; tiết yếu tố nội tại hấp thu vitamin B12.",
     "blood": "Động mạch vị trái (nhánh thân tạng), ĐM vị mạc nối trái/phải, ĐM vị phải; Dây X trước/sau kích thích tiết acid và tăng nhu động.",
@@ -2310,8 +2310,8 @@
     "note": "Cơ quan tiêu hóa ban đầu; ổ loét thường gặp ở bờ cong nhỏ và tiền môn vị."
   },
   "Non-coronary_leaflet": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van không vành / Lá sau (Van động mạch chủ)",
+    "lat": "Valvula semilunaris posterior valvae aortae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2320,8 +2320,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Omental_taenia": {
-    "vi": "Mạc nối & mạc treo ruột (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Dải cơ dọc mạc nối đại tràng",
+    "lat": "Taenia omentalis",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -2330,8 +2330,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Pancreatic_duct": {
-    "vi": "Tuyến tụy (Tạng Tỳ - Tụy dịch)",
-    "lat": "Pancreas",
+    "vi": "Ống tụy chính (Ống Wirsung)",
+    "lat": "Ductus pancreaticus",
     "pos": "Nằm vắt ngang sau phúc mạc thành bụng sau, từ khung tá tràng bên phải sang cuống lách bên trái (gồm đầu, cổ, thân và đuôi tụy).",
     "phys": "Ngoại tiết: Tiết 1.5 - 2 lít dịch tụy kiềm tính giàu enzym (amylase, lipase, trypsin) tiêu hóa thức ăn. Nội tiết: Tiểu đảo Langerhans tiết Insulin (tế bào Beta) hạ đường huyết và Glucagon (tế bào Alpha) tăng đường huyết.",
     "blood": "ĐM vị tá tràng, ĐM tụy dưới và các nhánh từ ĐM lách; Thần kinh phế vị và đám rối tạng.",
@@ -2340,8 +2340,8 @@
     "note": "Viêm tụy cấp là bệnh cấp cứu ngoại khoa nghiêm trọng; u đầu tụy dễ gây tắc mật hoàng đản."
   },
   "Parotid_duct": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2350,8 +2350,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_duct.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2360,8 +2360,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_duct.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen) (Trái)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2370,8 +2370,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_duct.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến mang tai (Ống Stensen) (Phải)",
+    "lat": "Ductus parotideus",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2380,8 +2380,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_gland": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2390,8 +2390,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_gland.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2400,8 +2400,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_gland.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai (Trái)",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2410,8 +2410,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Parotid_gland.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt mang tai (Phải)",
+    "lat": "Glandula parotidea",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2430,8 +2430,8 @@
     "note": "Cấu trúc giải phẫu 3D chuẩn xác Z-Anatomy."
   },
   "Posterior_basal_segmental_bronchus_of_left_lung_(BX)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy sau phổi trái (BX)",
+    "lat": "Posterior basal segmental bronchus of left lung (BX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2440,8 +2440,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Posterior_basal_segmental_bronchus_of_right_lung_(BX)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đáy sau phổi phải (BX)",
+    "lat": "Posterior basal segmental bronchus of right lung (BX)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2450,8 +2450,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Posterior_lateral_segment_of_liver_(VII)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy VII (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy VII (Sau ngoài phải)",
+    "lat": "Segmentum hepatis laterale dextrum posterius (VII)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -2460,8 +2460,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Posterior_leaflet_of_left_atrioventricular_valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van sau (Van hai lá / Mitral)",
+    "lat": "Cuspis posterior valvae atrioventricularis sinistrae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2470,8 +2470,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Posterior_medial_segment_of_liver_(VIII)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy VIII (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy VIII (Sau trong phải)",
+    "lat": "Segmentum hepatis mediale dextrum posterius (VIII)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -2480,8 +2480,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Posterior_segment_of_liver_(I)": {
-    "vi": "Tạng Can (Gan) - Hạ phân thùy V (Couinaud)",
-    "lat": "Hepar (Liver)",
+    "vi": "Tạng Can (Gan) - Hạ phân thùy I (Thùy đuôi)",
+    "lat": "Segmentum hepatis posterius (I)",
     "pos": "Nằm ở hạ sườn phải, thượng vị và lấn một phần sang hạ sườn trái; nằm ngay dưới vòm hoành phải, che phủ dạ dày và tá tràng.",
     "phys": "Nhà máy sinh hóa lớn nhất cơ thể: Chuyển hóa đường/đạm/mỡ, tổng hợp albumin và yếu tố đông máu, khử độc, bài tiết dịch mật (0.8-1 lít/ngày), dự trữ glycogen và vitamin A, D, B12, sắt.",
     "blood": "Động mạch gan riêng (25% máu giàu oxy) và Tĩnh mạch cửa (75% máu giàu chất dinh dưỡng từ ruột); Đám rối tạng và thần kinh phế vị.",
@@ -2490,8 +2490,8 @@
     "note": "Khả năng tái sinh nhu mô mạnh mẽ; chia 8 hạ phân thùy theo hệ thống mạch - mật Couinaud."
   },
   "Posterior_segmental_bronchus_of_right_lung_(BII)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy sau phổi phải (BII)",
+    "lat": "Posterior segmental bronchus of right lung (BII)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2500,8 +2500,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Renal_pelvis.l": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Bể thận (Trái)",
+    "lat": "Pelvis renalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -2510,8 +2510,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Renal_pelvis.r": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Bể thận (Phải)",
+    "lat": "Pelvis renalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -2520,8 +2520,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Right_atrium": {
-    "vi": "Tâm nhĩ phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm nhĩ phải (Tạng Tâm)",
+    "lat": "Atrium dextrum",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2530,8 +2530,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Right_coronary_leaflet": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van vành phải (Van động mạch chủ)",
+    "lat": "Valvula semilunaris dextra valvae aortae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2540,8 +2540,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Right_inferior_lobar_bronchus": {
-    "vi": "Thùy dưới phổi phải",
-    "lat": "Lobus inferior pulmonis dextri",
+    "vi": "Phế quản thùy dưới phổi phải",
+    "lat": "Bronchus lobaris inferior dexter",
     "pos": "Thùy lớn nhất của phổi phải, chiếm phần lớn phía sau và đáy phổi, tựa trực tiếp lên vòm hoành phải (ngăn cách với gan).",
     "phys": "Dung tích chứa khí lớn nhất; đóng vai trò then chốt trong trao đổi khí tối đa khi gắng sức và thông khí thì thở ra.",
     "blood": "Nhánh thùy dưới ĐM và TM phổi phải; Bạch huyết đổ về hạch phế quản phổi.",
@@ -2550,8 +2550,8 @@
     "note": "Tiếp xúc qua cơ hoành với thùy phải của gan."
   },
   "Right_main_bronchus": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản chính phải",
+    "lat": "Bronchus principalis dexter",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2560,8 +2560,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Right_semilunar_leaflet_of_pulmonary_valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van bán nguyệt phải (Van động mạch phổi)",
+    "lat": "Valvula semilunaris dextra valvae trunci pulmonalis",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2570,8 +2570,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Right_superior_lobar_bronchus": {
-    "vi": "Thùy trên phổi phải",
-    "lat": "Lobus superior pulmonis dextri",
+    "vi": "Phế quản thùy trên phổi phải",
+    "lat": "Bronchus lobaris superior dexter",
     "pos": "Nằm ở đỉnh và phần trên khoang ngực phải; ngăn cách với thùy giữa bởi khe ngang và thùy dưới bởi khe chếch.",
     "phys": "Thông khí thùy đỉnh và thùy trước phổi phải; nơi trao đổi khí O2/CO2 với động mạch phổi nhánh thùy trên.",
     "blood": "Động mạch phổi phải (nhánh trên), tĩnh mạch phổi phải trên; Thần kinh phế vị (X) và chuỗi hạch giao cảm ngực T2-T4.",
@@ -2580,8 +2580,8 @@
     "note": "Vị trí phổ biến của lao phổi đỉnh phổi và thâm nhiễm viêm phế quản thùy trên."
   },
   "Right_ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Tâm thất phải (Tạng Tâm)",
+    "lat": "Ventriculus dexter",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2590,8 +2590,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Seminal_gland": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -2600,8 +2600,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Seminal_gland.001": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -2610,8 +2610,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Seminal_gland.l": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh (Trái)",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -2620,8 +2620,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Seminal_gland.r": {
-    "vi": "Đường dẫn tinh & Sinh dục nam",
-    "lat": "Systema genitale masculinum",
+    "vi": "Túi tinh (Phải)",
+    "lat": "Glandula vesiculosa",
     "pos": "Gồm mào tinh hoàn, ống dẫn tinh trong thừng tinh, túi tinh sau bàng quang và dương vật.",
     "phys": "Lưu trữ, làm trưởng thành tinh trùng và phóng tinh khi đạt cực khoái.",
     "blood": "Động mạch ống dẫn tinh, ĐM thẹn trong.",
@@ -2630,8 +2630,8 @@
     "note": "Cấu trúc sinh dục và sinh sản nam giới."
   },
   "Septal_leaflet_of_right_atrioventricular_valve": {
-    "vi": "Van và cấu trúc trong tim (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Lá van vách (Van ba lá)",
+    "lat": "Cuspis septalis valvae atrioventricularis dextrae",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2640,8 +2640,8 @@
     "note": "Cơ quan trung tâm duy trì sự sống; mốc chẩn đoán nhồi máu cơ tim và rối loạn nhịp tim."
   },
   "Septal_papillary_muscle_of_right_ventricle": {
-    "vi": "Tâm thất phải (Hệ Tuần Hoàn Tim)",
-    "lat": "Cor (Cardium)",
+    "vi": "Cơ nhú vách tâm thất phải",
+    "lat": "Musculus papillaris septalis ventriculi dextri",
     "pos": "Nằm trong trung thất giữa lồng ngực, trên cơ hoành, giữa hai phổi, 2/3 lệch sang bên trái đường giữa.",
     "phys": "Máy bơm cơ học trung tâm: Thất trái tống máu giàu O2 đi khắp cơ thể; Thất phải tống máu lên phổi trao đổi O2; Nhĩ tiếp nhận máu trở về; Hoạt động co bóp nhịp nhàng nhờ hệ dẫn truyền tự động nút xoang (SA node).",
     "blood": "Động mạch vành trái (LCA) và động mạch vành phải (RCA); Tĩnh mạch xoang vành; Thần kinh giao cảm tim (tăng tần số/lực co) và dây X (chậm nhịp tim).",
@@ -2651,7 +2651,7 @@
   },
   "Sigmoid_colon": {
     "vi": "Đại tràng Sigma (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon sigmoideum",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -2660,8 +2660,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Soft_palate": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Khẩu cái mềm (Màn hầu)",
+    "lat": "Palatum molle",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2670,8 +2670,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual_gland": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2680,8 +2680,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual_gland.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2690,8 +2690,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual_gland.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi (Trái)",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2700,8 +2700,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Sublingual_gland.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới lưỡi (Phải)",
+    "lat": "Glandula sublingualis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2710,8 +2710,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_duct": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2720,8 +2720,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_duct.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2730,8 +2730,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_duct.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton) (Trái)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2740,8 +2740,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_duct.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Ống tuyến dưới hàm (Ống Wharton) (Phải)",
+    "lat": "Ductus submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2750,8 +2750,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_gland": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2760,8 +2760,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_gland.001": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2770,8 +2770,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_gland.l": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm (Trái)",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2780,8 +2780,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Submandibular_gland.r": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Tuyến nước bọt dưới hàm (Phải)",
+    "lat": "Glandula submandibularis",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2790,8 +2790,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Superior_lingular_segmental_bronchus_of_left_lung_(BIV)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy lưỡi trên phổi trái (BIV)",
+    "lat": "Superior lingular segmental bronchus of left lung (BIV)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2800,7 +2800,7 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Superior_lobe_of_left_lung": {
-    "vi": "Thùy trên phổi trái",
+    "vi": "Thùy trên phổi trái (Tạng Phế)",
     "lat": "Lobus superior pulmonis sinistri",
     "pos": "Nằm ở nửa trên khoang ngực trái, từ đỉnh phổi xuống ngang mức khe chếch; gồm các phân thùy đỉnh - sau, phân thùy trước và thùy lưỡi ôm lấy bóng tim.",
     "phys": "Thực hiện chức năng thông khí và trao đổi khí O2/CO2 giữa phế nang và mao mạch phổi trái; điều hòa pH máu và thanh lọc dịch khí quản.",
@@ -2810,7 +2810,7 @@
     "note": "Khu vực liên quan trực tiếp đến các bệnh lý viêm phổi thùy trên và các huyệt đầu kinh Phế."
   },
   "Superior_lobe_of_right_lung": {
-    "vi": "Thùy trên phổi phải",
+    "vi": "Thùy trên phổi phải (Tạng Phế)",
     "lat": "Lobus superior pulmonis dextri",
     "pos": "Nằm ở đỉnh và phần trên khoang ngực phải; ngăn cách với thùy giữa bởi khe ngang và thùy dưới bởi khe chếch.",
     "phys": "Thông khí thùy đỉnh và thùy trước phổi phải; nơi trao đổi khí O2/CO2 với động mạch phổi nhánh thùy trên.",
@@ -2840,7 +2840,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Superior_parathyroid_gland.l": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Trái)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -2850,7 +2850,7 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Superior_parathyroid_gland.r": {
-    "vi": "Tuyến giáp",
+    "vi": "Tuyến giáp (Phải)",
     "lat": "Glandula thyroidea",
     "pos": "Nằm ở vùng cổ trước, dưới thanh quản và trước khí quản từ sụn giáp xuống đốt khí quản 4-5 (gồm thùy phải, thùy trái và eo tuyến giáp).",
     "phys": "Tuyến nội tiết tiết hormone T3, T4 điều hòa chuyển hóa cơ bản, phát triển trí tuệ và thể chất; Calcitonin giúp hạ calci máu lắng đọng vào xương.",
@@ -2860,8 +2860,8 @@
     "note": "Phẫu thuật cắt tuyến giáp cần bảo tồn dây thần kinh thanh quản quặt ngược (tránh khàn tiếng) và các tuyến cận giáp."
   },
   "Superior_segmental_bronchus_of_left_lung_(BVI)": {
-    "vi": "Phân nhánh cây phế quản trái",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh thùy dưới phổi trái (BVI)",
+    "lat": "Superior segmental bronchus of left lung (BVI)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2870,8 +2870,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Superior_segmental_bronchus_of_right_lung_(BVI)": {
-    "vi": "Phân nhánh cây phế quản phải",
-    "lat": "Arbor bronchialis",
+    "vi": "Phế quản phân thùy đỉnh thùy dưới phổi phải (BVI)",
+    "lat": "Superior segmental bronchus of right lung (BVI)",
     "pos": "Phân chia liên tục từ phế quản chính vào các thùy phổi và các phân thùy phế quản (B1 đến B10).",
     "phys": "Dẫn khí, sưởi ấm, làm ẩm và lọc sạch bụi bẩn không khí nhờ hệ thống nhung mao biểu mô trụ giả tầng có lông chuyển.",
     "blood": "Động mạch phế quản (nhánh từ ĐM chủ ngực); Thần kinh đối giao cảm (dây X - gây co thắt phế quản) và giao cảm (gây giãn phế quản).",
@@ -2880,8 +2880,8 @@
     "note": "Phế quản chính phải ngắn, to và dốc hơn phế quản chính trái nên dị vật đường thở hay rơi vào bên phải."
   },
   "Suprarenal_gland.l": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Tuyến thượng thận (Mệnh Môn) (Trái)",
+    "lat": "Glandula suprarenalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -2890,8 +2890,8 @@
     "note": "Cơ quan bài tiết sống còn; suy thận gây tăng urê huyết, thiếu máu mạn và phù toàn thân."
   },
   "Suprarenal_gland.r": {
-    "vi": "Tạng Thận (trái)",
-    "lat": "Ren (Kidney)",
+    "vi": "Tuyến thượng thận (Mệnh Môn) (Phải)",
+    "lat": "Glandula suprarenalis",
     "pos": "Nằm sau phúc mạc, hai bên cột sống thắt lưng từ T12 đến L3; Thận phải thấp hơn thận trái khoảng 1.5 cm do có khối gan đè lên.",
     "phys": "Lọc máu bài tiết nước tiểu (180 lít dịch lọc cầu thận/ngày, bài tiết 1.5 lít nước tiểu); Điều hòa huyết áp (hệ RAA), thăng bằng toan kiềm, điện giải; Tiết Erythropoietin tạo hồng cầu và hoạt hóa Vitamin D.",
     "blood": "Động mạch thận trái/phải (chiếm 20-25% cung lượng tim lúc nghỉ); Tĩnh mạch thận đổ vào tĩnh mạch chủ dưới.",
@@ -2911,7 +2911,7 @@
   },
   "Transverse_colon": {
     "vi": "Đại tràng ngang (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "lat": "Colon transversum",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",
@@ -2920,8 +2920,8 @@
     "note": "Điểm ruột thừa McBurney (nối rốn với gai chậu trước trên phải) mốc chẩn đoán viêm ruột thừa cấp."
   },
   "Urinary_bladder": {
-    "vi": "Bàng quang (Phủ Bàng Quang)",
-    "lat": "Vesica urinaria (Urinary bladder)",
+    "vi": "Bàng quang (Bọng đái)",
+    "lat": "Vesica urinaria",
     "pos": "Nằm trong chậu hông bé sau khớp mu; trước trực tràng ở nam và trước tử cung ở nữ. Khi căng phình vượt lên trên khớp mu.",
     "phys": "Chứa đựng nước tiểu (dung tích 300 - 500ml); cơ bàng quang (detrusor) và cơ thắt niệu đạo co giãn nhịp nhàng để đào thải nước tiểu theo ý muốn.",
     "blood": "Động mạch bàng quang trên và dưới (nhánh từ ĐM chậu trong); Thần kinh đối giao cảm S2-S4 gây co bàng quang, giao cảm T11-L2 giữ nước tiểu.",
@@ -2930,8 +2930,8 @@
     "note": "Cầu bàng quang xuất hiện trên khớp mu trong trường hợp bí tiểu cấp tính."
   },
   "Uvula_of_palate": {
-    "vi": "Khoang miệng & Tuyến nước bọt",
-    "lat": "Cavitas oris et Glandulae salivariae",
+    "vi": "Lưỡi gà khẩu cái",
+    "lat": "Uvula palatina",
     "pos": "Gồm tuyến mang tai, tuyến dưới hàm, tuyến dưới lưỡi và các cấu trúc vòm miệng, lưỡi gà.",
     "phys": "Tiết nước bọt chứa men amylase tiêu hóa tinh bột chín; bôi trơn nhai nuốt và kháng khuẩn khoang miệng nhờ kháng thể IgA và lysozyme.",
     "blood": "Động mạch mặt và ĐM cảnh ngoài; Dây thần kinh VII và IX.",
@@ -2940,8 +2940,8 @@
     "note": "Tuyến mang tai là nơi virus quai bị thường khu trú gây sưng viêm."
   },
   "Vermiform_appendix": {
-    "vi": "Ruột thừa (Đại Trường)",
-    "lat": "Intestinum crassum (Colon)",
+    "vi": "Ruột thừa",
+    "lat": "Appendix vermiformis",
     "pos": "Tạo thành khung chữ U ngược bao quanh các quai ruột non trong ổ bụng, dài khoảng 1.5 mét từ manh tràng đến trực tràng.",
     "phys": "Hấp thu nước (khoảng 1 - 1.5 lít/ngày) và các chất điện giải; hệ vi khuẩn chí tổng hợp vitamin K và B; tạo khuôn phân và đào thải ra ngoài.",
     "blood": "Động mạch mạc treo tràng trên (cho nửa phải đại tràng) và ĐM mạc treo tràng dưới (cho nửa trái đại tràng).",

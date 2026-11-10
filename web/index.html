@@ -30,7 +30,7 @@
       document.documentElement.classList.add('pwa-standalone');
     }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z49"></script>
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z50"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z48">
 
   <!-- UI-UX Professional Upgrades -->
@@ -1926,8 +1926,9 @@
               if (child.isMesh) {
                 child.castShadow = false;
                 child.receiveShadow = false;
-                const nameL = child.name.toLowerCase();
-                const isArtery = nameL.includes('arter') || nameL.includes('aorta') || nameL.includes('carotid') || nameL.includes('subclavian');
+                const nameL = (child.name || '').toLowerCase();
+                const isVein = nameL.includes('vein') || nameL.includes('vena') || nameL.includes('venous') || nameL.includes('sinus') || nameL.includes('right atrium') || nameL.includes('right ventricle') || nameL.includes('pulmonary trunk') || nameL.includes('pulmonary valve') || nameL.includes('right atrioventricular');
+                const isArtery = !isVein;
                 const mat = new THREE.MeshStandardMaterial({
                   color: isArtery ? new THREE.Color('#ef4444') : new THREE.Color('#3b82f6'),
                   roughness: 0.32,
@@ -1937,11 +1938,19 @@
                   polygonOffsetUnits: 8
                 });
                 child.material = mat;
+                const vInfo = window.dissectionStudio?.getVesselInfo ? window.dissectionStudio.getVesselInfo(child.name) : null;
                 child.userData = {
+                  isVessel: true,
+                  isArtery: isArtery,
                   isAnatomyStructure: true,
                   structureType: 'vessel',
-                  nameVi: (isArtery ? 'Động mạch ' : 'Tĩnh mạch ') + child.name.replace(/CU|OB/g, '').trim(),
-                  nameLat: child.name,
+                  meshName: child.name,
+                  nameVi: vInfo ? vInfo.vi : (isArtery ? 'Động mạch ' : 'Tĩnh mạch ') + child.name.replace(/CU|OB/g, '').trim(),
+                  nameLat: vInfo ? vInfo.lat : child.name,
+                  origin: vInfo ? vInfo.origin : '',
+                  area: vInfo ? vInfo.area : '',
+                  acupoints: vInfo ? vInfo.acupoints : '',
+                  note: vInfo ? vInfo.note : '',
                   layer: 'vessels'
                 };
                 if (window.tuckAnatomyGeometry) {
@@ -1960,8 +1969,13 @@
             }
 
             window.vesselsModel = model;
+            if (window.dissectionStudio?.initVesselsModel) {
+              window.dissectionStudio.initVesselsModel(model);
+            }
+            if (window.applyVesselSubFilter) {
+              window.applyVesselSubFilter(window.__vesselFilterMode || 'all', false);
+            }
             hideProgressToast();
-            console.log();
             resolve(model);
           }, reject);
         });
@@ -2227,6 +2241,71 @@
         };
         updatePlaceholder();
         sInput.addEventListener('focus', updatePlaceholder);
+      }
+
+      // Bắt sự kiện bộ lọc con [Tất cả] [🔴 Động mạch] [🔵 Tĩnh mạch] trong Hệ Mạch Máu
+      window.__vesselFilterMode = window.__vesselFilterMode || 'all';
+      window.applyVesselSubFilter = async function(mode = 'all', autoEnable = true) {
+        const isVip = typeof window.isVipActive === 'function' ? window.isVipActive() : false;
+        if (!isVip && autoEnable) {
+          window.promptVipForAnatomy('Hệ Mạch Máu (676 Động & Tĩnh mạch)');
+          return;
+        }
+        window.__vesselFilterMode = mode;
+        const bar = document.getElementById('vesselSubFilterBar');
+        if (bar) {
+          bar.querySelectorAll('.vessel-sub-btn').forEach((btn) => {
+            const active = btn.dataset.vfilter === mode;
+            btn.classList.toggle('active', active);
+            if (btn.dataset.vfilter === 'all') {
+              btn.style.background = active ? 'rgba(56,189,248,0.25)' : 'rgba(15,23,42,0.5)';
+              btn.style.borderColor = active ? 'rgba(56,189,248,0.75)' : 'rgba(148,163,184,0.25)';
+            } else if (btn.dataset.vfilter === 'artery') {
+              btn.style.background = active ? 'rgba(239,68,68,0.32)' : 'rgba(239,68,68,0.1)';
+              btn.style.borderColor = active ? 'rgba(239,68,68,0.85)' : 'rgba(239,68,68,0.3)';
+            } else if (btn.dataset.vfilter === 'vein') {
+              btn.style.background = active ? 'rgba(59,130,246,0.32)' : 'rgba(59,130,246,0.1)';
+              btn.style.borderColor = active ? 'rgba(59,130,246,0.85)' : 'rgba(59,130,246,0.3)';
+            }
+          });
+        }
+        if (autoEnable && !isVesselsVisible) {
+          const chk = document.getElementById('chkArteries');
+          const sl = document.getElementById('sliderVesselsOpacity');
+          const vb = document.getElementById('valVesselsOpacity');
+          if (chk) chk.checked = true;
+          if (sl && parseInt(sl.value) <= 0) sl.value = 100;
+          if (vb) vb.textContent = (sl ? sl.value : 100) + '%';
+          await window.toggleVessels(true);
+        }
+        if (window.vesselsModel) {
+          const peeled = window.dissectionStudio?.peeledObjects;
+          window.vesselsModel.traverse((child) => {
+            if (child.isMesh) {
+              if (peeled && peeled.has(child)) {
+                child.visible = false;
+                return;
+              }
+              const isArt = child.userData?.isArtery !== undefined
+                ? child.userData.isArtery
+                : !/vein|vena|venous|sinus|right atrium|right ventricle|pulmonary trunk|pulmonary valve/i.test(child.name || '');
+              if (mode === 'artery') child.visible = !!isArt;
+              else if (mode === 'vein') child.visible = !isArt;
+              else child.visible = true;
+            }
+          });
+        }
+      };
+
+      const vBar = document.getElementById('vesselSubFilterBar');
+      if (vBar && vBar.dataset.bound !== '1') {
+        vBar.dataset.bound = '1';
+        vBar.querySelectorAll('.vessel-sub-btn').forEach((btn) => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            window.applyVesselSubFilter(btn.dataset.vfilter || 'all', true);
+          });
+        });
       }
 
       window.refreshAnatomyVipLocks();
