@@ -2131,9 +2131,9 @@
     "name_cn": "條口",
     "channel_id": "ST",
     "position": {
-      "x": 0.1067,
-      "y": 0.26324,
-      "z": -0.00117
+      "x": 0.10737,
+      "y": 0.2497,
+      "z": -0.00164
     },
     "region": "Cẳng chân",
     "indications": [
@@ -2160,9 +2160,9 @@
     "name_cn": "下巨虚",
     "channel_id": "ST",
     "position": {
-      "x": 0.10671,
-      "y": 0.2408,
-      "z": -0.0055
+      "x": 0.106,
+      "y": 0.2269,
+      "z": -0.00677
     },
     "region": "Cẳng chân",
     "indications": [
@@ -2182,7 +2182,7 @@
     "origin": "Thiên Kim Phương.",
     "tcm_properties": "+ Huyệt thứ 39 của kinh Vị. + Huyệt Hợp ở dưới của Tiểu Trường.",
     "location_detail": "Dưới huyệt Thượng Cự Hư 3 thốn, phía ngoài xương mác 1 khoát ngón tay, bờ ngoài cơ cẳng chân trước.",
-    "anatomy": "Dưới da là khe giữa cơ cẳng chân trước và cơ duỗi chung các ngón chân, ở sâu là bờ trong cơ duỗi dài riêng ngón chân cái, khe giữa xương chầy và xương mác. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy trước. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là khe giữa cơ cẳng chân trước và cơ duỗi chung các ngón chân, ở sâu là bờ trong cơ duỗi dài riêng ngón chân cái, khe giữa xương chầy và xương mác. Thần kinh vận động cơ là các nhánh của dây thần kinh mác sâu (thần kinh chày trước). Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Lý Trường Vị, thanh thấp nhiệt ở hạ tiêu.",
     "references": "(“Bệnh của Tiểu Trường làm tiểu phúc đau, cột sống thắt lưng đau lan đến bìu dái gây đau nhức, có khi trước tai bị nhiệt, có khi như thể là hàn nhiều, hoặc như mi mắt trên bị nhiệt thậm, trong khoảng giữa ngón út và ngón áp út đều bị nóng nhiều, đó là các chứng bệnh của Tiểu Trường, nên thủ huyệt Hạ Cự Hư. (LKhu. 4.112)."
   },
@@ -2192,9 +2192,9 @@
     "name_cn": "丰隆",
     "channel_id": "ST",
     "position": {
-      "x": 0.11561,
-      "y": 0.26384,
-      "z": -0.00968
+      "x": 0.11555,
+      "y": 0.2497,
+      "z": -0.00976
     },
     "region": "Cẳng chân",
     "indications": [
@@ -2220,7 +2220,7 @@
     "origin": "Thiên ‘Kinh Mạch’ (LKhu.10).",
     "tcm_properties": "Huyệt Lạc.",
     "location_detail": "Đỉnh mắt cá chân ngoài lên 8 thốn hoặc lấy huyệt ở điểm giữa nếp kheo chân và mắt cá chân ngoài.",
-    "anatomy": "Dưới da là khe giữa cơ duỗi chung các ngón chân và cơ mác bên ngắn, ở sâu là cơ duỗi dài riêng ngón chân cái, xương mác. Thần kinh vận động cơ là nhánh của dây thần kinh chầy trước và nhánh của dây thần kinh cơ-da. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là khe giữa cơ duỗi chung các ngón chân và cơ mác bên ngắn, ở sâu là cơ duỗi dài riêng ngón chân cái, xương mác. Thần kinh vận động cơ là nhánh của dây thần kinh mác sâu (thần kinh chày trước) và nhánh của dây thần kinh cơ-da. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Hòa Vị khí, hóa đờm thấp.",
     "references": "(Thiên ‘Nhiệt Bệnh’ghi: “Bệnh nhiệt làm cho chân tay nặng nề, đó là Trường Vị bị nhiệt, dùng kim số 4 châm các huyệt Du (của kinh Tỳ + Vị) và các huyệt ở ngón chân dưới, tìm quan hệ khí ở các lạc của kinh Vị [ là huyệt Phong Long ] (LKhu.23.28)."
   },
@@ -2251,7 +2251,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2)",
     "tcm_properties": "+ Huyệt thứ 41 của kinh Vị. + Huyệt Kinh, thuộc hành Hỏa, huyệt Bổ. + Nơi tụ khí của kinh Túc Dương Minh.",
     "location_detail": "Huyệt giải khê nằm ở chỗ lõm trên nếp gấp trước khớp cổ chân, giữa 2 gân cơ cẳng chân trước và gân cơ duỗi dài ngón chân cái.",
-    "anatomy": "Dưới da là khe giữa gân cơ cẳng chân trước và gân cơ duỗi dài riêng ngón chân cái, khe khớp mác-chầy-sên. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy trước. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5-S1.",
+    "anatomy": "Dưới da là khe giữa gân cơ cẳng chân trước và gân cơ duỗi dài riêng ngón chân cái, khe khớp mác-chầy-sên. Thần kinh vận động cơ là các nhánh của dây thần kinh mác sâu (thần kinh chày trước). Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5-S1.",
     "tcm_actions": "Hóa thấp trệ, thanh Vị nhiệt, trợ Tỳ khí, định thần chí.",
     "references": "(“Hàn khí trú tại Vị, khí quyết nghịch từ dưới lên trên tán vào Vị, rồi lại xuất ra từ Vị, gây chứng ợ, châm bổ kinh Túc Thái Âm và Dương Minh [là Đại Đô và Giải Khê] (Thiên ‘Khẩu Vấn’ (LKhu.28.15). (“Chứng phong thủy, chân sưng, mặt đen: châm huyệt Giải Khê là chính” (Giáp Ất Kinh)."
   },
@@ -2349,7 +2349,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2)",
     "tcm_properties": "+ Huyệt thứ 44 của kinh Vị. + Huyệt Vinh, thuộc hành Thuỷ. + Có tác dụng giảm nhiệt trong bệnh do thấp nhiệt.",
     "location_detail": "Nơi nối thân với đầu sau xương đốt 1 của ngón chân thứ 2, giữa kẽ ngón chân thứ 2 và thứ 3.",
-    "anatomy": "Dưới da là khe giữa các gân duỗi ngón 2 và 3 của cơ duỗi dài và cơ duỗi ngắn các ngón chân, cơ gian cốt mu chân 2, khe giữa xương đốt 1 ngón chân 2 và 3. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy trước và nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là khe giữa các gân duỗi ngón 2 và 3 của cơ duỗi dài và cơ duỗi ngắn các ngón chân, cơ gian cốt mu chân 2, khe giữa xương đốt 1 ngón chân 2 và 3. Thần kinh vận động cơ là các nhánh của dây thần kinh mác sâu (thần kinh chày trước) và nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Thông giáng Vị khí, thanh Vị, tiết nhiệt, lý khí, trấn thống, hòa trường, hóa trệ."
   },
   {
@@ -2444,7 +2444,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2)",
     "tcm_properties": "+ Huyệt thứ 2 của kinh Tỳ. + Huyệt Vinh, thuộc hành Hoả. + Huyệt Bổ của kinh Tỳ. + Là 1 trong nhóm huyệt trị cho ra mồ hôi khi sốt cao (thiên ‘Ngũ Tà’ - LKhu.20)",
     "location_detail": "Ở chỗ lõm nơi khớp đầu xương ngón chân cái, gân xương gan bàn chân, trên đường tiếp giáp lằn da gan bàn chân, mu chân của bờ trong bàn chân.",
-    "anatomy": "Dưới da là chỗ bám của gân cơ dạng ngón chân cái, bờ trong đầu sau đốt 1 ngón chân cái. Thần kinh vận động cơ là nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là chỗ bám của gân cơ dạng ngón chân cái, bờ trong đầu sau đốt 1 ngón chân cái. Thần kinh vận động cơ là nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "safety_notes": "Phụ nữ có thai không cứu (Loại Kinh Đồ Dực).",
     "references": ". “Nhiệt bệnh mồ hôi vẫn ra mà lại mạch thuận, có thể châm cho ra mồ hôi, nên thủ huyệt Ngư Tế, Thái Uyên, Đại Đô, Thái Bạch. Châm tả các huyệt này sẽ làm cho nhiệt giảm bớt, châm bổ thì mồ hôi ra” (LKhu.23.30). . “ Chứng quyết tâm thống làm bụng trướng, ngực đầy, làm cho Tâm càng đau nhiều hơn, gọi là chứng ‘Vị Tâm Thống’, châm huyệt Đại Đô + Thái Bạch. (LKhu.24.12). . “ Tỳ hư: bổ huyệt Đại Đô” (Châm Cứu Đại Thành)."
   },
@@ -2560,9 +2560,9 @@
     "name_cn": "三陰交",
     "channel_id": "SP",
     "position": {
-      "x": 0.06155,
-      "y": 0.16858,
-      "z": -0.0425
+      "x": 0.06028,
+      "y": 0.1584,
+      "z": -0.0422
     },
     "region": "Cẳng chân",
     "indications": [
@@ -2594,9 +2594,9 @@
     "name_cn": "漏谷",
     "channel_id": "SP",
     "position": {
-      "x": 0.06421,
-      "y": 0.23757,
-      "z": -0.03083
+      "x": 0.06289,
+      "y": 0.2317,
+      "z": -0.02959
     },
     "region": "Cẳng chân",
     "indications": [
@@ -2623,9 +2623,9 @@
     "name_cn": "地機",
     "channel_id": "SP",
     "position": {
-      "x": 0.05318,
-      "y": 0.33121,
-      "z": -0.02686
+      "x": 0.05195,
+      "y": 0.3294,
+      "z": -0.02537
     },
     "region": "Cẳng chân",
     "indications": [
@@ -2686,7 +2686,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 9 của kinh Tỳ. + Huyệt Hợp, thuộc hành Thuỷ .",
     "location_detail": "Ở chỗ lõm làm thành bởi bờ sau trong đầu trên xương chày với đường ngang qua nơi lồi cao nhất của cơ cẳng chân trước xương chày, ở mặt trong đầu gối. Dùng ngón tay lần theo bờ trong xương ống chân, đến ngay dưới chỗ lồi xương cao nhất, đó là huyệt.",
-    "anatomy": "Dưới da là bờ sau-trong và mặt sau đầu xương chầy, chỗ bám của cơ kheo, dưới chỗ bám của cơ bán mạc, mặt trước cơ sinh đôi trong. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy sau và nhánh của dây thần kinh hông kheo. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L3.",
+    "anatomy": "Dưới da là bờ sau-trong và mặt sau đầu xương chầy, chỗ bám của cơ kheo, dưới chỗ bám của cơ bán mạc, mặt trước cơ sinh đôi trong. Thần kinh vận động cơ là các nhánh của dây thần kinh chày và nhánh của dây thần kinh hông kheo. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L3.",
     "tcm_actions": "Điều vận trung tiêu, hóa thấp trệ, điều hòa bàng quang.",
     "references": "(” Bệnh ở phía trên và trong cơ thể (thuộc về tạng) phải thủ huyệt Âm Lăng Tuyền” (LKhu 1.127). (“Nhiệt bệnh, rốn đau kịch liệt, lan lên ngực và hông sườn đau nhói, châm Dũng Tuyền + Âm Lăng Tuyền “ (LKhu.23.29)."
   },
@@ -2909,9 +2909,9 @@
     "name_cn": "食竇",
     "channel_id": "SP",
     "position": {
-      "x": 0.13192,
-      "y": 1.23679,
-      "z": 0.08257
+      "x": 0.12488,
+      "y": 1.268,
+      "z": 0.08066
     },
     "region": "Ngực trước",
     "indications": [
@@ -3023,9 +3023,9 @@
     "name_cn": "大包",
     "channel_id": "SP",
     "position": {
-      "x": 0.15315,
-      "y": 1.25666,
-      "z": 0.00172
+      "x": 0.13449,
+      "y": 1.236,
+      "z": 0.00241
     },
     "region": "Ngực sườn",
     "indications": [
@@ -4203,8 +4203,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03447,
-      "y": 1.4573,
-      "z": -0.10529
+      "y": 1.4553,
+      "z": -0.10647
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4238,8 +4238,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03493,
-      "y": 1.43698,
-      "z": -0.11478
+      "y": 1.4335,
+      "z": -0.11566
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4271,8 +4271,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03449,
-      "y": 1.41348,
-      "z": -0.12035
+      "y": 1.4117,
+      "z": -0.12066
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4307,8 +4307,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03435,
-      "y": 1.38548,
-      "z": -0.12535
+      "y": 1.3838,
+      "z": -0.12563
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4344,8 +4344,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03411,
-      "y": 1.35893,
-      "z": -0.12724
+      "y": 1.3558,
+      "z": -0.12729
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4377,8 +4377,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03313,
-      "y": 1.3287,
-      "z": -0.12648
+      "y": 1.325,
+      "z": -0.12636
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4408,8 +4408,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03308,
-      "y": 1.28762,
-      "z": -0.12322
+      "y": 1.2841,
+      "z": -0.12286
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4447,8 +4447,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03324,
-      "y": 1.24706,
-      "z": -0.1181
+      "y": 1.2352,
+      "z": -0.11615
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4477,8 +4477,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03324,
-      "y": 1.20959,
-      "z": -0.10962
+      "y": 1.2009,
+      "z": -0.10806
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4508,8 +4508,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03415,
-      "y": 1.16989,
-      "z": -0.10331
+      "y": 1.1638,
+      "z": -0.10282
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4542,8 +4542,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03395,
-      "y": 1.14596,
-      "z": -0.10108
+      "y": 1.1376,
+      "z": -0.10004
     },
     "region": "Vùng lưng",
     "indications": [
@@ -4579,8 +4579,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.0337,
-      "y": 1.12119,
-      "z": -0.09816
+      "y": 1.1113,
+      "z": -0.09549
     },
     "region": "Thắt lưng",
     "indications": [
@@ -4612,8 +4612,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03314,
-      "y": 1.07693,
-      "z": -0.08708
+      "y": 1.0759,
+      "z": -0.0869
     },
     "region": "Thắt lưng",
     "indications": [
@@ -4646,8 +4646,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03279,
-      "y": 1.04541,
-      "z": -0.08466
+      "y": 1.0459,
+      "z": -0.08467
     },
     "region": "Thắt lưng",
     "indications": [
@@ -4675,8 +4675,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03311,
-      "y": 1.01879,
-      "z": -0.08762
+      "y": 1.0159,
+      "z": -0.08761
     },
     "region": "Thắt lưng",
     "indications": [
@@ -4741,8 +4741,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03246,
-      "y": 0.93912,
-      "z": -0.09453
+      "y": 0.9393,
+      "z": -0.09442
     },
     "region": "Xương cùng",
     "indications": [
@@ -4773,8 +4773,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03624,
-      "y": 0.91503,
-      "z": -0.1058
+      "y": 0.915,
+      "z": -0.10557
     },
     "region": "Xương cùng",
     "indications": [
@@ -4802,8 +4802,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03657,
-      "y": 0.89204,
-      "z": -0.11283
+      "y": 0.8927,
+      "z": -0.11251
     },
     "region": "Xương cùng",
     "indications": [
@@ -4831,8 +4831,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.03473,
-      "y": 0.86938,
-      "z": -0.11219
+      "y": 0.8705,
+      "z": -0.11222
     },
     "region": "Xương cùng",
     "indications": [
@@ -4858,8 +4858,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.01777,
-      "y": 0.93951,
-      "z": -0.10114
+      "y": 0.9393,
+      "z": -0.10083
     },
     "region": "Xương cùng",
     "indications": [
@@ -4890,8 +4890,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.01863,
-      "y": 0.9151,
-      "z": -0.10296
+      "y": 0.915,
+      "z": -0.10273
     },
     "region": "Xương cùng",
     "indications": [
@@ -4922,8 +4922,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.02009,
-      "y": 0.89343,
-      "z": -0.10634
+      "y": 0.8927,
+      "z": -0.10612
     },
     "region": "Xương cùng",
     "indications": [
@@ -4955,8 +4955,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.02035,
-      "y": 0.87159,
-      "z": -0.1046
+      "y": 0.8705,
+      "z": -0.10439
     },
     "region": "Xương cùng",
     "indications": [
@@ -5172,8 +5172,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.06997,
-      "y": 1.43112,
-      "z": -0.11303
+      "y": 1.4335,
+      "z": -0.1118
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5199,8 +5199,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.06943,
-      "y": 1.41177,
-      "z": -0.12093
+      "y": 1.4117,
+      "z": -0.12086
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5232,8 +5232,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.0722,
-      "y": 1.38787,
-      "z": -0.12884
+      "y": 1.3838,
+      "z": -0.13009
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5265,8 +5265,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07411,
-      "y": 1.36506,
-      "z": -0.13364
+      "y": 1.3558,
+      "z": -0.13446
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5297,8 +5297,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07804,
-      "y": 1.34338,
-      "z": -0.13598
+      "y": 1.325,
+      "z": -0.13342
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5329,8 +5329,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07776,
-      "y": 1.29396,
-      "z": -0.12757
+      "y": 1.2841,
+      "z": -0.12453
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5358,8 +5358,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07757,
-      "y": 1.24985,
-      "z": -0.11497
+      "y": 1.2352,
+      "z": -0.1113
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5389,8 +5389,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07611,
-      "y": 1.21055,
-      "z": -0.10734
+      "y": 1.2009,
+      "z": -0.10582
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5420,8 +5420,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.0749,
-      "y": 1.16905,
-      "z": -0.10637
+      "y": 1.1638,
+      "z": -0.10504
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5451,8 +5451,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07311,
-      "y": 1.14414,
-      "z": -0.10044
+      "y": 1.1376,
+      "z": -0.0986
     },
     "region": "Vùng lưng",
     "indications": [
@@ -5485,8 +5485,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07813,
-      "y": 1.11903,
-      "z": -0.08837
+      "y": 1.1113,
+      "z": -0.08415
     },
     "region": "Thắt lưng",
     "indications": [
@@ -5515,8 +5515,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.07047,
-      "y": 1.07599,
-      "z": -0.07715
+      "y": 1.0759,
+      "z": -0.07692
     },
     "region": "Thắt lưng",
     "indications": [
@@ -5553,8 +5553,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.08654,
-      "y": 0.91157,
-      "z": -0.10903
+      "y": 0.915,
+      "z": -0.10769
     },
     "region": "Vùng mông",
     "indications": [
@@ -5580,8 +5580,8 @@
     "channel_id": "BL",
     "position": {
       "x": 0.08395,
-      "y": 0.85121,
-      "z": -0.10658
+      "y": 0.8705,
+      "z": -0.11063
     },
     "region": "Vùng mông",
     "indications": [
@@ -5664,9 +5664,9 @@
     "name_cn": "承山",
     "channel_id": "BL",
     "position": {
-      "x": 0.08794,
-      "y": 0.2628,
-      "z": -0.10061
+      "x": 0.08933,
+      "y": 0.2497,
+      "z": -0.0993
     },
     "region": "Cẳng chân",
     "indications": [
@@ -5694,9 +5694,9 @@
     "name_cn": "飞扬",
     "channel_id": "BL",
     "position": {
-      "x": 0.12854,
-      "y": 0.24259,
-      "z": -0.07074
+      "x": 0.12814,
+      "y": 0.2269,
+      "z": -0.07056
     },
     "region": "Cẳng chân",
     "indications": [
@@ -5728,9 +5728,9 @@
     "name_cn": "跗陽",
     "channel_id": "BL",
     "position": {
-      "x": 0.11608,
-      "y": 0.1546,
-      "z": -0.0729
+      "x": 0.11397,
+      "y": 0.1355,
+      "z": -0.07074
     },
     "region": "Cẳng chân",
     "indications": [
@@ -5782,8 +5782,8 @@
     "aliases": "Côn Luân, Hạ Côn Lôn, Hạ Côn Luân.",
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 60 của kinh Bàng Quang. + Huyệt Kinh, thuộc hành Hỏa.",
-    "location_detail": "Tại giao điểm của bờ ngoài gót chân và đường kéo từ nơi cao nhất của mắt cá chân, chỗ lõm giữa khe gân cơ mác bên ngắn và gân cơ mác bên dài, trước gân gót chân, ở sau đầu dưới xương chầy.",
-    "anatomy": "Dưới da là khe giữa gân cơ mác bên ngắn và gân cơ mác bên dài ở trước gân gót chân, ở sau đầu dưới xương chầy. Thần kinh vận động cơ là các nhánh của dây thần kinh cơ-da và dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh S2 hoặc L5.",
+    "location_detail": "Tại giao điểm của bờ ngoài gót chân và đường thẳng đứng qua đỉnh cao nhất của mắt cá ngoài, tại chỗ lõm giữa bờ sau mắt cá ngoài (đầu dưới xương mác) và bờ trước gân gót chân (gân Achilles), ngang mức huyệt Thái Khê (KI3) ở mặt trong.",
+    "anatomy": "Dưới da là khe giữa gân cơ mác bên ngắn và gân cơ mác bên dài, phía trước gân gót chân (Achilles), phía sau mắt cá ngoài (đầu dưới xương mác). Thần kinh vận động cơ do các nhánh của dây thần kinh mác nông và dây thần kinh chày chi phối. Da vùng huyệt do dây thần kinh bắp chân (sural nerve - tiết đoạn S1, L5) chi phối. Mạch máu gồm các nhánh động tĩnh mạch mắt cá ngoài sau và động tĩnh mạch mác.",
     "tcm_actions": "Khu phong, thông lạc, thư cân, hóa thấp, bổ Thận, lý huyết trệ ở bào cung.",
     "safety_notes": "Có thai không châm.",
     "references": "( “Mắt hoa, đầu nhức chịu không nổi, châm bổ dưới mắt cá chân ngoài (Côn Lôn) [lưu kim]”(LKhu.28.48). (“Phụ nữ thụ thai khó hoặc thai không ra: huyệt Côn Lôn chủ trị ”(Giáp Ất Kinh)."
@@ -5811,7 +5811,7 @@
     "aliases": "An Tà, Bột Tham.",
     "origin": "Giáp Ất Kinh.",
     "tcm_properties": "+ Huyệt thứ 61 của kinh Bàng Quang. + Huyệt giao hội với Mạch Dương Kiều.",
-    "location_detail": "Xác định bờ trên mặt ngoài xương gót chân, huyệt ở sát bờ trên xươnggót, thẳng dưới huyệt Côn Lôn, trên đường tiếp giáp lằn da đổi màu.",
+    "location_detail": "Xác định bờ trên mặt ngoài xương gót chân, huyệt ở sát bờ trên xương gót, thẳng dưới huyệt Côn Lôn, trên đường tiếp giáp lằn da đổi màu.",
     "anatomy": "Dưới da là gân cơ mác bên dài và gân cơ mác bên ngắn ở phía trước, gân gót chân ở phía sau, bờ trên xương gót. Thần kinh vận động cơ là các nhánh của dây thần kinh cơ-da và dây thần kinh chầy su. Da vùng huyệt chi phối bởi tiết đoạn thần kinh S1.",
     "references": "“ Bệnh Điên khi mới bắt đầu phát, trước hết người bệnh bị vặn ngược, cứng đờ, cột sống cứng, bệnh biểu hiện ở các kinh Túc Dương Minh, Túc Thái Âm, Thủ Thái Âm và Túc Thái Dương, châm ở các huyệt Uỷ Dương + Phi Dương + Bộc Tham + Kim Môn, châm xuất huyết cho đến khi nào mầu huyết biến (thành đỏ) mới thôi” - Thiên ‘Điên Cuồng’ (LKhu.22.7-8)."
   },
@@ -5907,7 +5907,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 64 của kinh Bàng Quang. + Huyệt Nguyên.",
     "location_detail": "Bờ ngoài bàn chân, thẳng với ngón út, trước huyệt Kim Môn, đầu sau xương bàn chân 5, nơi tiếp giáp làn da đổi màu.",
-    "anatomy": "Dưới da là cơ dạng ngón chân út, đùng xương bàn chân 5. Thần kinh vận động cơ là nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh S1.",
+    "anatomy": "Dưới da là cơ dạng ngón chân út, đùng xương bàn chân 5. Thần kinh vận động cơ là nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh S1.",
     "tcm_actions": "Khu phong, sơ tà, định thần chí.",
     "references": "“Chứng Quyết Tâm Thống, đau ra đến vùng lưng, hay bị co rút như có gì từ ngoài sau đến chạm vào Tâm, làm cho lưng gù lại, gọi là Thận Tâm thống, trước hết châm huyệt Kinh Cốt + Côn Lôn [nếu không giảm châm thêm Nhiên Cốc] (LKhu.24.11)."
   },
@@ -6151,7 +6151,7 @@
     "origin": "Thiên ‘Kinh Mạch’ (LKhu.10).",
     "tcm_properties": "+ Huyệt thứ 4 của kinh Thận. + Huyệt Lạc. + Huyệt Biệt Tẩu của Thái Dương.",
     "location_detail": "Ở chỗ lõm tạo nên do gân gót bám vào bờ trên trong xương gót, dưới huyệt Thái Khê 0.5 thốn.",
-    "anatomy": "Dưới da là bờ trong gân gót chân, phía trước cơ gân của cơ gấp dài ngón chân cái, gân cơ gấp dài các ngón chân, mặt trên xương gót chân. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là bờ trong gân gót chân, phía trước cơ gân của cơ gấp dài ngón chân cái, gân cơ gấp dài các ngón chân, mặt trên xương gót chân. Thần kinh vận động cơ là các nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Điều Thận, hòa huyết, bổ ích tinh thần.",
     "references": "“Xương bị hàn nhiệt, làm cho người bệnh không lúc nào yên, mồ hôi ra không ngừng, nếu răng chưa khô, thủ huyệt Lạc phía trong đùi của kinh Thiếu Âm [Đại Chung] (LKhu.21.3-4). (“Bàng quang kinh bệnh, đầu cổ sưng đau, cổ gáy thắt lưng chân đau khó bước, lỵ ngược, cuồng điên là chứng Tâm Đởm nhiệt, lưng cứng, tay cứng, trán đau, xương chân mày đau, chảy máu cam, mắt vàng, gân xương teo, lòi dom, trĩ lậu, ngực bụng đầy tức, nếu muốn chữa, không cách nào khác: Kinh Cốt + Đại Chung hiệu quả rõ rệt” (Thập Nhị Kinh Trị Chứng Chủ Khách Nguyên Lạc Quyết)."
   },
@@ -6215,7 +6215,7 @@
     "origin": "Giáp Ất Kinh.",
     "tcm_properties": "+ Huyệt thứ 6 của kinh Thận. + Huyệt mở của Âm Kiều Mạch, nơi mạch Âm Kiều phát sinh, 1 trong Bát Hội (Giao Hội) Huyệt của Túc Thiếu Âm với mạch Âm Kiều.",
     "location_detail": "Ở chỗ lõm ngay dưới mắt cá trong cách 01 thốn, khe giữa gân cơ cẳng chân sau và cơ gấp các ngón chân.",
-    "anatomy": "Dưới da là khe giữa gân cơ cẳng chân sau và gân cơ gấp dài các ngón chân, sau mỏm chân đế, gót của xương gót. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L4.",
+    "anatomy": "Dưới da là khe giữa gân cơ cẳng chân sau và gân cơ gấp dài các ngón chân, sau mỏm chân đế, gót của xương gót. Thần kinh vận động cơ là các nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L4.",
     "tcm_actions": "Thông kinh, hòa Vị, thanh nhiệt, định thần.",
     "references": "Mắt bị đỏ đau, bắt đầu từ khóe mắt trong, thủ huyệt ở Âm Kiều Mạch [Chiếu Hải] (LKhu.23.57)"
   },
@@ -6225,9 +6225,9 @@
     "name_cn": "复溜",
     "channel_id": "KI",
     "position": {
-      "x": 0.05586,
-      "y": 0.14459,
-      "z": -0.0545
+      "x": 0.05817,
+      "y": 0.134,
+      "z": -0.05351
     },
     "region": "Cẳng chân",
     "indications": [
@@ -6250,7 +6250,7 @@
     "origin": "Thiên ‘Bản Du’ (LK2).",
     "tcm_properties": "+ Huyệt thứ 7 của kinh Thận. + Huyệt Kinh, thuộc hành Kim, huyệt Bổ.",
     "location_detail": "Giữa mắt cá chân trong và gân gót (huyệt Thái Khê (Th.3) đo thẳng lên 2 thốn, trong khe của mặt trước gân gót chân và cơ gấp dài riêng ngón cái.",
-    "anatomy": "Dưới da là khe giữa bờ trên gót chân, mặt sau cơ gấp dài ngón chân cái, mặt sau đầu dưới xương chầy. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L4.",
+    "anatomy": "Dưới da là khe giữa bờ trên gót chân, mặt sau cơ gấp dài ngón chân cái, mặt sau đầu dưới xương chầy. Thần kinh vận động cơ là các nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L4.",
     "tcm_actions": "Thanh thấp nhiệt, lợi Bàng quang, tư Thận, nhuận táo, điều Thận khí, khử thấp, tiêu trệ."
   },
   {
@@ -6259,9 +6259,9 @@
     "name_cn": "交信",
     "channel_id": "KI",
     "position": {
-      "x": 0.06068,
-      "y": 0.14715,
-      "z": -0.04548
+      "x": 0.06005,
+      "y": 0.134,
+      "z": -0.04541
     },
     "region": "Cẳng chân",
     "indications": [
@@ -6285,7 +6285,7 @@
     "origin": "Giáp Ất Kinh.",
     "tcm_properties": "+ Huyệt thứ 8 của kinh Thận. + Khích huyệt của Âm Kiều Mạch.",
     "location_detail": "Trên huyệt Thái Khê 2 thốn, trước huyệt Phục Lưu 0.5 thốn, cạnh bờ sau trong xương chầy.",
-    "anatomy": "Dưới da là khe giữa gân cơ gấp dài ngón chân cái và gân cơ gấp dài các ngón chân, mặt sau đầu dưới xương chầy. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L4.",
+    "anatomy": "Dưới da là khe giữa gân cơ gấp dài ngón chân cái và gân cơ gấp dài các ngón chân, mặt sau đầu dưới xương chầy. Thần kinh vận động cơ là các nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L4.",
     "references": "“Bệnh ở mạch Xương Dương gây đau thắt lưng lan đến cổ và ngực, nếu bệnh nặng kèm cảm giác xương sống như gãy, lưỡi cứng, nói khó, mắt mờ, phải châm huyệt Giao Tín và Nhiên Cốc (Thiên ‘Thích Yêu Thống - TVấn.41.12)."
   },
   {
@@ -6294,9 +6294,9 @@
     "name_cn": "築賓",
     "channel_id": "KI",
     "position": {
-      "x": 0.05031,
-      "y": 0.21464,
-      "z": -0.05371
+      "x": 0.04957,
+      "y": 0.2073,
+      "z": -0.05392
     },
     "region": "Cẳng chân",
     "indications": [
@@ -6350,7 +6350,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 10 của kinh Thận. + Huyệt Hợp, thuộc hành Thuỷ . + Nơi xuất phát kinh Biệt Thận.",
     "location_detail": "Ngồi thõng chân hoặc hơi co gối để nổi gân lên, huyệt ở đầu trong nếp gấp nhượng chân, sau lồi cầu trong xương chầy, trong khe của gân cơ bán gân (gân chắc, nhỏ) và gân cơ bán mạc (gân mềm, lớn hơn, nằm ở trên).",
-    "anatomy": "Dưới da là khe giữa gân cơ bán gân và gân cơ bán mạc, đầu trên cơ sinh đôi trong, khe khớp nhượng chân. Thần kinh vận động cơ là các nhánh của dây thần kinh hông và dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L3.",
+    "anatomy": "Dưới da là khe giữa gân cơ bán gân và gân cơ bán mạc, đầu trên cơ sinh đôi trong, khe khớp nhượng chân. Thần kinh vận động cơ là các nhánh của dây thần kinh hông và dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L3.",
     "tcm_actions": "Trừ thấp, thông tiểu, tư Thận, thanh nhiệt, sơ tiết quyết khí, lợi hạ tiêu."
   },
   {
@@ -8592,8 +8592,8 @@
     "channel_id": "GB",
     "position": {
       "x": 0.0957,
-      "y": 1.17401,
-      "z": 0.11309
+      "y": 1.198,
+      "z": 0.1165
     },
     "region": "Ngực trước",
     "indications": [
@@ -8916,7 +8916,7 @@
     "origin": "Thiên ‘Tà Khí Tạng Phủ Bệnh Hình’ (LKhu.4).",
     "tcm_properties": "+ Huyệt thứ 34 của kinh Đởm. + Huyệt Hợp, thuộc hành Thổ. + Huyệt Hội của Cân. + Theo thiên ‘Khí Huyệt Luận’ (TVấn.58): Dương Lăng Tuyền là một huyệt quan trọng, Chủ hàn nhiệt. Tất cả các khí đều quan trọng, nhưng khí Thiếu Dương mới quyết định, vì Thiếu Dương Chủ về khí mới phát.",
     "location_detail": "Ở chỗ lõm phía trước và dưới đầu nhỏ của xương mác, nơi thân nối với đầu trên xương mác, khe giữa cơ mác bên dài và cơ duỗi chung các ngón chân.",
-    "anatomy": "Dưới da là khe giữa cơ mác bên dài và cơ duỗi chung các ngón chân, phía trước và trong đầu trên xương mác. Thần kinh vận động cơ là nhánh của dây thần kinh cơ-da và dây thần kinh chầy trước. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là khe giữa cơ mác bên dài và cơ duỗi chung các ngón chân, phía trước và trong đầu trên xương mác. Thần kinh vận động cơ là nhánh của dây thần kinh mác nông và dây thần kinh mác sâu (thần kinh chày trước). Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Thư cân mạch, thanh thấp nhiệt, khu phong tà.",
     "point_combinations": "1. Phối Âm Lăng Tuyền (Ty.9) trị tiểu nhiều (Bị Cấp Thiên Kim Phương). 2. Phối Hoàn Khiêu (Đ.30) + Khúc Trì (Đtr.11) trị liệt nuẳ người (Tư Sinh Kinh). 3. Phối Chiên Trung (Nh.17) + Thiên Trì (Tb.1) trị họng khò khè (Tư Sinh Kinh). 4. Phối Thượng Liêm (Đtr.9) + Túc Tam Lý (Vi.36) trị bụng và sườn đầy (Châm Cứu Đại Thành). 5. Phối Khúc Trì (Đtr.11) + Ngoại Quan (Ttu.6) + Phong Thị (Đ.31) + Tam Âm Giao (Ty.6) + Thủ Tam Lý (Đtr.10) trị tay chân đau do phong (Châm Cứu Đại Thành). 6. Phối Chi Câu (Ttu.6) + Chương Môn (C.13) + Ủy Trung (Bq.40) [cho ra máu] trị thương hàn mà hông sườn đau (Châm Cứu Đại Thành). 7. Phối Chi Câu (Ttu.6) + Côn Lôn (Bq.60) + Nhân Trung (Đc.26) + Thúc Cốt (Bq.65) + Ủy Trung (Bq.40) + Xích Trạch (P.5) trị lưng đau do chấn thương (Châm Cứu Đại Thành). 8. Phối Âm Lăng Tuyền (Ty.9) [cứu] trị tiểu không tự Chủ (Châm Cứu Đại Thành). 9. Phối Âm Lăng Tuyền (Ty.9) trị đầu gối sưng (Ngọc Long Ca). 10. Phối Khúc Trì (Đtr.11) trị bán thân bất toại (Bách Chứng Phú). 11. Phối Hoàn Khiêu (Đ.30) + Dương Lăng Tuyền (Đ.34) trị trước gối đau, nách và sườn đau (Thiên Kim Thập Nhất Huyệt). 12. Phối Côn Lôn (Bq.60) + Hoàn Khiêu (Đ.30) + Hợp Cốc (Đtr.4) + Khúc Trì (Đtr.11) + Kiên Ngung (Đtr.15) + Phong Thị (Đ.31) + Túc Tam Lý (Vi.36) + Tuyệt Cốt (Đ.39) trị trúng phong không nói được, đờm nhớt ủng trệ (Châm Cứu Toàn Thư). 13. Phối Chi Câu (Ttu.6) + Túc Lâm Khấp (Đ.41) trị thương hàn mà hông sườn đau (Châm Cứu Toàn Thư). 14. Phối Dương Phụ (Đ.38) + Hiệp Khê (Đ.43) + Túc Khiếu Âm (Đ.44) + Túc Lâm Khấp (Đ.41) trị mụn nhọt mọc ở 1 bên đầu (Ngoại Khoa Lý Lệ). 15. Phối Âm Lăng Tuyền (Ty.9) trị sốt rét (Châm Cứu Học Thượng Hải ). 16. Phối Đởm Nang + Nội Quan (Tb.6) + Giáp Tích 8-9 trị túi mật viêm (Châm Cứu Học Thượng Hải ). 17. Phối Hoàn Khiêu (Đ.30) + Phong Thị (Đ.31) + Tam Âm Giao (Ty.6) + Thận Du (Bq.23) + Uỷ Trung (Bq.40) trị lưng và đùi đau, nuẳ người bị liệt (Châm Cứu Học Giản Biên). 18. Phối Chi Câu (Ttu.6) + Kỳ Môn (C.14) trị hông sườn đau (Trung Quốc Châm Cứu Học Khái Yếu). 19. Phối Tam Âm Giao (Ty.6) +Túc Tam Lý (Vi.36) + Tuyệt Cốt (Đ.39) trị cước khí (Tứ Bản Giáo Tài Châm Cứu Học).",
     "references": "(“ Khi bệnh ở phần trên, xuất ra ngoài pHải châm Dương Lăng Tuyền” (LKhu.1.129)) (“- Thiên ‘Tà Khí Tạng Phủ Bệnh Hình’ (LKhu.4) ghi: Bệnh của Đởm làm cho dễ bị thở mạnh, miệng đắng, nôn ra chất nhờn, dưới vùng tim đập mạnh, hay lo sợ như có người sắp bắt mình, trong cổ họng thường có vật gì chận ngang và thường hay khạc nhổ... Khi nào bị hàn nhiệt thì châm Dương Lăng Tuyền” (LKhu.4.116-117). (“Mạch kinh túc Thiếu Dương gây ra lưng đau, có cảm giác đau như bị kim châm, không cúi ngửa được, không quay đi quay lại được... châm vào đầu thành cốt thuộc kinh Thiếu Dương (tức huyệt Dương Lăng Tuyền) cho ra máu. Mùa Hạ không được cho ra huyết.”(TVấn.41.2). (“Dương Lăng Tuyền chủ ngực sườn đầy tức, trong Tâm xót xa, sợ hãi” (Loại Kinh Đồ Dực). (“Dương Lăng ở dưới đầu gối, ở giữa Ngoại Liêm 1 thốn; Đầu gối sưng và tê, lạnh tê cho đến chứng liệt 1/2 người, những không nhấc lên được, nằm ngồi giống như ông già, châm kim vào 0.6 thốn thôi, thần công kỳ diệu khác thường” (Mã-Đơn-Dương Thập Nhị Huyệt Ca)."
@@ -8927,9 +8927,9 @@
     "name_cn": "阳交",
     "channel_id": "GB",
     "position": {
-      "x": 0.13598,
-      "y": 0.24314,
-      "z": -0.05247
+      "x": 0.13529,
+      "y": 0.2269,
+      "z": -0.05238
     },
     "region": "Cẳng chân",
     "indications": [
@@ -8956,9 +8956,9 @@
     "name_cn": "外丘",
     "channel_id": "GB",
     "position": {
-      "x": 0.12514,
-      "y": 0.2435,
-      "z": -0.03804
+      "x": 0.12599,
+      "y": 0.2269,
+      "z": -0.03809
     },
     "region": "Cẳng chân",
     "indications": [
@@ -8984,9 +8984,9 @@
     "name_cn": "光明",
     "channel_id": "GB",
     "position": {
-      "x": 0.12391,
-      "y": 0.20035,
-      "z": -0.04313
+      "x": 0.12317,
+      "y": 0.1812,
+      "z": -0.04431
     },
     "region": "Cẳng chân",
     "indications": [
@@ -9014,9 +9014,9 @@
     "name_cn": "阳辅",
     "channel_id": "GB",
     "position": {
-      "x": 0.12269,
-      "y": 0.17967,
-      "z": -0.04692
+      "x": 0.12053,
+      "y": 0.1584,
+      "z": -0.04819
     },
     "region": "Cẳng chân",
     "indications": [
@@ -9044,9 +9044,9 @@
     "name_cn": "悬钟",
     "channel_id": "GB",
     "position": {
-      "x": 0.12167,
-      "y": 0.1587,
-      "z": -0.05106
+      "x": 0.11755,
+      "y": 0.1355,
+      "z": -0.05162
     },
     "region": "Cẳng chân",
     "indications": [
@@ -9093,7 +9093,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 40 của kinh Đởm. + Huyệt Nguyên.",
     "location_detail": "Ở phía trước và dưới mắt cá ngoài chân, nơi chỗ lõm của khe xương cạnh nhóm cơ duỗi dài các ngón chân, hoặc từ ngón chân thứ 4 kéo thẳng lên mắt cá gặp chỗ lõm hoặc lấy ở chỗ lõm giữa huyệt Thân Mạch và huyệt Giải Khê, ấn vào thấy tức.",
-    "anatomy": "Dưới da là cơ duỗi ngắn các ngón chân, bờ sau - ngoài cơ mác trước, khe khớp xương hộp - thuyền - chêm 3. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy trước. Da vùng huyệt chi phối bởi tiết đoạn thần kinh S1.",
+    "anatomy": "Dưới da là cơ duỗi ngắn các ngón chân, bờ sau - ngoài cơ mác trước, khe khớp xương hộp - thuyền - chêm 3. Thần kinh vận động cơ là các nhánh của dây thần kinh mác sâu (thần kinh chày trước). Da vùng huyệt chi phối bởi tiết đoạn thần kinh S1.",
     "tcm_actions": "Khu phong tà ở bán biểu bán lý, hóa thấp nhiệt.",
     "references": "(“ Xương háng đau : tả huyệt Khâu Khư” (Linh Quang Phú). (“ Huyệt Khâu Khư, Dương Lăng Tuyền và Đởm Du có công hiệu khác nhau: cả 3 huyệt đều chữa bệnh về Đởm nhưng Dương Lăng Tuyền + Đởm Du thiên về chữa bệnh ở Đởm phủ còn Khâu Khư thiên về chữa bệnh ở kinh Đởm” (Du Huyệt Công Năng Giám Biệt)."
   },
@@ -9260,7 +9260,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 1 của kinh Can. + Huyệt Tỉnh, thuộc hành Mộc.",
     "location_detail": "Tại đốt thứ nhất ngón chân cái, cách bờ ngoài gốc móng khoảng 0.1 thốn (0.2cm).",
-    "anatomy": "Dưới da là chỗ bám của gân cơ duỗi dài riêng ngón chân cái vào đốt 2 ngón cái. Thần kinh vận động cơ là nhánh của dây thần kinh chầy trước. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là chỗ bám của gân cơ duỗi dài riêng ngón chân cái vào đốt 2 ngón cái. Thần kinh vận động cơ là nhánh của dây thần kinh mác sâu (thần kinh chày trước). Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Sơ tiết quyết khí, lý hạ tiêu, thanh thần chí, hồi quyết nghịch.",
     "references": "(“Nhiệt bệnh mồ hôi vẫn ra mà mạch lại thuận, có thể châm cho ra mồ hôi, nên thủ huyệt Ngư Tế (P.10), Thái Uyên (P.9), Đại Đô (Ty.2), Thái Bạch (Ty.3). Châm tả các huyệt này sẽ làm cho nhiệt giảm bớt, châm bổ thì mồ hôi ra (LKhu.23.30). (“Tai ù do rối loạn khí, phải châm huyệt Thượng Quan và những huyệt Tỉnh của kinh Tâm Bào ( Trung Xung - Tb9) và kinh Can (Đại Đôn - C.1), đau bên trái chọn huyệt bên phải và ngược lại. Trước hết chọn huyệt ở tay sau đó lấy huyệt ở chân (LKhu.24.24 + 28). (“Tà khách ở Lạc của túc Quyết âm, làm cho người ta đột ngột bị chứng sán thống, châm ở chỗ thịt giáp móng ngón chân cái [Đại Đôn] (TVấn.63.10). (“Huyệt này lúc có thai và sau khi sinh đẻ không nên dùng phép cứu’ (Loại Kinh Đồ Dực). (“Dùng Tâm Bấc chấm dầu phụng đốt nổ trên huyệt này có tác dụng cầm băng huyết ngay” (Trung Quốc Châm Cứu Học)."
   },
@@ -9296,7 +9296,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 2 của kinh Can. + Huyệt Vinh, thuộc hành Hoả . + Huyệt Tả của kinh Can.",
     "location_detail": "Ép ngón chân cái sát vào ngón thứ 2, huyệt nằm ngay trên đầu kẽ của 2 ngón chân, về phía mu chân.",
-    "anatomy": "Dưới da là khe giữa các gân duỗi ngón 2 của cơ duỗi dài và cơ duỗi ngắn các ngón chân ở phía ngoài với các gân duỗi dài riêng ngón 1 và gân duỗi ngón chân 1 của cơ duỗi ngắn các ngón chân ở phía trong, cơ gian cốt mu chân, khe giữa các đốt 1 xương ngón chân 1 và 2. Thần kinh vận động cơ là các nhánh của dây thần kinh chầy trước và nhánh của dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
+    "anatomy": "Dưới da là khe giữa các gân duỗi ngón 2 của cơ duỗi dài và cơ duỗi ngắn các ngón chân ở phía ngoài với các gân duỗi dài riêng ngón 1 và gân duỗi ngón chân 1 của cơ duỗi ngắn các ngón chân ở phía trong, cơ gian cốt mu chân, khe giữa các đốt 1 xương ngón chân 1 và 2. Thần kinh vận động cơ là các nhánh của dây thần kinh mác sâu (thần kinh chày trước) và nhánh của dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L5.",
     "tcm_actions": "Tiết hoả, thanh Hoả, lương huyết nhiệt, thanh hạ tiêu, sơ khí trệ, trấn phong dương.",
     "references": "(“Tà khí ở tại Can sẽ làm đau ở khoảng hông sườn, kèm cảm giác lạnh ở trong cơ thể, ác huyết ở trong, khi đi đứng thường bị co rút, chân thường bị sưng . Châm huyệt Hành Gian để dẫn thống khí dưới hông sườn, bổ huyệt Tam Lý để ôn ấm Vị...” (LKhu.20.14)."
   },
@@ -9368,9 +9368,9 @@
     "name_cn": "蠡溝",
     "channel_id": "LR",
     "position": {
-      "x": 0.07466,
-      "y": 0.21712,
-      "z": -0.02748
+      "x": 0.07374,
+      "y": 0.2073,
+      "z": -0.02637
     },
     "region": "Cẳng chân",
     "indications": [
@@ -9399,9 +9399,9 @@
     "name_cn": "中都",
     "channel_id": "LR",
     "position": {
-      "x": 0.07789,
-      "y": 0.26306,
-      "z": -0.02071
+      "x": 0.07751,
+      "y": 0.2561,
+      "z": -0.01866
     },
     "region": "Cẳng chân",
     "indications": [
@@ -9481,7 +9481,7 @@
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 8 của kinh Can. + Huyệt Hợp, thuộc hành Thuỷ, huyệt Bổ.",
     "location_detail": "Ở đầu trong nếp gấp nhượng chân, nơi khe giữa của bờ trước gân cơ bán mạc và cơ thẳng trong.",
-    "anatomy": "Dưới da là khe giữa gân cơ bán mạc và gân cơ thẳng trong, đầu trên cơ sinh đôi trong, khe khớp kheo. Thần kinh vận động cơ là các nhánh của dây thần kinh hông keo to và dây thần kinh chầy sau. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L3.",
+    "anatomy": "Dưới da là khe giữa gân cơ bán mạc và gân cơ thẳng trong, đầu trên cơ sinh đôi trong, khe khớp kheo. Thần kinh vận động cơ là các nhánh của dây thần kinh hông keo to và dây thần kinh chày. Da vùng huyệt chi phối bởi tiết đoạn thần kinh L3.",
     "tcm_actions": "Thanh thấp nhiệt, tiết Can Hoả, lợi Bàng Quang, thư cân lạc.",
     "references": "“Khúc Tuyền chủ lung bế” (Tư Sinh Kinh)."
   },
@@ -9646,8 +9646,8 @@
     "channel_id": "LR",
     "position": {
       "x": 0.08824,
-      "y": 1.22687,
-      "z": 0.12162
+      "y": 1.236,
+      "z": 0.1211
     },
     "region": "Ngực trước",
     "indications": [
@@ -10248,7 +10248,7 @@
   },
   {
     "code": "CV19",
-    "name_vi": "Tử Cung",
+    "name_vi": "Tử Cung (Ngực)",
     "name_cn": "紫宮",
     "channel_id": "CV",
     "position": {
@@ -10275,7 +10275,8 @@
     "anatomy": "Dưới da là thân xương ức; Thần kinh vận động do nhánh dây thần kinh gian sườn 2 chi phối; Thần kinh cảm giác do nhánh dây thần kinh gian sườn 2 chi phối; Mạch máu gồm các nhánh động tĩnh mạch ngực trong và động tĩnh mạch gian sườn 2.",
     "tcm_actions": "Tuyên Phế lý khí, giáng nghịch hòa Vị, khoan trung lợi ngực, hóa đờm chỉ ho, giải co thắt thực quản và phế quản, thông kinh giảm đau vùng xương ức lồng ngực.",
     "references": "Giáp Ất Kinh, Phùng Văn Chiến (Huyệt Vị Châm Cứu Thường Dùng) & Châm Cứu Học 1 ĐHYD TPHCM ghi: 'Tử Cung ở đường giữa ngực ngang khoang gian sườn 2 (trên Ngọc Đường 1,6 thốn), mở lồng ngực, tuyên Phế giáng khí, trị tức ngực, ho hen suyễn, co thắt thực quản, nuốt nghẹn, buồn nôn'.",
-    "point_combinations": "1. Phối Đản Trung (CV17), Ngọc Đường (CV18) và Phế Du (BL13) trị ho, hen suyễn, tức ngực khó thở, khò khè 2. Phối Nội Quan (PC6) và Trung Quản (CV12) trị trào ngược dạ dày thực quản, co thắt thực quản, nuốt nghẹn, buồn nôn"
+    "point_combinations": "1. Phối Đản Trung (CV17), Ngọc Đường (CV18) và Phế Du (BL13) trị ho, hen suyễn, tức ngực khó thở, khò khè 2. Phối Nội Quan (PC6) và Trung Quản (CV12) trị trào ngược dạ dày thực quản, co thắt thực quản, nuốt nghẹn, buồn nôn",
+    "aliases": "Tử Cung (CV19 - 紫宮), Ngọc Đường Thượng"
   },
   {
     "code": "CV20",
@@ -11827,7 +11828,7 @@
   },
   {
     "code": "EX-CA1",
-    "name_vi": "Tử Cung",
+    "name_vi": "Tử Cung (Bào Cung)",
     "name_cn": "子宮",
     "channel_id": "EXTRA",
     "position": {
@@ -11852,7 +11853,8 @@
     "anatomy": "Dưới da là cơ chéo bụng ngoài, cơ chéo bụng trong, cơ ngang bụng, mạc ngang, mỡ ngoài màng bụng, phía sâu trong chậu hông là tử cung và buồng trứng (khi tử cung có thai / to); Thần kinh vận động do các nhánh thần kinh gian sườn 11, 12 và thần kinh chậu - hạ vị chi phối; Thần kinh cảm giác do nhánh thần kinh gian sườn 12 và thần kinh chậu - hạ vị chi phối; Mạch máu gồm các nhánh động tĩnh mạch thượng vị dưới, động tĩnh mạch mũ chậu sâu.",
     "tcm_actions": "Điều hòa kinh nguyệt, điều lý tử cung, thăng dương cố thoát (nâng tử cung bị sa), ôn bàng quang hạ tiêu, ích tinh khí sinh sản, chỉ đau bụng dưới.",
     "references": "Châm Cứu Đại Thành & Phùng Văn Chiến (Huyệt Vị Châm Cứu Thường Dùng) ghi: 'Tử Cung (EX-CA1) từ bờ trên xương mu lên 1 thốn (Trung Cực) ra ngang 3 thốn, cấm châm người có thai, điều kinh lý tử cung, đặc trị sa tử cung, hiếm muộn vô sinh, đau bụng kinh, rong kinh, khí hư, tử cung lạnh'.",
-    "point_combinations": "1. Phối Tam Âm Giao (SP6), Quan Nguyên (CV4) và Thái Khê (KID3) đặc trị hiếm muộn vô sinh nữ, đau bụng kinh, rối loạn kinh nguyệt, tử cung lạnh 2. Phối Bách Hội (GV20), Trung Cực (CV3) và Duy Đạo (GB28) trị sa tử cung (thoát giam), khí hư đới hạ, rong kinh"
+    "point_combinations": "1. Phối Tam Âm Giao (SP6), Quan Nguyên (CV4) và Thái Khê (KID3) đặc trị hiếm muộn vô sinh nữ, đau bụng kinh, rối loạn kinh nguyệt, tử cung lạnh 2. Phối Bách Hội (GV20), Trung Cực (CV3) và Duy Đạo (GB28) trị sa tử cung (thoát giam), khí hư đới hạ, rong kinh",
+    "aliases": "Tử Cung (EX-CA1 - 子宮), Huyệt Tử Cung Bụng Dưới"
   },
   {
     "code": "EX-B1",

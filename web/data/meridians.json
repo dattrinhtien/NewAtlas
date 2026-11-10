@@ -175,7 +175,10 @@
         "ST5",
         "ST6",
         "ST7",
-        "ST8",
+        "ST8"
+      ],
+      [
+        "ST5",
         "ST9",
         "ST10",
         "ST11",
@@ -214,7 +217,7 @@
         "ST45"
       ],
       [
-        "ST37",
+        "ST36",
         "ST40",
         "ST41"
       ]
@@ -509,7 +512,20 @@
         "BL37",
         "BL38",
         "BL39",
-        "BL40"
+        "BL40",
+        "BL55",
+        "BL56",
+        "BL57",
+        "BL58",
+        "BL59",
+        "BL60",
+        "BL61",
+        "BL62",
+        "BL63",
+        "BL64",
+        "BL65",
+        "BL66",
+        "BL67"
       ],
       [
         "BL10",
@@ -527,20 +543,7 @@
         "BL52",
         "BL53",
         "BL54",
-        "BL40",
-        "BL55",
-        "BL56",
-        "BL57",
-        "BL58",
-        "BL59",
-        "BL60",
-        "BL61",
-        "BL62",
-        "BL63",
-        "BL64",
-        "BL65",
-        "BL66",
-        "BL67"
+        "BL36"
       ]
     ],
     "type": "Chính Kinh"
@@ -972,7 +975,7 @@
     "polarity": "Dương (Thống soái các kinh dương - Dương mạch chi hải)",
     "pair": "Giao hội cùng Mạch Nhâm",
     "organ": "Não Tủy / Cột sống",
-    "description": "Thống soái toàn bộ các kinh dương trong cơ thể, nâng đỡ dương khí, thông kinh lạc, tỉnh não khai khiếu.",
+    "description": "Thống soái toàn bộ các kinh dương trong cơ thể (gồm 28 huyệt chính kinh GV1–GV28 và kỳ huyệt Ấn Đường EX-HN3/GV24+ nằm trên trục chính diện), nâng đỡ dương khí, thông kinh lạc, tỉnh não khai khiếu.",
     "points": [
       "GV1",
       "GV2",
