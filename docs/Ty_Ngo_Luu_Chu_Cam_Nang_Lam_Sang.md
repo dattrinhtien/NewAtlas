@@ -12,7 +12,9 @@
 4. [Phương Pháp Khai Huyệt Theo Giờ Trong Lâm Sàng](#4-phương-pháp-khai-huyệt-theo-giờ-trong-lâm-sàng)
    - 4.1. Nạp Tử Pháp (Chọn huyệt theo giờ vượng của kinh mạch)
    - 4.2. Nguyên lý Mẹ Bổ - Con Tả kết hợp Ngũ Du Huyệt
-   - 4.3. Nạp Giáp Pháp (Phối hợp Thiên can và Ngũ Du Huyệt)
+   - 4.3. Nạp Giáp Pháp (Phối hợp Thiên Can và Ngũ Du Huyệt)
+   - 4.4. Linh Quy Bát Pháp & Phi Đằng Bát Pháp (Khai mở Kỳ Kinh Bát Mạch)
+   - 4.5. Hiệu chỉnh Giờ Mặt Trời Thực (Chân Thái Dương Thời)
 5. [Ca Lâm Sàng Thực Tiễn Điển Hình](#5-ca-lâm-sàng-thực-tiễn-điển-hình)
 6. [Ứng Dụng Trong Dưỡng Sinh & Thời Dược Học](#6-ứng-dụng-trong-dưỡng-sinh--thời-dược-học)
 7. [Tích Hợp Tự Động Trong Hệ Thống AcuAtlas 3D Pro](#7-tích-hợp-tự-động-trong-hệ-thống-acuatlas-3d-pro)
@@ -109,6 +111,47 @@ $$\text{Hư tắc bổ kỳ mẫu} \quad - \quad \text{Thực tắc tả kỳ t�
 * **Khi Kinh Phế Thực (Phế thuộc Kim):** Kim sinh Thủy (Thủy là con của Kim). Muốn tả Phế Thực, chọn huyệt **Hợp (Thủy)** của kinh Phế là huyệt **Xích Trạch (LU5)**.
 * **Khi Kinh Can Thực (Can thuộc Mộc):** Mộc sinh Hỏa (Hỏa là con của Mộc). Muốn thanh tả Can Hỏa, chọn huyệt **Huỳnh (Hỏa)** của kinh Can là huyệt **Hành Gian (LR2)**.
 * **Khi Kinh Thận Hư (Thận thuộc Thủy):** Kim sinh Thủy (Kim là mẹ của Thủy). Muốn bổ Thận Thủy, chọn huyệt **Kinh (Kim)** của kinh Thận là huyệt **Phục Lưu (KI7)**.
+
+### 4.3. Nạp Giáp Pháp (納甲法 – Tuần Kinh Khai Huyệt Theo Thiên Can Ngày & Giờ)
+Khác với **Nạp Tử Pháp** (dùng 12 Địa Chi cố định trong ngày), **Nạp Giáp Pháp** lấy **10 Thiên Can của Ngày và Giờ** phối hợp với 12 Kinh mạch và 60 Ngũ Du Huyệt theo nguyên tắc ***"Dương tiến Âm thoái, phùng Nhâm hóa Hợp"*** (Từ Phượng – *Châm Cứu Đại Toàn*):
+
+1. **Quy nạp 10 Thiên Can vào Tạng Phủ (Thiên Can Phối Kinh):**
+   - **Giáp (Dương Mộc):** Kinh Đởm (`GB`) — Khai Tỉnh Kim **Túc Khiếu Âm (`GB44`)** vào giờ Giáp Tuất.
+   - **Ất (Âm Mộc):** Kinh Can (`LR`) — Khai Tỉnh Mộc **Đại Đôn (`LR1`)** vào giờ Ất Dậu.
+   - **Bính (Dương Hỏa):** Kinh Tiểu Trường (`SI`) — Khai Tỉnh Kim **Thiếu Trạch (`SI1`)** vào giờ Bính Thân.
+   - **Đinh (Âm Hỏa):** Kinh Tâm (`HT`) — Khai Tỉnh Mộc **Thiếu Xung (`HT9`)** vào giờ Đinh Mùi.
+   - **Mậu (Dương Thổ):** Kinh Vị (`ST`) — Khai Tỉnh Kim **Lệ Đoài (`ST45`)** vào giờ Mậu Ngọ.
+   - **Kỷ (Âm Thổ):** Kinh Tỳ (`SP`) — Khai Tỉnh Mộc **Ẩn Bạch (`SP1`)** vào giờ Kỷ Tỵ.
+   - **Canh (Dương Kim):** Kinh Đại Trường (`LI`) — Khai Tỉnh Kim **Thương Dương (`LI1`)** vào giờ Canh Thìn.
+   - **Tân (Âm Kim):** Kinh Phế (`LU`) — Khai Tỉnh Mộc **Thiếu Thương (`LU11`)** vào giờ Tân Mão.
+   - **Nhâm (Dương Thủy):** Kinh Bàng Quang (`BL`) — Khai Tỉnh Kim **Chí Âm (`BL67`)** vào giờ Nhâm Dần.
+   - **Quý (Âm Thủy):** Kinh Thận (`KI`) — Khai Tỉnh Mộc **Dũng Tuyền (`KI1`)** vào giờ Quý Sửu *(Tâm Bào & Tam Tiêu ký gửi vào Thận & Bàng Quang vào các giờ cuối chu kỳ)*.
+2. **Quy tắc "Phản bổn hoàn nguyên" (Quá Nguyên Hồi Nguyên):**
+   - Sau khi mở huyệt Tỉnh ở giờ khởi đầu, cứ cách một canh giờ đồng tính (Dương đi với Dương, Âm đi với Âm) lại tuần tự mở sang **Huỳnh $\rightarrow$ Du $\rightarrow$ Nguyên (với Kinh Dương) $\rightarrow$ Kinh $\rightarrow$ Hợp** theo chiều Ngũ hành tương sinh.
+
+### 4.4. Linh Quy Bát Pháp (靈龜八法) & Phi Đằng Bát Pháp (飛騰八法)
+**Linh Quy Bát Pháp** (còn gọi là *Kỳ Kinh Nạp Quái Pháp*) kết hợp **8 Huyệt Giao Hội Kỳ Kinh Bát Mạch** với **Cửu Cung Bát Quái (Lạc Thư)** và đại số **Can Chi Ngày – Giờ**:
+
+$$\text{Tổng Đại Số } (S) = \text{Đại số Can Ngày} + \text{Đại số Chi Ngày} + \text{Đại số Can Giờ} + \text{Đại số Chi Giờ}$$
+
+* **Ngày Dương (`Giáp, Bính, Mậu, Canh, Nhâm`):** Lấy $R = S \bmod 9$ (nếu chia hết thì lấy $R = 9$).
+* **Ngày Âm (`Ất, Đinh, Kỷ, Tân, Quý`):** Lấy $R = S \bmod 6$ (nếu chia hết thì lấy $R = 6$).
+* **Bảng Ánh Xạ Cửu Cung – Bát Quái – Bát Mạch Giao Hội:**
+  - **Số 1 (Khảm Thủy):** Khai **Thân Mạch (`BL62` – Dương Kiều)**, ứng phối **Hậu Khê (`SI3` – Đốc Mạch)**.
+  - **Số 2 (Khôn Thổ) & Số 8 (Cấn Thổ):** Khai **Chiếu Hải (`KI6` – Âm Kiều)**, ứng phối **Liệt Khuyết (`LU7` – Nhâm Mạch)**.
+  - **Số 3 (Chấn Mộc):** Khai **Ngoại Quan (`TE5` – Dương Duy)**, ứng phối **Túc Lâm Khấp (`GB41` – Đới Mạch)**.
+  - **Số 4 (Tốn Mộc):** Khai **Túc Lâm Khấp (`GB41` – Đới Mạch)**, ứng phối **Ngoại Quan (`TE5` – Dương Duy)**.
+  - **Số 5 (Trung Cung):** Nam ký Khôn cung khai **Chiếu Hải (`KI6`)**, Nữ ký Cấn cung khai **Chiếu Hải (`KI6`) / Nội Quan (`PC6`)**.
+  - **Số 6 (Càn Kim):** Khai **Công Tôn (`SP4` – Xung Mạch)**, ứng phối **Nội Quan (`PC6` – Âm Duy)**.
+  - **Số 7 (Đoài Kim):** Khai **Hậu Khê (`SI3` – Đốc Mạch)**, ứng phối **Thân Mạch (`BL62` – Dương Kiều)**.
+  - **Số 9 (Ly Hỏa):** Khai **Nội Quan (`PC6` – Âm Duy)**, ứng phối **Công Tôn (`SP4` – Xung Mạch)**.
+
+### 4.5. Hiệu Chỉnh Giờ Mặt Trời Thực (Chân Thái Dương Thời – True Solar Time)
+Múi giờ hành chính Việt Nam (`UTC+7`) được lấy chuẩn theo kinh tuyến $105^\circ\text{Đ}$. Trong Thời Châm Học chính xác (đặc biệt tại thời điểm giao canh giữa hai giờ Địa Chi), cần quy đổi sang **Giờ Mặt Trời Thực (Chân Thái Dương Thời)**:
+
+$$\text{Giờ Mặt Trời Thực} = \text{Giờ Hành Chính} + 4\text{ phút} \times (\lambda_{\text{địa phương}} - 105^\circ) + \Delta t_{\text{EoT}}$$
+
+*(Trong đó Hà Nội $\lambda \approx 105.85^\circ\text{Đ}$ sớm hơn $+3.4$ phút; TP.HCM $\lambda \approx 106.66^\circ\text{Đ}$ sớm hơn $+6.6$ phút; $\Delta t_{\text{EoT}}$ là phương trình thời gian theo quỹ đạo elip của Trái Đất).*
 
 ---
 
