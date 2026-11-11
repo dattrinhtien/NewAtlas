@@ -184,7 +184,7 @@
       "Tay và khuỷu tay đau",
       "Ho",
       "Suyễn",
-      "Amygdale viêm",
+      "Viêm amidan",
       "Phổi viêm"
     ],
     "puncture_guide": "Châm thẳng 0.5- 1 thốn. Cứu 3 - 7 tráng, Ôn cứu 5 - 15 phút.",
@@ -491,7 +491,7 @@
       "Đầu đau",
       "Răng đau",
       "Liệt mặt",
-      "Amygdale viêm",
+      "Viêm amidan",
       "Khớp hàm dưới viêm",
       "Mắt đau",
       "Cảm cúm",
@@ -3009,7 +3009,7 @@
     ],
     "puncture_guide": "Châm xiên 0.3-0.5 thốn. Cứu 3-5 tráng, Ôn cứu 5-10 phút.",
     "clinical_pearl": "Tâm đắc lâm sàng: Là huyệt trọng yếu thuộc kinh Túc Thái Âm Tỳ để xử trí ho, viêm phế quản, đầy tức ngực sườn, nấc cụt liên tục. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
-    "contraindications": "Không châm sâu vì có thể đụng phổi.",
+    "contraindications": "Cảnh báo giải phẫu: huyệt ở khoang gian sườn 2 đường nách trước, phía sâu là màng phổi và phổi; chỉ châm xiên/luồn dọc theo xương sườn, không châm thẳng sâu để tránh tràn khí màng phổi.",
     "aliases": "Châu Vinh.",
     "origin": "Giáp Ất Kinh.",
     "tcm_properties": "Huyệt thứ 20 của kinh Tỳ.",
@@ -8165,7 +8165,7 @@
       "Tai ù",
       "Điếc",
       "Răng đau",
-      "Amygdale viêm"
+      "Viêm amidan"
     ],
     "puncture_guide": "Châm dưới da 0.3 - 0.5 thốn. Cứu 1 - 3 tráng - Ôn cứu 3 - 5 phút.",
     "clinical_pearl": "Tâm đắc lâm sàng: Là huyệt trọng yếu thuộc kinh Túc Thiếu Dương Đởm để xử trí đau đầu, ù tai, điếc tai, giảm thính lực. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
@@ -8542,9 +8542,9 @@
       "Thần kinh gian sườn đau",
       "Hạch nách sưng"
     ],
-    "puncture_guide": "Châm xiên 0.5 - 0.8 thốn - Ôn cứu 3-5 phút.",
+    "puncture_guide": "Châm xiên 0.5 - 0.8 thốn - Cấm cứu (theo Giáp Ất Kinh).",
     "clinical_pearl": "Tâm đắc lâm sàng: Là huyệt trọng yếu thuộc kinh Túc Thiếu Dương Đởm để xử trí đầy tức ngực sườn, màng ngực viêm, thần kinh gian sườn đau. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
-    "contraindications": "Không châm sâu vì có thể đụng phổi.",
+    "contraindications": "Cấm cứu theo cổ thư. Cảnh báo giải phẫu: huyệt ở khoang gian sườn 4 đường nách giữa, phía sâu là màng phổi và phổi; chỉ châm xiên/luồn dọc theo xương sườn, không châm thẳng sâu để tránh tràn khí màng phổi.",
     "name_meaning": "Huyệt ở chỗ lõm (uyên) ở dưới nách (dịch) vì vậy gọi là Uyên Dịch.",
     "aliases": "Dịch Môn, Tuyền Dịch.",
     "origin": "Thiên ‘Ung Thư’ (LKhu.81).",
@@ -10898,7 +10898,7 @@
       "Chảy máu cam",
       "Bệnh lý do phong tà và ngoại cảm: cảm mạo phong hàn / phong nhiệt, cúm, sốt rét, đau đầu hậu chẩm, đau nửa đầu, nghẹt mũi, hoa mắt chóng mặt, ù tai, chảy máu cam",
       "Bệnh lý cổ gáy, thần kinh và vận động: đau cứng cổ gáy, hạn chế cúi xoay cổ, tê dại tứ chi, yếu liệt nửa người, di chứng trúng phong / đột quỵ, liệt dây thần kinh mặt (dây VII)",
-      "Bệnh lý tâm thần và脑 bộ: động kinh, cuồng điên, hoảng hốt bồn chồn, mất ngủ, hay quên, suy nhược thần kinh"
+      "Bệnh lý tâm thần và não bộ: động kinh, cuồng điên, hoảng hốt bồn chồn, mất ngủ, hay quên, suy nhược thần kinh"
     ],
     "puncture_guide": "Châm hơi xiên xuống dưới về phía cằm / mép miệng 0,5 - 1 thốn (nghiêng nhẹ đầu về phía trước). Cứu ngải: Theo cổ thư (Giáp Ất Kinh, Đồng Nhân) CẤM CỨU MỒI LỬA TRỰC TIẾP (tránh hỏa nhiệt xông vào não bộ gây mờ mắt/điên cuồng) - y học hiện đại hơ ngải ấm nhẹ 3 - 5 phút.",
     "clinical_pearl": "Tâm đắc lâm sàng: Với công năng khu phong tản hàn, thanh nhiệt giải biểu, thông khiếu định thần, thư gân lợi gáy cổ, tuyên thông não tủy, giải tê dại tứ chi, tản phong tà ngấm sâu, huyệt phát huy hiệu quả rõ rệt nhất khi xử trí đau rát họng, viêm họng, đau đầu, cứng cổ gáy. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
@@ -11078,12 +11078,12 @@
     "indications": [
       "Đau đầu",
       "Chảy nước mũi, nghẹt mũi",
-      "Bệnh lý脑 bộ và thần kinh: động kinh, cuồng điên, hoảng sợ, bồn chồn bứt rứt, buồn ngủ miên man, hoa mắt chóng mặt, đau đầu trán đỉnh, trẻ em kinh phong",
+      "Bệnh lýnão bộ và thần kinh: động kinh, cuồng điên, hoảng sợ, bồn chồn bứt rứt, buồn ngủ miên man, hoa mắt chóng mặt, đau đầu trán đỉnh, trẻ em kinh phong",
       "Bệnh lý mũi và hô hấp: chảy máu cam, viêm mũi mạn tính, tắc nghẽn mũi, polyp mũi, mất khứu giác (không phân biệt được mùi), viêm xoang",
       "Bệnh lý ngũ quan và toàn thân: đỏ mắt sưng đau, phù sưng mặt, sốt sợ lạnh"
     ],
     "puncture_guide": "Châm luồn dưới da (châm nằm ngang / xiên) 0,3 - 0,5 thốn (hoặc 0,5 - 1 thốn). Cứu ngải: 3 - 5 mồi hoặc hơ ngải ấm 5 - 10 phút.",
-    "clinical_pearl": "Tâm đắc lâm sàng: Với công năng sơ phong tản tà, thanh não an thần, thông khiếu lợi mũi, trấn kinh định giật, giải uất nhiệt vùng đầu mắt, huyệt phát huy hiệu quả rõ rệt nhất khi xử trí đau đầu, chảy nước mũi, nghẹt mũi, bệnh lý脑 bộ và thần kinh: động kinh, cuồng điên, hoảng sợ, bồn chồn bứt rứt, buồn ngủ miên man, hoa mắt chóng mặt, đau đầu trán đỉnh, trẻ em kinh phong. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
+    "clinical_pearl": "Tâm đắc lâm sàng: Với công năng sơ phong tản tà, thanh não an thần, thông khiếu lợi mũi, trấn kinh định giật, giải uất nhiệt vùng đầu mắt, huyệt phát huy hiệu quả rõ rệt nhất khi xử trí đau đầu, chảy nước mũi, nghẹt mũi, bệnh lýnão bộ và thần kinh: động kinh, cuồng điên, hoảng sợ, bồn chồn bứt rứt, buồn ngủ miên man, hoa mắt chóng mặt, đau đầu trán đỉnh, trẻ em kinh phong. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
     "contraindications": "TUYỆT ĐỐI CẤM CHÂM ở trẻ sơ sinh và trẻ nhỏ khi thóp trước chưa khép hoàn toàn (nguy cơ đâm thấu màng não gây tử vong); cấm châm thẳng vuông góc đâm sâu.",
     "name_meaning": "\"Tín\" (顖/囟) nghĩa là thóp đầu, ngã ba thóp trước ở trẻ sơ sinh; \"Hội\" (會) nghĩa là giao hội, hội tụ. Tên huyệt chỉ vị trí nằm ở đường giữa đầu phía trước (cách đường chân tóc trước 2 thốn), ngay tại chỗ giao hội của ngã ba thóp trước thời kỳ sơ sinh, có tác dụng khu phong, an thần và thông khiếu mũi đầu.",
     "origin": "Giáp Ất Kinh (Châm Cứu Giáp Ất Kinh) / Tố Vấn.",
@@ -11149,7 +11149,7 @@
     "puncture_guide": "Châm luồn dưới da (châm nằm ngang / xiên) 0,3 - 0,5 thốn (hướng mũi kim ra phía sau hoặc xuống dưới). Cứu ngải: 3 - 5 mồi hoặc hơ ngải ấm 5 - 10 phút.",
     "clinical_pearl": "Tâm đắc lâm sàng: Với công năng ninh tâm an thần, thanh não định trí, sơ phong tản tà, thông khiếu lợi mũi đầu mắt, bình can trấn kinh giật, huyệt phát huy hiệu quả rõ rệt nhất khi xử trí đau đầu, mất ngủ, khó ngủ, chóng mặt, hoa mắt. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
     "contraindications": "Cấm châm thẳng vuông góc quá sâu trúng màng xương sọ; cấm châm ở trẻ nhỏ khi thóp chưa khép hẳn.",
-    "name_meaning": "\"Thần\" (神) nghĩa là thần khí, thần trí, tâm thần; \"Đình\" (庭) nghĩa là sân đình, triều đình, cửa ngõ chính điện. Tên huyệt chỉ vị trí ở đường giữa trán (cách đường chân tóc trước 0,5 thốn), đóng vai trò như khoảng sân đình trước cửa ngõ chính điện bảo vệ và điều hòa thần trí,脑 bộ.",
+    "name_meaning": "\"Thần\" (神) nghĩa là thần khí, thần trí, tâm thần; \"Đình\" (庭) nghĩa là sân đình, triều đình, cửa ngõ chính điện. Tên huyệt chỉ vị trí ở đường giữa trán (cách đường chân tóc trước 0,5 thốn), đóng vai trò như khoảng sân đình trước cửa ngõ chính điện bảo vệ và điều hòa thần trí,não bộ.",
     "origin": "Giáp Ất Kinh (Châm Cứu Giáp Ất Kinh) / Tố Vấn.",
     "tcm_properties": "Huyệt thuộc Mạch Đốc (GV24 - tên gọi cổ: Thần Đình); Giao hội huyệt của Mạch Đốc với Túc Thái Dương Bàng Quang Kinh và Túc Dương Minh Vị Kinh; Huyệt chủ chốt định thần an trí, chữa bệnh tâm thần trí tuệ.",
     "location_detail": "Vị trí ở đường dọc giữa trán, phía trên trung điểm đường chân tóc trước 0,5 thốn (hoặc phía dưới huyệt Thượng Tinh GV23 0,5 thốn). Cách xác định: Từ trung điểm đường chân tóc phía trước đo thẳng lên phía đỉnh đầu 0,5 thốn trên đường giữa sọ (ngang mức với huyệt Mi Xung BL3 và Khúc Sai BL4).",
@@ -11319,12 +11319,12 @@
     "indications": [
       "Điều hòa khí huyết",
       "Khai khiếu tỉnh thần",
-      "Bệnh lý thần kinh và脑 bộ: nhức đầu đỉnh đầu, nhức đầu nửa bên (migraine), hoa mắt chóng mặt, rối loạn trí nhớ, suy giảm nhận thức, chậm phát triển trí tuệ ở trẻ em, hay quên",
+      "Bệnh lý thần kinh và não bộ: nhức đầu đỉnh đầu, nhức đầu nửa bên (migraine), hoa mắt chóng mặt, rối loạn trí nhớ, suy giảm nhận thức, chậm phát triển trí tuệ ở trẻ em, hay quên",
       "Bệnh lý tâm thần: bồn chồn hưng cảm, rối loạn giấc ngủ (mất ngủ, hay giật mình), động kinh, cuồng điên, suy nhược thần kinh",
       "Bệnh lý vận động và ngũ quan: liệt nửa người (di chứng trúng phong / đột quỵ), bệnh lý về mắt (mờ mắt, quáng gà) và tai (ù tai, điếc tai)"
     ],
     "puncture_guide": "Châm xiên luồn dưới da 0,5 - 1,5 thốn (hướng mũi kim về phía huyệt Bách Hội GV20). Cứu ngải: 3 - 5 mồi hoặc hơ ngải ấm 5 - 10 phút.",
-    "clinical_pearl": "Tâm đắc lâm sàng: Với công năng bình phong an thần, thanh não tỉnh trí, định trấn kinh giật, hỗ trợ mắt tai, khu phong chỉ đau vùng đỉnh đầu, huyệt phát huy hiệu quả rõ rệt nhất khi xử trí điều hòa khí huyết, khai khiếu tỉnh thần, bệnh lý thần kinh và脑 bộ: nhức đầu đỉnh đầu, nhức đầu nửa bên (migraine), hoa mắt chóng mặt, rối loạn trí nhớ, suy giảm nhận thức, chậm phát triển trí tuệ ở trẻ em, hay quên. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
+    "clinical_pearl": "Tâm đắc lâm sàng: Với công năng bình phong an thần, thanh não tỉnh trí, định trấn kinh giật, hỗ trợ mắt tai, khu phong chỉ đau vùng đỉnh đầu, huyệt phát huy hiệu quả rõ rệt nhất khi xử trí điều hòa khí huyết, khai khiếu tỉnh thần, bệnh lý thần kinh và não bộ: nhức đầu đỉnh đầu, nhức đầu nửa bên (migraine), hoa mắt chóng mặt, rối loạn trí nhớ, suy giảm nhận thức, chậm phát triển trí tuệ ở trẻ em, hay quên. Khi châm đạt cảm giác đắc khí (căng, tức, nặng tại chỗ hoặc lan dọc đường kinh), kết hợp ôn châm hoặc cứu ngải ấm đối với thể hàn hư sẽ nâng cao rõ rệt hiệu lực điều trị.",
     "contraindications": "Cấm châm thẳng vuông góc đâm sâu trúng màng xương sọ; thận trọng châm ở trẻ nhỏ khi thóp chưa khép hoàn toàn.",
     "name_meaning": "\"Tứ\" nghĩa là bốn; \"Thần\" nghĩa là thần khí, thần trí; \"Thông\" nghĩa là thông suốt, mẫn tuệ. Tên huyệt chỉ nhóm bốn huyệt nằm ở bốn phía xung quanh huyệt Bách Hội (Du/GV 20) cách đều 1 thốn, có tác dụng khai thông não tủy, khai trí an thần và tăng cường sự minh mẫn thần trí.",
     "origin": "Châm Cứu Đại Thành / Kỳ Huyệt (Kinh Ngoại Kỳ Huyệt).",
