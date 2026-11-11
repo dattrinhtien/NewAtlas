@@ -3,7 +3,7 @@
     "id": "luc_tong",
     "name": "Lục Tổng Huyệt (6 Huyệt Tổng)",
     "subtitle": "Chủ trị 6 vùng trọng yếu trên cơ thể theo khẩu quyết kinh điển",
-    "verse": "Đầu diện tầm Hợp Cốc - Cổ gáy Liệt Khuyết tầm - Tâm ngực tìm Nội Quan - Lưng lưng Ủy Trung cầu - Bụng trên Tam Lý thấu - Bụng dưới Tam Âm giao",
+    "verse": "Đầu diện tầm Hợp Cốc - Cổ gáy Liệt Khuyết tầm - Tâm ngực tìm Nội Quan - Lưng sau Ủy Trung cầu - Bụng trên Tam Lý thấu - Bụng dưới Tam Âm giao",
     "description": "Là 6 huyệt vị có tác dụng điều trị bao quát toàn bộ 6 phân khu cơ thể. Bất kể bệnh lý gì ở vùng tương ứng đều có thể chọn huyệt Tổng làm chủ huyệt.",
     "subgroups": [
       {
@@ -884,7 +884,7 @@
         "points": [
           "GB30"
         ],
-        "note": "Hoàn Khiêu: Giao hội Đởm và Bàng Quang,振 phấn dương khí toàn thân"
+        "note": "Hoàn Khiêu: Giao hội Đởm và Bàng Quang,chấn phấn dương khí toàn thân"
       },
       {
         "name": "8. Túc Tam Lý (Bổ khí huyết đại huyệt)",
@@ -907,7 +907,7 @@
     "name": "Thập Tam Quỷ Huyệt (13 Huyệt Tôn Tư Mạc Trị Tâm Thần)",
     "subtitle": "Phương huyệt cổ truyền của Dược Vương Tôn Tư Mạc (Bị Cấp Thiên Kim Yếu Phương)",
     "verse": "Nhất châm Nhân Trung Quỷ Cung đình - Nhị châm Thiếu Thương Quỷ Tín linh - Tam châm Ẩn Bạch Quỷ Lũy tinh...",
-    "description": "13 huyệt đặc hiệu điều trị các chứng bệnh thần chí, điên cuồng, động kinh (간증), rối loạn phân liệt, trầm cảm uất ức, hysteria và mất ngủ nặng do đàm mê tâm khiếu.",
+    "description": "13 huyệt đặc hiệu điều trị các chứng bệnh thần chí, điên cuồng, động kinh (kinh phong), rối loạn phân liệt, trầm cảm uất ức, hysteria và mất ngủ nặng do đàm mê tâm khiếu.",
     "subgroups": [
       {
         "name": "1. Quỷ Cung (Nhân Trung / Thủy Câu)",
@@ -966,7 +966,7 @@
         "note": "Thừa Tương (CV24): Giao hội Nhâm - Vị - Đại Trường, ninh thần định chí"
       },
       {
-        "name": "9. Quỷ Khốc (Lao Cung)",
+        "name": "9. Quỷ Quật (Lao Cung)",
         "points": [
           "PC8"
         ],
@@ -994,11 +994,11 @@
         "note": "Khúc Trì (LI11): Thanh nhiệt giáng hỏa Dương Minh, bình can tức phong"
       },
       {
-        "name": "13. Quỷ Phong (Bách Hội)",
+        "name": "13. Quỷ Phong (Hải Tuyền - dưới lưỡi)",
         "points": [
-          "GV20"
+          "EX-HN11"
         ],
-        "note": "Bách Hội (GV20): Tam dương ngũ hội, thống lĩnh thần chí toàn thân"
+        "note": "Hải Tuyền (EX-HN11, giữa hệ đới lưỡi): Huyệt cuối của Thập Tam Quỷ theo Tôn Tư Mạc (Quỷ Phong); khai khiếu, tỉnh thần"
       }
     ]
   }
