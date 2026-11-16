@@ -3,7 +3,7 @@
  * Cung cấp khả năng Offline & Caching PWA tối ưu cho Mobile & Desktop
  */
 
-const STATIC_CACHE = 'acuatlas3d-static-v28';
+const STATIC_CACHE = 'acuatlas3d-static-v29';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',

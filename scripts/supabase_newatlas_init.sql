@@ -180,10 +180,10 @@ BEGIN
     
     IF p_package_id = 'annual' THEN
         v_package_name := 'Gói Hội Viên VIP 1 Năm';
-        v_amount := 399000;
+        v_amount := 299000;
     ELSE
         v_package_name := 'Gói Chuyên Gia VIP Trọn Đời';
-        v_amount := 799000;
+        v_amount := 499000;
     END IF;
     
     v_content := COALESCE(NULLIF(p_transfer_content, ''), v_order_code);
