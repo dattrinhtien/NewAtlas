@@ -842,6 +842,10 @@
 
       <!-- View Controls & Quick Toggles -->
       <div class="header-tools">
+        <button type="button" class="btn-header-help" id="btnHeaderHelp" title="Hướng dẫn sử dụng & Câu hỏi thường gặp (Q&A)">
+          <span class="help-icon">❓</span>
+          <span class="help-label">Hướng dẫn</span>
+        </button>
         <!-- Membership Controls -->
         <div class="header-membership-group" id="headerMembershipGroup">
           <!-- Populated by JS: Login, Upgrade VIP, or Admin Badge -->
@@ -2525,153 +2529,197 @@
       <button class="qa-modal-close" id="btnCloseQAModal" title="Đóng">&times;</button>
       
       <div class="qa-modal-header">
-        <div class="qa-header-badge">❓ TRUNG TÂM TRỢ GIÚP & HỎI ĐÁP (Q&A)</div>
-        <h3>Câu Hỏi Thường Gặp Khi Sử Dụng Vi An Y Quán Y học 3D</h3>
+        <div class="qa-header-badge">❓ CẨM NANG HƯỚNG DẪN SỬ DỤNG & HỎI ĐÁP (Q&A)</div>
+        <h3>Hướng Dẫn Toàn Diện Vi An Y Quán – Y Học 3D</h3>
         <p class="qa-header-sub">
-          Hướng dẫn thao tác 3D bóc tách, tra cứu 419 huyệt đạo, kích hoạt tài khoản VIP và kết nối chuyên gia YHCT.
+          Tra cứu 419 huyệt đạo & 11 nhóm huyệt đặc hiệu, Thời Châm Học (Nạp Tử • Linh Quy Bát Pháp • Nạp Giáp), Lộ trình Kinh Ngầm Nội Tạng và Bóc tách Giải Phẫu 3D Xoay 360°.
         </p>
       </div>
 
       <!-- Khung tìm kiếm câu hỏi nhanh -->
       <div class="qa-search-box">
         <span class="qa-search-icon">🔍</span>
-        <input type="text" id="qaSearchInput" placeholder="Tìm kiếm câu hỏi (ví dụ: bóc tách, VIP, thiết bị, hotline...)" autocomplete="off" />
+        <input type="text" id="qaSearchInput" placeholder="Tìm nhanh hướng dẫn (ví dụ: linh quy bát pháp, xem riêng 360, kinh ngầm, bóc tách, VIP...)" autocomplete="off" />
       </div>
 
       <!-- Danh sách câu hỏi Accordion FAQ -->
       <div class="qa-accordion-list" id="qaAccordionList">
         
         <!-- Câu 1 -->
-        <div class="qa-item" data-keywords="tim huyet phong to camera zoom tra cuu 419 huyet 779 diem">
+        <div class="qa-item open" data-keywords="tim huyet phong to camera zoom tra cuu 419 huyet 779 diem 14 kinh lac 11 nhom huyet dac hieu 50 phac do tri benh">
           <button class="qa-question-btn">
             <span class="q-icon">🎯</span>
-            <span class="q-text">1. Ứng dụng có bao nhiêu huyệt vị & làm sao để tìm kiếm, phóng to nhanh?</span>
+            <span class="q-text">1. Cách tra cứu 419 Huyệt Vị, 14 Kinh Lạc, 11 Nhóm Huyệt Đặc Hiệu & 50 Phác Đồ Trị Bệnh?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              <strong>Vi An Y Quán Y học 3D</strong> tích hợp đầy đủ <strong>419 huyệt vị YHCT</strong> (gồm <strong>362 chính huyệt</strong> trên 14 đường kinh mạch chuẩn WHO và <strong>57 kỳ huyệt ngoài kinh</strong>), được biểu diễn thành <strong>779 điểm huyệt 3D</strong> (do các đường kinh chính và nhiều kỳ huyệt đối xứng hai bên trái – phải cơ thể).
+              <strong>Vi An Y Quán – Y học 3D</strong> tích hợp đầy đủ <strong>419 huyệt vị YHCT</strong> (gồm <strong>362 chính huyệt</strong> trên 14 đường kinh chuẩn WHO và <strong>57 kỳ huyệt ngoài kinh</strong>, biểu diễn thành <strong>779 điểm huyệt 3D</strong> đối xứng hai bên cơ thể). Bạn có thể tra cứu qua <strong>5 phân mục</strong> ở bảng bên trái:
             </p>
-            <p>
-              Để tra cứu nhanh, bạn chỉ cần gõ vào thanh tìm kiếm góc trên bên trái: <strong>tên tiếng Việt</strong> (có dấu hoặc không dấu, ví dụ: <code>hop coc</code>, <code>Hợp Cốc</code>), <strong>mã quốc tế WHO</strong> (như <code>LI4</code>, <code>ST36</code>, <code>EX-HN5</code>) hoặc <strong>triệu chứng bệnh lý</strong> (ví dụ: <code>đau đầu</code>, <code>mất ngủ</code>, <code>dạ dày</code>). Nhấp vào kết quả, camera 3D sẽ tự động bay cận cảnh đến đúng mốc giải phẫu của huyệt và mở hồ sơ y khoa chi tiết ở cột phải.
-            </p>
+            <ul>
+              <li><strong>Ô Tìm Kiếm Thông Minh (Góc trên trái):</strong> Gõ tên huyệt tiếng Việt (có dấu hoặc không dấu, ví dụ: <code>hop coc</code>, <code>Túc Tam Lý</code>), mã quốc tế WHO (<code>LI4</code>, <code>ST36</code>, <code>GV20</code>, <code>EX-HN5</code>) hoặc triệu chứng (<code>đau đầu</code>, <code>mất ngủ</code>, <code>thần kinh tọa</code>). Nhấp vào kết quả, camera 3D sẽ tự động bay cận cảnh đến đúng vị trí giải phẫu của huyệt và mở hồ sơ chi tiết (Vị trí, Giải phẫu, Tác dụng YHCT, Chủ trị, Hướng & Độ sâu châm, Tâm đắc lâm sàng & Cảnh báo an toàn).</li>
+              <li><strong>Tab 1 – 14 Kinh Lạc:</strong> Nhấp vào thẻ tên kinh để <strong>cô lập riêng đường kinh đó</strong> trên mô hình 3D; hoặc dùng ô tích vuông / nút <code>Hiện tất cả</code> – <code>Ẩn tất cả</code>.</li>
+              <li><strong>Tab 2 – Theo Vùng:</strong> Lọc nhanh các huyệt theo từng phân khu giải phẫu (Đầu – Mặt – Cổ, Ngực – Bụng, Lưng – Thắt lưng, Cánh tay – Bàn tay, Đùi – Cẳng – Bàn chân).</li>
+              <li><strong>Tab 3 – Huyệt Đặc Hiệu (11 Nhóm Kinh Điển):</strong> Tra cứu trực quan <code>Lục Tổng Huyệt</code>, <code>Bát Hội Huyệt</code>, <code>Ngũ Du Huyệt (60 huyệt)</code>, <code>Thập Nhị Mộ Huyệt</code>, <code>Thập Bát Bối Du Huyệt (18 huyệt Du ở lưng)</code>, <code>Thập Lục Khích Huyệt (16 huyệt trị đau cấp & xuất huyết)</code>, <code>Bát Mạch Giao Hội</code>, <code>Nguyên – Lạc Huyệt (Chủ – Khách)</code>, <code>Lục Phủ Hạ Hợp Huyệt</code>, <code>Hồi Dương Cửu Châm</code> và <code>Thập Tam Quỷ Huyệt</code>.</li>
+              <li><strong>Tab 4 – Trị Bệnh Học (50 Bệnh Lý Đa Thể Bệnh):</strong> Chọn bệnh lý để tự động đánh dấu nhóm huyệt trên cơ thể 3D, xem phân thể Biện chứng luận trị (Triệu chứng, Pháp trị, Chủ huyệt, Gia giảm, Kỹ thuật châm cứu, Mã ICD-10) và <strong>Khung Lưu Ý An Toàn Tự Động</strong> (cảnh báo các huyệt kỵ thai kỳ, vùng ngực–lưng nguy cơ tràn khí màng phổi, và vùng quanh ổ mắt).</li>
+            </ul>
           </div>
         </div>
 
         <!-- Câu 2 -->
-        <div class="qa-item" data-keywords="boc tach da tang he co quan giai phau da co xuong noi tang mach mau bach huyet dao mo">
+        <div class="qa-item" data-keywords="thoi cham hoc ty ngo luu chu linh quy bat phap nap tu phap nap giap phap chan thai duong thoi gio mat troi thuc bat mach giao hoi">
           <button class="qa-question-btn">
-            <span class="q-icon">🔬</span>
-            <span class="q-text">2. Cách bóc tách 7 tầng cơ thể (Da, Cơ nông/sâu, Xương, Thần kinh, Tạng, Mạch máu, Bạch huyết)?</span>
+            <span class="q-icon">⏳</span>
+            <span class="q-text">2. Hướng dẫn sử dụng Đồng hồ Thời Châm Học: Nạp Tử Pháp, Linh Quy Bát Pháp & Nạp Giáp Pháp?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              Nhấp vào nút <strong>"🔬 Bóc Tách"</strong> ở thanh công cụ nổi phía trên màn hình (hoặc nhấn phím tắt <code>Shift + D</code>) để mở bảng điều khiển <strong>Bóc Tách & Soi Giải Phẫu 3D (Z-Anatomy Engine)</strong>:
+              Nhấp vào <strong>Đồng hồ Thời Châm</strong> ở giữa thanh trên cùng (hoặc bấm nút <strong>"Xem"</strong>) để mở bảng <strong>Thời Châm Học & Khai Huyệt Theo Thời Gian Thực</strong>:
             </p>
             <ul>
-              <li><strong>Phân tầng độ mờ (Opacity Sliders):</strong> Kéo thanh trượt từ 0% đến 100% độc lập cho từng hệ: Lớp Da Ngoài, Lớp Cơ Nông (Superficial), Lớp Cơ Sâu (Deep Muscles), Hệ Mạch Máu, Hệ Dây Thần Kinh (123 nhánh), Lục Phủ Ngũ Tạng (13 tạng phủ YHCT), Khung Xương (242 xương) và Hệ Bạch Huyết (220 hạch).</li>
-              <li><strong>Chế độ Soi Thông Tin & Dao Mổ Bóc:</strong> Rê chuột đến bó cơ/xương nào sẽ tự động sáng viền kèm bảng thông tin Nguyên uỷ – Bám tận – Động tác – Thần kinh chi phối và các huyệt YHCT liên đới; hoặc bật <strong>Dao Mổ Bóc</strong> để ẩn từng cấu trúc riêng lẻ.</li>
-              <li><strong>Tự động lọc huyệt theo độ trong suốt của Da:</strong> Khi Lớp Da đặt ở chế độ đặc (<code>100%</code>), hệ thống tự động chỉ hiển thị các huyệt thuộc mặt trực diện đang nhìn và ẩn các huyệt mặt sau lưng để không bị rối mắt; khi giảm độ mờ lớp da để nhìn xuyên thấu, toàn bộ huyệt không gian 3D sẽ hiển thị đầy đủ.</li>
+              <li><strong>📅 Can Chi Ngày/Giờ & ☀️ Chân Thái Dương Thời (Giờ Mặt Trời Thực):</strong> Hệ thống tự động tính chính xác <strong>Can Chi Ngày</strong> (theo công thức thiên văn Julian Day Number, tự động sang ngày mới từ <code>23:00</code> đầu giờ Tý) và <strong>Can Chi Giờ</strong> (theo phép Ngũ Thử Độn). Mặc định ứng dụng hiệu chỉnh theo <strong>☀️ Chân Thái Dương Thời</strong> (chuẩn kinh độ Hà Nội <code>+3.4 phút</code> cộng phương trình thời gian $\Delta t_{\text{EoT}}$); bạn có thể bấm nút góc phải để chuyển đổi qua lại với <strong>⌚ Giờ Đồng Hồ Hành Chính</strong>.</li>
+              <li><strong>Tab 1 – 🕐 Nạp Tử Pháp (Tý Ngọ Lưu Chú Theo 12 Địa Chi Giờ):</strong> Hiển thị kinh mạch đang đương lệnh (vượng khí) trong canh giờ hiện tại và gợi ý ngay:
+                <ul>
+                  <li><strong>▲ Huyệt Bổ (Huyệt Mẹ):</strong> Áp dụng nguyên tắc <em>"Hư tắc bổ kỳ mẫu"</em> (châm bổ khi tạng phủ/kinh mạch hư chứng).</li>
+                  <li><strong>▼ Huyệt Tả (Huyệt Con):</strong> Áp dụng nguyên tắc <em>"Thực tắc tả kỳ tử"</em> (châm tả khi tạng phủ/kinh mạch thực chứng, đau cấp).</li>
+                  <li><strong>✦ Huyệt Nguyên:</strong> Điều hòa nguyên khí bản kinh. Bấm nút <code>Xem 3D</code> bên cạnh mỗi huyệt để bay tới vị trí huyệt.</li>
+                </ul>
+              </li>
+              <li><strong>Tab 2 – 🐢 Linh Quy Bát Pháp (Kỳ Kinh Nạp Quái Pháp):</strong>
+                <ul>
+                  <li>Tự động cộng tổng đại số $S = \text{Can Ngày} + \text{Chi Ngày} + \text{Can Giờ} + \text{Chi Giờ}$ theo bảng hằng số chuẩn của <em>Châm Cứu Đại Thành</em>.</li>
+                  <li><strong>Ngày Dương</strong> (<code>Giáp, Bính, Mậu, Canh, Nhâm</code>) lấy $R = S \bmod 9$ (chia hết lấy $9$); <strong>Ngày Âm</strong> (<code>Ất, Đinh, Kỷ, Tân, Quý</code>) lấy $R = S \bmod 6$ (chia hết lấy $6$).</li>
+                  <li>Quy chiếu số dư $R$ vào <strong>Cửu Cung Bát Quái (Lạc Thư)</strong> để tìm ra <strong>Chủ Huyệt Khai Mở</strong> (châm trước) và <strong>Ứng Huyệt Phối Hợp</strong> (châm sau) trong 4 cặp Bát Mạch Giao Hội:
+                    <br>• Số 1 (Khảm): Mở <code>BL62 Thân Mạch</code> (Dương Kiều) ⇄ Phối <code>SI3 Hậu Khê</code> (Đốc Mạch).
+                    <br>• Số 2 (Khôn): Mở <code>KI6 Chiếu Hải</code> (Âm Kiều) ⇄ Phối <code>LU7 Liệt Khuyết</code> (Nhâm Mạch).
+                    <br>• Số 3 (Chấn): Mở <code>TE5 Ngoại Quan</code> (Dương Duy) ⇄ Phối <code>GB41 Túc Lâm Khấp</code> (Đới Mạch).
+                    <br>• Số 4 (Tốn): Mở <code>GB41 Túc Lâm Khấp</code> (Đới Mạch) ⇄ Phối <code>TE5 Ngoại Quan</code> (Dương Duy).
+                    <br>• Số 5 (Trung Cung): <strong>Nam</strong> ký Khôn cung mở <code>KI6 Chiếu Hải</code> (phối <code>LU7</code>); <strong>Nữ</strong> ký Cấn cung mở <code>PC6 Nội Quan</code> (phối <code>SP4</code>).
+                    <br>• Số 6 (Càn): Mở <code>SP4 Công Tôn</code> (Xung Mạch) ⇄ Phối <code>PC6 Nội Quan</code> (Âm Duy).
+                    <br>• Số 7 (Đoài): Mở <code>SI3 Hậu Khê</code> (Đốc Mạch) ⇄ Phối <code>BL62 Thân Mạch</code> (Dương Kiều).
+                    <br>• Số 8 (Cấn): Mở <code>PC6 Nội Quan</code> (Âm Duy) ⇄ Phối <code>SP4 Công Tôn</code> (Xung Mạch).
+                    <br>• Số 9 (Ly): Mở <code>LU7 Liệt Khuyết</code> (Nhâm Mạch) ⇄ Phối <code>KI6 Chiếu Hải</code> (Âm Kiều).
+                  </li>
+                </ul>
+              </li>
+              <li><strong>Tab 3 – ☯️ Nạp Giáp Pháp (Thiên Can Phối Kinh):</strong> Hiển thị đường kinh chủ quản tương ứng với Thiên Can giờ hiện tại (<code>Giáp–Đởm, Ất–Can, Bính–Tiểu Trường, Đinh–Tâm, Mậu–Vị, Kỷ–Tỳ, Canh–Đại Trường, Tân–Phế, Nhâm–Bàng Quang, Quý–Thận</code>) cùng 5 nút tra cứu nhanh bộ <strong>Ngũ Du Huyệt (Tỉnh, Huỳnh, Du, Kinh, Hợp)</strong>, <strong>Huyệt Nguyên</strong> và <strong>Huyệt Hợp</strong> của kinh đó.</li>
             </ul>
           </div>
         </div>
 
         <!-- Câu 3 -->
-        <div class="qa-item" data-keywords="che do huyet ma so ten viet an huyet label ty ngo luu chu khi luu">
+        <div class="qa-item" data-keywords="boc tach 8 tang giai phau xem rieng 360 co lap dot song d2 t2 dong mach tinh mach dao mo">
           <button class="qa-question-btn">
-            <span class="q-icon">🏷️</span>
-            <span class="q-text">3. Cách đổi chế độ hiển thị Tên Việt / Mã WHO, Dẫn truyền Khí lưu & Đồng hồ Tý Ngọ Lưu Chú?</span>
+            <span class="q-icon">🔬</span>
+            <span class="q-text">3. Cách Bóc Tách 8 Tầng Giải Phẫu, Lọc Động/Tĩnh Mạch & Chế độ "🎯 Xem riêng 360°" từng bộ phận?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              Trên thanh công cụ nổi góc trên bên phải màn hình 3D, bạn có thể điều khiển tức thì:
+              Nhấp vào nút <strong>"🔬 Bóc tách"</strong> ở góc dưới bên phải màn hình (hoặc phím tắt <code>Shift + D</code>) để mở <strong>Studio Bóc Tách & Soi Giải Phẫu Đa Tầng 3D</strong>:
             </p>
             <ul>
-              <li><strong>Nút Chế độ Nhãn Huyệt (4 chế độ xoay vòng):</strong> Nhấp liên tiếp để chuyển đổi giữa: <code>Tên Việt</code> ➔ <code>Mã WHO & Tên</code> ➔ <code>Chỉ Điểm Huyệt (ẩn chữ)</code> ➔ <code>Ẩn Tất Cả Huyệt (tập trung giải phẫu)</code>.</li>
-              <li><strong>Nút ⚡ Khí lưu:</strong> Bật/tắt hiệu ứng dòng hạt năng lượng vận hành dọc theo 14 đường kinh mạch theo đúng chiều thuận – nghịch khí huyết.</li>
-              <li><strong>Đồng hồ Tý Ngọ Lưu Chú (thanh trên cùng):</strong> Tự động tính toán Can Chi theo thời gian thực để báo kinh mạch nào đang vượng khí trong canh giờ hiện tại và gợi ý <strong>Huyệt Khai (Nạp Giáp / Nạp Tử)</strong> ứng dụng lâm sàng.</li>
+              <li><strong>Phân tầng độ mờ 8 hệ cơ quan (Opacity Sliders):</strong> Bật/tắt hoặc kéo thanh trượt từ <code>0% – 100%</code> độc lập cho:
+                <br>1. <strong>🧖 Lớp Da Ngoài</strong>
+                <br>2. <strong>💪 Lớp Cơ Nông (Superficial)</strong> & <strong>3. 🥩 Lớp Cơ Sâu (Deep Muscles)</strong> — thể hiện rõ cả thớ cơ đỏ nâu lẫn đầu gân/cân/mạc màu trắng ngà tại nguyên uỷ và bám tận.
+                <br>4. <strong>🩸 Hệ Mạch Máu</strong> — tích hợp 3 nút lọc chuyên biệt: <code>[Tất cả]</code>, <code>[🔴 Động mạch]</code> và <code>[🔵 Tĩnh mạch]</code>.
+                <br>5. <strong>⚡ Hệ Dây Thần Kinh</strong> — đầy đủ 12 đôi dây thần kinh sọ, đám rối và thần kinh ngoại biên phân biệt Trái/Phải.
+                <br>6. <strong>🫀 Lục Phủ Ngũ Tạng</strong> — 295 cấu trúc chi tiết tới từng hạ phân thùy gan Couinaud I–VIII, phế quản phân thùy BI–BX, van tim, đường mật...
+                <br>7. <strong>🦴 Khung Xương (242 Xương & Đĩa đệm)</strong> — đầy đủ phân loại hình thái, mốc mấu giải phẫu, cơ năng và mốc định vị huyệt đạo.
+                <br>8. <strong>🟢 Hệ Bạch Huyết (220 Hạch)</strong>.
+              </li>
+              <li><strong>🔍 Soi Thông Tin & 🔪 Dao Mổ Bóc:</strong> Ở chế độ <em>Soi Thông Tin</em>, bấm vào bất kỳ cơ, xương, tạng, mạch hay thần kinh nào để xem hồ sơ học thuật chi tiết. Để bóc bỏ cấu trúc che khuất, bấm nút <code>🔪 Bóc tách</code> trong thẻ thông tin, hoặc chuyển sang tab <em>Dao Mổ Bóc</em> (hoặc nháy đúp chuột / chạm đúp 2 lần trên điện thoại).</li>
+              <li><strong>🎯 Chế độ Cô Lập & Xoay 360° ("Xem riêng 360°"):</strong>
+                <ul>
+                  <li>Khi bạn muốn khảo sát riêng một cấu trúc (ví dụ muốn xem riêng <strong>Đốt sống ngực T2 (D2)</strong>, <strong>Xương bướm</strong> hay <strong>Cơ ngực lớn</strong> từ mọi góc độ): hãy chọn cấu trúc đó trên mô hình 3D (hoặc gõ <code>D2</code>, <code>T2</code>, <code>xuong buom</code> vào ô Tìm kiếm giải phẫu) rồi bấm nút <strong>"🎯 Xem riêng 360°"</strong>.</li>
+                  <li>Hệ thống sẽ tạm ẩn toàn bộ các lớp xung quanh, đưa camera vào đúng tâm 3D của bộ phận đó và bật <strong>bàn xoay 360° tự động</strong> (có thể bật/tắt tự xoay hoặc dùng chuột/ngón tay xoay tự do trên – dưới – trước – sau). Bấm <strong>"🔙 Thoát Xem Riêng"</strong> trên thanh nổi để quay lại toàn thân.</li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
 
         <!-- Câu 4 -->
-        <div class="qa-item" data-keywords="nang cap vip dang ky chuyen khoan vietqr gia tien 399k 799k">
+        <div class="qa-item" data-keywords="duong kinh ngam noi tang lo trinh thuoc lac 3d linh khu kinh mach">
           <button class="qa-question-btn">
-            <span class="q-icon">⚡</span>
-            <span class="q-text">4. Bảng giá và cách đăng ký kích hoạt Gói Hội Viên VIP như thế nào?</span>
+            <span class="q-icon">🔗</span>
+            <span class="q-text">4. "🔗 Đường Kinh Ngầm Nội Tạng (Thuộc – Lạc)" là gì và cách xem trên 3D như thế nào?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              Hiện tại <strong>Vi An Y Quán Y học 3D</strong> cung cấp 2 gói nâng cấp chính thức:
+              Theo kinh điển <em>Hoàng Đế Nội Kinh (Linh Khu – Thiên 10: Kinh Mạch)</em>: <strong>"Nội thuộc Tạng Phủ, ngoại lạc Chi Tiết"</strong>. Các đường kinh có huyệt vị ngoài da chỉ là phần kinh nổi; mỗi một trong 12 đường kinh chính đều có nhánh đi ngầm vào sâu trong lồng ngực và ổ bụng để kết nối với Tạng Phủ:
             </p>
             <ul>
-              <li><strong>Gói Hội Viên VIP 1 Năm (365 ngày):</strong> <code>399.000 đ</code></li>
-              <li><strong>Gói Chuyên Gia VIP Trọn Đời (Sở hữu vĩnh viễn):</strong> <code>799.000 đ</code></li>
+              <li><strong>Ống sáng đậm – Nhánh Thuộc (屬):</strong> Đường kinh đi vào <strong>Tạng hoặc Phủ chủ quản</strong> của chính kinh đó (ví dụ: Kinh Phế thuộc Phế, Kinh Vị thuộc Vị, Kinh Thận thuộc Thận).</li>
+              <li><strong>Ống sáng mảnh kèm hạt vàng – Nhánh Lạc (絡):</strong> Đường kinh nối thông sang <strong>Tạng/Phủ có quan hệ Biểu – Lý</strong> (ví dụ: Kinh Phế khởi từ Trung Tiêu <code>CV12</code> đi xuống <em>Lạc Đại Trường</em> rồi mới vòng lên <em>Thuộc Phế</em>; Kinh Đại Trường từ hố thượng đòn <code>ST12</code> đi vào ngực <em>Lạc Phế</em> rồi qua cơ hoành xuống <em>Thuộc Đại Trường</em>).</li>
+              <li><strong>Cách xem trên 3D:</strong> Bấm nút <strong>"🔗 Đường Kinh Ngầm Nội Tạng"</strong> trong bảng Bóc tách (hoặc nút <strong>"🔗 Lộ trình Thuộc–Lạc 3D"</strong> trong bảng Đồng hồ Tý Ngọ Lưu Chú). Ứng dụng sẽ tự động làm mờ lớp Da, tạm ẩn lớp Cơ, bật lớp Lục Phủ Ngũ Tạng và mở <strong>Bảng Chọn 12 Kinh Ngầm</strong> ở cạnh dưới màn hình kèm trích dẫn kinh văn. Bấm <strong>"✕ Tắt Kinh Ngầm"</strong> để khôi phục lại trạng thái Da & Cơ ban đầu.</li>
             </ul>
-            <p>
-              <strong>Quy trình kích hoạt:</strong><br>
-              1. Bấm nút <strong>"⚡ Nâng Cấp VIP"</strong> trên thanh công cụ và đăng nhập tài khoản email của bạn.<br>
-              2. Chọn <strong>Gói 1 Năm (399.000 đ)</strong> hoặc <strong>Gói Trọn Đời (799.000 đ)</strong>.<br>
-              3. Mở ứng dụng ngân hàng quét mã <strong>VietQR động</strong> (đã điền sẵn số tiền và nội dung chuyển khoản riêng của bạn) rồi bấm xác nhận.<br>
-              4. Quản trị viên Vi An Y Quán sẽ đối soát và kích hoạt VIP trong vòng <strong>1 – 5 phút</strong> (hoặc liên hệ Hotline/Zalo <strong>0936.380.666</strong> để được duyệt ngay lập tức).
-            </p>
           </div>
         </div>
 
         <!-- Câu 5 -->
-        <div class="qa-item" data-keywords="goi 1 nam tron doi khac nhau quyen loi 399000 799000">
+        <div class="qa-item" data-keywords="goc nhin nhan huyet ten viet ma who chi diem an kinh huyet khi luu dich chuyen pan">
           <button class="qa-question-btn">
-            <span class="q-icon">⭐</span>
-            <span class="q-text">5. Gói Hội Viên 1 Năm (399k) khác gì Gói Chuyên Gia Trọn Đời (799k)?</span>
+            <span class="q-icon">🏷️</span>
+            <span class="q-text">5. Cách điều khiển Góc nhìn, Chế độ Nhãn Huyệt, Ẩn/Hiện Toàn Bộ Kinh Huyệt & Dẫn truyền Khí lưu?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              Cả hai gói đều mở khóa <strong>100% ĐẦY ĐỦ TÍNH NĂNG NHƯ NHAU</strong>: Trọn bộ 419 huyệt vị YHCT (779 điểm 3D), hướng châm – độ sâu an toàn & cảnh báo tai biến giải phẫu, toàn bộ phác đồ điều trị đa thể bệnh, bóc tách 7 hệ giải phẫu Z-Anatomy và tính toán Tý Ngọ Lưu Chú.
+              Trên thanh công cụ nổi (HUD) ở phía trên màn hình 3D, bạn có thể thao tác nhanh:
             </p>
-            <p>
-              <strong>Điểm khác biệt:</strong> Gói 1 Năm (<code>399.000 đ</code>) có hạn sử dụng 365 ngày; Gói Chuyên Gia Trọn Đời (<code>799.000 đ</code>) chỉ thanh toán 1 lần duy nhất để sở hữu vĩnh viễn, không tốn phí duy trì hàng năm và được <strong>cập nhật miễn phí trọn đời</strong> mọi mô hình 3D, phác đồ bệnh học & tính năng mới trong tương lai.
-            </p>
+            <ul>
+              <li><strong>👁️ Góc nhìn (Mặt trước ↷ & ↺ Toàn thân):</strong> Bấm <code>Mặt trước ↷</code> để xoay nhanh 90° qua 4 hướng chuẩn (<em>Mặt trước ➔ Nghiêng trái ➔ Mặt sau ➔ Nghiêng phải</em>); bấm <code>↺ Toàn thân</code> để đưa camera về góc nhìn bao quát chuẩn.</li>
+              <li><strong>🏷️ Nút Chế độ Nhãn & Ẩn/Hiện Kinh Huyệt (4 chế độ xoay vòng trong 1 nút):</strong> Nhấp liên tiếp để chuyển đổi giữa:
+                <br>1. <code>🏷️ Tên Việt</code> (chỉ hiện tên tiếng Việt gọn gàng)
+                <br>2. <code>🔢 Mã + Tên</code> (hiện cả mã quốc tế WHO và tên tiếng Việt)
+                <br>3. <code>📍 Chỉ Điểm</code> (ẩn chữ, chỉ hiện chấm huyệt và đường kinh)
+                <br>4. <code>🚫 Ẩn Kinh/Huyệt</code> (<strong>ẩn sạch toàn bộ 14 đường kinh và 419 huyệt vị</strong> để bạn tập trung soi Giải Phẫu 3D; nhấp thêm 1 lần sẽ quay lại <code>🏷️ Tên Việt</code> và hiện lại toàn bộ kinh huyệt).
+              </li>
+              <li><strong>⚡ Khí lưu:</strong> Bật/tắt hiệu ứng dòng hạt năng lượng vận hành dọc theo đường kinh.</li>
+              <li><strong>➕ / ➖ & ✥ Dịch chuyển:</strong> Phóng to, thu nhỏ hoặc chuyển chuột trái / 1 ngón tay sang chế độ kéo trượt ngang – dọc (Pan).</li>
+            </ul>
           </div>
         </div>
 
         <!-- Câu 6 -->
-        <div class="qa-item" data-keywords="thiet bi dien thoai ipad may tinh toi da 3">
+        <div class="qa-item" data-keywords="nang cap vip dang ky chuyen khoan vietqr gia tien 399k 799k goi 1 nam tron doi">
           <button class="qa-question-btn">
-            <span class="q-icon">📱</span>
-            <span class="q-text">6. Một tài khoản VIP được dùng trên bao nhiêu thiết bị?</span>
+            <span class="q-icon">⚡</span>
+            <span class="q-text">6. Bảng giá, Quyền lợi và Cách đăng ký kích hoạt Gói Hội Viên VIP (1 Năm / Trọn Đời)?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              Mỗi tài khoản VIP cá nhân được đăng nhập và sử dụng đồng thời trên <strong>tối đa 03 (ba) thiết bị cá nhân</strong> (ví dụ: 1 Điện thoại + 1 iPad/Máy tính bảng + 1 Máy tính bàn/Laptop) phục vụ nhu cầu học tập, giảng dạy và khám chữa bệnh linh hoạt của chính chủ.
+              <strong>Bản Miễn Phí (Free)</strong> mở sẵn Lớp Da Ngoài, Khung Xương 3D (242 xương) cùng các huyệt vị và bệnh lý tiêu biểu. Khi nâng cấp <strong>Hội Viên VIP</strong>, bạn mở khóa <strong>100% tính năng chuyên sâu</strong>: Trọn bộ 419 huyệt vị (hướng châm, độ sâu an toàn, cảnh báo giải phẫu, tâm đắc lâm sàng), toàn bộ 50 phác đồ bệnh học đa thể bệnh, và trọn bộ 8 tầng giải phẫu Z-Anatomy (Cơ Nông, Cơ Sâu, Động/Tĩnh Mạch, Thần Kinh, Lục Phủ Ngũ Tạng, Bạch Huyết, Dao Mổ Số & X-Ray):
             </p>
+            <ul>
+              <li><strong>Gói Hội Viên VIP 1 Năm (365 ngày):</strong> <code>399.000 đ</code></li>
+              <li><strong>Gói Chuyên Gia VIP Trọn Đời (Sở hữu vĩnh viễn):</strong> <code>799.000 đ</code> — thanh toán 1 lần duy nhất, miễn phí toàn bộ bản cập nhật mô hình 3D, tính năng và phác đồ mới trọn đời.</li>
+            </ul>
             <p>
-              Khi đăng nhập thiết bị thứ 4, hệ thống sẽ tự động ngắt kết nối thiết bị cũ nhất. Nghiêm cấm hành vi chia sẻ công khai, cho thuê hoặc bán lại tài khoản cho bên thứ ba.
+              <strong>Quy trình kích hoạt tự động:</strong> Bấm <strong>"⚡ Nâng Cấp VIP"</strong> trên thanh công cụ ➔ Đăng nhập/Đăng ký bằng Email (10 giây) ➔ Chọn gói ➔ Quét mã <strong>VietQR động</strong> bằng ứng dụng ngân hàng ➔ Bấm xác nhận. Hệ thống/Quản trị viên sẽ kích hoạt VIP trong <strong>1 – 5 phút</strong> (hoặc nhắn Zalo/Hotline <strong>0936.380.666</strong> để mở khóa tức thì).
             </p>
           </div>
         </div>
 
         <!-- Câu 7 -->
-        <div class="qa-item" data-keywords="tai ve may offline cache toc do muot ban quyen dung luong pwa">
+        <div class="qa-item" data-keywords="thiet bi dien thoai ipad may tinh toi da 3 tai ve may offline cache toc do muot pwa">
           <button class="qa-question-btn">
             <span class="q-icon">🚀</span>
-            <span class="q-text">7. Cơ chế tự tải mô hình 3D về máy để chạy mượt Offline & Cài Đặt App (PWA) hoạt động thế nào?</span>
+            <span class="q-text">7. Số thiết bị sử dụng, Cơ chế tải ngầm Offline 0s & Cách cài ra màn hình chính (PWA)?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
-            <p>
-              Để giữ nguyên <strong>100% độ sắc nét giải phẫu gốc không nén</strong> mà vẫn khởi động tức thì (<code>0 giây</code>), ngay sau khi bạn mở ứng dụng lần đầu, hệ thống sẽ <strong>tự động tải ngầm các tầng giải phẫu 3D vào Bộ nhớ đệm bảo mật (Sandboxed CacheStorage & IndexedDB)</strong> của trình duyệt trên thiết bị. Từ lần truy cập thứ 2 trở đi, ứng dụng đọc trực tiếp từ bộ nhớ đệm trên máy bạn nên xoay/bóc tách siêu mượt mà không cần tải lại mạng.
-            </p>
-            <p>
-              <strong>Mẹo cài ra màn hình chính như App (PWA):</strong>
-            </p>
             <ul>
-              <li><strong>Trên iPhone / iPad (Safari):</strong> Nhấp nút <strong>Chia sẻ (Share)</strong> ➔ Chọn <strong>"Thêm vào Màn hình chính" (Add to Home Screen)</strong>.</li>
-              <li><strong>Trên Android / Máy tính (Chrome, Edge):</strong> Nhấp biểu tượng <strong>Cài đặt ứng dụng (Install)</strong> trên thanh địa chỉ hoặc menu 3 chấm ➔ <strong>"Thêm vào màn hình chính"</strong>.</li>
+              <li><strong>Sử dụng tối đa 03 thiết bị cá nhân:</strong> Mỗi tài khoản VIP được đăng nhập đồng thời trên tối đa <strong>03 thiết bị</strong> (ví dụ: 1 Điện thoại + 1 iPad + 1 Máy tính). Khi đăng nhập thiết bị thứ 4, hệ thống tự động ngắt thiết bị cũ nhất.</li>
+              <li><strong>Tự động lưu bộ nhớ đệm Offline (Khởi động 0 giây):</strong> Ngay ở lần mở đầu tiên, ứng dụng tự động tải ngầm trọn bộ 7 hệ giải phẫu 3D (163 MB dữ liệu gốc không nén) vào bộ nhớ đệm bảo mật (CacheStorage & IndexedDB) trên thiết bị, giúp từ lần truy cập thứ 2 trở đi mở và bóc tách các tầng giải phẫu tức thì (<code>0 giây</code>).</li>
+              <li><strong>Cách cài ra Màn hình chính như App (PWA):</strong>
+                <br>• <strong>Trên iPhone / iPad (Safari):</strong> Bấm nút <strong>Chia sẻ (Share)</strong> ➔ Chọn <strong>"Thêm vào Màn hình chính" (Add to Home Screen)</strong>.
+                <br>• <strong>Trên Android / Máy tính (Chrome, Edge):</strong> Bấm biểu tượng <strong>Cài đặt ứng dụng</strong> trên thanh địa chỉ hoặc menu 3 chấm ➔ <strong>"Cài đặt ứng dụng / Thêm vào màn hình chính"</strong>.
+              </li>
             </ul>
           </div>
         </div>
@@ -2680,12 +2728,12 @@
         <div class="qa-item" data-keywords="lien he hotline ho tro ky thuat chuyen mon vi an y quan dieu khoan ban quyen">
           <button class="qa-question-btn">
             <span class="q-icon">📞</span>
-            <span class="q-text">8. Thông tin Bản quyền, Điều khoản dịch vụ & Liên hệ hỗ trợ chuyên môn YHCT?</span>
+            <span class="q-text">8. Thông tin Bản quyền, Miễn trừ trách nhiệm Y khoa & Liên hệ hỗ trợ 24/7?</span>
             <span class="q-arrow">▾</span>
           </button>
           <div class="qa-answer-body">
             <p>
-              Nền tảng giải phẫu 3D được kế thừa từ dự án quốc tế <strong>Z-Anatomy (CC BY-SA 4.0)</strong>; toàn bộ hệ thống bản đồ số 419 huyệt vị & 14 kinh lạc, phác đồ bệnh học Đông – Tây y, thuật toán Tý Ngọ Lưu Chú và kiến trúc phần mềm thuộc bản quyền sở hữu trí tuệ của <strong>Tác giả Trịnh Tiến Đạt (Vi An Y Quán)</strong>.
+              Dữ liệu lưới giải phẫu 3D kế thừa từ dự án khoa học mở <strong>Z-Anatomy (CC BY-SA 4.0)</strong>; toàn bộ hệ thống bản đồ số 419 huyệt vị & 14 kinh lạc, thuật toán Thời Châm Học, từ điển giải phẫu – huyệt đạo Việt hóa, phác đồ bệnh học Đông – Tây y và kiến trúc phần mềm thuộc bản quyền của <strong>Tác giả Trịnh Tiến Đạt (Vi An Y Quán)</strong>. Thông tin trong ứng dụng phục vụ mục đích tra cứu học thuật và hỗ trợ chuyên môn, không thay thế việc khám, chẩn đoán trực tiếp của bác sĩ tại cơ sở y tế.
             </p>
             <ul>
               <li><strong>Hotline / Zalo hỗ trợ 24/7:</strong> <a href="tel:0936380666" class="qa-link"><strong>0936.380.666</strong></a> (Thầy thuốc Trịnh Tiến Đạt)</li>
