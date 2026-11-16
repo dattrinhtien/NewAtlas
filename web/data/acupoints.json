@@ -5,9 +5,9 @@
     "name_cn": "中府",
     "channel_id": "LU",
     "position": {
-      "x": 0.12341,
-      "y": 1.39209,
-      "z": 0.05979
+      "x": 0.11817,
+      "y": 1.38943,
+      "z": 0.05577
     },
     "region": "Ngực trước",
     "indications": [
@@ -102,9 +102,9 @@
     "name_cn": "侠白",
     "channel_id": "LU",
     "position": {
-      "x": 0.22245,
-      "y": 1.21214,
-      "z": 0.00427
+      "x": 0.22236,
+      "y": 1.21231,
+      "z": 0.00348
     },
     "region": "Cánh tay trên",
     "indications": [
@@ -131,9 +131,9 @@
     "name_cn": "尺泽",
     "channel_id": "LU",
     "position": {
-      "x": 0.23869,
-      "y": 1.12293,
-      "z": -0.01182
+      "x": 0.23873,
+      "y": 1.12416,
+      "z": -0.00655
     },
     "region": "Khuỷu tay",
     "indications": [
@@ -204,9 +204,9 @@
     "name_cn": "列缺",
     "channel_id": "LU",
     "position": {
-      "x": 0.29535,
-      "y": 0.90677,
-      "z": 0.01921
+      "x": 0.29384,
+      "y": 0.90629,
+      "z": 0.01792
     },
     "region": "Cẳng tay",
     "indications": [
@@ -241,9 +241,9 @@
     "name_cn": "经渠",
     "channel_id": "LU",
     "position": {
-      "x": 0.29626,
-      "y": 0.8962,
-      "z": 0.02276
+      "x": 0.29441,
+      "y": 0.89568,
+      "z": 0.02115
     },
     "region": "Cẳng tay",
     "indications": [
@@ -276,9 +276,9 @@
     "name_cn": "太淵",
     "channel_id": "LU",
     "position": {
-      "x": 0.29632,
-      "y": 0.87344,
-      "z": 0.04378
+      "x": 0.29358,
+      "y": 0.86995,
+      "z": 0.04173
     },
     "region": "Cổ tay",
     "indications": [
@@ -311,9 +311,9 @@
     "name_cn": "鱼际",
     "channel_id": "LU",
     "position": {
-      "x": 0.31225,
-      "y": 0.84892,
-      "z": 0.05747
+      "x": 0.3096,
+      "y": 0.84624,
+      "z": 0.05366
     },
     "region": "Lòng bàn tay",
     "indications": [
@@ -445,9 +445,9 @@
     "name_cn": "三間",
     "channel_id": "LI",
     "position": {
-      "x": 0.31265,
-      "y": 0.7921,
-      "z": 0.01645
+      "x": 0.31094,
+      "y": 0.79159,
+      "z": 0.01829
     },
     "region": "Bàn tay",
     "indications": [
@@ -476,9 +476,9 @@
     "name_cn": "合谷",
     "channel_id": "LI",
     "position": {
-      "x": 0.30186,
-      "y": 0.82542,
-      "z": 0.02023
+      "x": 0.30453,
+      "y": 0.82563,
+      "z": 0.01677
     },
     "region": "Bàn tay",
     "indications": [
@@ -624,9 +624,9 @@
     "name_cn": "下廉",
     "channel_id": "LI",
     "position": {
-      "x": 0.2881,
-      "y": 1.02948,
-      "z": -0.00323
+      "x": 0.28661,
+      "y": 1.02943,
+      "z": -0.0041
     },
     "region": "Cẳng tay",
     "indications": [
@@ -650,9 +650,9 @@
     "name_cn": "上廉",
     "channel_id": "LI",
     "position": {
-      "x": 0.28712,
-      "y": 1.04846,
-      "z": -0.0022
+      "x": 0.28458,
+      "y": 1.04816,
+      "z": -0.00396
     },
     "region": "Cẳng tay",
     "indications": [
@@ -679,9 +679,9 @@
     "name_cn": "手三里",
     "channel_id": "LI",
     "position": {
-      "x": 0.28577,
-      "y": 1.07161,
-      "z": -0.00416
+      "x": 0.28187,
+      "y": 1.07084,
+      "z": -0.00542
     },
     "region": "Cẳng tay",
     "indications": [
@@ -710,9 +710,9 @@
     "name_cn": "曲池",
     "channel_id": "LI",
     "position": {
-      "x": 0.27841,
-      "y": 1.12069,
-      "z": -0.02928
+      "x": 0.27387,
+      "y": 1.11905,
+      "z": -0.02956
     },
     "region": "Khuỷu tay",
     "indications": [
@@ -749,9 +749,9 @@
     "name_cn": "肘髎",
     "channel_id": "LI",
     "position": {
-      "x": 0.25925,
-      "y": 1.16724,
-      "z": -0.04042
+      "x": 0.25668,
+      "y": 1.16642,
+      "z": -0.04016
     },
     "region": "Khuỷu tay",
     "indications": [
@@ -955,9 +955,9 @@
     "name_cn": "口禾髎",
     "channel_id": "LI",
     "position": {
-      "x": 0.01705,
-      "y": 1.58597,
-      "z": 0.09447
+      "x": 0.01343,
+      "y": 1.5841,
+      "z": 0.0882
     },
     "region": "Vùng mặt",
     "indications": [
@@ -984,9 +984,9 @@
     "name_cn": "迎香",
     "channel_id": "LI",
     "position": {
-      "x": 0.01892,
-      "y": 1.59402,
-      "z": 0.08954
+      "x": 0.016,
+      "y": 1.59487,
+      "z": 0.08904
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1016,9 +1016,9 @@
     "name_cn": "承泣",
     "channel_id": "ST",
     "position": {
-      "x": 0.02929,
-      "y": 1.62044,
-      "z": 0.085
+      "x": 0.02651,
+      "y": 1.6163,
+      "z": 0.07383
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1044,9 +1044,9 @@
     "name_cn": "四白",
     "channel_id": "ST",
     "position": {
-      "x": 0.03133,
-      "y": 1.60836,
-      "z": 0.08325
+      "x": 0.02938,
+      "y": 1.60666,
+      "z": 0.07646
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1073,9 +1073,9 @@
     "name_cn": "巨髎",
     "channel_id": "ST",
     "position": {
-      "x": 0.02567,
-      "y": 1.59014,
-      "z": 0.08418
+      "x": 0.02342,
+      "y": 1.58871,
+      "z": 0.08036
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1104,9 +1104,9 @@
     "name_cn": "地倉",
     "channel_id": "ST",
     "position": {
-      "x": 0.02793,
-      "y": 1.56841,
-      "z": 0.08774
+      "x": 0.02227,
+      "y": 1.57471,
+      "z": 0.08062
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1132,9 +1132,9 @@
     "name_cn": "大迎",
     "channel_id": "ST",
     "position": {
-      "x": 0.03983,
-      "y": 1.54742,
-      "z": 0.06074
+      "x": 0.03629,
+      "y": 1.54918,
+      "z": 0.05841
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1194,9 +1194,9 @@
     "name_cn": "下关",
     "channel_id": "ST",
     "position": {
-      "x": 0.0691,
-      "y": 1.60449,
-      "z": -0.00707
+      "x": 0.07043,
+      "y": 1.60657,
+      "z": -0.00482
     },
     "region": "Vùng mặt",
     "indications": [
@@ -1230,9 +1230,9 @@
     "name_cn": "头维",
     "channel_id": "ST",
     "position": {
-      "x": 0.06087,
-      "y": 1.68961,
-      "z": 0.05846
+      "x": 0.05379,
+      "y": 1.68762,
+      "z": 0.05395
     },
     "region": "Vùng đầu",
     "indications": [
@@ -1259,9 +1259,9 @@
     "name_cn": "人迎",
     "channel_id": "ST",
     "position": {
-      "x": 0.03736,
-      "y": 1.48905,
-      "z": 0.03741
+      "x": 0.03645,
+      "y": 1.48862,
+      "z": 0.03608
     },
     "region": "Cổ gáy",
     "indications": [
@@ -1321,9 +1321,9 @@
     "name_cn": "气舍",
     "channel_id": "ST",
     "position": {
-      "x": 0.06569,
-      "y": 1.45459,
-      "z": 0.03436
+      "x": 0.06505,
+      "y": 1.45369,
+      "z": 0.03357
     },
     "region": "Cổ gáy",
     "indications": [
@@ -1979,9 +1979,9 @@
     "name_cn": "阴市",
     "channel_id": "ST",
     "position": {
-      "x": 0.09728,
-      "y": 0.55055,
-      "z": 0.0459
+      "x": 0.09708,
+      "y": 0.55111,
+      "z": 0.04296
     },
     "region": "Đùi",
     "indications": [
@@ -2006,9 +2006,9 @@
     "name_cn": "梁丘",
     "channel_id": "ST",
     "position": {
-      "x": 0.10009,
-      "y": 0.52644,
-      "z": 0.03742
+      "x": 0.09938,
+      "y": 0.52741,
+      "z": 0.03508
     },
     "region": "Đùi",
     "indications": [
@@ -2036,9 +2036,9 @@
     "name_cn": "犢鼻",
     "channel_id": "ST",
     "position": {
-      "x": 0.10214,
-      "y": 0.43238,
-      "z": 0.00915
+      "x": 0.09854,
+      "y": 0.43357,
+      "z": 0.0038
     },
     "region": "Khớp gối",
     "indications": [
@@ -2230,9 +2230,9 @@
     "name_cn": "解溪",
     "channel_id": "ST",
     "position": {
-      "x": 0.09448,
-      "y": 0.07956,
-      "z": 0.00112
+      "x": 0.09668,
+      "y": 0.08423,
+      "z": 0.00444
     },
     "region": "Cổ chân",
     "indications": [
@@ -2696,9 +2696,9 @@
     "name_cn": "血海",
     "channel_id": "SP",
     "position": {
-      "x": 0.05569,
-      "y": 0.52535,
-      "z": 0.03314
+      "x": 0.05795,
+      "y": 0.52689,
+      "z": 0.02829
     },
     "region": "Đùi",
     "indications": [
@@ -2938,9 +2938,9 @@
     "name_cn": "天谿",
     "channel_id": "SP",
     "position": {
-      "x": 0.12837,
-      "y": 1.29678,
-      "z": 0.09974
+      "x": 0.12297,
+      "y": 1.29755,
+      "z": 0.09847
     },
     "region": "Ngực trước",
     "indications": [
@@ -2969,9 +2969,9 @@
     "name_cn": "胸乡",
     "channel_id": "SP",
     "position": {
-      "x": 0.12964,
-      "y": 1.3343,
-      "z": 0.09635
+      "x": 0.12267,
+      "y": 1.33291,
+      "z": 0.09366
     },
     "region": "Ngực trước",
     "indications": [
@@ -2994,9 +2994,9 @@
     "name_cn": "周荣",
     "channel_id": "SP",
     "position": {
-      "x": 0.12795,
-      "y": 1.36437,
-      "z": 0.08173
+      "x": 0.12018,
+      "y": 1.36196,
+      "z": 0.07963
     },
     "region": "Ngực trước",
     "indications": [
@@ -3058,9 +3058,9 @@
     "name_cn": "极泉",
     "channel_id": "HT",
     "position": {
-      "x": 0.17183,
-      "y": 1.35019,
-      "z": 0.00222
+      "x": 0.17393,
+      "y": 1.3514,
+      "z": -0.00024
     },
     "region": "Hố nách",
     "indications": [
@@ -3087,9 +3087,9 @@
     "name_cn": "青靈",
     "channel_id": "HT",
     "position": {
-      "x": 0.18816,
-      "y": 1.21574,
-      "z": 0.00206
+      "x": 0.19922,
+      "y": 1.21746,
+      "z": -0.00717
     },
     "region": "Cánh tay trên",
     "indications": [
@@ -3116,9 +3116,9 @@
     "name_cn": "少海",
     "channel_id": "HT",
     "position": {
-      "x": 0.18882,
-      "y": 1.11935,
-      "z": -0.01715
+      "x": 0.19387,
+      "y": 1.11963,
+      "z": -0.01925
     },
     "region": "Khuỷu tay",
     "indications": [
@@ -3146,9 +3146,9 @@
     "name_cn": "灵道",
     "channel_id": "HT",
     "position": {
-      "x": 0.24111,
-      "y": 0.90373,
-      "z": 0.02207
+      "x": 0.2421,
+      "y": 0.90372,
+      "z": 0.02162
     },
     "region": "Cẳng tay",
     "indications": [
@@ -3175,9 +3175,9 @@
     "name_cn": "通里",
     "channel_id": "HT",
     "position": {
-      "x": 0.24232,
-      "y": 0.89276,
-      "z": 0.02742
+      "x": 0.24437,
+      "y": 0.89278,
+      "z": 0.02631
     },
     "region": "Cẳng tay",
     "indications": [
@@ -3206,9 +3206,9 @@
     "name_cn": "阴郄",
     "channel_id": "HT",
     "position": {
-      "x": 0.24506,
-      "y": 0.88162,
-      "z": 0.03425
+      "x": 0.24702,
+      "y": 0.88108,
+      "z": 0.03291
     },
     "region": "Cẳng tay",
     "indications": [
@@ -3241,9 +3241,9 @@
     "name_cn": "神門",
     "channel_id": "HT",
     "position": {
-      "x": 0.24443,
-      "y": 0.87154,
-      "z": 0.03801
+      "x": 0.24676,
+      "y": 0.87148,
+      "z": 0.03557
     },
     "region": "Cổ tay",
     "indications": [
@@ -3274,9 +3274,9 @@
     "name_cn": "少府",
     "channel_id": "HT",
     "position": {
-      "x": 0.24949,
-      "y": 0.81075,
-      "z": 0.05361
+      "x": 0.24963,
+      "y": 0.81061,
+      "z": 0.05233
     },
     "region": "Lòng bàn tay",
     "indications": [
@@ -3371,9 +3371,9 @@
     "name_cn": "前谷",
     "channel_id": "SI",
     "position": {
-      "x": 0.23885,
-      "y": 0.78409,
-      "z": 0.02979
+      "x": 0.23954,
+      "y": 0.78448,
+      "z": 0.03072
     },
     "region": "Ngón tay",
     "indications": [
@@ -3402,9 +3402,9 @@
     "name_cn": "后溪",
     "channel_id": "SI",
     "position": {
-      "x": 0.23938,
-      "y": 0.80626,
-      "z": 0.01788
+      "x": 0.24042,
+      "y": 0.80635,
+      "z": 0.0188
     },
     "region": "Ngón tay",
     "indications": [
@@ -3439,9 +3439,9 @@
     "name_cn": "腕骨",
     "channel_id": "SI",
     "position": {
-      "x": 0.24509,
-      "y": 0.84077,
-      "z": 0.00791
+      "x": 0.24714,
+      "y": 0.84108,
+      "z": 0.00944
     },
     "region": "Cổ tay",
     "indications": [
@@ -3504,9 +3504,9 @@
     "name_cn": "养老",
     "channel_id": "SI",
     "position": {
-      "x": 0.24127,
-      "y": 0.89237,
-      "z": -0.00458
+      "x": 0.24329,
+      "y": 0.89297,
+      "z": -0.00364
     },
     "region": "Cẳng tay",
     "indications": [
@@ -3567,9 +3567,9 @@
     "name_cn": "小海",
     "channel_id": "SI",
     "position": {
-      "x": 0.20309,
-      "y": 1.1125,
-      "z": -0.04845
+      "x": 0.20052,
+      "y": 1.11185,
+      "z": -0.05049
     },
     "region": "Khuỷu tay",
     "indications": [
@@ -3653,9 +3653,9 @@
     "name_cn": "天宗",
     "channel_id": "SI",
     "position": {
-      "x": 0.11105,
-      "y": 1.33392,
-      "z": -0.11943
+      "x": 0.10629,
+      "y": 1.33475,
+      "z": -0.11566
     },
     "region": "Bả vai & Lưng trên",
     "indications": [
@@ -3759,9 +3759,9 @@
     "name_cn": "肩中俞",
     "channel_id": "SI",
     "position": {
-      "x": 0.03339,
-      "y": 1.48518,
-      "z": -0.0875
+      "x": 0.0332,
+      "y": 1.48444,
+      "z": -0.08665
     },
     "region": "Vùng lưng",
     "indications": [
@@ -3850,9 +3850,9 @@
     "name_cn": "颧髎",
     "channel_id": "SI",
     "position": {
-      "x": 0.0386,
-      "y": 1.58483,
-      "z": 0.07333
+      "x": 0.0373,
+      "y": 1.58517,
+      "z": 0.07142
     },
     "region": "Vùng mặt",
     "indications": [
@@ -3879,9 +3879,9 @@
     "name_cn": "聽宮",
     "channel_id": "SI",
     "position": {
-      "x": 0.07037,
-      "y": 1.61278,
-      "z": -0.00508
+      "x": 0.06801,
+      "y": 1.61362,
+      "z": -0.00378
     },
     "region": "Vùng mặt",
     "indications": [
@@ -3910,9 +3910,9 @@
     "name_cn": "睛明",
     "channel_id": "BL",
     "position": {
-      "x": 0.01581,
-      "y": 1.63188,
-      "z": 0.08384
+      "x": 0.0093,
+      "y": 1.62958,
+      "z": 0.08176
     },
     "region": "Vùng mặt",
     "indications": [
@@ -3939,9 +3939,9 @@
     "name_cn": "攢竹",
     "channel_id": "BL",
     "position": {
-      "x": 0.01972,
-      "y": 1.64738,
-      "z": 0.0922
+      "x": 0.01796,
+      "y": 1.65306,
+      "z": 0.08419
     },
     "region": "Vùng đầu",
     "indications": [
@@ -3968,9 +3968,9 @@
     "name_cn": "眉冲",
     "channel_id": "BL",
     "position": {
-      "x": 0.02147,
-      "y": 1.68339,
-      "z": 0.09506
+      "x": 0.01896,
+      "y": 1.68004,
+      "z": 0.08232
     },
     "region": "Vùng đầu",
     "indications": [
@@ -3997,9 +3997,9 @@
     "name_cn": "曲差",
     "channel_id": "BL",
     "position": {
-      "x": 0.02469,
-      "y": 1.69495,
-      "z": 0.09142
+      "x": 0.02212,
+      "y": 1.69188,
+      "z": 0.07875
     },
     "region": "Vùng đầu",
     "indications": [
@@ -4026,9 +4026,9 @@
     "name_cn": "五处",
     "channel_id": "BL",
     "position": {
-      "x": 0.02719,
-      "y": 1.70563,
-      "z": 0.08258
+      "x": 0.02499,
+      "y": 1.70161,
+      "z": 0.07367
     },
     "region": "Vùng đầu",
     "indications": [
@@ -4053,9 +4053,9 @@
     "name_cn": "承光",
     "channel_id": "BL",
     "position": {
-      "x": 0.04784,
-      "y": 1.73987,
-      "z": -0.02189
+      "x": 0.04579,
+      "y": 1.73659,
+      "z": -0.02218
     },
     "region": "Vùng đầu",
     "indications": [
@@ -4082,9 +4082,9 @@
     "name_cn": "通天",
     "channel_id": "BL",
     "position": {
-      "x": 0.03492,
-      "y": 1.74389,
-      "z": -0.0511
+      "x": 0.03391,
+      "y": 1.7418,
+      "z": -0.05085
     },
     "region": "Vùng đầu",
     "indications": [
@@ -4113,9 +4113,9 @@
     "name_cn": "络却",
     "channel_id": "BL",
     "position": {
-      "x": 0.03612,
-      "y": 1.70837,
-      "z": -0.10287
+      "x": 0.03151,
+      "y": 1.70374,
+      "z": -0.09423
     },
     "region": "Vùng đầu",
     "indications": [
@@ -4142,9 +4142,9 @@
     "name_cn": "玉枕",
     "channel_id": "BL",
     "position": {
-      "x": 0.03698,
-      "y": 1.6797,
-      "z": -0.11629
+      "x": 0.032,
+      "y": 1.67664,
+      "z": -0.10429
     },
     "region": "Vùng đầu",
     "indications": [
@@ -5104,9 +5104,9 @@
     "name_cn": "委阳",
     "channel_id": "BL",
     "position": {
-      "x": 0.08513,
-      "y": 0.51772,
-      "z": -0.04609
+      "x": 0.08742,
+      "y": 0.51671,
+      "z": -0.0643
     },
     "region": "Khớp gối",
     "indications": [
@@ -5135,9 +5135,9 @@
     "name_cn": "委中",
     "channel_id": "BL",
     "position": {
-      "x": 0.08789,
-      "y": 0.45318,
-      "z": -0.0813
+      "x": 0.08788,
+      "y": 0.45282,
+      "z": -0.08042
     },
     "region": "Khớp gối",
     "indications": [
@@ -5759,9 +5759,9 @@
     "name_cn": "昆仑",
     "channel_id": "BL",
     "position": {
-      "x": 0.12484,
-      "y": 0.06698,
-      "z": -0.06982
+      "x": 0.11536,
+      "y": 0.06833,
+      "z": -0.06767
     },
     "region": "Cổ chân",
     "indications": [
@@ -5794,9 +5794,9 @@
     "name_cn": "仆参",
     "channel_id": "BL",
     "position": {
-      "x": 0.12478,
-      "y": 0.05981,
-      "z": -0.06878
+      "x": 0.11497,
+      "y": 0.06056,
+      "z": -0.0663
     },
     "region": "Bàn chân",
     "indications": [
@@ -5821,9 +5821,9 @@
     "name_cn": "申脈",
     "channel_id": "BL",
     "position": {
-      "x": 0.10875,
-      "y": 0.04728,
-      "z": -0.05695
+      "x": 0.11394,
+      "y": 0.04678,
+      "z": -0.05691
     },
     "region": "Bàn chân",
     "indications": [
@@ -5883,9 +5883,9 @@
     "name_cn": "京骨",
     "channel_id": "BL",
     "position": {
-      "x": 0.13295,
-      "y": 0.02321,
-      "z": 0.01392
+      "x": 0.13569,
+      "y": 0.02497,
+      "z": 0.01349
     },
     "region": "Bàn chân",
     "indications": [
@@ -6015,9 +6015,9 @@
     "name_cn": "涌泉",
     "channel_id": "KI",
     "position": {
-      "x": 0.09505,
-      "y": 0.00039,
-      "z": 0.0461
+      "x": 0.09585,
+      "y": -0.00712,
+      "z": 0.04508
     },
     "region": "Lòng bàn chân",
     "indications": [
@@ -6052,9 +6052,9 @@
     "name_cn": "然谷",
     "channel_id": "KI",
     "position": {
-      "x": 0.05546,
-      "y": 0.05758,
-      "z": -0.0034
+      "x": 0.06079,
+      "y": 0.05635,
+      "z": -0.00441
     },
     "region": "Bàn chân",
     "indications": [
@@ -6093,9 +6093,9 @@
     "name_cn": "太溪",
     "channel_id": "KI",
     "position": {
-      "x": 0.04787,
-      "y": 0.08514,
-      "z": -0.05872
+      "x": 0.05573,
+      "y": 0.08466,
+      "z": -0.05607
     },
     "region": "Cổ chân",
     "indications": [
@@ -6126,9 +6126,9 @@
     "name_cn": "大钟",
     "channel_id": "KI",
     "position": {
-      "x": 0.05625,
-      "y": 0.05064,
-      "z": -0.07315
+      "x": 0.05893,
+      "y": 0.05031,
+      "z": -0.07167
     },
     "region": "Bàn chân",
     "indications": [
@@ -6161,9 +6161,9 @@
     "name_cn": "水泉",
     "channel_id": "KI",
     "position": {
-      "x": 0.04862,
-      "y": 0.05756,
-      "z": -0.06292
+      "x": 0.05535,
+      "y": 0.05721,
+      "z": -0.06161
     },
     "region": "Bàn chân",
     "indications": [
@@ -6324,9 +6324,9 @@
     "name_cn": "阴谷",
     "channel_id": "KI",
     "position": {
-      "x": 0.03165,
-      "y": 0.4466,
-      "z": -0.05144
+      "x": 0.03334,
+      "y": 0.44683,
+      "z": -0.05083
     },
     "region": "Khớp gối",
     "indications": [
@@ -6918,9 +6918,9 @@
     "name_cn": "天泉",
     "channel_id": "PC",
     "position": {
-      "x": 0.2038,
-      "y": 1.29127,
-      "z": 0.01178
+      "x": 0.20678,
+      "y": 1.29092,
+      "z": 0.0071
     },
     "region": "Cánh tay trên",
     "indications": [
@@ -6981,9 +6981,9 @@
     "name_cn": "郄门",
     "channel_id": "PC",
     "position": {
-      "x": 0.25068,
-      "y": 0.97652,
-      "z": 0.02852
+      "x": 0.25055,
+      "y": 0.97638,
+      "z": 0.02734
     },
     "region": "Cẳng tay",
     "indications": [
@@ -7015,9 +7015,9 @@
     "name_cn": "间使",
     "channel_id": "PC",
     "position": {
-      "x": 0.25889,
-      "y": 0.93854,
-      "z": 0.0314
+      "x": 0.2586,
+      "y": 0.93846,
+      "z": 0.03027
     },
     "region": "Cẳng tay",
     "indications": [
@@ -7050,9 +7050,9 @@
     "name_cn": "内关",
     "channel_id": "PC",
     "position": {
-      "x": 0.26264,
-      "y": 0.91823,
-      "z": 0.03278
+      "x": 0.26235,
+      "y": 0.91807,
+      "z": 0.03161
     },
     "region": "Cẳng tay",
     "indications": [
@@ -7150,9 +7150,9 @@
     "name_cn": "中衝",
     "channel_id": "PC",
     "position": {
-      "x": 0.30366,
+      "x": 0.30284,
       "y": 0.71474,
-      "z": 0.08526
+      "z": 0.08545
     },
     "region": "Ngón tay",
     "indications": [
@@ -7181,9 +7181,9 @@
     "name_cn": "关冲",
     "channel_id": "TE",
     "position": {
-      "x": 0.27632,
-      "y": 0.72804,
-      "z": 0.08143
+      "x": 0.27357,
+      "y": 0.72733,
+      "z": 0.08043
     },
     "region": "Ngón tay",
     "indications": [
@@ -7211,9 +7211,9 @@
     "name_cn": "液门",
     "channel_id": "TE",
     "position": {
-      "x": 0.25829,
-      "y": 0.77425,
-      "z": 0.02748
+      "x": 0.25933,
+      "y": 0.77485,
+      "z": 0.02846
     },
     "region": "Bàn tay",
     "indications": [
@@ -7497,9 +7497,9 @@
     "name_cn": "清冷淵",
     "channel_id": "TE",
     "position": {
-      "x": 0.22053,
-      "y": 1.18086,
-      "z": -0.07749
+      "x": 0.22016,
+      "y": 1.18097,
+      "z": -0.07614
     },
     "region": "Cánh tay trên",
     "indications": [
@@ -7526,9 +7526,9 @@
     "name_cn": "消濼",
     "channel_id": "TE",
     "position": {
-      "x": 0.21385,
-      "y": 1.24608,
-      "z": -0.08731
+      "x": 0.21382,
+      "y": 1.24629,
+      "z": -0.08644
     },
     "region": "Cánh tay trên",
     "indications": [
@@ -7668,9 +7668,9 @@
     "name_cn": "翳风",
     "channel_id": "TE",
     "position": {
-      "x": 0.06398,
-      "y": 1.60137,
-      "z": -0.03554
+      "x": 0.06015,
+      "y": 1.60278,
+      "z": -0.03452
     },
     "region": "Cổ gáy",
     "indications": [
@@ -7700,9 +7700,9 @@
     "name_cn": "瘈脉",
     "channel_id": "TE",
     "position": {
-      "x": 0.06886,
-      "y": 1.6204,
-      "z": -0.04643
+      "x": 0.0646,
+      "y": 1.6219,
+      "z": -0.04547
     },
     "region": "Vùng đầu",
     "indications": [
@@ -7729,9 +7729,9 @@
     "name_cn": "颅息",
     "channel_id": "TE",
     "position": {
-      "x": 0.0761,
-      "y": 1.63638,
-      "z": -0.03863
+      "x": 0.06985,
+      "y": 1.63749,
+      "z": -0.03772
     },
     "region": "Vùng đầu",
     "indications": [
@@ -7790,9 +7790,9 @@
     "name_cn": "耳门",
     "channel_id": "TE",
     "position": {
-      "x": 0.07115,
-      "y": 1.61936,
-      "z": -0.00399
+      "x": 0.06752,
+      "y": 1.61908,
+      "z": -0.00406
     },
     "region": "Vùng mặt",
     "indications": [
@@ -7822,9 +7822,9 @@
     "name_cn": "耳和髎",
     "channel_id": "TE",
     "position": {
-      "x": 0.08065,
-      "y": 1.64514,
-      "z": 0.0039
+      "x": 0.07725,
+      "y": 1.64207,
+      "z": -0.0028
     },
     "region": "Vùng đầu",
     "indications": [
@@ -7852,9 +7852,9 @@
     "name_cn": "絲竹空",
     "channel_id": "TE",
     "position": {
-      "x": 0.05167,
-      "y": 1.6484,
-      "z": 0.07673
+      "x": 0.04705,
+      "y": 1.65042,
+      "z": 0.07042
     },
     "region": "Vùng đầu",
     "indications": [
@@ -7883,9 +7883,9 @@
     "name_cn": "瞳子髎",
     "channel_id": "GB",
     "position": {
-      "x": 0.05129,
-      "y": 1.63021,
-      "z": 0.07057
+      "x": 0.04518,
+      "y": 1.63481,
+      "z": 0.06345
     },
     "region": "Vùng đầu",
     "indications": [
@@ -7943,9 +7943,9 @@
     "name_cn": "上關",
     "channel_id": "GB",
     "position": {
-      "x": 0.07722,
+      "x": 0.08109,
       "y": 1.62673,
-      "z": -0.0189
+      "z": -0.0181
     },
     "region": "Vùng đầu",
     "indications": [
@@ -7975,9 +7975,9 @@
     "name_cn": "颔厌",
     "channel_id": "GB",
     "position": {
-      "x": 0.06295,
-      "y": 1.67274,
-      "z": 0.05999
+      "x": 0.05463,
+      "y": 1.67271,
+      "z": 0.05481
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8006,9 +8006,9 @@
     "name_cn": "懸顱",
     "channel_id": "GB",
     "position": {
-      "x": 0.06546,
-      "y": 1.65679,
-      "z": 0.04327
+      "x": 0.061,
+      "y": 1.65687,
+      "z": 0.04122
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8036,9 +8036,9 @@
     "name_cn": "悬厘",
     "channel_id": "GB",
     "position": {
-      "x": 0.08262,
-      "y": 1.65846,
-      "z": -0.03261
+      "x": 0.07508,
+      "y": 1.65974,
+      "z": -0.03144
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8065,9 +8065,9 @@
     "name_cn": "曲鬓",
     "channel_id": "GB",
     "position": {
-      "x": 0.07837,
-      "y": 1.65615,
-      "z": -0.0473
+      "x": 0.07165,
+      "y": 1.65682,
+      "z": -0.04543
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8093,9 +8093,9 @@
     "name_cn": "率谷",
     "channel_id": "GB",
     "position": {
-      "x": 0.07165,
-      "y": 1.67166,
-      "z": -0.0697
+      "x": 0.06423,
+      "y": 1.67135,
+      "z": -0.06617
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8124,9 +8124,9 @@
     "name_cn": "天衝",
     "channel_id": "GB",
     "position": {
-      "x": 0.06717,
-      "y": 1.68065,
-      "z": -0.0799
+      "x": 0.0589,
+      "y": 1.67982,
+      "z": -0.07514
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8153,9 +8153,9 @@
     "name_cn": "浮白",
     "channel_id": "GB",
     "position": {
-      "x": 0.07467,
-      "y": 1.65115,
-      "z": -0.05839
+      "x": 0.06796,
+      "y": 1.65174,
+      "z": -0.05584
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8182,9 +8182,9 @@
     "name_cn": "头窍阴",
     "channel_id": "GB",
     "position": {
-      "x": 0.06869,
-      "y": 1.62141,
-      "z": -0.0486
+      "x": 0.06443,
+      "y": 1.62299,
+      "z": -0.04693
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8211,9 +8211,9 @@
     "name_cn": "完骨",
     "channel_id": "GB",
     "position": {
-      "x": 0.06134,
-      "y": 1.5869,
-      "z": -0.0158
+      "x": 0.05814,
+      "y": 1.58748,
+      "z": -0.01625
     },
     "region": "Cổ gáy",
     "indications": [
@@ -8256,9 +8256,9 @@
     "name_cn": "本神",
     "channel_id": "GB",
     "position": {
-      "x": 0.0531,
-      "y": 1.69707,
-      "z": 0.066
+      "x": 0.04618,
+      "y": 1.6942,
+      "z": 0.06099
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8287,9 +8287,9 @@
     "name_cn": "阳白",
     "channel_id": "GB",
     "position": {
-      "x": 0.03541,
-      "y": 1.67383,
-      "z": 0.09023
+      "x": 0.02926,
+      "y": 1.67182,
+      "z": 0.08057
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8317,9 +8317,9 @@
     "name_cn": "头临泣",
     "channel_id": "GB",
     "position": {
-      "x": 0.03183,
-      "y": 1.71502,
-      "z": 0.07122
+      "x": 0.02814,
+      "y": 1.71003,
+      "z": 0.06543
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8345,9 +8345,9 @@
     "name_cn": "目窗",
     "channel_id": "GB",
     "position": {
-      "x": 0.03673,
-      "y": 1.69488,
-      "z": 0.08494
+      "x": 0.03117,
+      "y": 1.69086,
+      "z": 0.07568
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8375,9 +8375,9 @@
     "name_cn": "正营",
     "channel_id": "GB",
     "position": {
-      "x": 0.06302,
-      "y": 1.69977,
-      "z": -0.08154
+      "x": 0.05516,
+      "y": 1.69828,
+      "z": -0.07657
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8406,9 +8406,9 @@
     "name_cn": "承靈",
     "channel_id": "GB",
     "position": {
-      "x": 0.04544,
-      "y": 1.68122,
-      "z": -0.10881
+      "x": 0.03856,
+      "y": 1.67918,
+      "z": -0.10025
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8436,9 +8436,9 @@
     "name_cn": "脑空",
     "channel_id": "GB",
     "position": {
-      "x": 0.04852,
-      "y": 1.67145,
-      "z": -0.10824
+      "x": 0.04104,
+      "y": 1.67036,
+      "z": -0.10034
     },
     "region": "Vùng đầu",
     "indications": [
@@ -8531,9 +8531,9 @@
     "name_cn": "渊腋",
     "channel_id": "GB",
     "position": {
-      "x": 0.15339,
-      "y": 1.29944,
-      "z": -0.01031
+      "x": 0.13818,
+      "y": 1.30062,
+      "z": -0.00884
     },
     "region": "Ngực sườn",
     "indications": [
@@ -8561,9 +8561,9 @@
     "name_cn": "輒筋",
     "channel_id": "GB",
     "position": {
-      "x": 0.14988,
-      "y": 1.27815,
-      "z": 0.03439
+      "x": 0.13597,
+      "y": 1.27899,
+      "z": 0.03237
     },
     "region": "Ngực sườn",
     "indications": [
@@ -8746,9 +8746,9 @@
     "name_cn": "居髎",
     "channel_id": "GB",
     "position": {
-      "x": 0.15495,
-      "y": 0.89816,
-      "z": 0.01613
+      "x": 0.15498,
+      "y": 0.89817,
+      "z": 0.01612
     },
     "region": "Vùng mông",
     "indications": [
@@ -9075,9 +9075,9 @@
     "name_cn": "丘墟",
     "channel_id": "GB",
     "position": {
-      "x": 0.09886,
-      "y": 0.05278,
-      "z": -0.04427
+      "x": 0.11389,
+      "y": 0.05418,
+      "z": -0.04222
     },
     "region": "Cổ chân",
     "indications": [
@@ -9338,9 +9338,9 @@
     "name_cn": "中封",
     "channel_id": "LR",
     "position": {
-      "x": 0.06826,
-      "y": 0.06954,
-      "z": -0.02668
+      "x": 0.06038,
+      "y": 0.06967,
+      "z": -0.02401
     },
     "region": "Cổ chân",
     "indications": [
@@ -9460,9 +9460,9 @@
     "name_cn": "曲泉",
     "channel_id": "LR",
     "position": {
-      "x": 0.02692,
-      "y": 0.44308,
-      "z": -0.02953
+      "x": 0.03121,
+      "y": 0.4437,
+      "z": -0.0296
     },
     "region": "Khớp gối",
     "indications": [
@@ -10408,8 +10408,8 @@
     "channel_id": "CV",
     "position": {
       "x": 0.0,
-      "y": 1.54942,
-      "z": 0.094
+      "y": 1.55752,
+      "z": 0.08621
     },
     "region": "Vùng mặt",
     "indications": [
@@ -10827,8 +10827,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.48108,
-      "z": -0.09676
+      "y": 1.47914,
+      "z": -0.09417
     },
     "region": "Cổ gáy",
     "indications": [
@@ -10887,8 +10887,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.58163,
-      "z": -0.06683
+      "y": 1.58079,
+      "z": -0.07112
     },
     "region": "Cổ gáy",
     "indications": [
@@ -10919,8 +10919,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.62495,
-      "z": -0.11436
+      "y": 1.62968,
+      "z": -0.10177
     },
     "region": "Vùng đầu",
     "indications": [
@@ -10948,8 +10948,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.66925,
-      "z": -0.12274
+      "y": 1.66955,
+      "z": -0.10894
     },
     "region": "Vùng đầu",
     "indications": [
@@ -10979,8 +10979,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.71315,
-      "z": -0.10741
+      "y": 1.70841,
+      "z": -0.09824
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11041,8 +11041,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.75066,
-      "z": 0.01624
+      "y": 1.74814,
+      "z": 0.01568
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11071,8 +11071,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.73363,
-      "z": 0.06114
+      "y": 1.7294,
+      "z": 0.05606
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11101,8 +11101,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.71507,
-      "z": 0.07935
+      "y": 1.7099,
+      "z": 0.07211
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11132,8 +11132,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.6974,
-      "z": 0.09055
+      "y": 1.69337,
+      "z": 0.08119
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11165,8 +11165,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.64857,
-      "z": 0.09309
+      "y": 1.65106,
+      "z": 0.08476
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11195,8 +11195,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.60171,
-      "z": 0.10279
+      "y": 1.60337,
+      "z": 0.10743
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11225,8 +11225,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.58385,
-      "z": 0.10038
+      "y": 1.59029,
+      "z": 0.09943
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11254,8 +11254,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.57576,
-      "z": 0.10273
+      "y": 1.57763,
+      "z": 0.09284
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11283,8 +11283,8 @@
     "channel_id": "GV",
     "position": {
       "x": 0.0,
-      "y": 1.55154,
-      "z": 0.09376
+      "y": 1.55842,
+      "z": 0.08715
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11311,9 +11311,9 @@
     "name_cn": "四神聰",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.02701,
-      "y": 1.74942,
-      "z": -0.01981
+      "x": 0.02646,
+      "y": 1.74793,
+      "z": -0.01979
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11341,9 +11341,9 @@
     "name_cn": "當陽",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.03116,
-      "y": 1.7293,
-      "z": 0.05606
+      "x": 0.02819,
+      "y": 1.72412,
+      "z": 0.05131
     },
     "region": "Đầu mặt",
     "indications": [
@@ -11370,9 +11370,9 @@
     "name_cn": "魚腰",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.0341,
-      "y": 1.64719,
-      "z": 0.08577
+      "x": 0.03109,
+      "y": 1.65073,
+      "z": 0.07875
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11400,9 +11400,9 @@
     "name_cn": "太陽",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.078,
-      "y": 1.6357,
-      "z": -0.00442
+      "x": 0.07619,
+      "y": 1.63762,
+      "z": -0.00342
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11430,9 +11430,9 @@
     "name_cn": "耳尖",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.07737,
-      "y": 1.65243,
-      "z": -0.05091
+      "x": 0.0703,
+      "y": 1.65333,
+      "z": -0.04887
     },
     "region": "Vùng đầu",
     "indications": [
@@ -11460,9 +11460,9 @@
     "name_cn": "球後",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.04572,
-      "y": 1.61194,
-      "z": 0.07546
+      "x": 0.04302,
+      "y": 1.60955,
+      "z": 0.07019
     },
     "region": "Vùng mặt",
     "indications": [
@@ -11490,9 +11490,9 @@
     "name_cn": "上迎香",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.01619,
-      "y": 1.60641,
-      "z": 0.09237
+      "x": 0.01284,
+      "y": 1.60429,
+      "z": 0.09116
     },
     "region": "Đầu mặt",
     "indications": [
@@ -11549,8 +11549,8 @@
     "channel_id": "EXTRA",
     "position": {
       "x": 0.0,
-      "y": 1.55775,
-      "z": 0.09827
+      "y": 1.56054,
+      "z": 0.08843
     },
     "region": "Miệng lưỡi",
     "indications": [
@@ -11578,8 +11578,8 @@
     "channel_id": "EXTRA",
     "position": {
       "x": 0.0,
-      "y": 1.54451,
-      "z": 0.09223
+      "y": 1.54446,
+      "z": 0.08112
     },
     "region": "Miệng lưỡi",
     "indications": [
@@ -11606,9 +11606,9 @@
     "name_cn": "金津",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.00649,
-      "y": 1.5465,
-      "z": 0.09224
+      "x": 0.0042,
+      "y": 1.54646,
+      "z": 0.08077
     },
     "region": "Miệng lưỡi",
     "indications": [
@@ -11635,9 +11635,9 @@
     "name_cn": "翳明",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.03748,
-      "y": 1.5865,
-      "z": -0.06535
+      "x": 0.03527,
+      "y": 1.58762,
+      "z": -0.0633
     },
     "region": "Cổ gáy",
     "indications": [
@@ -11664,9 +11664,9 @@
     "name_cn": "安眠一",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.04073,
-      "y": 1.57566,
-      "z": -0.05222
+      "x": 0.03999,
+      "y": 1.57589,
+      "z": -0.05172
     },
     "region": "Cổ gáy",
     "indications": [
@@ -11749,9 +11749,9 @@
     "name_cn": "頸百勞",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.02765,
-      "y": 1.56199,
-      "z": -0.06207
+      "x": 0.02663,
+      "y": 1.56221,
+      "z": -0.06062
     },
     "region": "Cổ gáy",
     "indications": [
@@ -11778,9 +11778,9 @@
     "name_cn": "血压点",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.04366,
-      "y": 1.48772,
-      "z": -0.08313
+      "x": 0.04308,
+      "y": 1.48617,
+      "z": -0.08163
     },
     "region": "Cổ vai",
     "indications": [
@@ -11862,9 +11862,9 @@
     "name_cn": "定喘",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.00899,
-      "y": 1.48333,
-      "z": -0.09602
+      "x": 0.00885,
+      "y": 1.48093,
+      "z": -0.09259
     },
     "region": "Lưng trên",
     "indications": [
@@ -12092,9 +12092,9 @@
     "name_cn": "肩前",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.15539,
-      "y": 1.38355,
-      "z": 0.0361
+      "x": 0.14517,
+      "y": 1.38511,
+      "z": 0.02621
     },
     "region": "Khớp vai",
     "indications": [
@@ -12121,9 +12121,9 @@
     "name_cn": "肘尖",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.23371,
-      "y": 1.12415,
-      "z": -0.06968
+      "x": 0.2334,
+      "y": 1.1242,
+      "z": -0.06824
     },
     "region": "Khuỷu tay",
     "indications": [
@@ -12208,9 +12208,9 @@
     "name_cn": "中魁",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.28939,
-      "y": 0.74276,
-      "z": 0.04563
+      "x": 0.28897,
+      "y": 0.74502,
+      "z": 0.0478
     },
     "region": "Ngón tay",
     "indications": [
@@ -12295,9 +12295,9 @@
     "name_cn": "腰痛点",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.28144,
-      "y": 0.82956,
-      "z": 0.0001
+      "x": 0.28119,
+      "y": 0.82988,
+      "z": 0.00174
     },
     "region": "Mu bàn tay",
     "indications": [
@@ -12322,9 +12322,9 @@
     "name_cn": "外劳宫",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.29622,
-      "y": 0.80888,
-      "z": 0.00704
+      "x": 0.29464,
+      "y": 0.8089,
+      "z": 0.00909
     },
     "region": "Mu bàn tay",
     "indications": [
@@ -12430,9 +12430,9 @@
     "name_cn": "髋骨",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.07133,
-      "y": 0.52484,
-      "z": 0.03823
+      "x": 0.07278,
+      "y": 0.52605,
+      "z": 0.03371
     },
     "region": "Đùi",
     "indications": [
@@ -12457,9 +12457,9 @@
     "name_cn": "鹤顶",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.08869,
-      "y": 0.47456,
-      "z": 0.01864
+      "x": 0.08861,
+      "y": 0.47508,
+      "z": 0.01728
     },
     "region": "Khớp gối",
     "indications": [
@@ -12484,9 +12484,9 @@
     "name_cn": "百虫窝",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.05859,
-      "y": 0.54945,
-      "z": 0.03902
+      "x": 0.06059,
+      "y": 0.5501,
+      "z": 0.03608
     },
     "region": "Đùi trong",
     "indications": [
@@ -12511,9 +12511,9 @@
     "name_cn": "内膝眼",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.07081,
-      "y": 0.43311,
-      "z": 0.00724
+      "x": 0.07151,
+      "y": 0.43343,
+      "z": 0.00441
     },
     "region": "Khớp gối",
     "indications": [
@@ -12592,9 +12592,9 @@
     "name_cn": "内踝尖",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.04831,
-      "y": 0.08312,
-      "z": -0.04671
+      "x": 0.05434,
+      "y": 0.0828,
+      "z": -0.04751
     },
     "region": "Cổ chân trong",
     "indications": [
@@ -12619,9 +12619,9 @@
     "name_cn": "外踝尖",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.12235,
-      "y": 0.0642,
-      "z": -0.05723
+      "x": 0.11634,
+      "y": 0.0651,
+      "z": -0.05807
     },
     "region": "Cổ chân ngoài",
     "indications": [
@@ -12673,9 +12673,9 @@
     "name_cn": "里内庭",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.1218,
-      "y": 0.01333,
-      "z": 0.1028
+      "x": 0.11845,
+      "y": 0.01308,
+      "z": 0.10548
     },
     "region": "Lòng bàn chân",
     "indications": [
@@ -12700,9 +12700,9 @@
     "name_cn": "犊鼻附",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.10516,
-      "y": 0.43451,
-      "z": -0.01918
+      "x": 0.11153,
+      "y": 0.43442,
+      "z": -0.01541
     },
     "region": "Khớp gối",
     "indications": [
@@ -12755,8 +12755,8 @@
     "channel_id": "EXTRA",
     "position": {
       "x": 0.0,
-      "y": 1.52835,
-      "z": 0.05665
+      "y": 1.52379,
+      "z": 0.05723
     },
     "region": "Dưới cằm",
     "indications": [
@@ -12781,9 +12781,9 @@
     "name_cn": "夹承浆",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.02566,
-      "y": 1.54062,
-      "z": 0.07645
+      "x": 0.02202,
+      "y": 1.5414,
+      "z": 0.07121
     },
     "region": "Dưới môi",
     "indications": [
@@ -12835,9 +12835,9 @@
     "name_cn": "泽前",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.24455,
-      "y": 0.99606,
-      "z": 0.02661
+      "x": 0.24438,
+      "y": 0.99581,
+      "z": 0.02512
     },
     "region": "Cẳng tay",
     "indications": [
@@ -12889,9 +12889,9 @@
     "name_cn": "膝眼",
     "channel_id": "EXTRA",
     "position": {
-      "x": 0.10039,
-      "y": 0.43236,
-      "z": 0.01007
+      "x": 0.09815,
+      "y": 0.4337,
+      "z": 0.00397
     },
     "region": "Khớp gối",
     "indications": [
