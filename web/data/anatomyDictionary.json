@@ -332,7 +332,7 @@
   "sternohyoid": {
     "name_vi": "Cơ ức móng",
     "name_lat": "Musculus sternohyoideus",
-    "layer": "deep",
+    "layer": "superficial",
     "region": "head_neck",
     "origin": "Mặt sau cán xương ức và đầu trong xương đòn, dây chằng ức đòn sau.",
     "insertion": "Bờ dưới thân xương móng.",
@@ -365,7 +365,7 @@
   "omohyoid": {
     "name_vi": "Cơ vai móng",
     "name_lat": "Musculus omohyoideus",
-    "layer": "deep",
+    "layer": "superficial",
     "region": "head_neck",
     "origin": "Bụng dưới bám bờ trên xương bả vai (gần khuyết vai); Gân trung gian tựa lên bao cảnh.",
     "insertion": "Bụng trên bám vào bờ dưới thân xương móng (ngoài cơ ức móng).",
@@ -563,7 +563,7 @@
   "external-intercostals": {
     "name_vi": "Các cơ gian sườn ngoài",
     "name_lat": "Musculi intercostales externi",
-    "layer": "superficial",
+    "layer": "deep",
     "region": "chest",
     "origin": "Bờ dưới của các xương sườn từ củ sườn đến khớp sườn sụn.",
     "insertion": "Bờ trên của xương sườn kế cận phía dưới (hướng thớ cơ chạy chếch xuống dưới và ra trước).",
@@ -1102,7 +1102,7 @@
   "extensor-carpi-radialis-brevis": {
     "name_vi": "Cơ duỗi cổ tay quay ngắn",
     "name_lat": "Musculus extensor carpi radialis brevis",
-    "layer": "deep",
+    "layer": "superficial",
     "region": "forearm_hand",
     "origin": "Mỏm trên lồi cầu ngoài xương cánh tay (gân duỗi chung).",
     "insertion": "Mặt mu tay nền xương đốt bàn tay III.",
@@ -1124,7 +1124,7 @@
   "extensor-digiti-minimi": {
     "name_vi": "Cơ duỗi ngón út",
     "name_lat": "Musculus extensor digiti minimi",
-    "layer": "deep",
+    "layer": "superficial",
     "region": "forearm_hand",
     "origin": "Mỏm trên lồi cầu ngoài xương cánh tay (trong gân duỗi chung).",
     "insertion": "Chẽ gân duỗi ngón út hòa vào gân cơ duỗi các ngón.",
@@ -1256,7 +1256,7 @@
   "flexor-digiti-minimi-brevis-hand": {
     "name_vi": "Cơ gấp ngón út tay ngắn",
     "name_lat": "Musculus flexor digiti minimi brevis manus",
-    "layer": "deep",
+    "layer": "superficial",
     "region": "forearm_hand",
     "origin": "Móc xương móc và hãm gân gấp.",
     "insertion": "Bờ trong nền đốt ngón gần ngón út.",
@@ -1740,7 +1740,7 @@
   "plantaris": {
     "name_vi": "Cơ gan chân gầy",
     "name_lat": "Musculus plantaris",
-    "layer": "superficial",
+    "layer": "deep",
     "region": "leg_foot",
     "origin": "Phần dưới gờ trên lồi cầu ngoài xương đùi và dây chằng khoeo chéo.",
     "insertion": "Bờ trong gân gót bám vào củ xương gót (thân cơ ngắn, gân rất dài).",
@@ -1861,7 +1861,7 @@
   "abductor-digiti-minimi-foot": {
     "name_vi": "Cơ giạng ngón út chân",
     "name_lat": "Musculus abductor digiti minimi pedis",
-    "layer": "deep",
+    "layer": "superficial",
     "region": "leg_foot",
     "origin": "Mỏm ngoài và mỏm trong củ xương gót, mạc gan chân.",
     "insertion": "Bờ ngoài nền đốt ngón gần của ngón chân út (ngón V).",
