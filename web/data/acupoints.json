@@ -7200,10 +7200,11 @@
     "name_meaning": "Quan = cửa ải; Xung = xung yếu. Ý chỉ rằng kinh mạch làm cho khí huyết mạnh lên . Huyệt là cửa ải của 2 huyệt Thiếu Xung (Tm.1) và Trung Xung (Tb.9), vì vậy gọi là Quan Xung (Trung Y Cương Mục).",
     "origin": "Thiên ‘Bản Du’ (LKhu.2).",
     "tcm_properties": "+ Huyệt thứ 1 của kinh Tam Tiêu. + Huyệt Tỉnh, thuộc hành Kim.",
-    "location_detail": "Ở bờ trong ngón tay áp út, cách chân móng 0.1 thốn. Giải Phẫu: Dưới da là xương, ở giữa chỗ bám gân ngón đeo nhẫn của cơ gấp chung ngón tay sâu vàcơ duỗi chung ngón tay, bờ trong của đốt 3 xương ngón tay thứ tư. Thần kinh vận động cơ là nhánh của dây thần kinh trụ và dây thần kinh quay. Da vùng huyệt chi phối bởi tiết đoạn thần kinh C8 hoặc D1.",
+    "location_detail": "Ở bờ trong (phía trụ) đốt xa ngón tay áp út (ngón IV), cách góc chân móng khoảng 0,1 thốn.",
     "tcm_actions": "Sơ khí hóa ở kinh lạc, giải uất nhiệt ở Tam Tiêu.",
     "point_combinations": "1. Phối Dịch Môn (Ttu.2) + Phong Trì (Đ.20) + Thiên Trụ (Bq.10) + Thương Dương (Đtr.1) trị nhiệt bệnh không ra mồ hôi, cảm phong nhiệt (Giáp Ất Kinh). 2. Phối [Túc] Khiếu Âm (Đ.44) + Thiếu Trạch (Ttr.1) trị họng tê, lưỡi rụt, miệng khô (Thiên Kim Phương). 3. Phối Nhiên Cốc (Th.2) + Thừa Tương (Nh.24) + Ý Xá (Bq.49) trị tiêu khát, uống nước nhiều (Bị Cấp Thiên Kim Phương). 4. Phối Đại Hoành (Ty.15) trị trẻ nhỏ bị uốn ván (Bách Chứng Phú). Phối Thiếu Thương (P.11) + Thiếu Trạch (Tr.1) + Thiếu Xung (Tm.9) + Thương Dương (Đtr.1) + Trung Xung (Tb.9) trị trúng phong bất tỉnh (Châm Cứu Đại Thành). 6. Phối Chiếu Hải (Th.6) + Liệt Khuyết (P.7) + Trung Quản (Nh.12) + Túc Tam Lý (Vi.36) + Tỳ Du (Bq.20) trị tiêu khát (ChâmCứu Đại Toàn). 7. Phối Ẩn Bạch (Ty.1) + Dũng Tuyền (Th.1) + Phong Long (Vi.40) + Thiếu Thương (P.11) + Thiếu Xung (Tm.9) trị họng sưng đau (Y Học Cương Mục). 8. Phối Á Môn (Đc.15) trị nói khó, nói ngọng (Châm Cứu Học Thượng Hải).",
-    "references": "(Thiên ‘Nhiệt Bệnh’ ghi: “Họng đau, lưỡi co rút, miệng khô, Tâm phiền, Tâm thống, mặt trong cánh tay đau, tay không giơ lên đầu được, nên châm ở ngón tay áp út, phía ngón út, cách gốc móng 1 lá hẹ [h. Quan Xung] (LKhu 23.56). (Thiên ‘Quyết Bệnh’ ghi: Tai điếc, Thủ huyệt ở ngón tay áp út, chỗ giao nhục với móng tay [h. Quan Xung], (LKhu 24.26)."
+    "references": "(Thiên ‘Nhiệt Bệnh’ ghi: “Họng đau, lưỡi co rút, miệng khô, Tâm phiền, Tâm thống, mặt trong cánh tay đau, tay không giơ lên đầu được, nên châm ở ngón tay áp út, phía ngón út, cách gốc móng 1 lá hẹ [h. Quan Xung] (LKhu 23.56). (Thiên ‘Quyết Bệnh’ ghi: Tai điếc, Thủ huyệt ở ngón tay áp út, chỗ giao nhục với móng tay [h. Quan Xung], (LKhu 24.26).",
+    "anatomy": "Dưới da là xương, ở giữa chỗ bám gân ngón đeo nhẫn của cơ gấp chung các ngón tay sâu và cơ duỗi chung các ngón tay, bờ trong đốt 3 xương ngón tay thứ tư. Động mạch gian cốt mu tay và nhánh động mạch gan ngón tay riêng. Thần kinh vận động cơ là nhánh của dây thần kinh trụ và dây thần kinh quay; da vùng huyệt chi phối bởi tiết đoạn thần kinh C8 – D1."
   },
   {
     "code": "TE2",
@@ -7843,8 +7844,9 @@
     "aliases": "Thiên Liêu.",
     "origin": "Giáp Ất Kinh.",
     "tcm_properties": "+ Huyệt thứ 22 của kinh Tam Tiêu. + Huyệt giao hội của Thủ Thiếu Dương, Túc Thiếu Dương và Thủ Thái Dương.",
-    "location_detail": "Phía trước lỗ tai, trong chân tóc, trước và trên huyệt Nhĩ Môn. Huyệt ở bờ trên của mỏm tiếp xương thái dương phía trên và sau bờ sau chân tóc mai, sờ thấy động mạch thái dương nông, trước bình tai 1 đốt ngón tay.",
-    "safety_notes": "Cẩn thận khi cứu vì dễ gây bỏng."
+    "location_detail": "Ở phía trước trên lỗ tai, trong chân tóc mai, trước và trên huyệt Nhĩ Môn (TE21), ngay bờ trên mỏm tiếp xương thái dương, sờ thấy động mạch thái dương nông đập.",
+    "safety_notes": "Cẩn thận khi cứu vì dễ gây bỏng.",
+    "anatomy": "Dưới da là cơ tai trước, cơ thái dương và xương thái dương (bờ trên cung tiếp). Mạch máu: nhánh trước của động mạch và tĩnh mạch thái dương nông. Thần kinh: nhánh thái dương của dây thần kinh mặt (VII) và dây thần kinh tai – thái dương (nhánh của V3)."
   },
   {
     "code": "TE23",

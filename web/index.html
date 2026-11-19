@@ -30,7 +30,7 @@
       document.documentElement.classList.add('pwa-standalone');
     }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z64"></script>
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z65"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z48">
 
   <!-- UI-UX Professional Upgrades -->
@@ -1529,7 +1529,7 @@
           <h4>ĐIỀU 2: BẢN QUYỀN VÀ QUYỀN SỞ HỮU TRÍ TUỆ</h4>
           <p><strong>1. Nguồn gốc dữ liệu giải phẫu học 3D (Z-Anatomy Open-Source):</strong></p>
           <ul>
-            <li>Toàn bộ mô hình khung xương, hệ cơ bắp, hệ mạch máu (714 mạch), hệ dây thần kinh, hệ bạch huyết (220 hạch) và lục phủ ngũ tạng được kế thừa, chuẩn hóa và xử lý dựa trên dự án giải phẫu cộng đồng mã nguồn mở quốc tế <strong>Z-Anatomy</strong> (khởi xướng bởi Gauthier Kervyn và cộng đồng y khoa quốc tế).</li>
+            <li>Toàn bộ mô hình khung xương, hệ cơ bắp, hệ mạch máu (676 mạch), hệ dây thần kinh, hệ bạch huyết (163 nhóm / 220 hạch) và lục phủ ngũ tạng được kế thừa, chuẩn hóa và xử lý dựa trên dự án giải phẫu cộng đồng mã nguồn mở quốc tế <strong>Z-Anatomy</strong> (khởi xướng bởi Gauthier Kervyn và cộng đồng y khoa quốc tế).</li>
             <li>Dữ liệu giải phẫu nền tảng được chia sẻ và tuân thủ theo giấy phép quốc tế <strong>Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>. Nguồn gốc dữ liệu Z-Anatomy luôn được ghi nhận minh bạch, đầy đủ và trân trọng.</li>
           </ul>
 
@@ -1682,111 +1682,12 @@
     }
 
     // -------------------------------------------------------------
-    // 0. BỘ HIỆU CHỈNH HÌNH HỌC ANATOMY (TUCK-IN MESHES AN TOÀN TRONG DA)
-    // Tự động thu gọn mạch máu/thần kinh tại 6 vùng nhạy cảm:
-    // Mặt, Hõm nách, Vùng bẹn, Đầu gối, Cổ cẳng chân, Bàn chân & Ngón chân
+    // 0. BỘ HIỆU CHỈNH HÌNH HỌC ANATOMY (ĐÃ BAKE SẴN TRONG GLB master_z65)
+    // Toàn bộ nerves.glb, vessels.glb, lymphatic.glb và organs.glb đã được
+    // hiệu chỉnh mượt C-infinity bám sát trong da ngay trong tệp GLB,
+    // không cần biến dạng runtime theo khung hộp (tránh gãy khớp & giảm tải CPU).
     // -------------------------------------------------------------
-    window.tuckAnatomyGeometry = function(child) {
-      if (!child || !child.isMesh || !child.geometry || !child.geometry.attributes || !child.geometry.attributes.position) return;
-      const pos = child.geometry.attributes.position;
-      const nameL = (child.name || '').toLowerCase();
-      let modified = false;
-
-      for (let i = 0; i < pos.count; i++) {
-        let x = pos.getX(i);
-        let y = pos.getY(i);
-        let z = pos.getZ(i);
-
-        // 1. Mặt (Face, Eyes, Forehead: Y > 1.52)
-        if (y > 1.52) {
-          x = x * 0.94;
-          z = 0.015 + (z - 0.015) * 0.86 - 0.010;
-          if (nameL.includes('angular') || nameL.includes('facial') || nameL.includes('labial') ||
-              nameL.includes('nasal') || nameL.includes('?x') || nameL.includes('orbital') ||
-              nameL.includes('temporal') || nameL.includes('ophthalmic') || nameL.includes('trigeminal') ||
-              nameL.includes('maxillary') || nameL.includes('mandibular') || nameL.includes('alveolar') ||
-              nameL.includes('supraorbital') || nameL.includes('infraorbital') || nameL.includes('supratrochlear')) {
-            z -= 0.008;
-            x *= 0.93;
-          }
-          modified = true;
-        }
-        // 2. Hõm nách & Vùng nách ngực (Axilla: 1.18 <= Y <= 1.45, |X| >= 0.08, |X| <= 0.22)
-        else if (y >= 1.18 && y <= 1.45 && Math.abs(x) >= 0.08 && Math.abs(x) <= 0.22) {
-          const signX = x > 0 ? 1 : -1;
-          x = signX * (0.08 + (Math.abs(x) - 0.08) * 0.84);
-          if (nameL.includes('axillary') || nameL.includes('circumflex humeral') || 
-              nameL.includes('lateral thoracic') || nameL.includes('brachial') ||
-              nameL.includes('thoracodorsal') || nameL.includes('subscapular') ||
-              nameL.includes('pectoral') || nameL.includes('intercostobrachial')) {
-            x = signX * Math.max(0.075, Math.abs(x) - 0.014);
-            z = z * 0.88;
-          }
-          modified = true;
-        }
-        // 3. Vùng Bẹn & Hạ vị (Groin / Femoral triangle: 0.74 <= Y <= 0.94, |X| <= 0.15, Z >= 0.005)
-        else if (y >= 0.74 && y <= 0.94 && Math.abs(x) <= 0.15 && z >= 0.005) {
-          z = z - 0.015;
-          if (nameL.includes('penis') || nameL.includes('pudendal') || nameL.includes('epigastric') ||
-              nameL.includes('femoral') || nameL.includes('obturator') || nameL.includes('genitofemoral') ||
-              nameL.includes('iliac') || nameL.includes('circumflex iliac') || nameL.includes('saphenous')) {
-            z = z - 0.012;
-            x = x * 0.94;
-          }
-          modified = true;
-        }
-        // 4. Đầu gối & Xương bánh chè (Knees / Patella: 0.38 <= Y <= 0.58, Z >= -0.01)
-        else if (y >= 0.38 && y <= 0.58 && z >= -0.01) {
-          z = z - 0.018;
-          x = x * 0.95;
-          if (nameL.includes('patellar') || nameL.includes('genicular') || nameL.includes('saphenous') ||
-              nameL.includes('infrapatellar') || nameL.includes('popliteal')) {
-            z = z - 0.008;
-          }
-          modified = true;
-        }
-        // 5. Cổ cẳng chân & Cổ chân (Ankle / Lower leg: 0.07 <= Y <= 0.16)
-        else if (y >= 0.07 && y <= 0.16) {
-          if (z > -0.03) {
-            z = z - 0.014;
-          }
-          const signX = x > 0 ? 1 : -1;
-          x = signX * (Math.abs(x) * 0.95);
-          if (nameL.includes('tibial') || nameL.includes('fibular') || nameL.includes('peroneal') ||
-              nameL.includes('malleolar') || nameL.includes('saphenous')) {
-            z -= 0.006;
-          }
-          modified = true;
-        }
-        // 6. Bàn chân & Ngón chân (Foot, Dorsum & Toes: Y < 0.07)
-        else if (y < 0.07) {
-          if (z > 0.01) {
-            z = 0.01 + (z - 0.01) * 0.80 - 0.014;
-          }
-          if (y < 0.016) {
-            y = 0.016 + (y - 0.016) * 0.5;
-          }
-          const signX = x > 0 ? 1 : -1;
-          x = signX * (0.09 + (Math.abs(x) - 0.09) * 0.88);
-          if (nameL.includes('digital') || nameL.includes('metatarsal') || nameL.includes('arcuate') ||
-              nameL.includes('pedis') || nameL.includes('plantar')) {
-            z -= 0.008;
-          }
-          modified = true;
-        }
-
-        if (modified) {
-          pos.setXYZ(i, x, y, z);
-        }
-      }
-
-      if (modified) {
-        pos.needsUpdate = true;
-        child.geometry.computeVertexNormals();
-        child.geometry.computeBoundingBox();
-        child.geometry.computeBoundingSphere();
-      }
-    };
+    window.tuckAnatomyGeometry = function() {};
 
     // -------------------------------------------------------------
     // 1. TẢI VÀ QUẢN LÝ HỆ BẠCH HUYẾT (220 HẠCH BẠCH HUYẾT Z-ANATOMY GỐC)
@@ -1800,8 +1701,8 @@
       showProgressToast('Đang tải Hệ Bạch Huyết gốc Z-Anatomy (220 Hạch)...', 0);
       try {
         const { data, isCached } = await storageManager.loadSystemData(
-          'lymphatic_v12',
-          '/models/lymphatic.glb?v=master_z31',
+          'lymphatic_v13',
+          '/models/lymphatic.glb?v=master_z65',
           (percent) => {
             showProgressToast('Đang tải Hệ Bạch Huyết gốc Z-Anatomy (220 Hạch)...', percent);
           }
@@ -1905,7 +1806,7 @@
     };
 
     // -------------------------------------------------------------
-    // 2. TẢI VÀ QUẢN LÝ HỆ MẠCH MÁU (714 MẠCH MÁU Z-ANATOMY GỐC)
+    // 2. TẢI VÀ QUẢN LÝ HỆ MẠCH MÁU (676 MẠCH MÁU Z-ANATOMY GỐC)
     // -------------------------------------------------------------
     window.vesselsModel = null;
     let isVesselsVisible = false;
@@ -1913,13 +1814,13 @@
     window.loadVesselsSystem = async function() {
       if (window.vesselsModel) return window.vesselsModel;
 
-      showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (714 Mạch Máu Gốc)...', 0);
+      showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (676 Mạch Máu Gốc)...', 0);
       try {
         const { data, isCached } = await storageManager.loadSystemData(
-          'vessels_v12',
-          '/models/vessels.glb?v=master_z31',
+          'vessels_v13',
+          '/models/vessels.glb?v=master_z65',
           (percent) => {
-            showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (714 Mạch Máu Gốc)...', percent);
+            showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (676 Mạch Máu Gốc)...', percent);
           }
         );
 
@@ -1931,10 +1832,14 @@
                 child.castShadow = false;
                 child.receiveShadow = false;
                 const nameL = (child.name || '').toLowerCase();
-                const isVein = nameL.includes('vein') || nameL.includes('vena') || nameL.includes('venous') || nameL.includes('sinus') || nameL.includes('right atrium') || nameL.includes('right ventricle') || nameL.includes('pulmonary trunk') || nameL.includes('pulmonary valve') || nameL.includes('right atrioventricular');
-                const isArtery = !isVein;
+                const isPulmonaryVein = nameL.includes('pulmonary vein');
+                const isPulmonaryArtery = nameL.includes('pulmonary artery') || nameL.includes('pulmonary trunk') || nameL.includes('pulmonary valve');
+                const isVenousAnatomy = nameL.includes('vein') || nameL.includes('vena') || nameL.includes('venous') || nameL.includes('sinus') || nameL.includes('right atrium') || nameL.includes('right ventricle') || nameL.includes('right atrioventricular');
+                // Chuẩn sinh lý tuần hoàn: Máu giàu oxy (Đỏ) gồm ĐM hệ thống + Tim trái + TM phổi; Máu nghèo oxy (Xanh) gồm TM hệ thống + Tim phải + Thân/ĐM phổi
+                const isDeoxygenated = !isPulmonaryVein && (isPulmonaryArtery || isVenousAnatomy);
+                const isArtery = !isVenousAnatomy;
                 const mat = new THREE.MeshStandardMaterial({
-                  color: isArtery ? new THREE.Color('#ef4444') : new THREE.Color('#3b82f6'),
+                  color: isDeoxygenated ? new THREE.Color('#3b82f6') : new THREE.Color('#ef4444'),
                   roughness: 0.32,
                   metalness: 0.18,
                   polygonOffset: true,
@@ -2351,10 +2256,10 @@
       { id: 'skin',      type: 'cache', url: '/models/human-learning.glb?v=master_z36', label: 'Lớp Da Ngoài',               expectedBytes: 897388 },
       { id: 'skeleton',  type: 'cache', url: '/models/skeleton.glb?v=master_z63',        label: 'Khung Xương (242 Xương)',    expectedBytes: 5221116 },
       { id: 'muscles',   type: 'cache', url: '/models/muscles.glb?v=master_z64',        label: 'Hệ Cơ (177 Bó cơ)',          expectedBytes: 5624592 },
-      { id: 'lymphatic_v12', type: 'idb', url: '/models/lymphatic.glb?v=master_z31',    label: 'Hệ Bạch Huyết (220 Hạch)',   expectedBytes: 2979540 },
-      { id: 'organs',    type: 'cache', url: '/models/organs.glb?v=master_z19',         label: 'Lục Phủ Ngũ Tạng (136 Tạng)',expectedBytes: 17056588 },
-      { id: 'nerves',    type: 'cache', url: '/models/nerves.glb?v=master_z19',         label: 'Hệ Thần Kinh (518 Nhánh)',   expectedBytes: 46266616 },
-      { id: 'vessels_v12',   type: 'idb', url: '/models/vessels.glb?v=master_z31',      label: 'Hệ Mạch Máu (676 Mạch)',     expectedBytes: 81242340 }
+      { id: 'lymphatic_v13', type: 'idb', url: '/models/lymphatic.glb?v=master_z65',    label: 'Hệ Bạch Huyết (163 Nhóm / 220 Hạch)', expectedBytes: 2982232 },
+      { id: 'organs',    type: 'cache', url: '/models/organs.glb?v=master_z65',         label: 'Lục Phủ Ngũ Tạng (136 Tạng)',         expectedBytes: 17058892 },
+      { id: 'nerves',    type: 'cache', url: '/models/nerves.glb?v=master_z65',         label: 'Hệ Thần Kinh (518 Nhánh)',            expectedBytes: 46266104 },
+      { id: 'vessels_v13',   type: 'idb', url: '/models/vessels.glb?v=master_z65',      label: 'Hệ Mạch Máu (676 Mạch)',              expectedBytes: 81246512 }
     ];
 
     function updateBgPreloadBadge({ title, sub, percent = null, done = false, hideAfterMs = 0 }) {
