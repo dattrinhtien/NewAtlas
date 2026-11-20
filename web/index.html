@@ -30,7 +30,7 @@
       document.documentElement.classList.add('pwa-standalone');
     }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z69"></script>
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z70"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z48">
 
   <!-- UI-UX Professional Upgrades -->
@@ -1701,8 +1701,8 @@
       showProgressToast('Đang tải Hệ Bạch Huyết gốc Z-Anatomy (220 Hạch)...', 0);
       try {
         const { data, isCached } = await storageManager.loadSystemData(
-          'lymphatic_v15',
-          '/models/lymphatic.glb?v=master_z69',
+          'lymphatic_v16',
+          '/models/lymphatic.glb?v=master_z70',
           (percent) => {
             showProgressToast('Đang tải Hệ Bạch Huyết gốc Z-Anatomy (220 Hạch)...', percent);
           }
@@ -1825,8 +1825,8 @@
           }
         }
         const { data, isCached } = await storageManager.loadSystemData(
-          'vessels_v15',
-          '/models/vessels.glb?v=master_z69',
+          'vessels_v16',
+          '/models/vessels.glb?v=master_z70',
           (percent) => {
             showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (676 Mạch Máu Gốc)...', percent);
           }
@@ -2269,10 +2269,10 @@
       { id: 'skin',      type: 'cache', url: '/models/human-learning.glb?v=master_z36', label: 'Lớp Da Ngoài',               expectedBytes: 897388 },
       { id: 'skeleton',  type: 'cache', url: '/models/skeleton.glb?v=master_z63',        label: 'Khung Xương (242 Xương)',    expectedBytes: 5221116 },
       { id: 'muscles',   type: 'cache', url: '/models/muscles.glb?v=master_z68',        label: 'Hệ Cơ (177 Bó cơ)',          expectedBytes: 5624596 },
-      { id: 'lymphatic_v15', type: 'idb', url: '/models/lymphatic.glb?v=master_z69',    label: 'Hệ Bạch Huyết (163 Nhóm / 220 Hạch)', expectedBytes: 2982228 },
-      { id: 'organs',    type: 'cache', url: '/models/organs.glb?v=master_z69',         label: 'Lục Phủ Ngũ Tạng (136 Tạng)',         expectedBytes: 17058896 },
-      { id: 'nerves',    type: 'cache', url: '/models/nerves.glb?v=master_z69',         label: 'Hệ Thần Kinh (518 Nhánh)',            expectedBytes: 46266128 },
-      { id: 'vessels_v15',   type: 'idb', url: '/models/vessels.glb?v=master_z69',      label: 'Hệ Mạch Máu (676 Mạch)',              expectedBytes: 81246536 }
+      { id: 'lymphatic_v16', type: 'idb', url: '/models/lymphatic.glb?v=master_z70',    label: 'Hệ Bạch Huyết (163 Nhóm / 220 Hạch)', expectedBytes: 2982236 },
+      { id: 'organs',    type: 'cache', url: '/models/organs.glb?v=master_z70',         label: 'Lục Phủ Ngũ Tạng (136 Tạng)',         expectedBytes: 17058900 },
+      { id: 'nerves',    type: 'cache', url: '/models/nerves.glb?v=master_z70',         label: 'Hệ Thần Kinh (518 Nhánh)',            expectedBytes: 46266136 },
+      { id: 'vessels_v16',   type: 'idb', url: '/models/vessels.glb?v=master_z70',      label: 'Hệ Mạch Máu (676 Mạch)',              expectedBytes: 81246516 }
     ];
 
     function updateBgPreloadBadge({ title, sub, percent = null, done = false, hideAfterMs = 0 }) {
