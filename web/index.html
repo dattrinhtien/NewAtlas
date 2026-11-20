@@ -30,7 +30,7 @@
       document.documentElement.classList.add('pwa-standalone');
     }
   </script>
-  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z66"></script>
+  <script type="module" crossorigin src="/assets/index-CGRTTg94.js?v=master_z67"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-C5F3MQx3.css?v=master_z48">
 
   <!-- UI-UX Professional Upgrades -->
@@ -1816,6 +1816,14 @@
 
       showProgressToast('Đang tải Hệ Tuần Hoàn Z-Anatomy (676 Mạch Máu Gốc)...', 0);
       try {
+        if (!window.vesselDictionary) {
+          try {
+            const vRes = await fetch('/data/vesselDictionary.json?v=master_z67');
+            if (vRes.ok) window.vesselDictionary = await vRes.json();
+          } catch (dictErr) {
+            console.warn('[NewAtlas] Không tải được vesselDictionary.json:', dictErr);
+          }
+        }
         const { data, isCached } = await storageManager.loadSystemData(
           'vessels_v14',
           '/models/vessels.glb?v=master_z66',
@@ -1831,13 +1839,17 @@
               if (child.isMesh) {
                 child.castShadow = false;
                 child.receiveShadow = false;
-                const nameL = (child.name || '').toLowerCase();
+                const rawName = child.name || '';
+                const dictKey = rawName.trim().toLowerCase().replace(/\s+/g, '_').replace(/[\[\]\.:/]/g, '');
+                const vDict = window.vesselDictionary ? window.vesselDictionary[dictKey] : null;
+                const nameL = rawName.replace(/_/g, ' ').toLowerCase();
                 const isPulmonaryVein = nameL.includes('pulmonary vein');
                 const isPulmonaryArtery = nameL.includes('pulmonary artery') || nameL.includes('pulmonary trunk') || nameL.includes('pulmonary valve');
                 const isVenousAnatomy = nameL.includes('vein') || nameL.includes('vena') || nameL.includes('venous') || nameL.includes('sinus') || nameL.includes('right atrium') || nameL.includes('right ventricle') || nameL.includes('right atrioventricular');
                 // Chuẩn sinh lý tuần hoàn: Máu giàu oxy (Đỏ) gồm ĐM hệ thống + Tim trái + TM phổi; Máu nghèo oxy (Xanh) gồm TM hệ thống + Tim phải + Thân/ĐM phổi
-                const isDeoxygenated = !isPulmonaryVein && (isPulmonaryArtery || isVenousAnatomy);
-                const isArtery = !isVenousAnatomy;
+                const isDeoxygenated = vDict ? !!vDict.deox : (!isPulmonaryVein && (isPulmonaryArtery || isVenousAnatomy));
+                const vesselKind = vDict ? vDict.kind : (isVenousAnatomy ? 'vein' : 'artery');
+                const isArtery = vesselKind !== 'vein';
                 const mat = new THREE.MeshStandardMaterial({
                   color: isDeoxygenated ? new THREE.Color('#3b82f6') : new THREE.Color('#ef4444'),
                   roughness: 0.32,
@@ -1847,15 +1859,16 @@
                   polygonOffsetUnits: 8
                 });
                 child.material = mat;
-                const vInfo = window.dissectionStudio?.getVesselInfo ? window.dissectionStudio.getVesselInfo(child.name) : null;
+                const vInfo = vDict || (window.dissectionStudio?.getVesselInfo ? window.dissectionStudio.getVesselInfo(rawName) : null);
                 child.userData = {
                   isVessel: true,
                   isArtery: isArtery,
+                  vesselKind: vesselKind,
                   isAnatomyStructure: true,
                   structureType: 'vessel',
-                  meshName: child.name,
-                  nameVi: vInfo ? vInfo.vi : (isArtery ? 'Động mạch ' : 'Tĩnh mạch ') + child.name.replace(/CU|OB/g, '').trim(),
-                  nameLat: vInfo ? vInfo.lat : child.name,
+                  meshName: rawName,
+                  nameVi: vInfo ? vInfo.vi : (isArtery ? 'Động mạch ' : 'Tĩnh mạch ') + rawName.replace(/_/g, ' ').trim(),
+                  nameLat: vInfo ? vInfo.lat : rawName.replace(/_/g, ' '),
                   origin: vInfo ? vInfo.origin : '',
                   area: vInfo ? vInfo.area : '',
                   acupoints: vInfo ? vInfo.acupoints : '',
