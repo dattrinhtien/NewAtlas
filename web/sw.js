@@ -3,7 +3,7 @@
  * Cung cấp khả năng Offline & Caching PWA tối ưu cho Mobile & Desktop
  */
 
-const STATIC_CACHE = 'acuatlas3d-static-v36';
+const STATIC_CACHE = 'acuatlas3d-static-v37';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -13,7 +13,7 @@ const ASSETS_TO_CACHE = [
   '/logo-full.png',
   '/css/style.css',
   '/assets/index-C5F3MQx3.css?v=master_z48',
-  '/assets/index-CGRTTg94.js?v=master_z67',
+  '/assets/index-CGRTTg94.js?v=master_z68',
   '/js/vendor/three.module.js',
   '/js/vendor/GLTFLoader.js',
   '/js/utils/BufferGeometryUtils.js',
@@ -23,10 +23,12 @@ const ASSETS_TO_CACHE = [
   '/data/osteologyDictionary.json',
   '/data/organDictionary.json',
   '/data/vesselDictionary.json',
+  '/data/nerveDictionary.json',
   '/js/data/anatomyDictionary.json',
   '/js/data/osteologyDictionary.json',
   '/js/data/organDictionary.json',
-  '/js/data/vesselDictionary.json'
+  '/js/data/vesselDictionary.json',
+  '/js/data/nerveDictionary.json'
 ];
 
 self.addEventListener('install', (event) => {
